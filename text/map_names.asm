@@ -1,26 +1,26 @@
 MapNames:
 PalletTownName:
-	db "Bourg Palette@"
+	db "Pallet Town@"
 ViridianCityName:
-	db "Jadielle@"
+	db "Viridian City@"
 PewterCityName:
-	db "Argenta@"
+	db "Pewter City@"
 CeruleanCityName:
-	db "Azuria@"
+	db "Cerulean City@"
 LavenderTownName:
-	db "Lavanville@"
+	db "Lavender Town@"
 VermilionCityName:
-	db "Carmin sur mer@"
+	db "Vermilion City@"
 CeladonCityName:
-	db "Céladopole@"
+	db "Celadon City@"
 FuchsiaCityName:
-	db "Parmanie@"
+	db "Fuchsia City@"
 CinnabarIslandName:
-	db "Cramois'Ile@"
+	db "Cinnabar Island@"
 IndigoPlateauName:
-	db "Plateau Indigo@"
+	db "Indigo Plateau@"
 SaffronCityName:
-	db "Safrania@"
+	db "Saffron City@"
 Route1Name:
 	db "Route 1@"
 Route2Name:
@@ -42,7 +42,7 @@ Route9Name:
 Route10Name:
 	db "Route 10@"
 Route10SouthName:
-	db "Route 10 - Sud@"
+	db "Route 10 - South@"
 Route11Name:
 	db "Route 11@"
 Route12Name:
@@ -60,11 +60,11 @@ Route17Name:
 Route18Name:
 	db "Route 18@"
 Route19Name:
-	db "Chenal 19@"
+	db "Sea Route 19@"
 Route20Name:
-	db "Chenal 20@"
+	db "Sea Route 20@"
 Route21Name:
-	db "Chenal 21@"
+	db "Sea Route 21@"
 Route22Name:
 	db "Route 22@"
 Route23Name:
@@ -74,42 +74,42 @@ Route24Name:
 Route25Name:
 	db "Route 25@"
 ViridianForestName:
-	db "Forêt de Jade@"
+	db "Viridian Forest@"
 MountMoonName:
-	db "Mont Sélénite@"
+	db "Mt.Moon@"
 RockTunnelName:
-	db "Grotte Sombre@"
+	db "Rock Tunnel@"
 SeaCottageName:
-	db "Villa@"
+	db "Sea Cottage@"
 SSAnneName:
-	db "L'Océane@"
+	db "S.S.Anne@"
 PokemonLeagueName:
-	db "Ligue #mon@"
+	db "#mon League@"
 UndergroundPathName:
-	db "Souterrain@"
+	db "Underground Path@"
 PokemonTowerName:
-	db "Tour #mon@"
+	db "#mon Tower@"
 SeafoamIslandsName:
-	db "Iles Ecume@"
+	db "Seafom Islands@"
 VictoryRoadName:
-	db "Route Victoire@"
+	db "Victory Road@"
 DiglettsCaveName:
-	db "Cave Taupiqueur@"
+	db "Diglett's Cave@"
 RocketHQName:
-	db "Repaire Rocket@"
+	db "Rocket HQ@"
 SilphCoName:
-	db "Sylphe SARL@"
+	db "Silph Co.@"
 PokemonMansionName:
-	db "Manoir <pkmn>@"
+	db "<pkmn> Mansion@"
 SafariZoneName:
-	db "Parc Safari@"
+	db "Safari Zone@"
 CeruleanCaveName:
-	db "Caverne Azurée@"
+	db "Cerulean Cave@"
 PowerPlantName:
-	db "Centrale@"
+	db "Power Plant@"
 VolcanoName:
-	db "Volcan Cramoisi@"
+	db "Cinnabar Volcano@"
 BillsGardenName:
-	db "Jardin de Léo@"
+	db "Léo's Garden@"
 Route16WestName:
-	db "Clairière@"
+	db "Glade@"
