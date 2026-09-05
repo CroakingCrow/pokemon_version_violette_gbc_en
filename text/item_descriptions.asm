@@ -1,39 +1,40 @@
 _MasterBallDescription::
-	text "Ne peut pas"
-	next "échouer."
+	text "The best #ball"
+	next "it never misses."
 	prompt
 
 _UltraBallDescription::
-	text "Plus performante"
-	next "qu'une SuperBall."
+	text "More powerful than"
+	next "a GREAT BALL."
 	prompt
 
 _GreatBallDescription::
-	text "Plus efficace qu'"
-	next "une # Ball."
+	text "More effective"
+	next "than a POKé BALL."
 	prompt
 
 _PokeBallDescription::
-	text "Permet de capturer"
-	next "les #mon."
+	text "An item for"
+	next "catching #mon."
 	prompt
 
 _TownMapDescription::
-	text "Montre votre pos-"
-	next "ition actuelle."
+	text "Shows your current"
+	next "location."
 	prompt
 
 _BicycleDescription::
-	text "Une bicyclette"
-	line "pliante rapide."
-	para "Appuyez sur SELECT"
-	line "en maintenant A"
-	cont "pour l'utiliser."
+	text "A folding bike"
+	line "for fast travel."
+	para "Press SELECT while"
+	line "holding A to use"
+	cont "it quickly."
 	prompt
 
 _SurfboardDescription::
-	text "Permet de Surfer"
-	next "sans #mon."
+	text "Allows you to"
+	next "surf without a"
+	next "#mon."
 	prompt
 
 _MoonStoneDescription::
@@ -42,616 +43,607 @@ _ThunderStoneDescription::
 _WaterStoneDescription::
 _LeafStoneDescription::
 _MetalCoatDescription::
-	text "Permet d'évoluer"
-	next "certains #mon."
+	text "Evolves certain"
+	next "kinds of #mon."
 	prompt
 
 _MistStoneDescription::
-	text "Maximise les EVs"
-	next "d'un #mon."
+	text "Maximizes the EVs"
+	next "of a #mon."
 	prompt
 
 _MGeneDescription::
-	text "Augmente les IVs"
-	next "d'un #mon."
+	text "Increases the IVs"
+	next "of a #mon."
 	prompt
 
 _AntidoteDescription::
-	text "Soigne un #mon"
-	next "empoisonné."
+	text "Cures poisoned"
+	next "#mon."
 	prompt
 
 _BurnHealDescription::
-	text "Guérit un #mon"
-	next "brûlé."
+	text "Heals burned #mon"
 	prompt
 
 _IceHealDescription::
-	text "Dégel un #mon"
-	next "gelé."
+	text "Thaws frozen #mon"
 	prompt
 
 _AwakeningDescription::
-	text "Réveil un #mon"
-	next "endormi."
+	text "Awakens sleeping"
+	next "#mon."
 	prompt
 
 _ParlyzHealDescription::
-	text "Soigne un mon"
-	next "paralisé."
+	text "Heals paralyzed"
+	next "#mon."
 	prompt
 
 _FullRestoreDescription::
-	text "Restaure tous les"
-	next "PV et le statut."
+	text "Fully restores HP"
+	next "and status."
 	prompt
 
 _MaxPotionDescription::
-	text "Restaure tous les"
-	next "PV d'un #mon."
+	text "Fully restores"
+	next "the HP of a #mon."
 	prompt
 
 _HyperPotionDescription::
-	text "Rend 200 PV à"
-	next "un #mon."
+	text "Restores #mon HP"
+	next "by 200."
 	prompt
 
 _SuperPotionDescription::
-	text "Rend 50 PV à"
-	next "un #mon."
+	text "Restores #mon HP"
+	next "by 50."
 	prompt
 
 _PotionDescription::
-	text "Rend 20 PV à"
-	next "un #mon."
+	text "Restores #mon HP"
+	next "by 20"
 	prompt
 
 _EscapeRopeDescription::
-	text "Permet de sortir"
-	next "d'une grotte,etc."
+	text "Use for escaping"
+	next "from caves,etc."
 	prompt
 
 _RepelDescription::
-	text "Eloigne les #-"
-	next "mon pour 100 pas."
+	text "Repels weak #mon"
+	next "for 100 steps"
 	prompt
 
 _OldAmberDescription::
-	text "Ambre fossilisée"
-	next "conten. de l'ADN."
+	text "Fossilized amber"
+	next "containing DNA."
 	prompt
 
 _HPUpDescription::
-	text "Augmente les PV"
-	next "d'un #mon."
+	text "Raises the HP"
+	next "of one #mon."
 	prompt
 
 _ProteinDescription::
-	text "Augmente l'Atq"
-	next "d'un #mon."
+	text "Raises the Attack"
+	next "of one #mon."
 	prompt
 
 _IronDescription::
-	text "Augmente la Déf"
-	next "d'un #mon."
+	text "Raises the Defense"
+	next "of one #mon."
 	prompt
 
 _CarbosDescription::
-	text "Augmente la Vit"
-	next "d'un #mon."
+	text "Raises the Speed"
+	next "of one #mon."
 	prompt
 
 _CalciumDescription::
-	text "Augmente le Spé"
-	next "d'un #mon."
+	text "Raises the Special"
+	next "of one #mon."
 	prompt
 
 _RareCandyDescription::
-	text "Augmente d'un"
-	next "niveau un #mon."
+	text "Raises the level"
+	next "of a #mon by one."
 	prompt
 
 _DomeFossilDescription::
 _HelixFossilDescription::
-	text "Le fossile d'un"
-	next "#mon."
+	text "Fossilized shell"
+	next "of a #mon."
 	prompt
 
 _SecretKeyDescription::
-	text "Ouvre des portes."
+	text "Opens locked doors"
 	prompt
 
 _BikeVoucherDescription::
-	text "A échanger contre"
-	next "une Bicyclette."
+	text "To be exchanged"
+	next "for a Bicycle."
 	prompt
 
 _XAccuracyDescription::
-	text "Augmente la Pré"
-	next "pour un combat."
+	text "Raises accuracy"
+	next "in battle."
 	prompt
 
 _CardKeyDescription::
-	text "Ouvre barrières"
-	next "à la Sylphe SARL."
+	text "Opens doors at the"
+	next "Silph Co."
 	prompt
 
 _NuggetDescription::
-	text "Fait en or pur."
-	next "Se vend cher."
+	text "Made of pure gold."
+	next "Sell high."
 	prompt
 
 _PokeDollDescription::
-	text "Permet d'échapper"
-	next "à un #mon."
+	text "Use to escape from"
+	next "a wild #mon."
 	prompt
 
 _FullHealDescription::
-	text "Supprime les"
-	next "soucis de statut."
+	text "Eliminates all"
+	next "status problems."
 	prompt
 
 _ReviveDescription::
-	text "Relève un #mon"
-	next "à 1/2 PV."
+	text "Restores a fainted"
+	next "#mon to 1/2 HP."
 	prompt
 
 _MaxReviveDescription::
-	text "Relève entièrement"
-	next "un #mon."
+	text "Fully restores"
+	next "a fainted #mon."
 	prompt
 
 _GuardSpecDescription::
-	text "Empêche stats réd."
-	next "pour un combat."
+	text "Prevents stat"
+	next "reduction."
 	prompt
 
 _SuperRepelDescription::
-	text "Eloigne les #mon"
-	next "pendant 200 pas."
+	text "Repels weak #mon"
+	next "for 200 steps""
 	prompt
 
 _MaxRepelDescription::
-	text "Eloigne les #mon"
-	next "pendant 250 pas."
+	text "Repels weak #mon"
+	next "for 250 steps"
 	prompt
 
 _DireHitDescription::
-	text "Augmente les Crit"
-	next "pour un combat."
+	text "Ups critical hit"
+	next "ratio."
 	prompt
 
 _FreshWaterDescription::
-	text "Rend 50 PV à"
-	next "un #mon."
+	text "Restores #mon HP"
+	next "by 50.
 	prompt
 
 _SodaPopDescription::
-	text "Rend 60 PV à"
-	next "un #mon."
+	text "Restores #mon HP"
+	next "by 60.
 	prompt
 
 _LemonadeDescription::
-	text "Rend 80 PV à"
-	next "un #mon."
+	text "Restores #mon HP"
+	next "by 80.
 	prompt
 
 _SSTicketDescription::
-	text "Un ticket pour"
-	next "l'Océane."
+	text "A ticket for the"
+	next "S.S. Anne."
 	prompt
 
 _GoldTeethDescription::
-	text "Dent en or de"
-	next "Baoba le Gardien."
+	text "The Golden teeth"
+	next "of Baoba."
 	prompt
 
 _XAttackDescription::
-	text "Augmente l'Atq"
-	next "pour un combat."
+	text "Raises Attack in"
+	next "battle."
 	prompt
 
 _XDefendDescription::
-	text "Augmente la Déf"
-	next "pour un combat."
+	text "Raises Defense in"
+	next "battle."
 	prompt
 
 _XSpeedDescription::
-	text "Augmente la Vit"
-	next "pour un combat."
+	text "Raises Speed in"
+	next "battle."
 	prompt
 
 _XSpecialDescription::
-	text "Augmente le Spé"
-	next "pour un combat."
+	text "Raises Special in"
+	next "battle."
 	prompt
 
 _CoinCaseDescription::
-	text "Contient jusqu'à"
-	next "9999 Jetons."
+	text "Holds up to"
+	next "9999 coins."
 	prompt
 
 _OaksParcelDescription::
-	text "Un colis déstiné"
-	next "au Prof. Chen."
+	text "A package to be"
+	next "delivered to"
+	cont "Prof. OAK."
 	prompt
 
 _ItemfinderDescription::
-	text "Cherche les objets"
-	next "invisibles."
+	text "Checks for unseen"
+	next "items in the area."
 	prompt
 
 _SilphScopeDescription::
-	text "Un appareil pour"
-	next "voir l'invisible."
+	text "A device to see"
+	next "invisible things."
 	prompt
 
 _PokeFluteDescription::
-	text "Réveil n'importe"
-	next "quel #mon."
+	text "Wakes up any #mon."
 	prompt
 
 _LiftKeyDescription::
-	text "Clé de l'asc. de"
-	next "la base Rocket."
+	text "Key to the Rocket"
+	next "Hideout elevator."
 	prompt
 
 _ExpAllDescription::
-	text "Partage les points"
-	next "d'exp de combat."
+	text "Shares experience"
+	next "points with party."
 	prompt
 
 _ExpCatchUpDescription::
-	text "Boost l'Exp des"
-	next "#mon en retard"
-	cont "de niveau dans"
-	cont "l'équipe."
+	text "Boosts experience"
+	next "gain for lower"
+	cont "level #mon in"
+	cont "your party."
 	prompt
 
 _OldRodDescription::
-	text "Utilise sur l'eau"
-	line "pour pêcher."
+	text "Use on water to"
+	line "fish."
 
-	para "Appuyez sur SELECT"
-	line "en maintenant A"
-	cont "pour l'utiliser"
-	cont "rapidement."
+	para "Press SELECT while"
+	line "holding A to use"
+	cont "it quickly."
 	prompt
 
 _GoodRodDescription::
-	text "Une bonne Canne"
-	line "pour la pêche."
+	text "A good fishing"
+	line "rod."
 
-	para "Appuyez sur SELECT"
-	line "en maintenant A"
-	cont "pour l'utiliser"
-	cont "rapidement."
+	para "Press SELECT while"
+	line "holding A to use"
+	cont "it quickly."
 	prompt
 
 _SuperRodDescription::
-	text "La meilleure Canne"
-	line "pour la pêche."
+	text "The best fishing"
+	line "rod."
 
-	para "Appuyez sur SELECT"
-	line "en maintenant A"
-	cont "pour l'utiliser"
-	cont "rapidement."
+	para "Press SELECT while"
+	line "holding A to use"
+	cont "it quickly."
 	prompt
 
 _PPUpDescription::
-	text "Augmente les PP"
-	next "d'une capacité."
+	text "Raises max PP of"
+	next "a selected move."
 	prompt
 
 _EtherDescription::
-	text "Restaure 10 PP"
-	next "d'une capacité."
+	text "Restores PP of"
+	next "one move by 10."
 	prompt
 
 _MaxEtherDescription::
-	text "Restaure tous les"
-	next "PP d'une capa."
+	text "Fully restores PP"
+	next "of one move."
 	prompt
 
 _ElixerDescription::
-	text "Restaure 10 PP à"
-	next "toutes les capa."
+	text "Restores PP of"
+	next "all moves by 10."
 	prompt
 
 _MaxElixerDescription::
-	text "Restaure tous les"
-	next "PP d'un #mon."
+	text "Fully restores PP"
+	next "of a #mon."
 	prompt
 
 _HM01Description::
-	text "Appuyer sur SELECT"
-	line "devant un buisson"
-	cont "pour l'utiliser."
+	text "Press SELECT on a"
+	line "plant to use it."
 
-	para "Coupe:Insecte"
-	line "Dég: 55;Pré: 100"
+	para "Cut:Bug"
+	line "Power:55 Accuracy:100"
 	prompt
 
 _HM02Description::
-	text "Vol:Vol"
-	next "Dég: 90; Pré: 100"
+	text "Fly:Flying"
+	next "Power:90 Accuracy:100"
 	prompt
 
 _HM03Description::
-	text "Appuie sur SELECT"
-	line "devant de l'eau"
-	cont "pour l'utiliser."
+	text "Press SELECT on"
+	line "water to use it."
 
-	para "Surf:Eau"
-	line "Dég: 95;Pré: 100"
+	para "Surf:Water"
+	line "Power:95 Accuracy:100"
 	prompt
 
 _HM04Description::
-	text "Appuyez sur SELECT"
-	line "face à un rocher"
-	cont "pour l'activer."
+	text "Press SELECT on a"
+	line "rock to use it."
 
-	para "Force:Combat"
-	line "Dég: 80;Pré: 100"
+	para "Strength:Fighting"
+	line "Power:80 Accuracy:100"
 	prompt
 
 _HM05Description::
-	text "Appuyez sur SELECT"
-	line "dans le noir pour"
-	cont "l'utiliser."
+	text "Press SELECT in"
+	line "darkness to use."
 	
-	para "Flash:Electr"
-	line "Dég: -;Pré: 100"
+	para "Flash:Electric"
+	line "Power:- Accuracy:100"
 	prompt
 
 _TM01Description::
-	text "Ultimapoing:Combat"
-	next "Dég: 80;Pré: 85"
+	text "Mega Punch:Fighting"
+	next "Power:80 Accuracy:85"
 	prompt
 
 _TM02Description::
-	text "Coupe-Vent:Vol"
-	next "Dég: 80;Pré: 100"
+	text "Razor Wind:Flying"
+	next "Power:80 Accuracy:100"
 	prompt
 
 _TM03Description::
-	text "Danse-Lames:Normal"
-	next "Dég: -;Pré: -"
+	text "Swords Dance:Normal"
+	next "Power:- Accuracy:-"
 	prompt
 
 _TM04Description::
-	text "Lance-Flamme:Feu"
-	next "Dég: 95;Pré: 100"
+	text "Flamethrower:Fire"
+	next "Power:95 Accuracy:100"
 	prompt
 
 _TM05Description::
-	text "Ultimawashi:Combat"
-	next "Dég: 120;Pré: 75"
+	text "Mega Kick:Fighting"
+	next "Power:120 Accuracy:75"
 	prompt
 
 _TM06Description::
-	text "Toxik:Poison"
-	next "Dég: -;Pré: 85"
+	text "Toxic:Poison"
+	next "Power:- Accuracy:85"
 	prompt
 
 _TM07Description::
-	text "Empal'Korne:Normal"
-	next "Dég: -;Pré: 30"
+	text "Horn Drill:Normal"
+	next "Power:- Accuracy:30"
 	prompt
 
 _TM08Description::
-	text "Plaquage:Normal"
-	next "Dég: 85;Pré: 100"
+	text "Body Slam:Normal"
+	next "Power:85 Accuracy:100"
 	prompt
 
 _TM09Description::
-	text "Bélier:Normal"
-	next "Dég: 90;Pré: 85"
+	text "Take Down:Normal"
+	next "Power:90 Accuracy:85"
 	prompt
 
 _TM10Description::
-	text "Damoclès:Normal"
-	next "Dég: 120;Pré: 100"
+	text "Double Edge:Normal"
+	next "Power:120 Accuracy:100"
 	prompt
 
 _TM11Description::
-	text "Bulles d'O:Eau"
-	next "Dég: 65;Pré: 100"
+	text "Bubble Beam:Water"
+	next "Power:65 Accuracy:100"
 	prompt
 
 _TM12Description::
-	text "Pistolet à O:Eau"
-	next "Dég: 40;Pré: 100"
+	text "Water Gun:Water"
+	next "Power:40 Accuracy:100"
 	prompt
 
 _TM13Description::
-	text "Laser Glace:Glace"
-	next "Dég: 95;Pré: 100"
+	text "Ice Beam:Ice"
+	next "Power:95 Accuracy:100"
 	prompt
 
 _TM14Description::
-	text "Blizzard:Glace"
-	next "Dég: 120;Pré: 70"
+	text "Blizzard:Ice"
+	next "Power:120 Accuracy:70"
 	prompt
 
 _TM15Description::
-	text "Ultralaser:Normal"
-	next "Dég: 150;Pré: 90"
+	text "Hyper Beam:Normal"
+	next "Power:150 Accuracy:90"
 	prompt
 
 _TM16Description::
-	text "Jackpot:Normal"
-	next "Dég: 40;Pré: 100"
+	text "Pay Day:Normal"
+	next "Power:40 Accuracy:100"
 	prompt
 
 _TM17Description::
-	text "Sacrifice:Combat"
-	next "Dég: 80;Pré: 80"
+	text "Submission:Fighting"
+	next "Power:80 Accuracy:80"
 	prompt
 
 _TM18Description::
-	text "Riposte:Combat"
-	next "Dég: -;Pré: 100"
+	text "Counter:Fighting"
+	next "Power:- Accuracy:100"
 	prompt
 
 _TM19Description::
-	text "FrappeAtlas:Combat"
-	next "Dég: -;Pré: 100"
+	text "Seismic Toss:Fighting"
+	next "Power:- Accuracy:100"
 	prompt
 
 _TM20Description::
-	text "PlaieCroix:Insecte"
-	next "Dég: 80;Pré: 100"
+	text "X Scissor:Bug"
+	next "Power:80 Accuracy:100"
 	prompt
 
 _TM21Description::
-	text "MégaSangsue:Plante"
-	next "Dég: 40;Pré: 100"
+	text "Mega Drain:Grass"
+	next "Power:40 Accuracy:100"
 	prompt
 
 _TM22Description::
-	text "LanceSoleil:Plante"
-	next "Dég: 140;Pré: 100"
+	text "Solar Beam:Grass"
+	next "Power:140 Accuracy:100"
 	prompt
 
 _TM23Description::
-	text "Draco-Rage:Dragon"
-	next "Dég: -;Pré: 100"
+	text "Dragon Rage:Dragon"
+	next "Power:- Accuracy:100"
 	prompt
 
 _TM24Description::
-	text "Tonnerre:Electr"
-	next "Dég: 95;Pré: 100"
+	text "Thunderbolt:Electric"
+	next "Power:95 Accuracy:100"
 	prompt
 
 _TM25Description::
-	text "FatalFoudre:Electr"
-	next "Dég: 120;Pré: 70"
+	text "Thunder:Electric"
+	next "Power:120 Accuracy:70"
 	prompt
 
 _TM26Description::
-	text "Séisme:Sol"
-	next "Dég: 100;Pré: 100"
+	text "Earthquake:Ground"
+	next "Power:100 Accuracy:100"
 	prompt
 
 _TM27Description::
-	text "Abîme:Sol"
-	next "Dég: -;Pré: 30"
+	text "Fissure:Ground"
+	next "Power:- Accuracy:30"
 	prompt
 
 _TM28Description::
-	text "Tunnel:Sol"
-	next "Dég: 80;Pré: 100"
+	text "Dig:Ground"
+	next "Power:80 Accuracy:100"
 	prompt
 
 _TM29Description::
-	text "Psyko:Psy"
-	next "Dég: 90;Pré: 100"
+	text "Psychic:Psychic"
+	next "Power:90 Accuracy:100"
 	prompt
 
 _TM30Description::
-	text "Téléport:Psy"
-	next "Dég: -;Pré: -"
+	text "Teleport:Psychic"
+	next "Power:- Accuracy:-"
 	prompt
 
 _TM31Description::
-	text "Copie:Normal"
-	next "Dég: -;Pré: -"
+	text "Mimic:Normal"
+	next "Power:- Accuracy:-"
 	prompt
 
 _TM32Description::
-	text "Reflet:Normal"
-	next "Dég: -;Pré: -"
+	text "Double Team:Normal"
+	next "Power:- Accuracy:-"
 	prompt
 
 _TM33Description::
-	text "Protection:Psy"
-	next "Dég: -;Pré: -"
+	text "Reflect:Psychic"
+	next "Power:- Accuracy:-"
 	prompt
 
 _TM34Description::
-	text "Patience:Roche"
-	next "Dég: -;Pré: -"
+	text "Bide:Rock"
+	next "Power:- Accuracy:-"
 	prompt
 
 _TM35Description::
-	text "Métronome:Normal"
-	next "Dég: -;Pré: -"
+	text "Metronome:Normal"
+	next "Power:- Accuracy:-"
 	prompt
 
 _TM36Description::
-	text "Destruction:Normal"
-	next "Dég: 200;Pré: 100"
+	text "Self-Destruct:Normal"
+	next "Power:200 Accuracy:100"
 	prompt
 
 _TM37Description::
-	text "Bomb-Beurk:Poison"
-	next "Dég: 95;Pré: 100"
+	text "Sludge Bomb:Poison"
+	next "Power:95 Accuracy:100"
 	prompt
 
 _TM38Description::
-	text "Déflagration:Feu"
-	next "Dég: 120;Pré: 85"
+	text "Fire Blast:Fire"
+	next "Power:120 Accuracy:85"
 	prompt
 
 _TM39Description::
-	text "Météores:Normal"
-	next "Dég: 60;Pré: -"
+	text "Swift:Normal"
+	next "Power:60 Accuracy:-"
 	prompt
 
 _TM40Description::
-	text "Coud'Krâne:Normal"
-	next "Dég: 100;Pré: 100"
+	text "Skull Bash:Normal"
+	next "Power:100 Accuracy:100"
 	prompt
 
 _TM41Description::
-	text "GigaSangsue:Plante"
-	next "Dég: 75;Pré: 100"
+	text "Giga Drain:Grass"
+	next "Power:75 Accuracy:100"
 	prompt
 
 _TM42Description::
-	text "Ball'Ombre:Spectre"
-	next "Dég: 80;Pré: 100"
+	text "Shadow Ball:Ghost"
+	next "Power:80 Accuracy:100"
 	prompt
 
 _TM43Description::
-	text "Piqué:Vol"
-	next "Dég: 140;Pré: 100"
+	text "Sky Attack:Flying"
+	next "Power:140 Accuracy:100"
 	prompt
 
 _TM44Description::
-	text "Repos:Psy"
-	next "Dég: -;Pré: -"
+	text "Rest:Psychic"
+	next "Power:- Accuracy:-"
 	prompt
 
 _TM45Description::
-	text "Cage-Eclair:Electr"
-	next "Dég: -;Pré: 100"
+	text "Thunder Wave:Electric"
+	next "Power:- Accuracy:100"
 	prompt
 
 _TM46Description::
-	text "Vibrobscur:Ténèbre"
-	next "Dég: 80;Pré: 100"
+	text "Dark Pulse:Dark"
+	next "Power:80 Accuracy:100"
 	prompt
 
 _TM47Description::
 	text "Explosion:Normal"
-	next "Dég: 250;Pré: 100"
+	next "Power:250 Accuracy:100"
 	prompt
 
 _TM48Description::
-	text "Eboulement:Roche"
-	next "Dég: 80;Pré: 95"
+	text "Rock Slide:Rock"
+	next "Power:80 Accuracy:95"
 	prompt
 
 _TM49Description::
-	text "Triplattaq.:Normal"
-	next "Dég: 80;Pré: 100"
+	text "Tri Attack:Normal"
+	next "Power:80 Accuracy:100"
 	prompt
 
 _TM50Description::
-	text "Clonage:Normal"
-	next "Dég: -;Pré: -"
+	text "Substitute:Normal"
+	next "Power:- Accuracy:-"
 	prompt
 
 _UnusedItemDescription::

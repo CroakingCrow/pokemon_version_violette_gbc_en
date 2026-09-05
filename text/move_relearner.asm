@@ -1,47 +1,42 @@
 _MoveRelearnerGreetingText::
-	text "Je donne des"
-	line "cours aux enfants"
-	cont "mais j'éduque"
-	cont "aussi les #mon."
+	text "I tutor children,"
+	line "but I also tutor"
+	cont "#MON."
 	
-	para "Je peux les aider"
-	line "à se remémorer"
-	cont "les techniques"
-	cont "oubliées."
+	para "I teach them to"
+	line "remember moves"
+	cont "they forgot."
 
-	para "C'est 1000¥ le"
-	line "cours,"
-	cont "qu'en dis-tu?"
+	para "¥1000 per lesson."
+	line "How about it?"
 	done
 
 _MoveRelearnerSaidYesText::
-	text "Quel #mon"
-	line "dois-je aider?"
+	text "Which #MON"
+	line "should I tutor?"
 	prompt
 
 _MoveRelearnerNotEnoughMoneyText::
 	text "Hmmm..."
 
-	para "Tu n'as pas assez"
-	line "d'argent!"
+	para "You don't have"
+	line "enough money!"
 	done
 
 _MoveRelearnerWhichMoveText::
-	text "Quelle technique"
-	line "doit-il apprendre?"
+	text "Which move should"
+	line "it learn?"
 	done
 
 _MoveRelearnerByeText::
-	text "N'hésite pas à"
-	line "revenir me voir"
-	cont "si un #mon"
-	cont "doit se rappeler"
-	cont "d'une technique!"
+	text "If any of your"
+	line "#MON need to"
+	cont "remember a move,"
+	cont "come visit me!"
 	done
 
 _MoveRelearnerNoMovesText::
-	text "Ce #mon n'a"
-	line "jamais oublié de"
-	cont "technique."
+	text "This #MON"
+	line "hasn't forgotten"
+	cont "any moves."
 	done
-

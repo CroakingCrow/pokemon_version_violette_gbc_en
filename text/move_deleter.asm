@@ -1,29 +1,26 @@
 _MoveDeleterGreetingText::
-	text "Maman dit que"
-	line "j'oublie"
-	cont "tellement tout"
-	cont "que c'en est"
-	cont "contagieux..."
+	text "Mom says I'm so"
+	line "forgetful that it"
+	cont "is contagious."
 	
-	para "Tu veux qu'un"
-	line "#mon oublie"
-	cont "une technique?"
-
+	para "Want me to make a"
+	line "#mon forget a"
+	cont "move?"
 	done
 
 _MoveDeleterSaidYesText::
-	text "Quel #mon"
-	line "doit oublier"
-	cont "une technique?"
+	text "Which #mon"
+	line "should forget a"
+	cont "move?"
 	prompt
 
 _MoveDeleterWhichMoveText::
-	text "Quelle technique"
-	line "doit-il oublier?"
+	text "Which move should"
+	line "it forget, then?"
 	done
 
 _MoveDeleterConfirmText::
-	text "Lui faire oublier"
+	text "Make it forget"
 	line "@"
 	TX_RAM wcf4b
 	text "?"
@@ -32,17 +29,17 @@ _MoveDeleterConfirmText::
 _MoveDeleterForgotText::
 	text "@"
 	TX_RAM wcf4b
-	text " a été"
-	line "oublié!"
+	text " was"
+	line "forgotten!"
 	prompt
 
 _MoveDeleterByeText::
-	text "Reviens me rendre"
-	line "visite!"
+	text "Come visit me"
+	line "again!"
 	done
 
 _MoveDeleterOneMoveText::
-	text "Le #mon n'a"
-	line "qu'une technique."
-	cont "Choisir un autre?"
+	text "That #mon"
+	line "has one move."
+	cont "Pick another?"
 	done

@@ -75,7 +75,7 @@ CreditsTextPointers:
 	dw CredVersionPokered
 
 CredVersion: ; this 1 byte difference makes all bank addresses offset by 1 in the blue version
-	db -6, "Version Bleue@"
+	db -6, "Blue Version@"
 CredTajiri:
 	db -6, "Satoshi Tajiri@"
 CredTaOota:
@@ -133,35 +133,35 @@ CredYuda:
 CredMon:
 	db -3, "#mon@"
 CredDirector:
-	db -5, "Réalisateur@"
+	db -5, "Director@"
 CredProgrammers:
-	db -5, "Programmeurs@"
+	db -5, "Programmers@"
 CredCharDesign:
-	db -8, "Design Personnages@"
+	db -8, "Character Design@"
 CredMusic:
-	db -3, "Musique@"
+	db -3, "Music@"
 CredSoundEffects:
 	db -6, "Effets Sonores@"
 CredGameDesign:
 	db -8, "Conception du Jeu@"
 CredMonsterDesign:
-	db -7, "Design Monstres@"
+	db -7, "Monster Design@"
 CredGameScene:
-	db -3, "Scénario@"
+	db -3, "Game Scenario@"
 CredParam:
-	db -9, "Design Paramétrique@"
+	db -9, "Parametric Design@"
 CredMap:
-	db -5, "Design Carte@"
+	db -5, "Map Design@"
 CredTest:
-	db -2, "Tests@"
+	db -2, "Product Testing@"
 CredSpecial:
-	db -6, "Remerciements@"
+	db -6, "Special Thanks@"
 CredProducers:
-	db -5, "Producteurs@"
+	db -5, "Producers@"
 CredProducer:
-	db -5, "Producteur@"
+	db -5, "Producer@"
 CredExecutive:
-	db -8, "Producteur Exécutif@"
+	db -8, "Executive Producer@"
 CredTamada:
 	db -6, "Sousuke Tamada@"
 CredSaOota:
@@ -171,9 +171,9 @@ CredYoshikawa:
 CredToOota:
 	db -6, "Tomomichi Oota@"
 CredEUStaff:
-	db -5, "Equipe Europe@"
+	db -5, "EU Version Staff@"
 CredEUCoord:
-	db -9, "Coordination Europe@"
+	db -9, "EU Coordination@"
 CredMoyse:
 	db -7, "Claude M. Moyse@"
 CredPfitzner:
