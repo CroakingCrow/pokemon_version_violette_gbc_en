@@ -1,74 +1,72 @@
 _BrunoBeforeBattleText::
-	text "Mon nom est Aldo"
-	line "du Conseil des 4!"
+	text "I am Bruno of"
+	line "the Elite Four!"
 
-	para "Ma passion à moi"
-	line "et à mes #mon,"
-	cont "c'est la muscu!"
+	para "Through rigorous"
+	line "training, people"
+	cont "and #mon can"
+	cont "become stronger!"
 
-	para "Pour frimer sur"
-	line "la plage ou pour"
-	cont "boxer les nabots,"
-	cont "rien de tel qu'un"
-	cont "corps de rêve!"
+	para "I've weight"
+	line "trained with"
+	cont "my #mon!"
 
 	para "<PLAYER>!"
 
-	para "Ton équipe..."
-	line "J'vais en faire"
-	cont "du yaourt!"
+	para "We will grind you"
+	line "down with our"
+	cont "superior power!"
 
-	para "A table!"
+	para "Hoo hah!"
 	done
 
 _BrunoEndBattleText::
-	text "Pourquoi?"
-	line "Et mes muscles?"
+	text "Why?"
+	line "How could I lose?"
 	prompt
 
 _BrunoAfterBattleText::
-	text "Bien joué, p'tit!"
-	line "La prochaine"
-	cont "t'attend!"
+	text "My job is done!"
+	line "Go face your next"
+	cont "challenge!"
 	done
 
 _RematchBrunoBeforeBattleText::
-	text "Salut Champion!"
+	text "Hello Champion!"
 
-	para "T'veux t'battre?"
-	line "Ça c'est c'que"
-	cont "j'aime entendre!"
+	para "Want to fight?"
+	line "That's what I"
+	cont "like to hear!"
 
-	para "J'te préviens, je"
-	line "reviens de Johto,"
-	cont "j'ai été invité"
-	cont "par Chuck pour"
-	cont "qu'on soulève de"
-	cont "la fonte!"
+	para "I warn you"
+	line "I come back from"
+	cont "Johto, Chuck"
+	cont "invited me to"
+	cont "lift weights!"
 
-	para "Du coup, j'suis"
-	line "chaud comme la"
-	cont "braise, matte"
-	cont "ces biceps!"
+	para "So,"
+	line "I'm all worked up,"
+	cont "look at these"
+	cont "biceps!"
 	done
 
 _RematchBrunoEndBattleText::
-	text "Beuh?"
-	line "Encore? Mais t'es"
-	cont "tout maigrichon."
+	text "Why?"
+	line "Again? But you're"
+	cont "all scrawny."
 	prompt
 
 _RematchBrunoAfterBattleText::
-	text "Je ne comprends"
-	line "pas. Je suis plus"
-	cont "fort mais tu me"
-	cont "bas quand même..."
+	text "I don't understand"
+	line "I'm stronger but"
+	cont "you still beat"
+	cont "me..."
 
-	para "Je dois louper"
-	line "quelque chose..."
+	para "I must be missing"
+	line "something..."
 	done
 
 _BrunoDontRunAwayText::
-	text "Une voix:"
-	line "Ne fuis pas!"
+	text "Someone's voice:"
+	line "Don't run away!"
 	done

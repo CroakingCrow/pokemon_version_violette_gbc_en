@@ -1,101 +1,96 @@
 _BikeShopText_1d810::
-	text "Bienvenue au"
-	line "Cycles à Gogo."
+	text "Hi! Welcome to"
+	line "Miracle Cycle."
 
-	para "Nous avons"
-	line "justement une"
-	cont "belle Bicyclette!"
+	para "Have we got just"
+	line "the bike for you!"
 	prompt
 
 _BikeShopText_1d815::
-	text "C'est un super"
-	line "Vélo, le veux-tu?"
+	text "It's a cool bike!"
+	line "Do you want it?"
 	done
 
 _BikeShopCantAffordText::
-	text "Oh! Tu n'as pas"
-	line "assez d'argent!"
+	text "Sorry! You can't"
+	line "afford it!"
 	prompt
 
 _BikeShopText_1d81f::
-	text "Oh! Mais c'est..."
+	text "Oh, that's..."
 
-	para "Un Bon pour"
-	line "une Bicyclette!"
+	para "A bike voucher!"
 
-	para "OK! Voilà ta"
-	line "Bicyclette!"
+	para "OK! Here you go!"
 	prompt
 
 _BikeShopText_1d824::
-	text "<PLAYER> échange"
-	line "le Bon contre"
-	cont "une Bicyclette."
+	text "<PLAYER> exchanged"
+	line "the bike voucher"
+;	cont "for a bicycle.@@"
 ;joenote - add hotkey info
-	para "Maintiens A et"
-	line "appuie sur SELECT"
-	cont "pour l'utiliser.@@"
+	cont "for a bicycle."
+	para "Hold A and press"
+	line "SELECT to get on"
+	cont "or off quickly.@@"
 
 _BikeShopComeAgainText::
-	text "Reviens quand tu"
-	line "veux!"
+	text "Come back again"
+	line "some time!"
 	done
 
 _BikeShopText_1d82f::
-	text "Comment se porte"
-	line "ta Bicyclette?"
+	text "How do you like"
+	line "your new bicycle?"
 
-	para "Tu peux aller sur"
-	line "la Piste Cyclable"
-	cont "et dans les"
-	cont "grottes!"
+	para "You can take it"
+	line "on cycling road"
+	cont "and in caves!"
 	done
 
 _BikeShopText_1d834::
-	text "Ton inventaire"
-	line "est plein!"
+	text "You better make"
+	line "room for this!"
 	done
 
 _BikeShopText_1d843::
-	text "Un Vélo de ville,"
-	line "c'est ce qu'il y"
-	cont "a de mieux!"
+	text "A plain city bike"
+	line "is good enough"
+	cont "for me!"
 
-	para "Il n'y a pas de"
-	line "porte-bagages sur"
-	cont "un VTT!"
+	para "You can't put a"
+	line "shopping basket"
+	cont "on an MTB!"
 	done
 
 _BikeShopText_1d85c::
-	text "Ces Vélos sont"
-	line "super mais ils"
-	cont "sont très chers!"
+	text "These Bikes are"
+	line "cool, but they're"
+	cont "way expensive!"
 	done
 
 _BikeShopText_1d861::
-	text "Waou!"
-	line "Ta Bicyclette est"
-	cont "super cool!"
+	text "Wow. Your bike is"
+	line "really cool!"
 	done
 
-_BikeShopText_BasketBike::
-	text "Cette Bicyclette"
-	line "possède un"
-	cont "porte-bagages."
-
-	para "Très cossu!"
+_BikeShopBasketBikeText::
+	text "This bike has a"
+	line "basket attached."
+	
+	para "Very practical!"
 	done
 
-_BikeShopText_Toolbox::
-	text "Un kit de répa-"
-	line "ration de Vélo!"
+_BikeShopToolboxText::
+	text "A toolbox for"
+	line "repairing bikes!"
 	done
 
 _BikeShopText_Gatcha::
-	text "Un Pachinko!"
-	line "On joue?"
+	text "A Gatcha!"
+	line "Let's play!"
 
-	para "Oulah, le vendeur"
-	line "n'a pas l'air de"
-	cont "cet avis..."
+	para "Oh, the shop owner"
+	line "doesn't seem to"
+	cont "see it that way..."
 	done

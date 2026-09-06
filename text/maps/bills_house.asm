@@ -1,158 +1,148 @@
-_BillsHouseText_1e865::
-	text "Yhah! Je suis un"
+_BillsHouseBillImNotAPokemonText::
+	text "Hiya! I'm a"
 	line "#mon..."
 	cont "..."
-	cont "heu...NON!"
+	cont "No I'm not!"
 
-	para "Appelle-moi Léo!"
-	line "Je suis un vrai"
-	cont "#Maniac!"
-	cont "Tu ne me crois"
-	cont "pas?"
+	para "Call me Bill!"
+	line "I'm a true blue"
+	cont "#maniac! Hey!"
+	cont "What's with that"
+	cont "skeptical look?"
 
-	para "Mais c'est vrai!"
-	line "J'ai raté une"
-	cont "expérience et me"
-	cont "voilà changé en"
-	cont "#mon!"
+	para "I'm not joshing"
+	line "you, I screwed up"
+	cont "an experiment and"
+	cont "got combined with"
+	cont "a #mon!"
 
-	para "Tu me crois"
-	line "maintenant?"
-	cont "Tu m'aides alors?"
+	para "So, how about it?"
+	line "Help me out here!"
 	done
 
-_BillsHouseText_1e86a::
-	text "Je vais dans le"
-	line "Téléporteur."
-	cont "Lance vite le"
-	cont "programme sur mon"
-	cont "PC!"
+_BillsHouseBillUseSeparationSystemText::
+	text "When I'm in the"
+	line "Teleporter, go to"
+	cont "my PC and run the"
+	cont "Cell Separation"
+	cont "System!"
 	done
 
-_BillsHouseText_1e86f::
-	text "Non!? Hé, mais tu"
-	line "dois m'aider, je"
-	cont "suis un mec cool!"
+_BillsHouseBillNoYouGottaHelpText::
+	text "No!? Come on, you"
+	line "gotta help a guy"
+	cont "in deep trouble!"
 
-	para "Bon, que veux-tu"
-	line "en échange, mon"
-	cont "doux seigneur?"
+	para "What do you say,"
+	line "chief? Please?"
+	cont "OK? All right!"
 	prompt
 
-_BillThankYouText::
-	text "Léo: Yahoo!"
-	line "Merci, mec!"
-	cont "Je t'en dois une!"
+_BillsHouseBillThankYouText::
+	text "Bill: Yeehah!"
+	line "Thanks, bud! I"
+	cont "owe you one!"
 
-	para "Bon, tu es venu"
-	line "pour voir ma"
-	cont "collection de"
-	cont "#mon?"
-	cont "Non? Tu rigoles!"
+	para "So, did you come"
+	line "to see my #mon"
+	cont "collection?"
+	cont "You didn't?"
+	cont "That's a bummer."
 
-	para "Bon, ben,"
-	line "prends ça en"
-	cont "remerciement!"
+	para "I've got to thank"
+	line "you... Oh here,"
+	cont "maybe this'll do."
 	prompt
 
 _SSTicketReceivedText::
-	text "<PLAYER> obtient:"
+	text "<PLAYER> received:"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _SSTicketNoRoomText::
-	text "Ton inventaire"
-	line "est plein, mec!"
+	text "You've got too"
+	line "much stuff, bud!"
 	done
 
-_BillsHouseText_1e8cb::
-	text "L'Océane, le"
-	line "bateau, est à"
-	cont "Carmin. Les"
-	cont "passagers sont"
-	cont "des dresseurs!"
+_BillsHouseBillWhyDontYouGoInsteadOfMeText::
+	text "That cruise ship,"
+	line "S.S.Anne, is in"
+	cont "Vermilion City."
+	cont "Its passengers"
+	cont "are all trainers!"
 
-	para "Je suis invité à"
-	line "leur fête mais je"
-	cont "ne supporte pas"
-	cont "ces mariolles!"
-	cont "Vas-y à ma place."
+	para "They invited me"
+	line "to their party,"
+	cont "but I can't stand"
+	cont "fancy do's. Why"
+	cont "don't you go"
+	cont "instead of me?"
+	done
 
-	para "D'ailleurs, tant"
-	line "que tu es là tu"
-	cont "vas me servir de"
-	cont "bêta-testeur pour"
-	cont "ma nouvelle"
-	cont "invention."
+	para "By the way, while"
+	line "you're here you"
+	cont "will be my beta"
+	cont "tester for my"
+	cont "new invention."
 
-	para "C'est un Bipeur"
-	line "qui te permet de"
-	cont "changer de boîte"
-	cont "PC à distance!"
+	para "It's a Pager"
+	line "allowing you to"
+	cont "switch to a new"
+	cont "PC Box remotely!"
 
-	para "Cool, nan? Ça"
-	line "va cartonner,"
-	cont "c'est sûr!"
+	para "Cool, right? it's"
+	line "going to be a hit,"
+	cont "for sure!"
 	done
 
 _BillsHouseText_1e8da::
-	text "Léo: Hé, regarde"
-	line "un peu ma collec'."
-	cont "J'ai des #mon"
-	cont "très rares!"
+	text "Bill: Hey, look"
+	line "at my collection."
+	cont "I got very rare"
+	cont "#mon!"
 
-	para "Qu'est ce que je"
-	line "donnerais pour"
-	cont "voir un #mon"
-	cont "encore inconnu..."
+	para "I would do"
+	line "anything to see"
+	cont "a yet undiscovered"
+	cont "#mon..."
 	done
 
 ;joenote - textfor bill letting you into his garden	
 _BillsGardenText::
-	text "Léo: Hey, mec!"
-	line "C'est vraiment le"
-	cont "fabuleux Mew?"
-	cont "Wow! C'est une"
-	cont "nouvelle espèce"
-	cont "de #mon!!!"
+	text "Bill: Hey, bud!"
+	line "Is it really the"
+	cont "mythical Mew?"
+	cont "Wow! it's a new"
+	cont "species of #mon!!!"
 	
-	para "Pour te remercier"
-	line "de me l'avoir"
-	cont "montré, je vais"
-	cont "te révéler mon"
-	cont "jardin secret."
+	para "To thank you for"
+	line "showing it to me"
+	cont "I will grant you"
+	cont "access to"
+	cont "my secret garden."
 
-	para "Non vraiment,"
-	line "j'plaisante pas,"
-	cont "c'est littéral-"
-	cont "ement mon jardin!"
-	cont "J'y reproduis des"
-	cont "espèces rares..."
+	para "I'm breeding very"
+	line "rare species."
 	done
 
 _BillsHouseText_Umbreon::
-	text "Léo: Truc de ouf!"
-	line "Il existe donc"
-	cont "bel et bien"
-	cont "d'autres évo-"
-	cont "lutions d'Evoli!"
+	text "Bill: Crazy!"
+	line "So there's really"
+	cont "other evolved"
+	cont "forms of Eevee!"
 
-	para "Il faudra que"
-	line "j'étudie ça de"
-	cont "plus près mais"
-	cont "cette rumeur"
-	cont "d'un #mon"
-	cont "nouveau m'obsède"
-	cont "tellement..."
+	para "It still needs"
+	line "closer study but"
+	cont "I'm obsessed with"
+	cont "that rumor of a"
+	cont "new #mon..."
 
-	para "Ça vaut ce que"
-	line "ça vaut mais"
-	cont "d'après les"
-	cont "rumeurs, il se"
-	cont "cacherait sous"
-	cont "un camion!"
+	para "According to"
+	cont "the rumors,
+	cont "it's hiding under"
+	cont "a truck!"
 
-	para "Zarbi non?"
+	para "Weird right?"
 	done

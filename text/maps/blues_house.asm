@@ -1,64 +1,61 @@
 _DaisyInitialText::
-	text "Salut <PLAYER>!"
-	line "<RIVAL> est dans"
-	cont "le labo de pépé!"
+	text "Hi <PLAYER>!"
+	line "<RIVAL> is out at"
+	cont "Grandpa's lab."
 	done
 
 _DaisyOfferMapText::
-	text "Tu dois faire une"
-	line "course pour pépé?"
-	cont "Prends ceci,"
-	cont "ça peut servir!"
+	text "Grandpa asked you"
+	line "to run an errand?"
+	cont "Here, this will"
+	cont "help you!"
 	prompt
 
 _GotMapText::
-	text "<PLAYER> obtient:"
-	line "la Carte!@"
+	text "<PLAYER> received:"
+	line "Town Map!@"
 	text_end
 
 _GotMapTextHint::
 	text_start
-	para "Vous la rangez"
-	line "dans le #dex."
-	done
+	para "You store it"
+	line "in the #dex."
+
+	para "Open it by"
+	line "pressing SELECT"
+	cont "in the #dex."
+
 
 _DaisyUseMapText::
-	text "Utilise la Carte"
-	line "pour connaître ta"
-	cont "position."
-
-	para "Elle s'ouvre en"
-	line "faisant SELECT"
-	cont "dans le #dex."
+	text "Use the Town Map"
+	line "to find out where"
+	cont "you are."
 	done
 
 _BluesHouseText2::
-	text "Les #mon sont"
-	line "vivants! Une fois"
-	cont "fatigués, ils"
-	cont "doivent se"
-	cont "reposer!"
+	text "#mon are living"
+	line "things! If they"
+	cont "get tired, give"
+	cont "them a rest!"
 	done
 
 _BluesHouseText2AfterElite4::
-	text "Salut <PLAYER>!"
-	line "Félicitation pour"
-	cont "ta victoire."
+	text "Hi <PLAYER>!"
+	line "Congratulations"
+	cont "for your victory."
 
-	para "Je suis un peu"
-	line "triste pour"
-	cont "<RIVAL> mais"
-	cont "peut-être que ça"
-	cont "le poussera à"
-	cont "mûrir un peu,"
-	cont "il a tendance à"
-	cont "prendre tout ça"
-	cont "trop à coeur..."
+	para "I'm a bit sad"
+	line "for <RIVAL>"
+	cont "but maybe it will"
+	cont "help him grow"
+	cont "a little, he tends"
+	cont "to take all this"
+	cont "too seriously"
 	done
 
 _BluesHouseText3::
-	text "Une carte de"
-	line "Kanto! Ça serait"
-	cont "cool de l'avoir,"
-	cont "non?"
+	text "A map of Kanto!"
+	line "...... Wouldn't"
+	cont "it be nice if you"
+	cont "could have it?"
 	done
