@@ -5,110 +5,102 @@ _BillsGarden_HoohText::
 	done
 
 _BillsGarden_SachaGreet::
-	text "Salut! Je suis"
-	line "Sacha du Bourg"
-	cont "Palette!"
+	text "Hey! I'm Ash from"
+	line "Palette Town!"
 
-    para "Ah toi aussi tu"
-    line "viens de là-bas?"
+    para "You're from there"
+    line "too?"
 
-    para "Donc tu as eu"
-    line "un des Pokémons"
-    cont "du Prof.Chen!"
+    para "So you got one"
+    line "of Prof.Oak's"
+    cont "Pokémon!"
 
-    para "Euh, oui je suis"
-    line "le fameux"
-    cont "retardataire."
+    para "Well, yes I am"
+    line "the infamous"
+    cont "latecomer."
     
-    para "Bref, en tout cas,"
-	line "j'étais sur la"
-	cont "route pour"
-    cont "affronter à nou-"
-	cont "veau la ligue"
-    cont "mais j'ai vu un"
-    cont "magnifique oiseau"
-    cont "dans le ciel."
+    para "Anyway,"
+	line "I was on my way to"
+	cont "battle the League"
+    cont "again until I saw"
+    cont "a beautiful bird"
+    cont "in the sky."
 
-    para "Je suis sûr de"
-    line "l'avoir déjà vu"
-    cont "quelque part!"
+    para "I'm pretty sure"
+    line "that I've seen it"
+    cont "somewhere before!"
 	prompt
 
 _BillsGarden_SachaBattle::
-	text "Ah toi aussi il"
-    line "t'intéresse?"
-	cont "Alors accepte"
-	cont "mon défi!"
+	text "Oh, it caught your"
+    line "interest too?"
+	cont "Then let's have"
+	cont "a battle!"
 
-	para "Je te préviens,"
-	line "ma stratégie"
-	cont "est sans faille!"
+	para "I warn you,"
+	line "my technique"
+	cont "is flawless!"
 	prompt
 	
 _BillsGarden_SachaPrebattle::
-	text "Pikachu, je"
-	line "te choisis!"
+	text "Pikachu,"
+	line "I choose you!"
 	done
 	
 _BillsGarden_SachaAfterBattle::
 	text "..."
-	line "Un jour je serai"
-	cont "le meilleur"
-	cont "dresseur!"
+	line "My dream is to"
+	cont "become a Pokémon"
+	cont "Master!"
 	prompt
 
 _BillsGarden_SachaDecline::
-	text "Pas de soucis,"
-	line "je comprends."
+	text "No problem,"
+	line "I understand."
 	done
 
 _BillsGarden_SachaCongrat::
-	text "Eh bien bravo!"
-	line "J'aurai ma revan-"
-	cont "che, j'en fait le"
-	cont "serment <PLAYER>!"
+	text "Wow, well done!"
+	line "I will get my"
+	cont "revenge, I swear"
+	cont "it <PLAYER>!"
 
-	para "Je te laisse"
-	line "l'honneur de"
-	cont "défier l'oiseau."
+	para "I leave the bird"
+	line "to you."
 
-	para "En attendant,"
-	line "voilà pour toi."
+	para "In the meantime,"
+	line "here you go."
 	done
 
 _BillsGarden_SachaGiveStone::
-	text "<PLAYER> reçoit"
-	line "la Pierre Brume!@"
+	text "<PLAYER> received"
+	line "Mist Stone!@"
 	text_end
 
 _BillsGarden_SachaBagFull::
-	text "Ton sac est"
-	line "plein!"
+	text "Your bag is full!"
 	done
 
 _BillsGarden_SachaStoneExplain::
-	text "C'est une Pierre"
-	line "mais elle n'a pas"
-	cont "l'air de faire"
-	cont "évoluer de"
-	cont "#mon..."
+	text "It's a Stone"
+	line "but it doesn't"
+	cont "seem to evolve"
+	cont "any #mon..."
 
-	para "Peut-être que tu"
-	line "auras plus d'idées"
-	cont "que moi..."
+	para "Maybe you'll have"
+	line "a better idea"
 	done
 
 _BillsGarden_SachaRespawnLegendaries::
-	text "Wow! C'était quoi"
-	line "ça? On aurait"
-	cont "dit le cri de"
-	cont "pleins de"
-	cont "#mon!"
+	text "Wow! What was"
+	line "that? It sounded"
+	cont "like the cry"
+	cont "of many #mon!"
 
-	para "On aurait dit que"
-	line "ça venait de la"
-	cont "Caverne Azurée et"
-	cont "de la Centrale!"
+	para "It seemed to come"
+	line "from the Cerulean"
+	cont "Cave and the Power"
+	cont "Plant!"
 	done
 
 _BillsGardenText_Pikachu::

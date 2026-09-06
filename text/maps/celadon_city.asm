@@ -1,219 +1,202 @@
 _CeladonCityText1::
-	text "J'ai eu mon"
-	line "Smogo à"
-	cont "Cramois'Ile!"
+	text "I got my Koffing"
+	line "in Cinnabar!"
 
-	para "Il est gentil"
-	line "mais il crache du"
-	cont "poison pour un"
-	cont "rien!"
+	para "It's nice, but it"
+	line "breathes poison"
+	cont "when it's angry!"
 	done
 
 _CeladonCityText2::
-	text "Héhé! Cette Arène"
-	line "est terrible! Y'a"
-	cont "plein d'meufs!"
+	text "Heheh! This Gym"
+	line "is great! It's"
+	cont "full of women!"
 	done
 
 _CeladonCityText3::
-	text "Le Casino n'est"
-	line "pas très bon pour"
-	cont "notre image!"
+	text "The Game Corner"
+	line "is bad for our"
+	cont "city's image!"
 	done
 
 _CeladonCityText4::
-	text "Pfff... J'ai tout"
-	line "perdu au Casino!"
+	text "Moan! I blew it"
+	line "all at the slots!"
 
-	para "J'aurais dû"
-	line "acheter un prix"
-	cont "avec mes Jetons"
-	cont "avant de tout"
-	cont "claquer!"
+	para "I knew I should"
+	line "have cashed in my"
+	cont "coins for prizes!"
 	done
 
 _TM37PreText::
-	text "Bonjour!"
+	text "Hello!"
 
-	para "Enfin quelqu'un"
-	line "vient me parler!"
+	para "Someone finally"
+	line "comes to talk"
+	cont "to me!"
 
-	para "Cette rivière est"
-	line "poluée et se"
-	cont "remplit de"
-	cont "Tadmorv mais tous"
-	cont "le monde s'en"
-	cont "fou!"
+	para "This river is"
+	line "polluted and is"
+	cont "filling with"
+	cont "Grimer but no one"
+	cont "cares!"
 
-	para "Regarde ce qu'ils"
-	line "ont fait..."
+	para "Look what they"
+	line "have done..."
 	prompt
 
 _ReceivedTM37Text::
-	text "<PLAYER> reçoit:"
+	text "<PLAYER> received:"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _TM37ExplanationText::
-	text "La CT37 contient"
-	line "Bomb-Beurk!"
+	text "TM37 contains"
+	line "Sludge Bomb!"
 
-	para "Il faut prévenir"
-	line "le monde!"
+	para "We need to warn"
+	line "everyone!"
 	done
 
 _TM37NoRoomText::
-	text "Oh! Ton sac est"
-	line "plein!"
+	text "Oh, your pack is"
+	line "full of items!"
 	done
 
 _CeladonCityText6::
-	text "C'est mon copain:"
-	line "Tartard!"
+	text "This is my trusted"
+	line "pal, Poliwrath!"
 
-	para "Il n'était qu'un"
-	line "Têtarte avant"
-	cont "d'utiliser une"
-	cont "Pierre Eau!"
+	para "It evolved from"
+	line "Poliwhirl when I"
+	cont "used Water Stone!"
+	done
 	done
 
 _CeladonCityText7::
-	text "Tartard: Tarta!"
-	line "Taaaar!"
+	text "Poliwrath: Ribi"
+	line "ribit!"
 	prompt
 
 _CeladonCityText8::
-	text "Kesstu mates?"
+	text "What are you"
+	line "staring at?"
+	done
 	done
 
 _CeladonCityText9::
-	text "Hey toi! J'aurai"
-	line "peut-être un bon"
-	cont "plan Jetons si"
-	cont "ça t'intéresse."
+	text "Hey you! I might"
+	line "have a good"
+	cont "Coins deal if"
+	cont "you're interested."
 
-	para "Reviens me voir"
-	line "plus tard!"
+	para "Come see me"
+	line "later!"
 	done
 
 _CeladonCityText_Merchant::
-	text "Bien le bonjour!"
-	line "J'attends que mon"
-	cont "Rhinocorne se"
-	cont "repose avant de"
-	cont "repartir faire"
-	cont "des livraisons."
+	text "Good morning!"
+	line "I'm waiting for"
+	cont "my Rhyhorn to rest"
+	cont "before I resume"
+	cont "my deliveries."
 	done
 
 _CeladonCityText10::
-	text "Astuce"
+	text "Trainer Tips"
 
-	para "Précision +"
-	line "augmente la"
-	cont "précision des"
-	cont "attaques!"
+	para "X Accuracy boosts"
+	line "the accuracy of"
+	cont "techniques!"
 
-	para "Muscle +"
-	line "augmente les"
-	cont "chances de coups"
-	cont "critiques!"
+	para "Dire Hit jacks up"
+	line "the likelihood of"
+	cont "critical hits!"
 
-	para "Les meilleurs"
-	line "objets sont en"
-	cont "vente au Centre"
-	cont "commercial de"
-	cont "Céladopole!"
-	done
+	para "Get your items at"
+	line "Celadon Dept."
+	cont "Store!"
 
 _CeladonCityText11::
-	text "Céladopole"
-	line "Ville aux rêves"
-	cont "arc-en-ciel"
+	text "Celadon City"
+	line "The City of"
+	cont "Rainbow Dreams"
 	done
 
 _CeladonCityText13::
-	text "Céladopole"
-	line "Arène #mon"
-	cont "Champion: Erika"
+	text "Celadon City"
+	line "#mon Gym"
+	cont "Leader: Erika"
 
-	para "Le combat par"
-	line "les plantes!"
+	para "The Nature Loving"
+	line "Princess!"
 	done
 
 _CeladonCityText14::
-	text "Manoir Céladon"
+	text "Celadon Mansion"
 	done
 
 _CeladonCityText15::
-	text "Y'a tout c'qui"
-	line "t'faut au Centre"
-	cont "commercial de"
-	cont "Céladopole!"
+	text "Find what you"
+	line "need at Celadon"
+	cont "Dept. Store!"
 	done
 
 _CeladonCityText16::
-	text "Astuce"
+	text "Trainer Tips"
 
 ;joenote - this description is totally wrong about guard spec
-	para "Défense Spéc"
-	line "protège les"
-	cont "#mon des atta-"
-	cont "ques Spéciales"
-	cont "telles que le feu"
-	cont "ou l'eau!"
-;	para "Défense spéc"
-;	line "protège les"
-;	cont "#mon des atta-"
-;	cont "ques de réduction"
-;	cont "de statistiques"
-;	cont "telles que"
-;	cont "Groz'yeux et"
-;	cont "Rugissement!"
+;	para "Guard Spec."
+;	line "protects #mon"
+;	cont "against Special"
+;	cont "attacks such as"
+;	cont "fire and water!"
+	para "Guard spec."
+	line "protects #mon"
+	cont "from Stat-down"
+	cont "attacks such as"
+	cont "Leer and Growl!"
 
-	para "Y'a tout c'qui"
-	line "t'faut au Centre"
-	cont "commercial de"
-	cont "Céladopole!"
+	para "Get your items at"
+	line "Celadon Dept."
+	cont "Store!"
 	done
 
 _CeladonCityText17::
-	text "Change"
-	line "Des Jetons contre"
-	cont "de bô prix!"
+	text "Coins exchanged"
+	line "for prizes!"
 	done
 
 _CeladonCityText18::
-	text "Casino Rocket"
-	line "Club de jeu"
-	cont "pour adultes!"
+	text "Rocket Game Corner"
+	line "The playground"
+	cont "for grown-ups!"
 	done
 
 _CeladonCityText_School::
-	text "Ecole de"
-	line "Céladopole"
+	text "Celadon City"
+	line "School"
 	done
 
 _CeladonCityText_RhyhornMerchant::
-	text "Le Rhinocorne"
-	line "du marchand"
-	cont "transporte"
-	cont "divers sacs de"
-	cont "marchandises."
+	text "The merchant's"
+	line "Rhyhorn carries"
+	cont "various bag"
+	cont "of goods."
 	prompt
 
 _CeladonCityText_CasinoPrizes::
-	text "Casino Rocket"
-	line "Echanges de lots"
+	text "Rocket Game Corner"
+	line "Prize Exchange"
 	done
 
 _CeladonCityText_Dinner::
-	text "Au Caninos"
-	line "mal léché"
+	text "The Shaggy"
+	line "Growlithe"
 	done
 
 _CeladonCityText_Hotel::
-	text "Hotel de"
-	line "Céladopole"
+	text "Celadon Hotel"
 	done
