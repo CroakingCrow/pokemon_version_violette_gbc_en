@@ -1,19 +1,19 @@
 _CeladonMartRoofText_484ee::
-	text "Quelle boisson"
-	line "lui offrir?"
+	text "Give her which"
+	line "drink?"
 	done
 
 _CeladonMartRoofText_484f3::
-	text "Ouais ouais!"
+	text "Yay!"
 
-	para "DE L'EAU!"
+	para "Fresh Water!"
 
-	para "C'est cool!"
+	para "Thank you!"
 
-	para "Tiens...c'est"
-	line "pour toi!@@"
+	para "You can have this"
+	line "from me!@@"
 	_CeladonMartRoofText_484f9::
-	text "<PLAYER> reçoit"
+	text "<PLAYER> received"
 	line "@"
 	TX_RAM wcf4b
 	text "!@@"
@@ -23,23 +23,23 @@ _CeladonMartRoofText_484fe::
 	para "@"
 	TX_RAM wcf4b
 	text ":"
-	line "Laser Glace!"
+	line "Ice Beam!"
 
-	para "Cette attaque"
-	line "pourra geler"
-	cont "l'ennemi!@@"
-	
+	para "It can freeze the"
+	line "target sometimes!@@"
+
 _CeladonMartRoofText_48504::
-	text "Ouaiiis!"
+	text "Yay!"
 
-	para "Du Soda Cool!"
+	para "Soda Pop!"
 
-	para "Merciiii!"
+	para "Thank you!"
 
-	para "Tiens, prends ça!@@"
-	
+	para "You can have this"
+	line "from me!@@"
+
 _CeladonMartRoofText_4850a::
-	text "<PLAYER> reçoit"
+	text "<PLAYER> received"
 	line "@"
 	TX_RAM wcf4b
 	text "!@@"
@@ -49,87 +49,91 @@ _CeladonMartRoofText_4850f::
 	para "@"
 	;TX_RAM wcf4b
 	;text ":"	;joenote - don't dynamically call the name as it just messes up the text borders
-	text "CT48:"
-;	line "EBOULEMENT!"	;joenote - this is inaccurate in gen 1, and Yellow removes this text.
+	text "TM48 contains"
+;	line "Rock Slide!"	;joenote - this is inaccurate in gen 1, and Yellow removes this text.
 ;
-;	para "Cette attaque"
-;	line "peut faire peur"
-;	cont "à l'ennemi!@@"
-	line "Eboulement!@@"
-	
+;	para "It can spook the"
+;	line "target sometimes!@@"
+	line "Rock Slide!@@"
+
 _CeladonMartRoofText_48515::
-	text "Ouaiiis!"
+	text "Yay!"
 
-	para "D'la Limonade!"
+	para "Lemonade!"
 
-	para "Top top top!"
+	para "Thank you!"
 
-	para "V'là pour toi!@@"
-	
+	para "You can have this"
+	line "from me!@@"
+
 _ReceivedTM49Text::
-	text "<PLAYER> reçoit:"
-	line "CT49!@@"
+	text "<PLAYER> received"
+	line "TM49!@@"
 
 _CeladonMartRoofText_48520::
 	db $0
-	para "CT49..."
-	line "Triplattaque!@@"
+	para "TM49 contains"
+	line "Tri Attack!@@"
 
 _CeladonMartRoofText_48526::
-	text "Plus de place!@@"
+	text "You don't have"
+	line "space for this!@@"
 
 _CeladonMartRoofText_4852c::
-	text "Heu..."
-	line "Non merci."
-	cont "A pu soif!@@"
+	text "No thank you!"
+	line "I'm not thirsty"
+	cont "after all!@@"
 
 _CeladonMartRoofText1::
-	text "Ma soeur est"
-	line "dresseur. Tu le"
-	cont "crois, ça?"
+	text "My sister is a"
+	line "trainer, believe"
+	cont "it or not."
 
-	para "Mais c'est une"
-	line "p'tite peste!"
-	cont "Elle m'agace!"
+	para "But, she's so"
+	line "immature, she"
+	cont "drives me nuts!"
 	done
 
 _CeladonMartRoofText_48598::
-	text "N'ai soif!"
-	line "Ne veux boire!"
+	text "I'm thirsty!"
+	line "I want something"
+	cont "to drink!"
 	done
 
 _CeladonMartRoofText4::
-	text "N'ai soif!"
-	line "Ne veux boire!"
+	text "I'm thirsty!"
+	line "I want something"
+	cont "to drink!"
+
+	para "Give her a drink?"
 	done
 
 _CeladonMartRoofText6::
-	text "Dernier Etage:"
-	line "Distributeurs"
+	text "Rooftop Square:"
+	line "Vending Machines"
 	done
 
 _VendingMachineText1::
-	text "Un distributeur!"
-	line "Que choisir?"
+	text "A vending machine!"
+	line "Here's the menu!"
 	prompt
 
 _VendingMachineText4::
-	text "Oups! Pas assez"
-	line "d'argent!"
+	text "Oops, not enough"
+	line "money!"
 	done
 
 _VendingMachineText5::
-	text "Et hop!"
-	line "@"
 	TX_RAM wcf4b
-	text "!"
+	db $0
+	line "popped out!"
 	done
 
 _VendingMachineText6::
-	text "L'inventaire est"
-	line "plein!"
+	text "There's no more"
+	line "room for stuff!"
 	done
 
 _VendingMachineText7::
-	text "Pas soif!"
+	text "Not thirsty!"
 	done

@@ -1,170 +1,168 @@
 _TM18PreReceiveText::
-	text "J'ai fini!!!!"
-	line "J'ai fini"
-	cont "#mon!!!!"
+	text "Oh, hi! I finally"
+	line "finished #mon!"
 
-	para "Pas toi? Yahaha!"
-	line "Prends donc ceci,"
-	cont "petit!"
+	para "Not done yet?"
+	line "This might be"
+	cont "useful!"
 	prompt
 
 _ReceivedTM18Text::
-	text "<PLAYER> reçoit"
+	text "<PLAYER> received"
 	line "@"
 	TX_RAM wcf4b
 	text "!@@"
 
 _TM18ExplanationText::
-	text "CT18: Riposte!"
-	line "Bon allez..."
-	cont "Bonne chance!"
+	text "TM18 is Counter!"
+	line "Not like the one"
+	cont "I'm leaning on,"
+	cont "mind you!"
 	
-	para "Il renvoit aux"
-	line "capacitées Normal"
-	cont "et Combat le"
-	cont "double de dégâts!"
+	para "It meets Normal"
+	line "or Fighting moves"
+	cont "with 2x damage!"
 	done
 
 _TM18NoRoomText::
-	text "Ton sac est plein"
-	line "à craquer!"
+	text "Your pack is full"
+	line "of items!"
 	done
 
 _CeladonMart3Text2::
-	text "Tous les #mon"
-	line "capturés ont un"
-	cont "numéro d'immatri-"
-	cont "culation et un"
-	cont "nom de DO"
-	cont "(Dresseur"
-	cont "d'Origine)!"
+	text "Captured #mon"
+	line "are registered"
+	cont "with an ID No."
+	cont "and OT, the name"
+	cont "of the Original"
+	cont "Trainer that"
+	cont "caught it!"
 	done
 
-;joenote - this was changed in the localization for some reason
-;_CeladonMart3Text3::
-;	text "Ouaiiis!"
-;
-;	para "Mon pote va"
-;	line "m'échanger son"
-;	cont "Kangourex contre"
-;	cont "mon Spectrum!"
-;	done
-;
-;_CeladonMart3Text4::
-;	text "Viens, mon doux"
-;	line "Spectrum!"
-;
-;	para "Je suis fou de"
-;	line "Spectrum!"
-;
-;	para "... ...Hein?"
-;
-;	para "Spectrum s'est"
-;	line "transformé en un"
-;	cont "autre #mon!"
-;	done
-;
+IF DEF(_JPTXT)	;joenote - this was changed in the localization for some reason
 _CeladonMart3Text3::
-	text "Ouaiiis!"
+	text "All right!"
 
-	para "Mon pote va"
-	line "m'échanger son"
-	cont "Kangourex contre"
-	cont "mon Gravalanch!"
+	para "My buddy's going"
+	line "to trade me his"
+	cont "Kangaskhan for my"
+	cont "Haunter!"
 	done
 
 _CeladonMart3Text4::
-	text "Cool! Un"
-	line "Gravalanch!"
+	text "Come on, my sweet"
+	line "Haunty-pie!"
 
-	para "J'adore les"
-	line "Gravalanch!"
+	para "I'm an absolute"
+	line "Haunter maniac."
 
-	para "Qu...Hein??"
+	para "... ...Huh?"
 
-	para "Gravalanch se"
-	line "transforme en un"
-	cont "autre #mon!"
+	para "Haunter turned"
+	line "into a different"
+	cont "#mon!"
 	done
-;ENDC
+ELSE
+_CeladonMart3Text3::
+	text "All right!"
+
+	para "My buddy's going"
+	line "to trade me his"
+	cont "Kangaskhan for my"
+	cont "Graveler!"
+	done
+
+_CeladonMart3Text4::
+	text "Come on Graveler!"
+
+	para "I love Graveler!"
+	line "I collect them!"
+
+	para "Huh?"
+
+	para "Graveler turned"
+	line "into a different"
+	cont "#mon!"
+	done
+ENDC
 
 _CeladonMart3Text5::
-	text "Le numéro d'imma-"
-	line "triculation d'un"
-	cont "#mon sert à"
-	cont "l'identifier lors"
-	cont "d'un échange!"
+	text "You can identify"
+	line "#mon you got"
+	cont "in trades by"
+	cont "their ID Numbers!"
 	done
 
 _CeladonMart3Text6::
-	text "Une Super"
-	line "Nintendo!"
+	text "It's an SNES!"
 	done
 
 _CeladonMart3Text7::
-	text "Un RPG! Cool..."
-	line "Mais trop dur!"
+	text "An RPG! There's"
+	line "no time for that!"
 	done
 
 _CeladonMart3Text9::
-	text "Un jeu de sport!"
-	line "Vive le foot!"
+	text "A sports game!"
+	line "Dad'll like that!"
 	done
 
 _CeladonMart3Text11::
-	text "Quatre lignes!"
-	line "En un seul coup!"
+	text "A puzzle game!"
+	line "Looks addictive!"
 	done
 
 _CeladonMart3Text13::
-	text "Kan contre Ryo!"
-	line "Hadoh Ken!"
+	text "A fighting game!"
+	line "Looks tough!"
 	done
 
 _CeladonMart3Text14::
-	text "2ème: Jeux vidéo"
+	text "3F: TV Game Shop"
 	done
 
 _CeladonMart3Text15::
-	text "Rouge et Bleu!"
-	line "Deux #mon!"
+IF DEF(_JPTXT)
+	text "Red and Green!"
+ELSE
+	text "Red and Blue!"
+ENDC
+	line "Both are #mon!"
 	done
 
 _CeladonMart3Blocker::
-	text "Ce vendeur"
-	line "ouvrira après le"
-	cont "championat de la"
-	cont "Ligue #mon."
+	text "This vendor will"
+	line "be open after the"
+	cont "#mon League"
+	cont "Championship."
 	
-	para "Revenez plus tard"
-	line "pour avoir accès"
-	cont "à des objets ra-"
-	cont "res et exotiques!"
+	para "Come back to buy"
+	line "rare new items"
+	cont "from Silph Co."
 	
-	para "Pfiu! Il fait"
-	line "vraiment chaud"
-	cont "dans ce costume."
+	para "Phew!"
+	line "It is really hot"
+	cont "in this costume."
 	done
 
 _CeladonMart3Text_TV1::
-	text "Ces télés passent"
-	line "une émission de"
-	cont "jeu-vidéo!"
+	text "The TVs are"
+	line "broadcasting"
+	cont "a video game show!"
 
-	para "Oh une bande"
-	line "annonce d'un jeu"
-	cont "de course de"
-	cont "vaisseaux!"
+	para "Oh, a trailer"
+	line "for a racing"
+	cont "game with"
+	cont "spaceships!"
 	done
 
 _CeladonMart3Text_TV2::
-	text "Ces télés passent"
-	line "une émission de"
-	cont "jeu-vidéo!"
+	text "The TVs are"
+	line "broadcasting"
+	cont "a video game show!"
 
-	para "Oh une bande"
-	line "annonce d'un jeu"
-	cont "de rôle avec un"
-	cont "héro en costume"
-	cont "vert!"
+	para "Oh, a trailer"
+	line "for an RPG with"
+	cont "a hero in green"
+	cont "clothing!"
 	done
