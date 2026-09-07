@@ -1,31 +1,28 @@
 _CeladonMart5Text1::
-	text "Les accélérateurs"
-	line "de #mon sont"
-	cont "en vente ici."
+	text "#mon ability"
+	line "enhancers can be"
+	cont "bought only here."
 
-	para "Le Calcium"
-	line "augmente les"
-	cont "capacités"
-	cont "Spéciales."
+	para "Use Calcium to"
+	line "increase Special"
+	cont "abilities."
 
-	para "Le Carbonne"
-	line "augmente la"
-	cont "Vitesse."
+	para "Use Carbos to"
+	line "increase Speed."
 	done
 
 _CeladonMart5Text2::
-	text "J'veux acheter un"
-	line "accélérateur de"
-	cont "#mon!"
+	text "I'm here for"
+	line "#MON ability"
+	cont "enhancers."
 
-	para "Une Protéine"
-	line "augmentera"
-	cont "l'Attaque."
+	para "Protein increases"
+	line "Attack power."
 
-	para "Le Fer augmente"
-	line "la Défense!"
+	para "Iron increases"
+	line "Defense!"
 	done
 
 _CeladonMart5Text5::
-	text "4ème: Médicaments"
+	text "5F: Drug Store"
 	done
