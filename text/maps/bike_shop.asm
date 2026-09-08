@@ -74,14 +74,14 @@ _BikeShopText_1d861::
 	line "really cool!"
 	done
 
-_BikeShopBasketBikeText::
+_BikeShopText_BasketBike::
 	text "This bike has a"
 	line "basket attached."
 	
 	para "Very practical!"
 	done
 
-_BikeShopToolboxText::
+_BikeShopText_Toolbox::
 	text "A toolbox for"
 	line "repairing bikes!"
 	done

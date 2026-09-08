@@ -207,7 +207,7 @@ _GuardSpecDescription::
 
 _SuperRepelDescription::
 	text "Repels weak #mon"
-	next "for 200 steps""
+	next "for 200 steps"
 	prompt
 
 _MaxRepelDescription::
@@ -222,17 +222,17 @@ _DireHitDescription::
 
 _FreshWaterDescription::
 	text "Restores #mon HP"
-	next "by 50.
+	next "by 50."
 	prompt
 
 _SodaPopDescription::
 	text "Restores #mon HP"
-	next "by 60.
+	next "by 60."
 	prompt
 
 _LemonadeDescription::
 	text "Restores #mon HP"
-	next "by 80.
+	next "by 80."
 	prompt
 
 _SSTicketDescription::
