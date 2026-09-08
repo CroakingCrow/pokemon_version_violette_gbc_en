@@ -88,9 +88,9 @@ _CeladonCityText8::
 
 _CeladonCityText9::
 	text "Hey you! I might"
-	line "have a good"
-	cont "Coins deal if"
-	cont "you're interested."
+	line "have a good coin"
+	cont "deal if you're"
+	cont "interested."
 
 	para "Come see me"
 	line "later!"
@@ -99,9 +99,10 @@ _CeladonCityText9::
 _CeladonCityText_Merchant::
 	text "Good morning!"
 	line "I'm waiting for"
-	cont "my Rhyhorn to rest"
-	cont "before I resume"
-	cont "my deliveries."
+	cont "my Rhyhorn to"
+	cont "rest before I"
+	cont "resume my" 
+	cont "deliveries."
 	done
 
 _CeladonCityText10::

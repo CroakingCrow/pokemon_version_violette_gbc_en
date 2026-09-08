@@ -93,8 +93,8 @@ _BillsHouseText_1e8cb::
 	cont "PC Box remotely!"
 
 	para "Cool, right? it's"
-	line "going to be a hit,"
-	cont "for sure!"
+	line "going to be a"
+	cont "hit, for sure!"
 	done
 
 _BillsHouseText_1e8da::
@@ -105,7 +105,8 @@ _BillsHouseText_1e8da::
 
 	para "I would do"
 	line "anything to see"
-	cont "a yet undiscovered"
+	cont "a yet"
+	cont "undiscovered"
 	cont "#mon..."
 	done
 
@@ -115,7 +116,7 @@ _BillsGardenText::
 	line "Is it really the"
 	cont "mythical Mew?"
 	cont "Wow! it's a new"
-	cont "species of #mon!!!"
+	cont "species of #mon!!"
 	
 	para "To thank you for"
 	line "showing it to me"

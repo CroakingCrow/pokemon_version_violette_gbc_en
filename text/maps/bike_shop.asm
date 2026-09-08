@@ -90,7 +90,8 @@ _BikeShopText_Gatcha::
 	text "A Gatcha!"
 	line "Let's play!"
 
-	para "Oh, the shop owner"
-	line "doesn't seem to"
-	cont "see it that way..."
+	para "Oh, the vendor"
+	line "doesn't seem"
+	cont "to see it"
+	cont "that way..."
 	done

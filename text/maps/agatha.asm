@@ -17,8 +17,9 @@ _AgathaBeforeBattleText::
 	cont "wrong! #mon"
 	cont "are for fighting!"
 
-	para "<PLAYER>! I'll show"
-	line "you how a real"
+	para "<PLAYER>!"
+	line "I'll show you"
+	cont "how a real" 
 	cont "trainer fights!"
 	done
 
@@ -42,7 +43,8 @@ _RematchAgathaBeforeBattleText::
 	text "You again?"
 
 	para "You are already"
-	line "Champion you know?"
+	line "Champion you"
+	cont "know?"
 
 	para "Our last battle"
 	line "made me want to"
@@ -57,7 +59,7 @@ _RematchAgathaBeforeBattleText::
 	line "his vigour"
 	cont "this fool!"
 
-	para "And neither did I,"
+	para "And neither did I"
 	line "let me show you!"
 	done
 
@@ -71,10 +73,10 @@ _RematchAgathaEndBattleText::
 _RematchAgathaAfterBattleText::
 	text "Did you see Oak"
 	line "recently? I'm"
-	cont "sure he would love"
+	cont "sure he'd love"
 	cont "a battle with you"
 	cont "even though he"
-	cont "does not dare"
+	cont "doesn't dare"
 	cont "to tell you..."
 	done
 
