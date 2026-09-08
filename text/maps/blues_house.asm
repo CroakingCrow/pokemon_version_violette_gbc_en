@@ -48,9 +48,10 @@ _BluesHouseText2AfterElite4::
 	line "for <RIVAL>"
 	cont "but maybe it will"
 	cont "help him grow"
-	cont "a little, he tends"
-	cont "to take all this"
-	cont "too seriously"
+	cont "a little,"
+	cont "he tends to take"
+	cont "all this too"
+	cont "seriously"
 	done
 
 _BluesHouseText3::

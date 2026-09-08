@@ -1,6 +1,6 @@
 _CeladonMart4Text2::
 	text "I'm getting a"
-	line "Pokédoll for my"
+	line "#doll for my"
 	cont "girl friend!"
 	done
 
@@ -11,7 +11,7 @@ _CeladonMart4Text3::
 	para "You can run from"
 	line "wild #mon by"
 	cont "distracting them"
-	cont "with a Pokédoll!"
+	cont "with a #doll!"
 	done
 
 _CeladonMart4Text4::

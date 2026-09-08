@@ -38,10 +38,10 @@ _ChampionText::
 	cont "The League,"
 	cont "Well done!"
 	
-	para "However,"
-	line "many challenges"
-	cont "still await you"
-	cont "in order to become"
+	para "However, many"
+	line "challenges still"
+	cont "await you in"
+	cont "order to become"
 	cont "a #mon Master!"
 	done
 

@@ -28,8 +28,9 @@ _DisplayBattleStyleInfoText::
  	prompt
 
 _DisplayAudioInfoText::
-	text "Controls the audio"
- 	line "output of the game"
+	text "Controls the"
+	line "audio output"
+ 	cont "of the game"
 
 	para "Note that"
 	line "Stereo may"
@@ -47,14 +48,14 @@ _DisplayInstantTextText::
  	line "instantly."
 
 	para "May skip some"
-	cont "sound effects."
+	line "sound effects."
  	prompt
 	
 _DisplayGammaInfoText::
 	text "Tone down colors"
  	line "to fix incorrect"
 	cont "display on some"
-	cont "emulator like mGBA"
+	cont "emulator"
 
 	para "Only applies"
 	line "in game,"
@@ -74,9 +75,10 @@ _DisplayEnhancedGBCInfoText::
  	prompt
 	
 _DisplayLevelCapInfoText::
-	text "Activate level cap"
- 	line "depending on the"
-	cont "number of Badge"
+	text "Activate level"
+ 	line "cap depending"
+	cont "on the number"
+	cont "of Badge"
 
 	para "Disabling this"
 	line "setting makes the"

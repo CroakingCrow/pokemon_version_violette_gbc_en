@@ -20,9 +20,10 @@ _BillsGarden_SachaGreet::
     cont "latecomer."
     
     para "Anyway,"
-	line "I was on my way to"
-	cont "battle the League"
-    cont "again until I saw"
+	line "I was on my way"
+	cont "to battle the"
+    cont "League again"
+	cont "until I saw"
     cont "a beautiful bird"
     cont "in the sky."
 
@@ -32,9 +33,10 @@ _BillsGarden_SachaGreet::
 	prompt
 
 _BillsGarden_SachaBattle::
-	text "Oh, it caught your"
-    line "interest too?"
-	cont "Then let's have"
+	text "Oh, it caught"
+    line "your interest"
+	cont "too? Then"
+	cont "let's have"
 	cont "a battle!"
 
 	para "I warn you,"
@@ -99,8 +101,8 @@ _BillsGarden_SachaRespawnLegendaries::
 
 	para "It seemed to come"
 	line "from the Cerulean"
-	cont "Cave and the Power"
-	cont "Plant!"
+	cont "Cave and the"
+	cont "Power Plant!"
 	done
 
 _BillsGardenText_Pikachu::

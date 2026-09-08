@@ -44,8 +44,8 @@ _RematchBrunoBeforeBattleText::
 	cont "invited me to"
 	cont "lift weights!"
 
-	para "So,"
-	line "I'm all worked up,"
+	para "So, I'm"
+	line "all worked up,"
 	cont "look at these"
 	cont "biceps!"
 	done
@@ -57,8 +57,9 @@ _RematchBrunoEndBattleText::
 	prompt
 
 _RematchBrunoAfterBattleText::
-	text "I don't understand"
-	line "I'm stronger but"
+	text "I don't"
+	line "understand, I'm"
+	cont "stronger and yet"
 	cont "you still beat"
 	cont "me..."
 

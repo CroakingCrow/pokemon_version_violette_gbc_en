@@ -98,18 +98,19 @@ _CeladonGymText_RematchEndBattle::
 	text "Well!"
 
 	para "Your strength"
-	line "surpasses even the"
-	cont "beauty of my fully"
-	cont "matured #mon."
+	line "surpasses even"
+	cont "the beauty of" 
+	cont "my fully matured"
+	cont "#mon."
 
 	para "Your victory is"
 	line "well deserved."
 
 	para "Well done!"
-	line "Come to see me"
-	cont "with your Venusaur"
-	cont "and I shall reveal"
-	cont "to you its true"
+	line "Come visit me"
+	cont "with your"
+	cont "Venusaur and I'll"
+	cont "reveal its true"
 	cont "nature!"
 	prompt
 

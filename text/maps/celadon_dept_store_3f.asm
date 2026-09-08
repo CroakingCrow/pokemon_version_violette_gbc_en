@@ -147,8 +147,8 @@ _CeladonMart3Blocker::
 
 _CeladonMart3Text_TV1::
 	text "The TVs are"
-	line "broadcasting"
-	cont "a video game show!"
+	line "broadcasting a"
+	cont "video game show!"
 
 	para "Oh, a trailer"
 	line "for a racing"
@@ -158,8 +158,8 @@ _CeladonMart3Text_TV1::
 
 _CeladonMart3Text_TV2::
 	text "The TVs are"
-	line "broadcasting"
-	cont "a video game show!"
+	line "broadcasting a"
+	cont "video game show!"
 
 	para "Oh, a trailer"
 	line "for an RPG with"
