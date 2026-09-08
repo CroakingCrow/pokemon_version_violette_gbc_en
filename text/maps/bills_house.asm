@@ -1,4 +1,4 @@
-_BillsHouseBillImNotAPokemonText::
+_BillsHouseText_1e865::
 	text "Hiya! I'm a"
 	line "#mon..."
 	cont "..."
@@ -20,7 +20,7 @@ _BillsHouseBillImNotAPokemonText::
 	line "Help me out here!"
 	done
 
-_BillsHouseBillUseSeparationSystemText::
+_BillsHouseText_1e86a::
 	text "When I'm in the"
 	line "Teleporter, go to"
 	cont "my PC and run the"
@@ -28,7 +28,7 @@ _BillsHouseBillUseSeparationSystemText::
 	cont "System!"
 	done
 
-_BillsHouseBillNoYouGottaHelpText::
+_BillsHouseText_1e86f::
 	text "No!? Come on, you"
 	line "gotta help a guy"
 	cont "in deep trouble!"
@@ -38,7 +38,7 @@ _BillsHouseBillNoYouGottaHelpText::
 	cont "OK? All right!"
 	prompt
 
-_BillsHouseBillThankYouText::
+_BillThankYouText::
 	text "Bill: Yeehah!"
 	line "Thanks, bud! I"
 	cont "owe you one!"
@@ -55,7 +55,7 @@ _BillsHouseBillThankYouText::
 	prompt
 
 _SSTicketReceivedText::
-	text "<PLAYER> received:"
+	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -66,7 +66,7 @@ _SSTicketNoRoomText::
 	line "much stuff, bud!"
 	done
 
-_BillsHouseBillWhyDontYouGoInsteadOfMeText::
+_BillsHouseText_1e8cb::
 	text "That cruise ship,"
 	line "S.S.Anne, is in"
 	cont "Vermilion City."
@@ -140,7 +140,7 @@ _BillsHouseText_Umbreon::
 	cont "new #mon..."
 
 	para "According to"
-	cont "the rumors,
+	cont "the rumors,"
 	cont "it's hiding under"
 	cont "a truck!"
 

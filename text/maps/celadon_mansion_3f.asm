@@ -1,90 +1,90 @@
 _ProgrammerText::
-	text "Moi? Chuis un"
-	line "programmeur!"
+	text "Me? I'm the"
+	line "programmer!"
 	done
 
 _GraphicArtistText::
-	text "Je fais tous les"
-	line "graphismes!"
-	cont "Je t'ai dessiné!"
+	text "I'm the graphic"
+	line "artist!"
+	cont "I drew you!"
 	done
 
 _WriterText::
-	text "J'ai écrit"
-	line "l'histoire!"
-	cont "Erika est belle!"
+	text "I wrote the story!"
+	line "Isn't Erika cute?"
 
-	para "Ondine aussi,"
-	line "non?"
+	para "I like Misty a"
+	line "lot too!"
 
-	para "Et puis Morgane!"
-	line "Elle est mimi!"
+	para "Oh, and Sabrina,"
+	line "I like her!"
 	done
 
 _GameDesignerText::
-	text "Yagwahabwa!"
+	text "Is that right?"
 
-	para "Je suis le"
+	para "I'm the game"
 	line "designer!"
 
-	para "Si tu deviens"
-	line "Champion, je te"
-	cont "donnerai un"
-	cont "certificat et"
-	cont "un truc cool!"
-	done
+	para "If you become"
+	line "Champion, I'll"
+	cont "give you a"
+	cont "certificate and"
+	cont "something cool!"
 
 _ChampionText::
-	text "Woah! Génial!"
-	line "Tu as vaincu"
-	cont "la ligue, bravo!"
+	text "Wow! Great!"
+	line "You have beaten"
+	cont "The League,"
+	cont "Well done!"
 	
-	para "Il te reste"
-	line "cependant encore"
-	cont "des défis afin"
-	cont "de devenir"
-	cont "maître #mon!"
+	para "However,"
+	line "many challenges"
+	cont "still await you"
+	cont "in order to become"
+	cont "a #mon Master!"
 	done
 
 _MasterText::
-	text "Incroyable!"
-	line "Tu as réussi"
-	cont "tous les défis!"
+	text "Incredible!"
+	line "You have succes-"
+	cont "fully completed"
+	cont "every challenges!"
 	
-	para "Voici ton certi-"
-	line "ficat attestant"
-	cont "que tu es un"
-	cont "maître #mon!"
+	para "Here is your"
+	line "certificate"
+	cont "attesting that you"
+	cont "are a #mon Master!"
 
-	para "Félicitation!"
+	para "Congratulations!"
 	done
 
 _CeladonMansion3Text5::
-	text "Le programme"
-	line "du jeu! Si tu y"
-	cont "touches, tout va"
-	cont "planter!"
-	cont "Daft: trop tard!"
+	text "It's the game"
+	line "program! Messing"
+	cont "with it could bug"
+	cont "out the game!"
 	done
 
 _CeladonMansion3Text6::
-	text "Quelqu'un joue au"
-	line "lieu de bosser!"
+	text "Someone's playing"
+	line "a game instead of"
+	cont "working!"
 	done
 
 _CeladonMansion3Text7::
-	text "Le script du jeu!"
-	line "Surtout ne pas"
-	cont "lire la fin!"
+	text "It's the script!"
+	line "Better not look"
+	cont "at the ending!"
 	done
 
 _CeladonMansion3Text8::
-	text "GAME FREAK"
-	line "Développement"
+	text "Game Freak"
+	line "Development Room"
 	done
 
 _ReceivedSurfboard::
-	text "<PLAYER> reçoit"
+	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -93,13 +93,11 @@ _ReceivedSurfboard::
 _SurfboardText::
 	text_start
 
-	para "La Planche de"
-	line "Surf te permet"
-	cont "de Surfer sans"
-	cont "#mon!"
+	para "The Surfoard"
+	line "allows you to surf"
+	cont "without #mon!"
 	done
 
 _SurfboardNoRoomText::
-	text "Ton inventaire"
-	line "est plein."
+	text "Your bag is full."
 	done

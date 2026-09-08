@@ -1,63 +1,61 @@
 _CeladonHotelText1::
-	text "Des #mon quoi?"
-	line "C'est un hôtel"
-	cont "ici..."
+	text "#mon? No, this"
+	line "is a hotel for"
+	cont "people."
 
-	para "Et c'est complet."
+	para "We're full up."
 	done
 
 _CeladonHotelText2::
-	text "Je suis en"
-	line "vacances avec mon"
-	cont "frère et mon"
-	cont "petit ami."
+	text "I'm on vacation"
+	line "with my brother"
+	cont "and boy friend."
 
-	para "Céladopole est"
-	line "si belle!"
+	para "Celadon is such a"
+	line "pretty city!"
 	done
 
 _CeladonHotelText3::
-	text "Mais pourquoi y'a"
-	line "son frère?"
+	text "Why did she bring"
+	line "her brother?"
 	done
 
 ;joenote - adding text for the coin guy
 _CeladonHotelCoinGuyText_intro::
-	text "Je suis plein de"
-	line "Jetons mais voir"
-	cont "les #mon est"
-	cont "ma seule"
-	cont "convoitise."
+	text "I'm flushed with"
+	line "Coins, yet seeing"
+	cont "#mon is what I"
+	cont "covet."
 	
-	para "Montre moi un beau"
+	para "Show me a fine one"
 	line "@"
 	TX_RAM wcd6d
 	db $0
-	cont "et je te donnerai" 
-	cont "une récompense."
+	cont "and I will give a" 
+	cont "nice reward."
 	prompt
 
 _CeladonHotelCoinGuyText_needcase::
-	text "Oh, n'oublie pas"
-	line "ta Boîte Jeton."
+	text "Oh, remember to"
+	line "bring a coin Case."
 	done
 
 _CeladonHotelCoinGuyText_recieved::
-	text "Ah, je vois que tu"
-	line "en as une!"
+	text "Oh, I see that you"
+	line "have one!"
 	
-	para "Voilà "
+	para "I'll give you"
 	line "@"
 	TX_BCD hCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
-	text " Jetons!"
+	text " coins!"
 	done
 	
 _CeladonHotelCoinGuyText_PC::
-	text "Utilise le PC dans"
-	line "ce coin si tu en"
-	cont "as besoin."
+	text "Use the PC over in"
+	line "the corner if you"
+	cont "need it."
 	done
 
 _CeladonHotelText_Full::
-	text "COMPLET"
+	text "FULL"
 	done

@@ -1,51 +1,47 @@
 _CeladonHouseText1::
-	text "Yahahaha!"
+	text "Hehehe!"
 	line "Triple 7!!!"
-	cont "Par ici l'pognon!"
+	cont "Big cash for me!"
 	done
 
 _CeladonHouseText2::
-	text "CHEF!"
+	text "CHIEF!"
 
-	para "2000 #mon ont"
-	line "été envoyés comme"
-	cont "prix de casino!"
+	para "We just shipped"
+	line "2000 #mon as"
+	cont "slot prizes!"
 	done
 
 _CeladonHouseText3::
-	text "Ne touche pas au"
-	line "bouton sur le"
-	cont "poster du Casino!"
+	text "Don't touch the"
+	line "poster at the"
+	cont "Game Corner!"
 
-	para "Hein? Mais non"
-	line "j'l'ai pas dit!"
+	para "There's no secret"
+	line "switch behind it!"
 	done
 
 _CeladonHouseTextChiefIntro::	;joenote - adding text for selling pokemon
-	text "Héhé! Les"
-	line "machines à sous"
-	cont "sont de vrais"
-	cont "aspirateurs à"
-	cont "pognons."
+	text "Hehehe! The slots"
+	line "just reel in the"
+	cont "dough, big time!"
 	
-	para "Mais j'vais vite"
-	line "manquer d'lots"
-	cont "#mon sans"
-	cont "l'Boss."
+	para "But I'll run out"
+	line "of prize #mon"
+	cont "without the Boss."
 	
-	para "Hey gamin!"
-	line "Joli @"
+	para "Hey kid!"
+	line "Nice @"
 	TX_RAM wcd6d
 	db $0
-	cont "qu't'as là."
+	cont "ya got there."
 
-	para "J't'en donne"
+	para "I'll give you"
 	line "¥@"
 	TX_BCD hItemPrice, 3 | LEADING_ZEROES | LEFT_ALIGN
 	text "!"
 	done
 	
 _CeladonHouseTextChiefDone::
-	text "A plus, gamin."
+	text "Later kid."
 	done
-	

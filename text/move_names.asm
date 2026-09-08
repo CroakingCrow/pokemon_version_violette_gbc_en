@@ -174,4 +174,4 @@ MoveNames::
 	db "Shadow Ball@"   ; dafthunk #128
 	db "Dragon Rush@"   ; dafthunk #128
 	db "Flash Cannon@"  ; dafthunk #128
-	db "struggle@"
+	db "Struggle@"

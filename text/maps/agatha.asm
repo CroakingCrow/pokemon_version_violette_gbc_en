@@ -46,7 +46,7 @@ _RematchAgathaBeforeBattleText::
 
 	para "Our last battle"
 	line "made me want to"
-	cont "to see this old
+	cont "to see this old"
 	cont "duff Oak again."
 
 	para "We trained hard,"
