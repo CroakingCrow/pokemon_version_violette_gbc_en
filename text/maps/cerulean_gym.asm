@@ -1,174 +1,160 @@
 _CeruleanGymText_LeaderPreBattle::
-	text "Salut! T'es un"
-	line "nouveau!"
+	text "Hi, you're a new"
+	line "face!"
 
-	para "Si tu veux être"
-	line "un vrai dresseur,"
-	cont "il te faut une"
-	cont "stratégie pour"
-	cont "tes #mon!"
+	para "Trainers who want"
+	line "to turn pro have"
+	cont "to have a policy"
+	cont "about #mon!"
 
-	para "C'est quoi ta"
-	line "tactique pour"
-	cont "capturer les"
-	cont "#mon sauvages?"
+	para "What is your"
+	line "approach when you"
+	cont "catch #mon?"
 
-	para "Moi je leur fonce"
-	line "dans le tas avec"
-	cont "mes #mon"
-	cont "aquatiques!"
+	para "My policy is an"
+	line "all-out offensive"
+	cont "with water-type"
+	cont "#mon!"
 	done
 
 _CeruleanGymText_RematchPreBattle::
-	text "Tu as tellement"
-	line "évolué depuis"
-	cont "notre dernier"
-	cont "combat."
+	text "You have improved"
+	line "so much since our"
+	cont "last battle."
 
-	para "Tu es prêt pour"
-	line "une revanche à ma"
-	cont "pleine puissance?"
+	para "Are you ready for"
+	line "a rematch at my"
+	cont "full power?"
 
-	para "Je ne retiendrai"
-	line "pas mes coups"
-	cont "cette fois!"
+	para "This time I won't"
+	line "hold back!"
 
-	para "Prêt à être sub-"
-	line "mergé, Champion?"
+	para "Ready to be sub-"
+	line "merged, Champion?"
 
 	done
 
 _CeruleanGymText_RematchEndBattle::
-	text "Tu m'as"
-	line "encore battu!"
+	text "You won again!"
 
-	para "Ta puissance est"
-	line "inspirante!"
+	para "Your strength is"
+	line "inspiring!"
 
-	para "Je m'entraînerai"
-	line "encore plus pour"
-	cont "notre prochaine"
-	cont "rencontre."
+	para "I'll train even"
+	line "harder for next"
+	cont "time."
 
-	para "Si tu m'amènes"
-	line "ton Tortank, je"
-	cont "l'entrainerai à"
-	cont "devenir solide"
-	cont "comme l'Acier!"
+	para "If you bring me"
+	line "your Blastoise,"
+	cont "I'll teach it how"
+	cont "to become as hard" 
+	cont "as Steel!"
 	prompt
 
 _CeruleanGymText_LeaderAfterBattle::
-	text "La CT11 contient"
-	line "Bulles d'O!"
+	text "TM11 teaches"
+	line "Bubblebeam!"
 
-	para "Apprends-la à un"
-	line "#mon de l'eau!"
+	para "Use it on an"
+	line "aquatic #mon!"
 	done
 
 _CeruleanGymText_Badge::
-	text "Le BadgeCascade"
-	line "te permet"
-	cont "d'utiliser la CS"
-	cont "Coupe!"
+	text "The Cascade Badge"
+	line "lets you use"
+	cont "Cut any time!"
 
-	para "Tu peux Couper"
-	line "les arbustes"
-	cont "et ouvrir de"
-	cont "nouveaux chemins!"
+	para "You can Cut down"
+	line "small bushes to"
+	cont "open new paths!"
 
-	para "Tu gagnes aussi ma"
-	line "CT favorite!"
+	para "You can also have"
+	line "my favorite TM!"
 	done
 
 _CeruleanGymText_ReceivedTM::
-	text "<PLAYER> reçoit"
-	line "la CT11!@"
+	text "<PLAYER> received"
+	line "TM11!@"
 	text_end
 
 _CeruleanGymText_BagFull::
-	text "Ton inventaire"
-	line "est plein!"
+	text "You better make"
+	line "room for this!"
 	done
 
 _CeruleanGymText_LeaderEndBattle::
-	text "Whouha!"
-	line "T'es super fort!"
+	text "Wow!"
+	line "You're too much!"
 
-	para "Très bien!"
+	para "All right!"
 
-	para "Je te donne le"
-	line "BadgeCascade pour"
-	cont "m'avoir battue!@"
+	para "You can have the"
+	line "Cascade Badge to"
+	cont "show you beat me!@"
 	text_end
 
 _CeruleanGymText_Trainer0PreBattle::
-	text "Je suis très"
-	line "balèze!"
+	text "I'm more than good"
+	line "enough for you!"
 
-	para "Ondine attendra!"
+	para "Misty can wait!"
 	done
 
 _CeruleanGymText_Trainer0EndBattle::
-	text "Oh!"
-	line "J'me suis fait"
-	cont "écraser!"
+	text "You"
+	line "overwhelmed me!"
 	prompt
 
 _CeruleanGymText_Trainer0AfterBattle::
-	text "Tu dois te battre"
-	line "contre d'autres"
-	cont "dresseurs pour"
-	cont "connaître ton"
-	cont "niveau."
+	text "You have to face"
+	line "other trainers to"
+	cont "find out how good"
+	cont "you really are."
 	done
 
 _CeruleanGymText_Trainer1PreBattle::
-	text "Plaouff!"
+	text "Splash!"
 
-	para "J'suis preums!"
-	line "Baston!"
+	para "I'm first up!"
+	line "Let's do it!"
 	done
 
 _CeruleanGymText_Trainer1EndBattle::
-	text "Glargh!"
-	line "C'est dingue!"
+	text "That"
+	line "can't be!"
 	prompt
 
 _CeruleanGymText_Trainer1AfterBattle::
-	text "Ondine est super"
-	line "forte!"
+	text "Misty is going to"
+	line "keep improving!"
 
-	para "Elle ne va pas"
-	line "se faire avoir"
-	cont "par un rigolo"
-	cont "comme toi!"
+	para "She won't lose to"
+	line "someone like you!"
 	done
 
 _CeruleanGymText_GuideTip::
-	text "Salut à toi!"
-	line "Futur champion!"
+	text "Yo! Champ in"
+	line "making!"
 
-	para "Un conseil?"
+	para "Here's my advice!"
 
-	para "La Championne,"
-	line "Ondine, est une"
-	cont "spécialiste des"
-	cont "#mon de l'eau!"
+	para "The Leader, Misty,"
+	line "is a pro who uses"
+	cont "water #mon!"
 
-	para "Absorbe l'eau"
-	line "avec des #mon"
-	cont "des plantes!"
+	para "You can drain all"
+	line "their water with"
+	cont "plant #mon!"
 
-	para "Ou grille-les"
-	line "avec de"
-	cont "l'électricité!"
+	para "Or, zap them with"
+	line "electricity!"
 	done
 
 _CeruleanGymText_GuideVictory::
-	text "Tu as battu"
-	line "Ondine! Génial!"
+	text "You beat Misty!"
+	line "What'd I tell ya?"
 
-	para "Toi et moi, on"
-	line "forme une super"
-	cont "équipe!"
+	para "You and me kid,"
+	line "we make a pretty"
+	cont "darn good team!"
 	done

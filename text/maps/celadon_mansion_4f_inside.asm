@@ -4,15 +4,16 @@ _CeladonMansion5Text1::
 	cont "of #mon in"
 	cont "your Game Boy!"
 
-	para "A #mon that dodges"
-	line "a #ball is really"
-	cont "hard to catch but"
+	para "A #mon that"
+	line "dodges a #ball"
+	cont "is really hard to"
+	cont "catch but it's"
 	cont "not impossible!"
 
 	para "The sleep and"
 	line "freeze conditions"
-	cont "are your strongest"
-	cont "allies."
+	cont "are your"
+	cont "strongest allies."
 
 	para "some moves can"
 	cont "also increase"

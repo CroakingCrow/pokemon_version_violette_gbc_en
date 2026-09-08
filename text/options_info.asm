@@ -14,10 +14,11 @@ _DisplayBattleAnimationInfoText::
 
 _DisplayBattleStyleInfoText::
 	text "Shift: asks to"
- 	line "recall #mon when-"
-	cont "ever the opponent"
-	cont "sends out their"
-	cont "next #mon"
+ 	line "recall #mon"
+	cont "whenever the"
+	cont "opponent sends"
+	cont "out their next"
+	cont "#mon"
 	cont "Makes the game"
 	cont "easier."
 
@@ -70,15 +71,16 @@ _DisplayEnhancedGBCInfoText::
 	para "When disabled,"
 	line "the colors will"
 	cont "follow the"
-	cont "limitations of the"
-	cont "original game."
+	cont "limitations of"
+	cont "the original"
+	cont "game."
  	prompt
 	
 _DisplayLevelCapInfoText::
 	text "Activate level"
  	line "cap depending"
 	cont "on the number"
-	cont "of Badge"
+	cont "of Badges"
 
 	para "Disabling this"
 	line "setting makes the"
@@ -86,8 +88,8 @@ _DisplayLevelCapInfoText::
  	prompt
 	
 _DisplayHardModeInfoText::
-	text "Adds more rules"
- 	line "for difficulty"
+	text "Adds rules for"
+ 	line "difficulty"
 
 	para "-Trainers are"
 	line "stronger,"
@@ -107,24 +109,24 @@ _DisplayHardModeInfoText::
 	para "-AI is slighly"
 	line "smarter"
 
-	para "-Revives cannot be"
-	line "used in Battle"
+	para "-Revives cannot"
+	line "be used in Battle"
 
 	para "-X Items are 2x"
 	line "more effective"
 
-	para "-Set mode is forced"
+	para "-Set mode is"
+	line "forced"
  	prompt
 	
 _DisplayNuzlockeInfoText::
-	text "Nuzlocke Challenge:"
- 	line "a set of rules for"
-	cont "an even higher"
-    cont "difficulty:"
+	text "Nuzlocke:"
+ 	line "a very hard set"
+	cont "of rules"
 
-    para "-A fainted #mon is"
-    line "dead (Frozen, 1hp"
-    cont "permanently)"
+    para "-A fainted #mon"
+    line "is dead (Frozen,"
+    cont "1HP permanently)"
 
     para "-Only the first"
     line "wild #mon"
@@ -135,8 +137,8 @@ _DisplayNuzlockeInfoText::
     cont "displayed)"
 
     para "-Starts from"
-    line "the moment you get"
-    cont "#balls"
+    line "the moment you"
+    cont "get #balls"
 
     para "-Nicknames are"
 	line "mandatory for"

@@ -1,42 +1,36 @@
 _CeruleanTrashedText_1d6ab::
-	text "Ces Rocket, ils"
-	line "sont si méchants!"
+	text "Those miserable"
+	line "Rockets!"
 
-	para "Regarde ce qu'ils"
-	line "ont fait ici!"
+	para "Look what they"
+	line "did here!"
 
-	para "Ils m'ont volé"
-	line "une CT pour"
-	cont "apprendre à leurs"
-	cont "#mons à"
-	cont "creuser des"
-	cont "Tunnels!"
+	para "They stole a TM"
+	line "for teaching"
+	cont "#mon how to"
+	cont "Dig holes!"
 
-	para "Ça m'a coûté les"
-	line "yeux de la tête!"
+	para "That cost me a"
+	line "bundle, it did!"
 	done
 
 _CeruleanTrashedText_1d6b0::
-	text "Contre mauvaise"
-	line "fortune bon"
-	cont "coeur!"
+	text "I figure what's"
+	line "lost is lost!"
 
-	para "Je vais apprendre"
-	line "à mon Taupiqueur"
-	cont "à creuser des"
-	cont "Tunnels sans CT!"
+	para "I decided to teach"
+	line "Diglett how to"
+	cont "Dig without a TM!"
 	done
 
 _CeruleanHouseTrashedText2::
-	text "La Team Rocket"
-	line "doit maintenant"
-	cont "creuser des"
-	cont "Tunnels dans tout"
-	cont "ce qui bouge!"
+	text "Team Rocket must"
+	line "be trying to Dig"
+	cont "their way into no"
+	cont "good!"
 	done
 
 _CeruleanHouseTrashedText3::
-	text "La Team Rocket a"
-	line "creusé une"
-	cont "nouvelle sortie!"
+	text "Team Rocket left"
+	line "a way out!"
 	done
