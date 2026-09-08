@@ -116,7 +116,8 @@ _BillsGardenText::
 	line "Is it really the"
 	cont "mythical Mew?"
 	cont "Wow! it's a new"
-	cont "species of #mon!!"
+	cont "species of"
+	cont "#mon!!!"
 	
 	para "To thank you for"
 	line "showing it to me"

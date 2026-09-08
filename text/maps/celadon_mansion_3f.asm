@@ -53,8 +53,9 @@ _MasterText::
 	
 	para "Here is your"
 	line "certificate"
-	cont "attesting that you"
-	cont "are a #mon Master!"
+	cont "attesting that"
+	cont "you are a"
+	cont "#mon Master!"
 
 	para "Congratulations!"
 	done

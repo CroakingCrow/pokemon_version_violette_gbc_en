@@ -25,7 +25,6 @@ _GotMapTextHint::
 	line "pressing SELECT"
 	cont "in the #dex."
 
-
 _DaisyUseMapText::
 	text "Use the Town Map"
 	line "to find out where"
