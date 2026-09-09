@@ -1,10 +1,9 @@
 _DiglettsCaveRoute2Text1::
-	text "Y'a l'air d'avoir"
-	line "quelque chose au"
-	cont "fond de la cave."
+	text "There seems to be"
+	line "something deep in"
+	cont "the cave."
 
-	para "Si seulement"
-	line "j'avais un"
-	cont "#mon avec de"
-	cont "la Force..."
+	para "If only I had"
+	line "a #mon with"
+	cont "some Strength..."
 	done
