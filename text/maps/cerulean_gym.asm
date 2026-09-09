@@ -35,7 +35,8 @@ _CeruleanGymText_RematchPreBattle::
 	done
 
 _CeruleanGymText_RematchEndBattle::
-	text "You won again!"
+	text "You have won" 
+	line "again!"
 
 	para "Your strength is"
 	line "inspiring!"

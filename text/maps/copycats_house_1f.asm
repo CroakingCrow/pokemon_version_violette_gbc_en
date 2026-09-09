@@ -1,22 +1,20 @@
 _CopycatsHouse1FText1::
-	text "Ma fille est très"
-	line "égocentrique!"
-	cont "Elle n'a pas"
-	cont "beaucoup d'amis."
+	text "My daughter is so"
+	line "self-centered."
+	cont "She only has a"
+	cont "few friends."
 	done
 
 _CopycatsHouse1FText2::
-	text "Ma fille adore"
-	line "imiter les gens."
+	text "My daughter likes"
+	line "to mimic people."
 
-	para "Elle imite si"
-	line "bien qu'on"
-	cont "l'appelle..."
-	cont "Copieuse!"
-	cont "C'est dément!"
+	para "Her mimicry has"
+	line "earned her the"
+	cont "nickname Copycat"
+	cont "around here!"
 	done
 
 _CopycatsHouse1FText3::
-	text "Leveinard:"
-	line "Vénar! Vénar!"
-	prompt
+	text "Chansey: Chaan!"
+	line "Sii!"

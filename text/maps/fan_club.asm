@@ -1,94 +1,89 @@
 PikachuFanText::
-	text "Mon Pikachu est"
-	line "le plus beau de"
-	cont "tous les Pikachu!"
+	text "Won't you admire"
+	line "my Pikachu's"
+	cont "adorable tail?"
 	done
 
 PikachuFanBetterText::
-	text "Hmm! Mon Pikachu"
-	line "est deux fois"
-	cont "plus mignon que"
-	cont "celui-ci!"
+	text "Humph! My Pikachu"
+	line "is twice as cute"
+	cont "as that one!"
 	done
 
 SeelFanText::
-	text "Moi, c'que j'aime"
-	line "c'est Otaria!"
+	text "I just love my"
+	line "Seel!"
 
-	para "Y fait squitch"
-	line "quand je lui fais"
-	cont "un câlin!"
+	para "It squeals when I"
+	line "hug it!"
 	done
 
 SeelFanBetterText::
-	text "Oh!"
+	text "Oh dear!"
 
-	para "Mon Otaria est"
-	line "beaucoup plus"
-	cont "élégant!"
+	para "My Seel is far"
+	line "more attractive!"
 	done
 
 FanClubPikachuText::
 	text "Pikachu: Chu!"
 	line "Pikachu!"
-	prompt
+	done
 
 FanClubSeelText::
-	text "Otaria: Riaaa!"
-	prompt
+	text "Seel: Kyuoo!"
+	done
 
 FanClubMeetChairText::
-	text "Je suis le maître"
-	line "du Fan Club des"
+	text "I chair the"
+	line "#mon Fan Club!"
+
+	para "I have collected"
+	line "over 100 #mon!"
+
+	para "I'm very fussy"
+	line "when it comes to"
 	cont "#mon!"
 
-	para "J'ai plus de 100"
-	line "#mon!"
+	para "So..."
 
-	para "Je suis trop méga"
-	line "tatillon quand on"
-	cont "parle de #mon!"
-
-	para "Alors..."
-
-	para "Tu veux encore"
-	line "savoir des trucs"
-	cont "sur mes #mon?"
+	para "Did you come"
+	line "visit to hear"
+	cont "about my #mon?"
 	done
 
 FanClubChairStoryText::
-	text "Bien!"
-	line "Alors, écoute!"
+	text "Good!"
+	line "Then listen up!"
 
-	para "Mon préféré..."
-	line "Galopa..."
+	para "My favorite"
+	line "Rapidash..."
 
-	para "Il est mignon..."
-	line "beau...rapide..."
-	cont "élégant...en feu."
-	cont "Il fait pataclop,"
-	cont "pataclop...quand"
-	cont "il court...c'est"
-	cont "super non?"
-	cont "Je l'aime...!"
+	para "It...cute..."
+	line "lovely...smart..."
+	cont "plus...amazing..."
+	cont "you think so?..."
+	cont "oh yes...it..."
+	cont "stunning..."
+	cont "kindly..."
+	cont "love it!"
 
-	para "Je lui fais...des"
-	line "câlins...des..."
-	cont "poutoux...des..."
-	cont "gnangnans...des"
-	cont "zigouzigoux..."
-	cont "...Oups! Regarde"
-	cont "l'heure! Je crois"
-	cont "qu'il est temps"
-	cont "d'y aller!"
+	para "Hug it...when..."
+	cont "sleeping...warm"
+	cont "and cuddly..."
+	cont "spectacular..."
+	cont "ravishing..."
+	cont "...Oops! Look at"
+	cont "the time! I kept"
+	cont "you too long!"
 
-	para "Merci d'avoir"
-	line "écouté! Tiens,"
-	cont "prends ça!"
+	para "Thanks for hearing"
+	line "me out! I want"
+	cont "you to have this!"
 	prompt
 
 ReceivedBikeVoucherText::
-	text "<PLAYER> reçoit:"
+	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -96,59 +91,54 @@ ReceivedBikeVoucherText::
 
 ExplainBikeVoucherText::
 	text_start
-	para "Echange ça contre"
-	line "une Bicyclette!"
+	para "Exchange that for"
+	line "a Bicycle!"
 
-	para "Moi, c'est mon"
-	line "Rapasdepic qui me"
-	cont "transporte"
-	cont "n'importe où!"
+	para "Don't worry, my"
+	line "Fearow will Fly"
+	cont "me anywhere!"
 
-	para "Je n'ai plus"
-	line "besoin de"
-	cont "Bicyclette!"
+	para "So, I don't need a"
+	line "Bicycle!"
 
-	para "J'espère que tu"
-	line "aimes pédaler!"
+	para "I hope you like"
+	line "cycling!"
 	done
 
 FanClubNoStoryText::
-	text "Reviens quand tu"
-	line "veux. Je te"
-	cont "raconterai mes"
-	cont "histoires!"
+	text "Oh. Come back"
+	line "when you want to"
+	cont "hear my story!"
 	done
 
 FanClubChairFinalText::
-	text "Salut, <PLAYER>!"
+	text "Hello, <PLAYER>!"
 
-	para "tu es venu pour"
-	line "écouter mes"
-	cont "histoires de"
-	cont "#mon?"
+	para "Did you come see"
+	line "me about my"
+	cont "#mon again?"
 
-	para "Non? Dommage!"
+	para "No? Too bad!"
 	done
 
 FanClubBagFullText::
-	text "Votre inventaire"
-	line "est plein!"
+	text "Make room for"
+	line "this!"
 	done
 
 _FanClubText6::
-	text "Notre maître est"
-	line "très bavard en ce"
-	cont "qui concerne les"
+	text "Our Chairman is"
+	line "very vocal about"
 	cont "#mon."
 	done
 
 _FanClubText7::
-	text "Ecoutons donc"
-	line "l'avis des"
-	cont "autres dresseurs!"
+	text "Let's all listen"
+	line "politely to other"
+	cont "trainers!"
 	done
 
 _FanClubText8::
-	text "Si on te nargue,"
-	line "nargue en retour!"
+	text "If someone brags,"
+	line "brag right back!"
 	done

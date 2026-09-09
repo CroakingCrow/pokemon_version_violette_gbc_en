@@ -212,7 +212,7 @@ _CeruleanCityText_Merchant::
 	para "I will have to"
 	line "take a long"
 	cont "detour through"
-	cont "the Rock Tunnel,"
+	cont "Rock Tunnel,"
 	cont "What a bummer!"
 	done
 
