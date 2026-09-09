@@ -1,207 +1,191 @@
 _RivalChampionIntroText::
-	text "<RIVAL>:"
-	line "Bonjour minable."
+	text "<RIVAL>: Hey!"
 
-	para "Je t'attends"
-	line "depuis une bonne"
-	cont "plombe, <PLAYER>!"
+	para "I was looking"
+	line "forward to seeing"
+	cont "you, <PLAYER>!"
 
-	para "Ton devoir en"
-	line "tant que rival"
-	cont "est d'entraîner"
-	cont "mes #mon."
+	para "My rival should"
+	line "be strong to keep"
+	cont "me sharp!"
 
-	para "En améliorant mon"
-	line "#dex, j'ai"
-	cont "recherché les"
-	cont "#mon sur-"
-	cont "puissants!"
+	para "While working on"
+	line "#dex, I looked"
+	cont "all over for"
+	cont "powerful #mon!"
 
-	para "J'ai ainsi créé"
-	line "l'équipe ultime,"
-	cont "efficace contre"
-	cont "tous les types de"
-	cont "#mon!"
+	para "Not only that, I"
+	line "assembled teams"
+	cont "that would beat"
+	cont "any #mon type!"
 
-	para "Ça t'épate, hein?"
+	para "And now!"
 
-	para "Je suis le"
-	line "champion #mon!"
+	para "I'm the #mon"
+	line "League Champion!"
 
-	para "Tu sais c'que ça"
-	line "veut dire?"
+	para "<PLAYER>! Do you"
+	line "know what that"
+	cont "means?"
 
-	para "Ecoute ça,"
-	line "minable!"
+	para "I'll tell you!"
 
-	para "Je suis le"
-	line "dresseur le plus"
-	cont "puissant du"
-	cont "monde! Yaaa!"
+	para "I am the most"
+	line "powerful trainer"
+	cont "in the world!"
 	done
 
+
 _RivalDefeatedText::
-	text "NOoOoON!"
-	line "IMPOSSIBLE!!!"
-	cont "Mon équipe de"
-	cont "rêve est fichue!"
+	text "NO!"
+	line "That can't be!"
+	cont "You beat my best!"
 
-	para "Après en avoir"
-	line "tant bavé je me"
-	cont "fais battre?"
-	cont "Et par toi?"
+	para "After all that"
+	line "work to become"
+	cont "League champ?"
 
-	para "Ma gloire... "
-	line "Où qu'elle est?"
-	cont "C'est pas juste!"
+	para "My reign is over"
+	line "already?"
+	cont "It's not fair!"
 	prompt
 
 _RivalVictoryText::
 	text "Hahaha!"
-	line "J'ai gagné!"
-	cont "Nya na nana na!"
+	line "I won, I won!"
 
-	para "J'suis trop fort!"
-	line "T'es trop nul!"
+	para "I'm too good for"
+	line "you, <PLAYER>!"
 
-	para "Comment t'as fait"
-	line "pour arriver"
-	cont "jusqu'ici?"
+	para "You did well to"
+	line "even reach me,"
+	cont "<RIVAL>, the"
+	cont "#mon genius!"
 
-	para "Minable!"
-	line "T'entends?"
-	cont "Minable!"
+	para "Nice try, loser!"
+	line "Hahaha!"
 	prompt
 
 _RivalText_AfterBattle::
-	text "Qu...Comm...Hein?"
-	line "Moi? Pourquoi?"
-	cont "WHAAAAAAAAAAA!"
+	text "Why?"
+	line "Why did I lose?"
 
-	para "J'ai entraîné mes"
-	line "#mon à la"
-	cont "perfection..."
+	para "I never made any"
+	line "mistakes raising"
+	cont "my #mon..."
 
-	para "Et zut alors!"
-	line "Tu es le nouveau"
-	cont "champion #mon!"
+	para "Darn it! You're"
+	line "the new #mon"
+	cont "League Champion!"
 
-	para "Alors ça..."
-	line "Ça me la coupe."
+	para "Although I don't"
+	line "like to admit it."
 	done
 
 _OakCallOutroText::
-	text "Chen: <PLAYER>!"
+	text "Oak: <PLAYER>!"
 	done
 
 _OakCongratOutroText::
-	text "Chen: Tu as gagné!"
-	line "Félicitations!"
-	cont "Tu es le nouveau"
-	cont "champion de la"
-	cont "Ligue #mon!"
+	text "Oak: So, you won!"
+	line "Congratulations!"
+	cont "You're the new"
+	cont "#mon League"
+	cont "Champion!"
 
-	para "Tu as tant changé"
-	line "depuis ton départ"
-	cont "avec @"
-	text_ram wcd6d
+	para "You've grown up so"
+	line "much since you"
+	cont "first left with"
+	cont "@"
+	TX_RAM wcd6d
 	text "!"
 
-	para "<PLAYER>, tu es"
-	line "grand maintenant!"
+	para "<PLAYER>, you have"
+	line "come of age!"
 	done
 
 _RematchOakCongratOutroText::
-	text "Chen: Eh bien!"
-	line "Cette situation"
-	cont "m'est familière!"
+	text "Oak: Well, well!"
+	line "This looks"
+	cont "familiar!"
 	done
 
 _OakRivalOutroText::
-	text "Chen: <RIVAL>!"
-	line "Je suis... déçu!"
+	text "Oak: <RIVAL>! I'm"
+	line "disappointed!"
 
-	para "Apprenant que tu"
-	line "avais vaincu le"
-	cont "Conseil des 4, je"
-	cont "suis venu en"
-	cont "vitesse!"
+	para "I came when I"
+	line "heard you beat"
+	cont "the Elite Four!"
 
-	para "Mais le temps"
-	line "d'arriver jusqu'"
-	cont "ici, tu avais"
-	cont "déjà perdu..."
-	cont "C'est dingue!"
+	para "But, when I got"
+	line "here, you had"
+	cont "already lost!"
 
-	para "<RIVAL>! As-tu"
-	line "compris pourquoi"
-	cont "ton équipe s'est"
-	cont "fait moucher?"
+	para "<RIVAL>! Do you"
+	line "understand why"
+	cont "you lost?"
 
-	para "Tu as oublié de"
-	line "traiter tes"
-	cont "#mon avec"
-	cont "amour!"
+	para "You have forgotten"
+	line "to treat your"
+	cont "#mon with"
+	cont "trust and love!"
 
-	para "Et oui mon p'tit"
-	line "bonhomme."
-	cont "C'est comme ça et"
-	cont "pis c'est tout!"
+	para "Without them, you"
+	line "will never become"
+	cont "a champ again!"
 	done
 
 _OakFollowOutroText::
-	text "Chen: <PLAYER>!"
+	text "Oak: <PLAYER>!"
 
-	para "Cette victoire..."
-	line "Tu ne la dois pas"
-	cont "entièrement à tes"
-	cont "qualités!"
+	para "You understand"
+	line "that your victory"
+	cont "was not just your"
+	cont "own doing!"
 
-	para "Tu as tant baigné"
-	line "d'amour tes chers"
-	cont "petits #mon!"
+	para "The bond you share"
+	line "with your #mon"
+	cont "is marvelous!"
 
-	para "Et ça... "
-	line "C'est bien. "
-	cont "<PLAYER>!"
-	cont "Suis-moi!"
+	para "<PLAYER>!"
+	line "Come with me!"
 	done
 
+
 _RematchOakRivalOutroText::
-	text "Chen: <RIVAL>,"
-	line "tu n'as pas"
-	cont "retenu la leçon à"
-	cont "ce que je vois..."
+	text "Oak: <RIVAL>,"
+	line "I see that you"
+	cont "didn't learn"
+	cont "your lesson..."
 	done
 
 _RematchRivalChampionIntroText::
 	text "<RIVAL>:"
-	line "Salut minable."
+	line "Hey."
 
-	para "Cette fois-ci"
-	line "c'est la bonne"
-	cont "<PLAYER>!"
+	para "This time I won't"
+	line "lose <PLAYER>!"
 
-	para "Après ma dernière"
-	line "défaite je suis"
-	cont "aller m'entraîner"
-	cont "encore plus loin"
-	cont "et plus fort!"
+	para "After our last"
+	line "battle I've taken"
+	cont "my training even"
+	cont "further!"
 
-	para "Et tout ça, rien"
-	line "que pour te"
-	cont "casser ta p'tite"
-	cont "tête de minable!"
+	para "And all that only"
+	line "to crush you,"
+	cont "loser!"
 
-	para "J'ai ainsi créé"
-	line "l'équipe ultime,"
-	cont "efficace contre"
-	cont "tous les types de"
-	cont "#mon!"
 
-	para "Prêt à perdre?"
-	line "que l'ultime"
-	cont "combat commence!"
+	para "I have assembled"
+	line "the ultimate"
+	cont "team, effective"
+	cont "against any type"
+	cont "of #mon!"
+
+	para "Ready to lose?"
+	line "May the ultimate"
+	cont "battle begin!"
 	done
 
 _RematchRivalDefeatedText::
@@ -213,20 +197,18 @@ _RematchRivalDefeatedText::
 	prompt
 
 _RematchRivalText_AfterCombatText::
-	text "Okay, tu sais"
-	line "quoi?"
+	text "Okay, you know"
+	line "what?"
 	
-	para "De toute façon"
-	line "maître #mon"
-	cont "ça veux dire quoi"
-	cont "hein?"
+	para "What does #mon"
+	line "Master even mean"
+	cont "huh?"
 
-	para "J'ai entendu dire"
-	line "que Jadielle"
-	cont "cherchait un"
-	cont "nouveau maître"
-	cont "d'arêne."
+	para "I heard that"
+	line "Viridian City"
+	cont "is looking for"
+	cont "a new Gym Leader."
 
-	para "Ça ça en jette,"
-	line "minable!"
+	para "That's the real"
+	line "deal, loser!"
 	done
