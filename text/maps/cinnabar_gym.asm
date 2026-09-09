@@ -1,57 +1,49 @@
 _BlaineBattleText::
-	text "Salutations."
+	text "Hah!"
 
-	para "Mon nom est..."
-	line "Auguste! Je suis"
-	cont "le Champion de"
-	cont "l'Arène de"
-	cont "Cramois'Ile!"
+	para "I am Blaine! I"
+	line "am the Leader of"
+	cont "Cinnabar Gym!"
 
-	para "Mes #mon"
-	line "flamboyants vont"
-	cont "te réduire en"
-	cont "cendres!"
+	para "My fiery #mon"
+	line "will incinerate"
+	cont "all challengers!"
 
-	para "Haha! J'espère"
-	line "que tu as de"
-	cont "l'Anti-Brûle!"
-	cont "Y va bientôt"
-	cont "faire très chaud!"
+	para "Hah! You better"
+	line "have Burn Heal!"
 	done
 
 _BlaineEndBattleText::
-	text "Vlouff!"
-	line "Je me suis fait"
-	cont "vaporiser!"
+	text "I have"
+	line "burnt out!"
 
-	para "Tu as gagné le"
-	line "Badge Volcan!@"
+	para "You have earned"
+	line "the VolcanoBadge!@"
 	text_end
 
 _BlaineFireBlastText::
-	text "Déflagration est"
-	line "la technique de"
-	cont "feu ultime!"
+	text "Fire Blast is the"
+	line "ultimate fire"
+	cont "technique!"
 
-	para "Ne la donne pas"
-	line "à un #mon de"
-	cont "l'eau, ça ferait"
-	cont "pas bon ménage!"
+	para "Don't waste it on"
+	line "water #mon!"
 	done
 
 _BlaineBadgeText::
-	text "Haha!"
+	text "Hah!"
 
-	para "Le Badge Volcan"
-	line "augmente la"
-	cont "Défense de tes"	;joenote - changed SPEED to DEFENSE in order to fix a typo
+	para "The VolcanoBadge"
+	line "heightens the"
+	cont "Defense of your"
 	cont "#mon!"
 
-	para "Prends ça aussi!"
+	para "Here, you can"
+	line "have this too!"
 	done
 
 _ReceivedTM38Text::
-	text "<PLAYER> obtient:"
+	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -59,228 +51,198 @@ _ReceivedTM38Text::
 
 _TM38ExplanationText::
 	text_start
+	para "TM38 contains"
+	line "Fire Blast!"
 
-	para "CT38 :"
-	line "Déflagration!"
+	para "Teach it to fire-"
+	line "type #mon!"
 
-	para "Elle convient à"
-	line "un #mon du"
-	cont "feu!"
-
-	para "Reptincel ou"
-	line "Ponyta feront"
-	cont "l'affaire!"
+	para "Charmeleon or"
+	line "Ponyta would be"
+	cont "good bets!"
 	done
 
 _TM38NoRoomText::
-	text "Ton inventaire"
-	line "est plein!"
+	text "Make room for my"
+	line "gift!"
 	done
 
 _CinnabarGymText_RematchPreBattle::
-	text "Ah! Le Champion!"
+	text "Ah! The Champion!"
     
-    para "J'ai attisé les"
-    line "flammes comme ja-"
-    cont "mais auparavant!"
+    para "I fanned the"
+    line "flames like never"
+    cont "before!"
     
-    para "Voyons si tu peux"
-    line "encaisser mon in-"
-    cont "ferno maitenant!"
+    para "Let's see if you"
+    line "can handle my"
+    cont "inferno now!"
 
-	para "Laisse-moi te"
-    line "montrer la vraie"
-	cont "signification de"
-	cont "la terre brulée!"
+	para "Let me show you"
+    line "the true meaning"
+	cont "of scorched"
+	cont "earth!"
 	done
 
 _CinnabarGymText_RematchEndBattle::
 	text "Wow!"
     
-    para "Ta détermination"
-    line "est plus ardente"
-    cont "que mes flammes!"
-    
-    para "Tu mérites vrai-"
-	line "ment le titre"
-    cont "de Champion."
+    para "Your determin-"
+    line "ation is burning"
+    cont "hotter than"
+	cont "my flames!"
 
-	para "Amène-moi ton"
-	line "Dracaufeu que je"
-	cont "vois si je peux"
-	cont "rendre son nom"
-	cont "plus pertinent!"
+    para "You really"
+	line "deserve the title"
+    cont "of Champion."
+
+	para "Bring me your"
+	line "Charizard that I"
+	cont "may see if I can"
+	cont "make it more"
+	cont "fitting of its"
+	cont "appearance!"
 	prompt
 
 _CinnabarGymText_7595f::
-	text "Un #mon du"
-	line "feu, c'est chaud!"
+	text "Do you know how"
+	line "hot #mon fire"
+	cont "breath can get?"
 	done
 
 _CinnabarGymText_75964::
-	text "Yaha!"
-	line "Fait chaud, non?"
+	text "Yow!"
+	line "Hot, hot, hot!"
 	prompt
 
 _CinnabarGymText_75969::
-	text "Le feu, ça brûle,"
-	line "les flammes, faut"
-	cont "pas mettre la"
-	cont "main d'dans..."
+	text "Fire, or to be"
+	line "more precise,"
+	cont "combustion..."
 
-	para "Brûle, brûle..."
-	line "J'aime le feu..."
+	para "Blah, blah, blah,"
+	line "blah..."
 	done
 
 _CinnabarGymText_75994::
-	text "Avant, j'étais un"
-	line "voleur, j'avais"
-	cont "honte..."
-	cont "Aujourd'hui je"
-	cont "suis un dresseur"
-	cont "et je suis fier!"
+	text "I was a thief, but"
+	line "I became straight"
+	cont "as a trainer!"
 	done
 
 _CinnabarGymText_75999::
-	text "Ah!"
-	line "J'ai honte, je me"
-	cont "rends!"
+	text "I"
+	line "surrender!"
 	prompt
 
 _CinnabarGymText_7599e::
-	text "Je vole, j'y peux"
-	line "rien. Je vole des"
-	cont "#mon, et"
-	cont "j'me marre bien!"
+	text "I can't help"
+	line "stealing other"
+	cont "people's #mon!"
 	done
 
 _CinnabarGymText_759c9::
-	text "Les #mon, je"
-	line "maîtrise, alors"
-	cont "toi, tu peux pas"
-	cont "gagner!"
+	text "You can't win!"
+	line "I have studied"
+	cont "#mon totally!"
 	done
 
 _CinnabarGymText_759ce::
-	text "Ben..."
-	line "Mais...ben...!"
+	text "Waah!"
+	line "My studies!"
 	prompt
 
 _CinnabarGymText_759d3::
-	text "J'suis un"
-	line "cérébral, tu peux"
-	cont "pas comprendre!"
+	text "My theories are"
+	line "too complicated"
+	cont "for you!"
 	done
 
 _CinnabarGymText_759fe::
-	text "Les #mon du"
-	line "feu, j'adore!"
+	text "I just like using"
+	line "fire #mon!"
 	done
 
 _CinnabarGymText_75a03::
-	text "Flouf!"
-	line "C'est l'feu!"
+	text "Too hot"
+	line "to handle!"
 	prompt
 
 _CinnabarGymText_75a08::
-	text "Si y'avait des"
-	line "#mon voleurs,"
-	cont "j'en aurais des"
-	cont "tas! Moi, c'que"
-	cont "j'aime, c'est les"
-	cont "cambriolages!"
+	text "I wish there was"
+	line "a thief #mon!"
+	cont "I'd use that!"
 	done
 
 _CinnabarGymText_75a33::
-	text "Héhé! Je sais"
-	line "pourquoi Auguste"
-	cont "est devenu un"
-	cont "dresseur!"
+	text "I know why Blaine"
+	line "became a trainer!"
 	done
 
 _CinnabarGymText_75a38::
-	text "Ouch!"
+	text "Ow!"
 	prompt
 
 _CinnabarGymText_75a3d::
-	text "Tout petit,"
-	line "Auguste aimait se"
-	cont "promener dans les"
-	cont "montagnes."
-	cont "Un jour, il s'est"
-	cont "perdu et il eut"
-	cont "très froid! Mais"
-	cont "un #mon de feu"
-	cont "apparut..."
+	text "Blaine was lost"
+	line "in the mountains"
+	cont "when a fiery bird"
+	cont "#mon appeared."
 
-	para "La lumière de ses"
-	line "ailes enflammées"
-	cont "permit à Auguste"
-	cont "de retrouver son"
-	cont "chemin! Depuis"
-	cont "il adore les"
-	cont "#mon de feu!"
+	para "Its light enabled"
+	line "Blaine to find"
+	cont "his way down!"
 	done
 
 _CinnabarGymText_75a68::
-	text "J'ai bourlingué"
-	line "dans pas mal"
-	cont "d'Arènes, p'tit"
-	cont "gars! Mais ma"
-	cont "préférée c'est"
-	cont "celle-ci!"
+	text "I've been to many"
+	line "Gyms, but this is"
+	cont "my favorite!"
 	done
 
 _CinnabarGymText_75a6d::
-	text "Yacha!"
-	line "Fait très chaud!"
+	text "Yowza!"
+	line "Too hot!"
 	prompt
 
 _CinnabarGymText_75a72::
-	text "Ponyta..."
-	line "Feunard..."
-	cont "C'est chaud!"
+	text "Us fire #mon"
+	line "fans like Ponyta"
+	cont "and Ninetales!"
 	done
 
 _CinnabarGymText_75a9d::
-	text "Tu sais quoi?"
-	line "L'eau c'est fort"
-	cont "contre le feu!"
+	text "Fire is weak"
+	line "against H2O!"
 	done
 
 _CinnabarGymText_75aa2::
 	text "Oh!"
-	line "Tu l'savais!"
+	line "Snuffed out!"
 	prompt
 
 _CinnabarGymText_75aa7::
-	text "L'eau éteint le"
-	line "feu! Mais le feu"
-	cont "fond la glace! Et"
-	cont "la glace..."
-	cont "J'sais plus!"
+	text "Water beats fire!"
+	line "But, fire melts"
+	cont "ice #mon!"
 	done
 
 _CinnabarGymText_GuideTip::
-	text "Salut! Graine de"
-	line "champion!"
+	text "Yo! Champ in"
+	line "making!"
 
-	para "Auguste, le"
-	line "flamboyant, est"
-	cont "un pro des"
-	cont "#mon de feu!"
+	para "The hot-headed"
+	line "Blaine is a fire"
+	cont "#mon pro!"
 
-	para "C'est le moment"
-	line "de jeter de"
-	cont "l'eau sur le feu!"
+	para "Douse his spirits"
+	line "with water!"
 
-	para "Prends donc des"
-	line "Anti-Brûle avec"
-	cont "toi! Ça peut"
-	cont "toujours servir!"
+	para "You better take"
+	line "some Burn Heals!"
 	done
 
 _CinnabarGymText_GuideVictory::
-	text "<PLAYER>! Tu as"
-	line "battu Auguste!"
+	text "<PLAYER>! You beat"
+	line "that fire brand!"
 	done

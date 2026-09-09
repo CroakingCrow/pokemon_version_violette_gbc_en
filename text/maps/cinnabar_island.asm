@@ -1,51 +1,47 @@
 _CinnabarIslandText8::
-	text "La porte est"
-	line "fermée..."
+	text "The door is"
+	line "locked..."
 	done
 
 _CinnabarIslandText1::
-	text "Auguste,"
-	line "de l'Arène de"
-	cont "Cramois'Ile, vit"
-	cont "ici depuis des"
-	cont "lustres. Il est"
-	cont "aussi très"
-	cont "étrange..."
+	text "Cinnabar Gym's"
+	line "Blaine is an odd"
+	cont "man who has lived"
+	cont "here for decades."
 	done
 
 _CinnabarIslandText2::
-	text "Des scientifiques"
-	line "font de drôles"
-	cont "d'expériences"
-	cont "dans l'coin."
+	text "Scientists conduct"
+	line "experiments in"
+	cont "the burned out"
+	cont "building."
 
 ;joenote - added text to hint at evolving graveler
-	para "Apparement ils"
-	line "auraient réussi à"
-	cont "faire évoluer un"
-	cont "Gravalanch avec"
-	cont "le Feu du volcan."
+	para "Apparently they"
+	line "made a Graveler"
+	cont "evolve by using"
+	cont "volcanic Fire."
 	done
 
 _CinnabarIslandText3::
-	text "Cramois'Ile"
-	line "Vive comme les"
-	cont "flammes"
+	text "Cinnabar Island"
+	line "The Fiery Town of"
+	cont "Burning Desire"
 	done
 
 _CinnabarIslandText6::
-	text "Labo #mon"
+	text "#mon Lab"
 	done
 
 _CinnabarIslandText7::
-	text "Cramois'Ile"
-	line "Arène #mon"
-	cont "Champion: Auguste"
+	text "Cinnabar Island"
+	line "#mon Gym"
+	cont "Leader: Blaine"
 
-	para "Le cerveau!"
-	line "Chaud! Chaud!"
+	para "The Hot-Headed"
+	line "Quiz Master!"
 	done
 
 _CinnabarIslandText_Manor::
-	text "Manoir #mon"
+	text "#mon Mansion"
 	done

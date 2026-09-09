@@ -1,92 +1,90 @@
 ;_Lab2TextFossile::
-;	text "J'ai trouvé cet"
-;	line "étrange fossile"
-;	cont "sur le Mont"
-;	cont "Sélénite!"
+;	text "I found this very"
+	line "strange fossil in"
+	cont "Mt.Moon!"
 
-;	para "On dirait un"
-;	line "#mon"
-;	cont "préhistorique!"
-;	done
+	para "I think it's a"
+	line "rare, prehistoric"
+	cont "#mon!"
+	done
+
 
 _Lab2TextFossile2::
-	text "Bon j'ai pas mal"
-	line "de choses à finir"
-	cont "avant de partir."
+	text "I have many"
+	line "things left to do"
+	cont "before leaving."
 	done
 
 _Lab2TextFossileChampion::
-	text "J'ai trouvé cet"
-	line "étrange fossile"
-	cont "sur le Mont"
-	cont "Sélénite!"
+	text "I found this very"
+	line "strange fossil in"
+	cont "Mt.Moon!"
 
-	para "Hé mais on ne se"
-	line "serait pas déjà"
-	cont "vu quelque part?"
+	para "Hey did we"
+	line "meet somewhere"
+	cont "before?"
 
-	para "Ah mais oui tu"
-	line "es le fameux"
-	cont "Champion en"
-	cont "devenir!"
+	para "Oh yes you're"
+	line "the famous Champ-"
+	cont "ion in making!"
 
-	para "J'ai toujours rêvé"
-	line "de devenir un"
-	cont "grand dresseur."
+	para "I have always"
+	line "dreamed of"
+	cont "becoming a great"
+	cont "trainer."
 
-	para "Mais pour partir"
-	line "il faut que je"
-	cont "rassemble 10000¥!"
+	para "But in order to"
+	line "leave I would"
+	cont "need 10000¥!"
 
-	para "Autant dire que"
-	line "je vais rester"
-	cont "bloqué ici avec"
-	cont "ce fossile sans"
-	cont "valeur longtemps."
+	para "suffice to say"
+	line "that I'll be"
+	cont "stuck here with"
+	cont "my worthless"
+	cont "fossil for a"
+	cont "long while."
 	done
 
 _Lab2TextFossileDome::
-	text "Proposer de"
-	line "lui acheter son"
-	cont "fossile Dôme?"
+	text "Offer to buy his"
+	line "Dome Fossil?"
 	done
 _Lab2TextFossileHelix::
-	text "Proposer de"
-	line "lui acheter son"
-	cont "Nautile?"
+	text "Offer to buy his"
+	line "Helix Fossil?"
 	done
 
 _Lab2TextFossileYes::
-	text "Quoi?! Tu veux"
-	line "vraiment me"
-	cont "l'acheter?"
+	text "What?! You really"
+	line "want to buy it"
+	cont "from me?"
 
-	para "C'est fantasti-"
-	line "que, merci!"
-	cont "Prends en soin!"
+	para "That's wonderful,"
+	line "thank you!"
+	cont "Take care of it!"
 	
-	para "Il est temps pour"
-	line "moi de partir à"
-	cont "l'aventure!"
-	cont "Pierre, me voilà!"
+	para "It's time for me"
+	line "to go on an"
+	cont "adventure! Brock,"
+	cont "here I come!"
 	done
 
 _Lab2TextFossileNo::
-	text "Ravi de t'avoir"
-	line "rencontré!"
+	text "Glad to have met"
+	line "you!"
 	done
 
 _Lab2TextFossileNoMoney::
-	text "C'est gentil de"
-	line "proposer mais ne"
-	cont "me fait pas de"
-	cont "fausse joie si tu"
-	cont "n'as pas l'argent."
+	text "It's nice of you"
+	line "but don't give me"
+	cont "any false hope if"
+	cont "you don't have"
+	cont "the money."
 	done
 
 _Lab2TextFossileBagFull::
-	text "Je serais ravi"
-	line "de te le vendre"
-	cont "mais il te faut"
-	cont "de la place!"
+	text "I would be happy"
+	line "to sell it to you"
+	cont "but you have no"
+	cont "room for it!"
 	done
