@@ -1,32 +1,29 @@
 _Lab1Text1::
-	text "Ici on étudie"
-	line "les #mon."
+	text "We study #mon"
+	line "extensively here."
 
-	para "On nous amène"
-	line "souvent des"
-	cont "#mon rares"
-	cont "pour les étudier."
+	para "People often bring"
+	line "us rare #mon"
+	cont "for examination."
 	done
 
 _Lab1Text2::
-	text "Voici une photo"
-	line "du créateur de ce"
-	cont "Labo: Le Dr.Fuji!"
+	text "A photo of the"
+	line "Lab's founder,"
+	cont "Dr.Fuji!"
 	done
 
 _Lab1Text3::
-	text "Salle de réunion"
-	line "du Labo #mon"
+	text "#mon Lab"
+	line "Meeting Room"
 	done
 
 _Lab1Text4::
-	text "Département"
-	line "Recherche et"
-	cont "Développement du"
-	cont "Labo #mon"
+	text "#mon Lab"
+	line "R-and-D Room"
 	done
 
 _Lab1Text5::
-	text "Salle de test du"
-	line "Labo #mon"
+	text "#mon Lab"
+	line "Testing Room"
 	done
