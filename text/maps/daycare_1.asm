@@ -39,7 +39,7 @@ _DayCareMonHasGrownText::
 
 _DayCareOweMoneyText::
 	text "You owe me ¥@"
-	text_bcd wDayCareTotalCost, 2 | LEADING_ZEROES | LEFT_AL
+	text_bcd wDayCareTotalCost, 2 | LEADING_ZEROES | LEFT_ALIGN
 	line "for the return"
 	cont "of this #mon."
 	done
