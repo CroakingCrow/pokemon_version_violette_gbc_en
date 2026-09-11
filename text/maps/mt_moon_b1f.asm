@@ -1,20 +1,21 @@
 _MtMoonB1FBattleTextJessieJames::
-	text "James: Hop là!"
-	line "On ne bouge plus!"
+	text "James: Stop"
+	line "right there!"
 
-	para "Jessie: Ce fossile"
-	line "est à la Team"
-	cont "Rocket! Rends-toi"
-	cont "ou mange ta baffe!"
+	para "Jessie: That"
+	text "fossil is Team"
+	line "Rocket's!"
+	cont "Surrender now, or"
+	cont "prepare to fight!"
 	done
 
 _MtMoonB1FEndBattleTextJessieJames::
-	text "???"
-	line "Ce mioche a gagné?"
+	text "A"
+	line "brat beat us?"
 	prompt
 
 _MtMoonB1FAfterBattleTextJessieJames::
-	text "La Team Rocket..."
-	line "A la vitesse"
-	cont "de la lumière..."
-	done
+	text "Team Rocket, blast"
+	line "off at the speed"
+	cont "of light!"
+	text_end

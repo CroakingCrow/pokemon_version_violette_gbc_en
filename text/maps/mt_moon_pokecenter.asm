@@ -1,58 +1,57 @@
 _MtMoonPokecenterText1::
-	text "J'ai 6 # Ball"
-	line "à ma ceinture."
+	text "I've 6 # Balls"
+	line "set in my belt."
 
-	para "On ne peut"
-	line "transporter que 6"
-	cont "#mon."
+	para "At most, you can"
+	line "carry 6 #mon."
 	done
 
 _MtMoonPokecenterText3::
-	text "La Team Rocket"
-	line "a encore attaqué"
-	cont "les habitants"
-	cont "d'Azuria..."
+	text "Team Rocket"
+	line "attacks Cerulean"
+	cont "citizens..."
 
-	para "La Team Rocket"
-	line "est toujours aux"
-	cont "infos!"
+	para "Team Rocket is"
+	line "always in the"
+	cont "news!"
 	done
 
 _MagikarpSalesmanText1::
-	text "Bonjour l'ami!"
-	line "J'ai une super"
-	cont "affaire à te"
-	cont "proposer!"
+	text "Man: Hello, there!"
+	line "Have I got a deal"
+	cont "just for you!"
 
-	para "Je t'offre une"
-	line "Magicarpe pour"
-	cont "juste 500¥!"
-	cont "Qu'en dis-tu?"
+	para "I'll let you have"
+	line "a swell Magikarp"
+	cont "for just ¥500!"
+	cont "What do you say?"
 	done
 
 _MagikarpSalesmanNoText::
-	text "Non? Va-zy lui!"
-	line "C'est un service"
-	cont "que j'te rends!"
+	text "No? I'm only"
+	line "doing this as a"
+	cont "favor to you!"
 	done
 
 _MagikarpSalesmanNoMoneyText::
-	text "T'es à sec, mon"
-	line "p'tit bouchon!"
+	text "You'll need more"
+	line "money than that!"
 	done
 
 _MagikarpSalesmanText2::
-	text "Ni repris,"
-	line "ni échangé!"
+	text "Man: Well, I don't"
+	line "give refunds!"
 
-	para "Par contre, si"
-	line "tu me ramènes"
-	cont "un Galopa,"
-	cont "un Rapasdepic ou"
-	cont "un Magicarpe,"
+	para "On the other"
+	line "hand, if you"
+	cont "bring me a"
+	cont "Rapidash, a"
+	cont "Fearow or a"
+	cont "Magikarp,"
 
-	para "je te proposerai"
-	line "un plan d'enfer!"
+	para "I'll offer you"
+	line "one hell of"
+	cont "a deal!"
 	done
 
 _MtMoonPokecenterText5::

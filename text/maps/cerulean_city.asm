@@ -233,39 +233,36 @@ _CeruleanCityText13::
 	done
 
 _CeruleanCityText16::
-	text "Plus vite que le"
-	line "vent, plus vite"
-	cont "dans les villes!"
-	cont "...Cycles à Gogo"
+	text "Grass and caves"
+	line "handled easily!"
+	cont "Miracle Cycle"
 	done
 
 _CeruleanCityText17::
-	text "Azuria"
-	line "Arène #mon"
-	cont "Champion: Ondine"
+	text "Cerulean City"
+	line "#mon gym"
+	cont "Leader: Misty"
 
-	para "La petite pest..."
-	line "Heu...sirène!"
+	para "The Tomboyish"
+	line "Mermaid!"
 	done
 
 _CeruleanCityText_EstBoard::
-	text "Direction"
-	line "Route 9 -"
-	cont "Grotte Sombre"
+	text "Route 9 -"
+	line "Rock Tunnel"
 	done
 
 _CeruleanCityText_RhyhornMerchant::
-	text "Le Rhinocorne"
-	line "du marchand"
-	cont "transporte"
-	cont "divers sacs de"
-	cont "marchandises."
+	text "The merchant's"
+	line "Rhyhorn is"
+	cont "carrying various"
+	cont "bag of goods."
 	prompt
 
 _CeruleanCityText_BikeShop::
-	text "Miracle Cycle"
-	line "The World is"
-	cont "a Cycling Path!"
+	text "The World is"
+	line "a Cycling Path!"
+	cont "Miracle Cycle"
 	done
 
 _CeruleanCityText_BadgeHouse::

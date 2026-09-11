@@ -1,82 +1,75 @@
 _OakAppearsText::
-	text "Chen: Hé toi, là!"
-	line "Ne pars pas!@"
+	text "Oak: Hey! Wait!"
+	line "Don't go out!@"
 	text_end
 
 _OakWalksUpText::
-	text "Chen: C'est super"
-	line "dangereux! Des"
-	cont "#mon sauvages"
-	cont "infestent les"
-	cont "hautes herbes!"
+	text "Oak: It's unsafe!"
+	line "Wild #mon live"
+	cont "in tall grass!"
 
-	para "Il te faut un"
-	line "#mon pour te"
-	cont "protéger..."
-	cont "J'ai trouvé!"
+	para "You need your own"
+	line "#mon for your"
+	cont "protection."
+	cont "I know!"
 
-	para "Suis-moi!"
+	para "Here, come with"
+	line "me!"
 	done
 
 _PalletTownText_Girl::
-	text "J'élève des"
-	line "#mon, moi"
-	cont "aussi!"
+	text "I'm raising"
+	line "#mon too!"
 
-	para "Une fois forts,"
-	line "ils pourront me"
-	cont "protéger!"
+	para "When they get"
+	line "strong, they can"
+	cont "protect me!"
 	done
 
-_PalletTownText_GirlAfterElite4::
-	text "Oh mais c'est toi"
-	line "qui a battu la"
-	cont "Ligue!"
 
-	para "Tu pourras me"
-	line "donner des"
-	cont "conseils à"
-	cont "l'occasion?"
+_PalletTownText_GirlAfterElite4::
+	text "Oh, you are the"
+	line "one who beat the"
+	cont "League!"
+
+	para "You could give"
+	line "give me advice"
+	cont "some day ?"
 	done
 
 _PalletTownText_Man::
-	text "Le progrès..."
-	line "C'est dément!"
+	text "Technology is"
+	line "incredible!"
 
-	para "On peut désormais"
-	line "stocker et même"
-	cont "retirer des"
-	cont "objets ou des"
-	cont "#mon via PC!"
+	para "You can now store"
+	line "and recall items"
+	cont "and #mon as"
+	cont "data via PC!"
 	done
 
 _PalletTownText_ManAfterElite4::
-	text "Il parait que le"
-	line "nouveau Champion"
-	cont "vient de notre"
-	cont "Bourg!"
+	text "It is said that"
+	line "the new Champion"
+	cont "is from our Town!"
 	
-	para "C'est dingue!"
+	para "That's crazy!"
 	done
 
 _PalletTownText4::
-	text "Labo #mon"
-	line "du Prof. Chen"
+	text "Oak #mon"
+	line "Research Lab"
 	done
 
 _PalletTownText5::
-	text "Bourg Palette"
-	line "Un monde de"
-	cont "couleurs s'ouvre"
-	cont "à vous!"
+	text "Pallet Town"
+	line "Shades of your"
+	cont "journey await!"
 	done
 
 _PalletTownText6::
-	text "Maison de"
-	line "<PLAYER>"
+	text "<PLAYER>'s house "
 	done
 
 _PalletTownText7::
-	text "Maison de"
-	line "<RIVAL>"
+	text "<RIVAL>'s house "
 	done
