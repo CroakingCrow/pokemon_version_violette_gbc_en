@@ -214,7 +214,7 @@ _CeladonGymText_Trainer4AfterBattle::
 _CeladonGymText_Trainer5PreBattle::
 	text "Pleased to meet"
 	line "you. My hobby is"
-	cont "#MON training."
+	cont "#mon training."
 	done
 
 _CeladonGymText_Trainer5EndBattle::

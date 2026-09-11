@@ -1,59 +1,59 @@
 _FuchsiaHouse3Text_561bd::
-	text "Je suis le grand"
-	line "frère du Maître"
-	cont "Pêcheur!"
+	text "I'm the Fishing"
+	line "Guru's older"
+	cont "brother!"
 
-	para "Moi, mon truc,"
-	line "c'est la pêche!"
+	para "I simply Looove"
+	line "fishing!"
 
-	para "T'aimes la"
-	line "pêche, petit?"
+	para "Do you like to"
+	line "fish?"
 	done
 
 _FuchsiaHouse3Text_561c2::
-	text "Cool! T'as l'air"
-	line "d'un bon gars!"
+	text "Grand! I like"
+	line "your style!"
 
-	para "Prends ça!"
-	line "Que la Grand'"
-	cont "Pêche soit avec"
-	cont "toi, p'tit!"
-	;joenote - add hotkey info
-	para "appuie sur SELECT"
-	line "en maintenant A"
-	cont "pour l'utiliser"
-	cont "rapidement.@@"
+	para "Take this and"
+	line "fish, young one!"
 
-	para "<PLAYER> reçoit"
-	line "une @"
+;joenote - add hotkey info
+	para "Hold A and press"
+	line "SELECT to use the"
+	cont "rod quickly.@@"
+
+	para "<PLAYER> received"
+	line "a @"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _FuchsiaHouse3Text_56212::
-	text "Oh...Pas cool!"
-	line "Pas cool du tout!"
+	text "Oh... That's so"
+	line "disappointing..."
 	done
 
 ;joenote - swap super and good rod locations
 _FuchsiaHouse3Text_56217::
-	text "Salut,"
+	text "Hello there,"
 	line "<PLAYER>!"
 
-	para "Utilise la Mega"
-	line "Canne dans n'impo-"
-	cont "rte quelle eau!"
-	cont "Tu peux attraper"
-	cont "pleins de #mon"
-	cont "différents."
+;	para "How are the fish"
+;	line "biting?"
+;	done
+	para "Use the SUPER ROD"
+	line "in any water!"
+	cont "You can catch"
+	cont "different kinds"
+	cont "of #mon."
 
-	para "Essaie de pêcher"
-	line "quand tu le peux!"
+	para "Try fishing"
+	line "wherever you can!"
 	done
 
 _FuchsiaHouse3Text_5621c::
-	text "Oh non!"
+	text "Oh no!"
 
-	para "Ton inventaire"
-	line "est plein!"
+	para "You have no room"
+	line "for my gift!"
 	done

@@ -13,7 +13,7 @@ _CeladonMart5Text1::
 
 _CeladonMart5Text2::
 	text "I'm here for"
-	line "#MON ability"
+	line "#mon ability"
 	cont "enhancers."
 
 	para "Protein increases"

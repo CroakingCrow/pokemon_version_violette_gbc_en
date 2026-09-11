@@ -1,31 +1,29 @@
 _FuchsiaCityText_DidYouKnow::
-	text "Connais-tu le jeu"
-	line "du Safari?"
-	cont "Certains #mon"
-	cont "n'apparaissent"
-	cont "qu'à cet endroit."
+	text "Did you try the"
+	line "Safari Game? Some"
+	cont "#mon can only"
+	cont "be caught there."
 	done
 
 _FuchsiaCityText_SafariExplain::
-	text "Il y a un zoo"
-	line "devant l'entrée"
-	cont "du Parc Safari."
+	text "Safari Zone has a"
+	line "zoo in front of"
+	cont "the entrance."
 
-	para "Le jeu du Safari"
-	line "permet d'attraper"
-	cont "des #mon."
+	para "Out back is the"
+	line "Safari Game for"
+	cont "catching #mon."
 	done
 
 _FuchsiaCityText_NicoSearch::
-	text "Nico: Mais où est"
-	line "Julia? Elle est"
-	cont "tout l'temps à la"
-	cont "bourre."
+	text "Erik: Where's"
+	line "Sara? I said I'd"
+	cont "meet her here."
 	done
 
 _FuchsiaCityText_FakeVoltorb::
-	text "Cette Ball est"
-	line "vraiment un"
+	text "That item ball in"
+	line "there is really a"
 	cont "#mon."
 	done
 
@@ -34,107 +32,105 @@ _FuchsiaCityText_Pokemon::
 	done
 
 _FuchsiaCityText_Town::
-	text "Parmanie"
-	line "Rose comme la"
-	cont "passion"
-	done
+	text "Fuchsia City"
+	line "Behold! It's"
+	cont "Passion Pink!"
 
 _FuchsiaCityText_Museum::
-	text "Parc Safari"
+	text "Safari Zone"
 	line "Aquariums"
 	done
 
 _FuchsiaCityText_Safari::
-	text "Parc Safari"
-	line "Entrée du Parc"
+	text "Safari Zone"
+	line "Entrance"
 	done
 
 _FuchsiaCityText_Warden::
-	text "Parc Safari"
-	line "Maison du Gardien"
+	text "Safari Zone"
+	line "Warden's Home"
 	done
 
 _FuchsiaCityText_Zoo::
-	text "Parc Safari"
-	line "Entrée du Zoo"
+	text "Safari Zone"
+	line "Zoo Entrance"
 	done
 
 _FuchsiaCityText_Gym::
-	text "Parmanie"
-	line "Arène #mon"
-	cont "Champion: Koga"
+	text "Fuchsia City"
+	line "#mon Gym"
+	cont "Leader: Koga"
 
-	para "Le Ninja aux"
-	line "poisons infinis"
+	para "The Poisonous"
+	line "Ninja Master"
 	done
 
 _FuchsiaCityText_ZooChansey::
-	text "Nom: Leveinard"
+	text "Name: Chansey"
 
-	para "Il faut un bol"
-	line "d'enfer pour en"
-	cont "capturer un."
+	para "Catching one is"
+	line "all up to chance."
 
-	para "La légende"
-	line "raconte que"
-	cont "Leveinard"
-	cont "attirerait des"
-	cont "#mon à la robe"
-	cont "étrange..."
+	para "According to the"
+	line "legend, Chanseys"
+	cont "are attracting"
+	cont "#mon with"
+	cont "strange colors..."
 	prompt
 
 FuchsiaCityText_ZooVoltorb::
-	text "Nom: Voltorbe"
+	text "Name: Voltorb"
 
-	para "Portrait craché"
-	line "d'une # Ball."
+	para "The very image of"
+	line "a # Ball."
 	prompt
 
 _FuchsiaCityText_ZooKangaskhan::
-	text "Nom: Kangourex"
+	text "Name: Kangaskhan"
 
-	para "Ce #mon élève"
-	line "son petit dans sa"
-	cont "poche ventrale."
+	para "A maternal #mon"
+	line "that raises its"
+	cont "young in a pouch"
+	cont "on its belly."
 	prompt
 
 _FuchsiaCityText_ZooSlowpoke::
-	text "Nom: Ramoloss"
+	text "Name: Slowpoke"
 
-	para "Sympa mais..."
-	line "Méga-lent!"
+	para "Friendly and very"
+	line "slow moving."
 	prompt
 
 _FuchsiaCityText_ZooLapras::
-	text "Nom: Lokhlass"
+	text "Name: Lapras"
 
-	para "Le roi des mers."
+	para "A.K.A. the king"
+	line "of the seas."
 	prompt
 
 _FuchsiaCityText_ZooOmanyte::
-	text "Nom: Amonita"
+	text "Name: Omanyte"
 
-	para "Un #mon créé"
-	line "à partir d'un"
-	cont "fossile."
+	para "A #mon that"
+	line "was resurrected"
+	cont "from a fossil."
 	prompt
 
 _FuchsiaCityText_ZooKabuto::
-	text "Nom: Kabuto"
+	text "Name: Kabuto"
 
-	para "Un #mon créé"
-	line "à partir d'un"
-	cont "fossile."
+	para "A #mon that"
+	line "was resurrected"
+	cont "from a fossil."
 	prompt
 
 _FuchsiaCityText_NicoFound::
-	text "Nico: Elle"
-	line "m'attend dans"
-	cont "le Parc?"
+	text "Erik: she's"
+	line "waiting for me in"
+	cont "the Safari Zone?"
 
-	para "Mais c'est pas"
-	line "c'qu'on c'était"
-	cont "dit! C'est pas"
-	cont "possible,"
-	cont "j'te jure..."
+	para "But that's not"
+	line "what we agreed"
+	cont "on! That girl,"
+	cont "I swear..."
 	done

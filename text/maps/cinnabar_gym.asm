@@ -18,7 +18,8 @@ _BlaineEndBattleText::
 	line "burnt out!"
 
 	para "You have earned"
-	line "the VolcanoBadge!@"
+	line "the Volcano"
+	cont "Badge!@"
 	text_end
 
 _BlaineFireBlastText::
@@ -33,7 +34,7 @@ _BlaineFireBlastText::
 _BlaineBadgeText::
 	text "Hah!"
 
-	para "The VolcanoBadge"
+	para "The Volcano Badge"
 	line "heightens the"
 	cont "Defense of your"
 	cont "#mon!"

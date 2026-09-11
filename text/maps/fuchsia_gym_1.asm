@@ -1,29 +1,26 @@
 _FuchsiaGymText_LeaderPreBattle::
-	text "Koga: Gwahahaha!"
+	text "Koga: Fwahahaha!"
 
-	para "Un nain ose me"
-	line "défier? Moi, le"
-	cont "grand le beau le"
-	cont "terrible Koga?"
+	para "A mere child like"
+	line "you dares to"
+	cont "challenge me?"
 
-	para "Par l'enfer,"
-	line "par le sang,"
-	cont "par l'acier,"
-	cont "j'vais gagner!"
+	para "Very well, I"
+	line "shall show you"
+	cont "true terror as a"
+	cont "ninja master!"
 
-	para "Puisse la poigne"
-	line "de mes poisons"
-	cont "pétrifier de peur"
-	cont "la paix et tes"
-	cont "petits #mon!"
+	para "You shall feel"
+	line "the despair of"
+	cont "poison and sleep"
+	cont "techniques!"
 	done
 
 _FuchsiaGymText_LeaderEndBattle::
-	text "Gwaha...heu?"
-	line "Tu as prouvé ta"
-	cont "valeur!"
+	text "Humph!"
+	line "You have proven"
+	cont "your worth!"
 
-	para "Ouvre ta mimine"
-	line "car voici..."
-	cont "le Badge Ame!"
+	para "Here! Take the"
+	line "Soul Badge!"
 	prompt
