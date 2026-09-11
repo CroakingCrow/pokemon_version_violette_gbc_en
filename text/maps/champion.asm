@@ -97,7 +97,7 @@ _OakCongratOutroText::
 	line "much since you"
 	cont "first left with"
 	cont "@"
-	TX_RAM wcd6d
+	text_ram wcd6d
 	text "!"
 
 	para "<PLAYER>, you have"
@@ -167,10 +167,10 @@ _RematchRivalChampionIntroText::
 	para "This time I won't"
 	line "lose <PLAYER>!"
 
-	para "After our last"
-	line "battle I've taken"
-	cont "my training even"
-	cont "further!"
+	para "Since my last"
+	line "defeat I have"
+	cont "taken my training"
+	cont "even further!"
 
 	para "And all that only"
 	line "to crush you,"
@@ -201,7 +201,7 @@ _RematchRivalText_AfterCombatText::
 	line "what?"
 	
 	para "What does #mon"
-	line "Master even mean"
+	line "Master even mean,"
 	cont "huh?"
 
 	para "I heard that"
