@@ -1,41 +1,39 @@
 _Mansion4BattleText1::
-	text "Oh-oh. Où que je"
-	line "suis, moi?"
+	text "Uh-oh. Where am"
+	line "I now?"
 	done
 
 _Mansion4EndBattleText1::
-	text "Oups."
+	text "Awooh!"
 	prompt
 
 _Mansion4AfterBattleText1::
-	text "De bons objets"
-	line "traînent dans le"
-	cont "coin."
+	text "You can find stuff"
+	line "lying around."
 	done
 
 _Mansion4BattleText2::
-	text "La science?"
-	line "C'est le pied."
+	text "This place is"
+	line "ideal for a lab."
 	done
 
 _Mansion4EndBattleText2::
-	text "..."
-	line "Bah pourquoi?"
+	text "What"
+	line "was that for?"
 	prompt
 
 _Mansion4AfterBattleText2::
-	text "J'adore cet"
-	line "endroit! J'y fais"
-	cont "mon internat!"
+	text "I like it here!"
+	line "It's conducive to"
+	cont "my studies!"
 	done
 
 _Mansion4Text7::
-	text "Rapport:"
-	line "1er Septembre."
-	cont "Mewtwo est trop"
-	cont "puissant."
+	text "Diary; Sept. 1"
+	line "Mewtwo is far too"
+	cont "powerful."
 
-	para "Nous sommes"
-	line "impuissants face"
-	cont "à ses pièges..."
+	para "It's no use..."
+	line "I can no longer"
+	cont "control it!"
 	done

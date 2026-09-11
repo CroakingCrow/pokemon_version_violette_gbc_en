@@ -1,72 +1,71 @@
 _LoreleiBeforeBattleText::
-	text "Bienvenue à la"
-	line "Ligue #mon!"
+	text "Welcome to"
+	line "#mon League!"
 
-	para "Je zuis Olga du"
-	line "Conzeil des 4!"
+	para "I am Lorelei of"
+	line "the Elite Four!"
 
-	para "Je zuis la"
-	line "maîtrezze des"
-	cont "#mon de glaze!"
+	para "No one can best"
+	line "me when it comes"
+	cont "to icy #mon!"
 
-	para "Et la glaze..."
-	line "Z'est drop fort!"
+	para "Freezing moves"
+	line "are powerful!"
 
-	para "Tes #mon"
-	line "zeront à ma merzi"
-	cont "une fois gelés!"
+	para "Your #mon will"
+	line "be at my mercy"
+	cont "when they are"
+	cont "frozen solid!"
 
-	para "Ach! Ach! Ach!"
-	line "Z'est parti!"
+	para "Hahaha!"
+	line "Are you ready?"
 	done
 
 _LoreleiEndBattleText::
-	text "Comment"
-	line "as-tu ozé?"
+	text "How"
+	line "dare you!"
 	prompt
 
 _LoreleiAfterBattleText::
-	text "Tu es fort."
-	line "Z'est bien."
+	text "You're better"
+	line "than I thought!"
+	cont "Go on ahead!"
 
-	para "Mais la Ligue"
-	line "#mon te"
-	cont "rézerve d'autres"
-	cont "zurprizes!"
+	para "You only got a"
+	line "taste of #mon"
+	cont "League power!"
 	done
 
 _RematchLoreleiBeforeBattleText::
-	text "Du es de retour?"
+	text "You are back?"
 
-	para "Zedde fois zi,"
-	line "je vais de"
-	cont "réfrigérer!"
+	para "This time, I will"
+	line "freeze you!"
 
-	para "J'ai pazzé mes"
-	line "vacanzes dans les"
-	cont "îles écumes."
+	para "I spent my"
+	line "vacations in the"
+	cont "Seafoam Islands."
 
-	para "Mes #mon"
-	line "zont maindenant"
-	cont "incazzables!"
+	para "My #mon are"
+	line "now unbreakable!"
 
-	para "Ach! Ach! Ach!"
-	line "Z'est parti!"
+	para "Hahaha!"
+	line "Are you ready?"
 	done
 
 _RematchLoreleiEndBattleText::
-	text "Encore!"
-	line "Z'est impozzible!"
+	text "Again!"
+	line "It's impossible!"
 	prompt
 
 _RematchLoreleiAfterBattleText::
-	text "Zes grottes sont"
-	line "zublimes! Je"
-	cont "de conzeille d'y"
-	cont "faire un dour!"
+	text "Those caves are"
+	line "beautiful! You"
+	cont "should check them"
+	cont "out!"
 	done
 
 _LoreleiDontRunAwayText::
-	text "Une voix:"
-	line "Ne fuis pas!"
+	text "Someone's voice:"
+	line "Don't run away!"
 	done

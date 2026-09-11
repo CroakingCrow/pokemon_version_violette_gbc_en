@@ -3,7 +3,7 @@ _FuchsiaMeetingRoomText1::
 	line "Warden Baoba,"
 	cont "Slowpoke."
 
-	para "He and slowpoke"
+	para "He and Slowpoke"
 	line "both look vacant!"
 	done
 

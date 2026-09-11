@@ -18,7 +18,7 @@ _DisplayBattleStyleInfoText::
 	cont "whenever the"
 	cont "opponent sends"
 	cont "out their next"
-	cont "#mon"
+	cont "#mon."
 	cont "Makes the game"
 	cont "easier."
 
@@ -31,7 +31,7 @@ _DisplayBattleStyleInfoText::
 _DisplayAudioInfoText::
 	text "Controls the"
 	line "audio output"
- 	cont "of the game"
+ 	cont "of the game."
 
 	para "Note that"
 	line "Stereo may"
@@ -56,7 +56,8 @@ _DisplayGammaInfoText::
 	text "Tone down colors"
  	line "to fix incorrect"
 	cont "display on some"
-	cont "emulator"
+	cont "emulator like"
+	cont "mGBA."
 
 	para "Only applies"
 	line "in game,"
@@ -80,7 +81,7 @@ _DisplayLevelCapInfoText::
 	text "Activate level"
  	line "cap depending"
 	cont "on the number"
-	cont "of Badges"
+	cont "of Badges."
 
 	para "Disabling this"
 	line "setting makes the"
@@ -138,7 +139,7 @@ _DisplayNuzlockeInfoText::
 
     para "-Starts from"
     line "the moment you"
-    cont "get #balls"
+    cont "get # Balls"
 
     para "-Nicknames are"
 	line "mandatory for"
@@ -148,7 +149,7 @@ _DisplayNuzlockeInfoText::
 _DisplayRandomTrainersInfoText::
 	text "Ordinary trainers"
  	line "are randomized"
-	cont "but keeping the"
+	cont "while keeping the"
     cont "same level of"
 	cont "rarity."
  	prompt

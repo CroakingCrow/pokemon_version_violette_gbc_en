@@ -54,7 +54,7 @@ _FuchsiaGymText_RematchPreBattle::
     para "I respect your"
     line "strength."
 
-    para "I, too, have"
+    para "But I, too, have"
     line "improved as a"
     cont "ninja master."
 
@@ -63,7 +63,7 @@ _FuchsiaGymText_RematchPreBattle::
 	cont "survive my"
 	cont "ultimate poison"
 	cont "techniques,"
-	cont "Fufufufu..."
+	cont "fufufufu..."
 	done
 
 _FuchsiaGymText_RematchEndBattle::
@@ -72,8 +72,8 @@ _FuchsiaGymText_RematchEndBattle::
 	cont "poisons and came"
 	cont "out stronger?"
 
-	para "Well, that shut"
-	line "me up..."
+	para "I can't believe"
+	line "it..."
 
 	para "Continue to"
 	line "perfect your"

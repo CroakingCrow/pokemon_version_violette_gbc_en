@@ -1,74 +1,71 @@
 _LavenderTownText_4413c::
-	text "Crois-tu aux"
-	line "Spectres?"
+	text "Do you believe in"
+	line "Ghosts?"
 	done
 
 _LavenderTownText_44141::
-	text "Vraiment? Il en"
-	line "faut..."
+	text "Really? So there"
+	line "are believers..."
 	
 ;joenote - added text to hint at evolving haunter
-	para "Tu es de ceux qui"
-	line "croient au fait"
-	cont "que Spectrum évo-"
-	cont "lue durant les"
-	cont "terribles tempêtes"
-	cont "de Foudre?"
+	para "So you'll believe"
+	line "that I once saw a"
+	cont "Haunter evolve"
+	cont "during an awful"
+	cont "Thunder storm."
 	done
 
 _LavenderTownText_44146::
-	text "T'as raison."
+	text "Hahaha, I guess"
+	line "not."
 
-	para "La main toute"
-	line "blanche sur ton"
-	cont "épaule est fausse"
-	cont "alors..."
+	para "That white hand"
+	line "on your shoulder,"
+	cont "it's not real."
 	done
 
 _LavenderTownText2::
-	text "Cette ville est"
-	line "le cimetière des"
-	cont "#mon."
+	text "This town is known"
+	line "as the grave site"
+	cont "of #mon."
 
-	para "La Tour #mon"
-	line "est le lieu de"
-	cont "recueillement."
+	para "Memorial services"
+	line "are held in"
+	cont "#mon Tower."
 	done
 
 _LavenderTownText3::
-	text "Des Spectres sont"
-	line "apparus dans la"
-	cont "Tour #mon."
+	text "GHOSTs appeared"
+	line "in #mon Tower."
 
-	para "Ils doivent être"
-	line "les esprits des"
-	cont "#mon tués par"
-	cont "la Rocket."
+	para "I think they're"
+	line "the spirits of"
+	cont "#mon that the"
+	cont "Rockets killed."
 	done
 
 _LavenderTownText4::
-	text "Lavanville"
-	line "Le pourpre de"
-	cont "la noblesse"
+	text "Lavender Town"
+	line "The Noble Purple"
+	cont "Town"
 	done
 
 _LavenderTownText5::
-	text "Tout nouveau"
-	line "Scope Sylphe!"
+	text "New Silph Scope!"
 
-	para "Voir l'invisible!"
+	para "Make the Invisible"
+	line "Plain to See!"
 
-	para "Sylphe SARL"
+	para "Silph Co."
 	done
 
 _LavenderTownText8::
-	text "Bénévolat de"
-	line "Lavanville"
-	cont "Maison #mon"
+	text "Lavender Volunteer"
+	line "#mon House"
 	done
 
 _LavenderTownText9::
-	text "Paix à l'âme des"
-	line "#mon"
-	cont "Tour #mon"
+	text "May the Souls of"
+	line "#mon Rest Easy"
+	cont "#mon Tower"
 	done

@@ -69,8 +69,8 @@ _RematchLanceBeforeBattleText::
 	cont "away and trained"
 	cont "in Johto."
 
-	para "It is said that"
-	line "a red Gyarados"
+	para "I heard that a"
+	line "red Gyarados"
 	cont "has been seen!"
 
 	para "This is news"

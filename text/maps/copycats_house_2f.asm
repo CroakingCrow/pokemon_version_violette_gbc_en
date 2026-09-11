@@ -8,7 +8,7 @@ _CopycatsHouse2FText_5ccd4::
 	para "<PLAYER>: Huh?"
 	line "You're strange!"
 
-	para "COPYCAT: Hmm?"
+	para "Copycat: Hmm?"
 	line "Quit mimicking?"
 
 	para "But, that's my"
@@ -40,6 +40,7 @@ _TM31ExplanationText1::
 
 	para "Use it on a good"
 	line "#mon!@"
+	text_end
 
 _TM31ExplanationText2::
 	text "<PLAYER>: Hi!"
@@ -61,7 +62,7 @@ _TM31NoRoomText::
 	text_end
 
 _CopycatsHouse2FText2::
-	text "DODUO: Giiih!"
+	text "Doduo: Giiih!"
 
 	para "MIRROR MIRROR ON"
 	line "THE WALL, WHO IS"
