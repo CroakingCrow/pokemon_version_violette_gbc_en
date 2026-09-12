@@ -1,29 +1,24 @@
 _PewterHouse1Text1::
-	text "Nidoran: Nidoni!"
-	prompt
+	text "Nidoran: Bowbow!"
 
 _PewterHouse1Text2::
-	text "Nidoran, assis!"
+	text "Nidoran sit!"
 	done
 
 _PewterHouse1Text3::
-	text "Notre #mon est"
-	line "un échangé, il"
-	cont "est difficile à"
-	cont "maîtriser."
+	text "Our #mon's an"
+	line "outsider, so it's"
+	cont "hard to handle."
 
-	para "Un échangé est"
-	line "un #mon"
-	cont "échangé avec un"
-	cont "autre joueur."
+	para "An outsider is a"
+	line "#mon that you"
+	cont "get in a trade."
 
-	para "Il grandit vite,"
-	line "mais il n'en fait"
-	cont "qu'à sa tête"
-	cont "pendant les"
-	cont "combats!"
+	para "It grows fast, but"
+	line "it may ignore an"
+	cont "unskilled trainer"
+	cont "in battle!"
 
-	para "Si seulement nous"
-	line "avions des..."
-	cont "Badges!"
+	para "If only we had"
+	line "some Badges..."
 	done
