@@ -1,85 +1,79 @@
 _MomWakeUpText::
-	text "Mère: Bon."
-	line "Il arrive qu'un"
-	cont "jour son enfant"
-	cont "quitte la maison."
-	cont "C'est la vie!"
+	text "Mom: Right."
+	line "All kids leave"
+	cont "home some day."
+	cont "It said so on TV."
 
-	para "Le Prof. Chen te"
-	line "cherche. Il est"
-	cont "dans la maison"
-	cont "voisine."
+	para "Prof.Oak, next"
+	line "door, is looking"
+	cont "for you."
 	done
 
 _MomHealText1::
-	text "Mère: <PLAYER>!"
-	line "Tu devrais faire"
-	cont "une sieste."
+	text "Mom: <PLAYER>!"
+	line "You should take a"
+	cont "quick rest."
 	prompt
 
 _MomHealText1AfterElite4::
-	text "Mère: <PLAYER>!"
-	line "Tu as réussi, je"
-	cont "suis si fière de"
-	cont "toi!"
+	text "Mom: <PLAYER>!"
+	line "You did it, I'm"
+	cont "so proud of you!"
 
-	para "Tu as tellement"
-	line "grandi depuis ton"
-	cont "départ de la"
-	cont "maison!"
+	para "You have grown so"
+	line "much since the"
+	cont "day you left"
+	cont "home!"
 
-	para "Prends le temps"
-	line "de te reposer toi"
-	cont "et tes #mons."
+	para "Take the time to"
+	line "rest, you and"
+	cont "your #mon."
 	prompt
 
 _MomHealText2::
-	text "Mère: Ah, bien!"
-	line "Toi et tes"
-	cont "#mon êtes"
-	cont "en pleine forme!"
+	text "Mom: Oh good!"
+	line "You and your"
+	cont "#mon are"
+	cont "looking great!"
+	cont "Take care now!"
 	done
 
 _StandByMeText::
-	text "Un dessin animé!"
-	line "Un petit garçon"
-	cont "avec une queue de"
-	cont "singe."
+	text "There's a movie"
+	line "on TV. Four boys"
+	cont "are walking on"
+	cont "railroad tracks."
 
-	para "Bon, j'y vais!"
+	para "I better go too."
 	done
 
 _TVWrongSideText::
-	text "Oups, mauvais"
-	line "côté."
+	text "Oops, wrong side."
 	done
 
 _RedsHouse1FText_RunningShoes::
-	text "Mère: Au fait"
+	text "Mom: By the way"
 	line "<PLAYER>!"
 
-	para "N'oublie pas"
-	line "d'essayer tes"
-	cont "nouvelles Chau-"
-	cont "ssures de Course"
-	cont "en maintenant le"
-	cont "bouton B!"
+	para "Remember to try"
+	line "your new Running"
+	cont "Shoes by holding"
+	cont "B!"
 
-	para "Ah et ton nouveau"
-	line "Sac de Randonnée"
-	cont "contient un 2ème"
-	cont "compartiment!"
-	cont "Tu peux passer de"
-	cont "l'un à l'autre"
-	cont "avec START."
+	para "Oh and your new"
+	line "Hiking Bag"
+	cont "contains a second"
+	cont "compartment!"
+	cont "You can switch"
+	cont "from one to the"
+	cont "other with START."
 
-	para "Pense bien à"
-	line "adresser la"
-	cont "parole à tous"
-	cont "les inconnus!"
+	para "Remember to"
+	line "speak to every"
+	cont "strangers!"
 
-	para "Et surtout,"
-	line "n'oublie pas de"
-	cont "changer de slip"
-	cont "régulièrement!"
+	para "And above all,"
+	line "remember to change"
+	cont "your underwear"
+	cont "regularly!"
 	done

@@ -30,69 +30,65 @@ _TowerRescueFujiText::
 	done
 
 _PokemonTower7BattleText1::
-	text "Que veux-tu?"
-	line "Que cherches-tu?"
+	text "What do you want?"
+	line "Why are you here?"
 	done
 
 _PokemonTower7EndBattleText1::
-	text "Rhaaaa!"
-	line "J'abandonne!"
+	text "I give up!"
 	prompt
 
 _PokemonTower7AfterBattleText1::
-	text "Je ne t'oublierai"
-	line "pas!"
+	text "I'm not going to"
+	line "forget this!"
 	done
 
 _PokemonTower7BattleText2::
-	text "Ce vieil homme"
-	line "est venu nous"
-	cont "demander de ne"
-	cont "plus troubler les"
-	cont "gentils #mon!"
+	text "This old guy came"
+	line "and complained"
+	cont "about us harming"
+	cont "useless #mon!"
 
-	para "Mais c'est une"
-	line "conversation"
-	cont "d'adultes, petit!"
-	cont "Dégage!"
+	para "We're talking it"
+	line "over as adults!"
 	done
 
 _PokemonTower7EndBattleText2::
-	text "Argh!"
-	line "Assez!"
+	text "Please!"
+	line "No more!"
 	prompt
 
 _PokemonTower7AfterBattleText2::
-	text "Les #mon ne"
-	line "servent qu'à"
-	cont "gagner de"
-	cont "l'argent!"
+	text "#mon are only"
+	line "good for making"
+	cont "money!"
 
-	para "Reste en dehors"
-	line "de nos affaires!"
+	para "Stay out of our"
+	line "business!"
 	done
 
 _PokemonTower7BattleTextJessieJames::
-	text "James: Pas"
-	line "bouger!"
-	para "Jessie: Le vieux"
-	line "s'est plaint"
-	cont "alors on l'a"
-	cont "enfermé!"
+	text "James: Stop"
+	line "right there!"
+	para "Jessie: Grandpa"
+	line "here wanted to"
+	cont "complain, so"
+	cont "we're setting him"
+	cont "straight."
 
-	para "Alors toi, fais"
-	line "cou-couche panier"
-	cont "ou on va te"
-	cont "casser la tête!"
+	para "So render your-"
+	line "self invisible,"
+	cont "or prepare to"
+	cont "fight!"
 	done
 
 _PokemonTower7EndBattleTextJessieJames::
-	text "..."
-	line "... Tu vas voir!"
+	text "You will regret"
+	line "this!"
 	prompt
 
 _PokemonTower7AfterBattleTextJessieJames::
-	text "Team Rocket..."
-	line "A la vitesse"
-	cont "d'un gros vélo..."
+	text "Looks like Team"
+	line "Rocket's blasting"
+	cont "off again!"
 	done
