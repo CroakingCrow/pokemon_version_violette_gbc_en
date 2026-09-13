@@ -1,195 +1,181 @@
 _Route14BattleText1::
-	text "Utilise des CT"
-	line "pour apprendre"
-	cont "de bonnes"
-	cont "attaques à tes"
-	cont "#mon!"
+	text "You need to use"
+	line "TMs to teach good"
+	cont "moves to #mon!"
 	done
 
-
 _Route14EndBattleText1::
-	text "..."
-	line "Pas assez bon!"
+	text "Not"
+	line "good enough!"
 	prompt
 
 _Route14AfterBattleText1::
-	text "Tu as des CS?"
-	line "Les #mon ne"
-	cont "peuvent pas les"
-	cont "oublier."
+	text "You have some HMs"
+	line "right? #mon"
+	cont "normally can't"
+	cont "ever forget those"
+	cont "moves."
 
-	para "Il parait qu'il"
-	line "y a quelqu'un à"
-	cont "Safrania qui"
-	cont "peut le faire..."
+	para "But I heard that"
+	line "there's someone"
+	cont "in Saffron who" 
+	cont "can do it."
 	done
 
 _Route14BattleText2::
-	text "Mes #mon"
-	line "oiseaux veulent"
-	cont "se battre."
+	text "My bird #mon"
+	line "should be ready"
+	cont "for battle."
 	done
 
 _Route14EndBattleText2::
-	text "..."
-	line "Y veulent plus!"
+	text "Not"
+	line "ready yet!"
 	prompt
 
 _Route14AfterBattleText2::
-	text "Il leur faut de"
-	line "bonnes attaques."
+	text "They need to learn"
+	line "better moves."
 	done
 
 _Route14BattleText3::
-	text "On vend des CT à"
-	line "Céladopole!"
-	cont "Mais, seuls"
-	cont "quelques élus ont"
-	cont "des CS!"
+	text "TMs are on sale"
+	line "in Celadon!"
+	cont "But, only a few"
+	cont "people have HMs!"
 	done
 
 _Route14EndBattleText3::
-	text "Ah!"
-	line "Fiasco complet!"
+	text "Aww,"
+	line "bummer!"
 	prompt
 
 _Route14AfterBattleText3::
-	text "Apprends à tes"
-	line "#mon des"
-	cont "attaques de leur"
-	cont "élément pour les"
-	cont "rendre plus"
-	cont "puissants."
+	text "Teach #mon"
+	line "moves of the same"
+	cont "element type for"
+	cont "more power."
 	done
 
 _Route14BattleText4::
-	text "As-tu appris à"
-	line "tes #mon"
-	cont "oiseaux à voler?"
+	text "Have you taught"
+	line "your bird #mon"
+	cont "how to Fly?"
 	done
 
 _Route14EndBattleText4::
-	text "Ah!"
-	line "Chute libre!"
+	text "Shot"
+	line "down in flames!"
 	prompt
 
 _Route14AfterBattleText4::
-	text "J'adore les"
-	line "#mon oiseaux!"
+	text "Bird #mon are"
+	line "my true love!"
 	done
 
 _Route14BattleText5::
-	text "As-tu entendu"
-	line "parler des"
-	cont "#mon"
-	cont "légendaires?"
+	text "Have you heard of"
+	line "the legendary"
+	cont "#mon?"
 	done
 
 _Route14EndBattleText5::
-	text "Ah?"
-	line "J'ai perdu?"
+	text "Why?"
+	line "Why'd I lose?"
 	prompt
 
 _Route14AfterBattleText5::
-;	text "Les 3 #mon"			;joenote - slight correction to this translation
-;	line "légendaires sont"
-;	cont "des oiseaux"
-;	cont "de proie."
-	text "On dit que les 3"
-	line "#mon"
-	cont "légendaires sont"
-	cont "tous des oiseaux."
+	text "The 3 legendary"
+;	line "#mon are all"			;joenote - slight correction to this translation
+;	cont "birds of prey."
+	line "#mon are said"	
+	cont "to be birds."
 	done
 
 _Route14BattleText6::
-	text "J'suis pas trop"
-	line "d'humeur,"
-	cont "mais bon..."
+	text "I'm not into it,"
+	line "but OK! Let's go!"
 	done
 
 _Route14EndBattleText6::
-	text "Ben,"
-	line "t'as gagné, non?"
+	text "I"
+	line "knew it!"
 	prompt
 
 _Route14AfterBattleText6::
-	text "Perdre ou gagner,"
-	line "c'est pas le plus"
-	cont "important!"
+	text "Winning, losing,"
+	line "it doesn't matter"
+	cont "in the long run!"
 	done
 
 _Route14BattleText7::
-	text "Allez, viens!"
-	line "Tu vas voir la"
-	cont "tête de tes"
-	cont "#mon!"
+	text "C'mon, c'mon."
+	line "Let's go, let's"
+	cont "go, let's go!"
 	done
 
 _Route14EndBattleText7::
 	text "Arrg!"
-	line "T'as fait une"
-	cont "tête au carré à"
-	cont "mes #mon!"
+	line "Lost! Get lost!"
 	prompt
 
 _Route14AfterBattleText7::
-	text "Quoi? Quoi?"
-	line "Tu veux quoi?"
+	text "What, what, what?"
+	line "What do you want?"
 	done
 
 _Route14BattleText8::
-	text "Parfait! Tu vas"
-	line "déguster!"
+	text "Perfect! I need to"
+	line "burn some time!"
 	done
 
 _Route14EndBattleText8::
-	text "Oh!"
-	line "Plein ma face!"
+	text "What?"
+	line "You!?"
 	prompt
 
 _Route14AfterBattleText8::
-	text "Elever des"
-	line "#mon, c'est"
-	cont "crevant!"
+	text "Raising #mon"
+	line "is a drag, man."
 	done
 
 _Route14BattleText9::
-	text "On s'en va,"
-	line "y'a plus de"
-	cont "place!"
+	text "We ride out here"
+	line "because there's"
+	cont "more room!"
 	done
 
 _Route14EndBattleText9::
-	text "Balayé!"
+	text "Wipe out!"
 	prompt
 
 _Route14AfterBattleText9::
-	text "Cool, tes"
-	line "#mon sont"
-	cont "super balèzes!"
+	text "It's cool you"
+	line "made your #mon"
+	cont "so strong!"
 
-	para "La force, c'est"
-	line "bien!"
+	para "Might is right!"
+	line "And you know it!"
 	done
 
 _Route14BattleText10::
-	text "Combat #mon?"
-	line "Tremble, minus!"
+	text "#mon fight?"
+	line "Cool! Rumble!"
 	done
 
 _Route14EndBattleText10::
-	text "Vroom!"
-	line "Dans l'vent!"
+	text "Blown"
+	line "away!"
 	prompt
 
 _Route14AfterBattleText10::
-	text "Tu sais que sans"
-	line "tes #mon, je"
-	cont "te pulvérise!"
+	text "You know who'd"
+	line "win, you and me"
+	cont "one on one!"
 	done
 
 _Route14Text11::
 	text "Route 14"
-	line "Parmanie"
-	cont "à l'Ouest"
+	line "West to Fuchsia"
+	cont "City"
 	done

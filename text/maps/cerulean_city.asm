@@ -205,9 +205,9 @@ _CeruleanCityText10::
 _CeruleanCityText_Merchant::
 	text "I have a delivery"
 	line "for Lavander Town"
-	cont "but the Saffron"
-	cont "City guards won't"
-	cont "let me pass..."
+	cont "but the Saffron's"
+	cont "gate keeper won't"
+	cont "let me through..."
 
 	para "I will have to"
 	line "take a long"

@@ -1,42 +1,43 @@
 _Route22GateUpstairsText_ExpCatchUp::
-	text "L'Exp Booster"
-	line "augmente l'exp"
-	cont "reçu par les"
-	cont "#mon à la"
-	cont "traine dans ton"
-	cont "équipe."
+	text "The Exp. Booster"
+	line "increases the"
+	cont "Exp. received in"
+	cont "battle for the"
+	cont "#mon lagging"
+	cont "behind in your" 
+	cont "team."
 	done
 
 _Route22GateUpstairsText_Cup::
-	text "Coupe de la"
-	line "Ligue #mon."
+	text "#mon League" 
+	text "Trophy Cup."
 	done
 
 _Route22GateUpstairsText_Champion::
-	text "Ce monument est"
-	line "à l'honneur des"
-	cont "grands dresseurs"
-	cont "à l'origine de"
-	cont "la Ligue #mon."
+	text "This monument is"
+	line "dedicated to the"
+	cont "great trainers"
+	cont "to whom we owe"
+	cont "the #mon League."
 
-	para "Peter"
+	para "Lance"
 
 	para "Agatha"
 
-	para "Aldo"
+	para "Bruno"
 
-	para "Olga"
+	para "Lorelei"
 
-	para "Chen"
+	para "Oak"
 	done
 
 _Route22GateUpstairsText_Binoculars::
-	text "Vous regardez"
-	line "dans les"
-	cont "pointent vers"
-	cont "le Nord..."
+	text "Looked into the"
+	line "binoculars facing"
+	cont "North..."
 
-	para "La mythique Route"
-	line "Victoire s'étend"
-	cont "devant vos yeux."
+	para "The legendary"
+	line "Victory Road"
+	cont "unfolds before"
+	cont "your eyes."
 	done

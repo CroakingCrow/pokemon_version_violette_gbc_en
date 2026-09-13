@@ -1,7 +1,6 @@
 _Route20BattleText1::
-	text "La mer est peu"
-	line "profonde ici,"
-	cont "n'est-ce pas?"
+	text "The water is"
+	line "shallow here."
 	done
 
 _Route20EndBattleText1::
@@ -9,166 +8,155 @@ _Route20EndBattleText1::
 	prompt
 
 _Route20AfterBattleText1::
-	text "Ah, si je pouvais"
-	line "monter sur mes"
-	cont "#mon."
+	text "I wish I could"
+	line "ride my #mon."
 	done
 
 _Route20BattleText2::
-	text "Les Iles Ecume"
-	line "sont tranquilles!"
+	text "Seafoam is a"
+	line "quiet getaway!"
 	done
 
 _Route20EndBattleText2::
-	text "Nyann!"
+	text "Quit it!"
 	prompt
 
 _Route20AfterBattleText2::
-	text "Il y a une grande"
-	line "caverne sous"
-	cont "cette île."
+	text "There's a huge"
+	line "cavern underneath"
+	cont "this island."
 	done
 
 _Route20BattleText3::
-	text "J'aime faire la"
-	line "planche avec"
-	cont "les poissons!"
+	text "I love floating"
+	line "with the fishes!"
 	done
 
 _Route20EndBattleText3::
-	text "Glargh!"
+	text "Yowch!"
 	prompt
 
 _Route20AfterBattleText3::
-	text "Tu veux nager"
-	line "avec moi?"
+	text "Want to float"
+	line "with me?"
 	done
 
 _Route20BattleText4::
-	text "T'es en vacances"
-	line "toi aussi?"
+	text "Are you on"
+	line "vacation too?"
 	done
 
 _Route20EndBattleText4::
-	text "Non!"
-	line "Pas de pitié!"
+	text "No"
+	line "mercy at all!"
 	prompt
 
 _Route20AfterBattleText4::
-	text "Avant, ben, les"
-	line "Iles Ecume ne"
-	cont "formaient qu'une"
-	cont "seule île!"
+	text "Seafoam used to"
+	line "be one island!"
 	done
 
 _Route20BattleText5::
-	text "Mate un peu mon"
-	line "corps de rêve!"
-	cont "C'est beau hein?"
-	cont "Fais un bisou."
+	text "Check out my buff"
+	line "physique!"
 	done
 
 _Route20EndBattleText5::
-	text "Aïeu!"
+	text "Wimpy!"
 	prompt
 
 _Route20AfterBattleText5::
-	text "J'aurais dû"
-	line "entraîner mes"
-	cont "#mon!"
+	text "I should've been"
+	line "buffing up my"
+	cont "#mon, not me!"
 	done
 
 _Route20BattleText6::
-	text "Ben, t'es sur un"
-	line "#mon, tu sais"
-	cont "pas nager?"
+	text "Why are you"
+	line "riding a #mon?"
+	cont "Can't you swim?"
 	done
 
 _Route20EndBattleText6::
 	text "Ouch!"
-	line "Je coule!"
+	line "Torpedoed!"
 	prompt
 
 _Route20AfterBattleText6::
-	text "Surfer sur un"
-	line "#mon,"
-	cont "c'est cool!"
+	text "Riding a #mon"
+	line "sure looks fun!"
 	done
 
 _Route20BattleText7::
-	text "Mes oiseaux"
-	line "#mon m'ont"
-	cont "déposé ici!"
+	text "I rode my bird"
+	line "#mon here!"
 	done
 
 _Route20EndBattleText7::
-	text "Oh!"
-	line "NOoOoOon!"
+	text "Oh"
+	line "no!"
 	prompt
 
 _Route20AfterBattleText7::
-	text "Mes oiseaux ne"
-	line "peuvent plus"
-	cont "voler!"
+	text "My birds can't"
+	line "Fly me back!"
 	done
 
 _Route20BattleText8::
-	text "Mon p'tit copain"
-	line "m'a offert des"
-	cont "perles sublimes!"
+	text "My boy friend gave"
+	line "me big pearls!"
 	done
 
 _Route20EndBattleText8::
-	text "Non!"
-	line "Pas mes perles!"
+	text "Don't"
+	line "touch my pearls!"
 	prompt
 
 _Route20AfterBattleText8::
-	text "Et si je mettais"
-	line "mes perles dans"
-	cont "un Crustabri?"
+	text "Will my pearls"
+	line "grow bigger"
+	cont "inside Cloyster?"
 	done
 
 _Route20BattleText9::
-	text "J'ai nagé depuis"
-	line "la Cramois'Ile!"
+	text "I swam here from"
+	line "Cinnabar Island!"
 	done
 
 _Route20EndBattleText9::
-	text "!!!"
-	line "J'ai bu la tasse!"
+	text "I'm"
+	line "so disappointed!"
 	prompt
 
 _Route20AfterBattleText9::
-	text "Des #mon"
-	line "infestent un"
-	cont "vieux manoir de"
-	cont "la Cramois'Ile!"
+	text "#mon have"
+	line "taken over an"
+	cont "abandoned mansion"
+	cont "on Cinnabar!"
 	done
 
 _Route20BattleText10::
-	text "Il y a un Labo"
-	line "#mon sur"
-	cont "la Cramois'Ile."
+	text "Cinnabar, in the"
+	line "west, has a Lab"
+	cont "for #mon."
 	done
 
 _Route20EndBattleText10::
-	text "Attends!"
+	text "Wait!"
 	prompt
 
 _Route20AfterBattleText10::
-	text "La Cramois'Ile"
-	line "est une île"
-	cont "volcanique!"
+	text "Cinnabar is a "
+	line "volcanic island!"
 	done
 
 _Route20Text12::
 _Route20Text11::
-	text "Iles Ecume"
+	text "Seafoam Islands"
 	done
 
 _Route20Text_Lighthouse::
-	text "Phare"
+	text "Lighthouse"
 	
-	para "-Hors service-"
+	para "-Out of service-"
 	done

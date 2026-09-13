@@ -1,50 +1,48 @@
 _Route19BeachHouseFisherBeforeText::
-	text "Yo comment k'ça"
-	line "va? Le Dave"
-	cont "est le Boss"
-	cont "des Surfeurs!"
+	text "Yo how ya doin'?"
+	line "Dave's the"
+	cont "Surfing Boss!"
 
-	para "Quand il est dans"
-	line "l'tube, c'est"
-	cont "d'la totale"
-	cont "adrénaline!"
+	para "When he's in the"
+	line "barrel, it's"
+	cont "such a rush!"
 
-	para "J'cause qu'aux"
-	line "vrais Surfeurs,"
-	cont "alors parle à"
-	cont "ma main!"
+	para "I only chat with"
+	line "real Surfers,"
+	cont "so talk to the"
+	cont "hand!"
 	done
 
 _Route19BeachHouseFisherAfterText::
-	text "Yo comment k'ça"
-	line "va? Délire!!!"
-	cont "Toi aussi t'es"
-	cont "Surfeur!"
+	text "Yo how ya doin'?"
+	line "Crazy!!!"
+	cont "You're a Surfer"
+	cont "too!"
 
-	para "Ramène moi ton"
-	line "Pikachu ou ton"
-	cont "Raichu et le"
-	cont "Dave lui montrera"
-	cont "la voie du Surf!"
+	para "Bring me your"
+	line "Pikachu or your"
+	cont "Raichu and Dave"
+	cont "will show it the"
+	cont "way of the Surf!"
 	done
 
 _Route19BeachHousePikachuText::
-	text "Dave: Pikaaan!"
+	text "Dave: Pikaaa!"
 	done
 
 _Route19BeachHousePoster1Text::
-	text "Le Surf, la mer:"
-	line "c'est la vie!"
+	text "Surfing, the sea:"
+	line "This is the life!"
 	done
 
 _Route19BeachHousePoster2Text::
-	text "Record à battre:"
-	line "Dave le Surfer"
+	text "Score to beat:"
+	line "Dave the Surfer"
 	cont "7511 points!"
 	done
 
 _Route19BeachHousePCText::
-	text "Oh! Un jeu avec"
-	line "un Pikachu"
-	cont "Surfeur, cool!"
+	text "Oh! A game with a"
+	line "Surfing Pikachu,"
+	cont "cool!"
 	done

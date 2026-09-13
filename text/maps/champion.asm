@@ -173,8 +173,7 @@ _RematchRivalChampionIntroText::
 	cont "even further!"
 
 	para "And all that only"
-	line "to crush you,"
-	cont "loser!"
+	line "to crush you!"
 
 
 	para "I have assembled"
@@ -210,5 +209,5 @@ _RematchRivalText_AfterCombatText::
 	cont "a new Gym Leader."
 
 	para "That's the real"
-	line "deal, loser!"
+	line "deal!"
 	done
