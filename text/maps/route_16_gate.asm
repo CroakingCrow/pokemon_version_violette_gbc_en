@@ -1,22 +1,22 @@
 _Route16GateText_49777::
-	text "Interdit aux"
-	line "piétons!"
-	cont "Piste Cyclable!"
+	text "No pedestrians"
+	line "are allowed on"
+	cont "Cycling Road!"
 	done
 
 _Route16GateText_4977c::
-	text "La Piste Cyclable"
-	line "est une superbe"
-	cont "route menant"
-	cont "jusqu'à la mer."
+	text "Cycling Road is a"
+	line "downhill course"
+	cont "by the sea. It's"
+	cont "a great ride."
 	done
 
 _Route16GateText_49781::
-	text "Pardon!"
-	line "Hé, pardon!"
+	text "Excuse me! Wait"
+	line "up please!"
 	done
 
 _Route16GateText2::
-	text "Comment t'es"
-	line "arrivé jusqu'ici?"
+	text "How'd you get in?"
+	line "Good effort!"
 	done

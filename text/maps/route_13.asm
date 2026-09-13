@@ -1,202 +1,190 @@
 _Route13BattleText2::
-	text "Mes #mon"
-	line "oiseaux cherchent"
-	cont "la baston!"
+	text "My bird #mon"
+	line "want to scrap!"
 	done
 
 _Route13EndBattleText2::
-	text "Tu"
-	line "m'as volé dans"
-	cont "les plumes!"
+	text "My"
+	line "bird combo lost?"
 	prompt
 
 _Route13AfterBattleText2::
-	text "Mes #mon ont"
-	line "l'air content,"
-	cont "même s'ils ont"
-	cont "perdu."
+	text "My #mon look"
+	line "happy even though"
+	cont "they lost."
 	done
 
 _Route13BattleText3::
-	text "Pas mal pour une"
-	line "fille, hein?"
+	text "I'm told I'm good"
+	line "for a kid!"
 	done
 
 _Route13EndBattleText3::
-	text "Oh!"
-	line "Perdu!"
+	text "Ohh!"
+	line "I lost!"
 	prompt
 
 _Route13AfterBattleText3::
-	text "Je veux être un"
-	line "bon dresseur. Je"
-	cont "travaille dur."
+	text "I want to become"
+	line "a good trainer."
+	cont "I'll train hard."
 	done
 
 _Route13BattleText4::
-	text "Woaa! Tes Badges"
-	line "sont trop cool!"
+	text "Wow! Your Badges"
+	line "are too cool!"
 	done
 
 _Route13EndBattleText4::
-	text "..."
-	line "J'en ai assez!"
+	text "Not"
+	line "enough!"
 	prompt
 
 _Route13AfterBattleText4::
-	text "Tu as gagné ces"
-	line "Badges chez les"
-	cont "Champions!"
+	text "You got those"
+	line "Badges from Gym"
+	cont "Leaders. I know!"
 	done
 
 _Route13BattleText5::
-	text "Mes #mon tout"
-	line "mignons veulent"
-	cont "te connaître."
+	text "My cute #mon"
+	line "wish to make your"
+	cont "acquaintance."
 	done
 
 _Route13EndBattleText5::
 	text "Wow!"
-	line "J'suis morte!"
+	line "You totally won!"
 	prompt
 
 _Route13AfterBattleText5::
-	text "Tu dois faire"
-	line "combattre tes"
-	cont "#mon pour les"
-	cont "entraîner!"
+	text "You have to make"
+	line "#mon fight to"
+	cont "toughen them up!"
 	done
 
 _Route13BattleText6::
-	text "J'ai trouvé du"
-	line "Carbone dans une"
-	cont "grotte, une fois!"
+	text "I found Carbos in"
+	line "a cave once."
 	done
 
 _Route13EndBattleText6::
-	text "J'ai"
-	line "tout raté!"
+	text "Just"
+	line "messed up!"
 	prompt
 
 _Route13AfterBattleText6::
-	text "Le Carbone a"
-	line "augmenté la"
-	cont "vitesse de mon"
+	text "Carbos boosted"
+	line "the Speed of my"
 	cont "#mon."
 	done
 
 _Route13BattleText7::
-	text "Le vent souffle"
-	line "par là. Cool!"
+	text "The wind's blowing"
+	line "my way!"
 	done
 
 _Route13EndBattleText7::
-	text "Le"
-	line "vent a tourné!"
+	text "The"
+	line "wind turned!"
 	prompt
 
 _Route13AfterBattleText7::
-	text "J'ai perdu. Je"
-	line "rentre chez moi."
+	text "I'm beat. I guess"
+	line "I'll Fly home."
 	done
 
 _Route13BattleText8::
-	text "Tu veux te"
-	line "mesurer à moi?"
+	text "Sure, I'll play"
+	line "with you!"
 	done
 
 _Route13EndBattleText8::
 	text "Oh!"
-	line "Petit voyou!"
+	line "You little brute!"
 	prompt
 
 _Route13AfterBattleText8::
-	text "C'est quoi le"
-	line "plus fort,"
-	cont "un #mon"
-	cont "fille ou garçon?"
+	text "I wonder which is"
+	line "stronger, male or"
+	cont "female #mon?"
 	done
 
 _Route13BattleText9::
-	text "Et si on faisait"
-	line "poké-poké tous"
-	cont "les deux?"
+	text "Do you want to"
+	line "#mon with me?"
 	done
 
 _Route13EndBattleText9::
-	text "Fini?"
-	line "Déjà?"
+	text "It's over"
+	line "already?"
 	prompt
 
 _Route13AfterBattleText9::
-	text "J'y connais rien"
-	line "aux #mon!"
-	cont "Je les trouve"
-	cont "juste cool!"
+	text "I don't know"
+	line "anything about"
+	cont "#mon. I just"
+	cont "like cool ones!"
 	done
 
 _Route13BattleText10::
-	text "Qu'est-ce que tu"
-	line "regardes, toi!?"
+	text "What're you"
+	line "lookin' at?"
 	done
 
 _Route13EndBattleText10::
-	text "Zipp!"
-	line "J'ai dérapé!"
+	text "Dang!"
+	line "Stripped gears!"
 	prompt
 
 _Route13AfterBattleText10::
-	text "Du balai!"
+	text "Get lost!"
 	done
 
 _Route13BattleText11::
-	text "J'aime bien mes"
-	line "#mon oiseaux!"
-	cont "...Ouais... "
-	cont "C'est vrai."
+	text "I always go with"
+	line "bird #mon!"
 	done
 
 _Route13EndBattleText11::
-	text "Oh!"
-	line "Ma cage!"
+	text "Out"
+	line "of power!"
 	prompt
 
 _Route13AfterBattleText11::
-	text "J'aimerais voler"
-	line "comme Roucool"
-	cont "ou Roucoups..."
+	text "I wish I could"
+	line "fly like Pidgey"
+	cont "and Pidgeotto..."
 	done
 
 _Route13Text11::
-	text "Astuce"
+	text "Trainer Tips"
 
-	para "Regardez à"
-	line "gauche!"
+	para "Look to the left"
+	line "of that post!"
 	done
 
 _Route13Text12::
-	text "Astuce"
+	text "Trainer Tips"
 
-	para "Utilisez SELECT"
-	line "pour organiser"
-	cont "votre inventaire"
-	cont "et maintenez"
-	cont "SELECT et START"
-	cont "pour trier les"
-	cont "objets!"
+	para "Use SELECT to"
+	line "organize your"
+	cont "inventory and"
+	cont "hold SELECT"
+	cont "and START to"
+	cont "sort items!"
 
-	para "Vous pouvez"
-	line "transférer un"
-	cont "objet d'un"
-	cont "compartiment à"
-	cont "l'autre en"
-	cont "appuyant sur"
-	cont "START tout en"
-	cont "maintenant GAUCHE"
+	para "You can move"
+	line "an item from"
+	cont "one compartment"
+	cont "to the other"
+	cont "by pressing START"
+	cont "while holding"
+	cont "LEFT"
 	done
 
 _Route13Text13::
 	text "Route 13"
-	line "Pont du Silence"
-	cont "au Nord"
+	line "North to Silence"
+	cont "Bridge"
 	done

@@ -97,5 +97,5 @@ ItemNames:
 	db "11F@"
 	db "B4F@"
 	db "Metal Coat@" ;dafthunk #19
-	db "Exp Booster@"
+	db "Exp. Booster@"
 	

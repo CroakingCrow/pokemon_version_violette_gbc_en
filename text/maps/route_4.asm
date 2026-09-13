@@ -1,37 +1,35 @@
 _Route4Text1::
-	text "Ha! J'ai trébuché"
-	line "sur un #mon de"
-	cont "pierre: Racaillou!"
+	text "Ouch! I tripped"
+	line "over a rocky"
+	cont "#mon, Geodude!"
 	done
 
 _Route4BattleText1::
-	text "Je viens chercher"
-	line "mon #mon"
-	cont "champignon!"
+	text "I came to get my"
+	line "mushroom #mon!"
 	done
 
 _Route4EndBattleText1::
-	text "Oh!"
-	line "Mon #mon!"
+	text "Oh! My cute"
+	line "mushroom #mon!"
 	prompt
 
 _Route4AfterBattleText1::
-	text "Je crois qu'il"
-	line "n'y a plus de"
-	cont "champignons dans"
-	cont "le coin."
+	text "There might not"
+	line "be any more"
+	cont "mushrooms here."
 
-	para "Je les ai tous"
-	line "ramassés."
+	para "I think I got"
+	line "them all."
 	done
 
 _Route4Text5::
-	text "Mont Sélénite"
-	line "Entrée du tunnel"
+	text "Mt.Moon"
+	line "Tunnel Entrance"
 	done
 
 _Route4Text6::
 	text "Route 4"
-	line "Mont Sélénite -"
-	cont "Azuria"
+	line "Mt.Moon -"
+	cont "Cerulean City"
 	done
