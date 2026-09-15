@@ -1,16 +1,16 @@
 _MasterBallDescription::
-	text "The best #ball"
+	text "The best # Ball"
 	next "it never misses."
 	prompt
 
 _UltraBallDescription::
 	text "More powerful than"
-	next "a GREAT BALL."
+	next "a Great Ball."
 	prompt
 
 _GreatBallDescription::
 	text "More effective"
-	next "than a POKé BALL."
+	next "than a # Ball."
 	prompt
 
 _PokeBallDescription::
@@ -24,17 +24,17 @@ _TownMapDescription::
 	prompt
 
 _BicycleDescription::
-	text "A folding bike"
-	line "for fast travel."
-	para "Press SELECT while"
-	line "holding A to use"
+	text "A folding bike for"
+	line "fast movement."
+	
+	para "Hold A and press"
+	line "SELECT to use"
 	cont "it quickly."
 	prompt
 
 _SurfboardDescription::
-	text "Allows you to"
-	next "surf without a"
-	next "#mon."
+	text "Allows Surfing"
+	next "without #mon."
 	prompt
 
 _MoonStoneDescription::
@@ -63,11 +63,13 @@ _AntidoteDescription::
 	prompt
 
 _BurnHealDescription::
-	text "Heals burned #mon"
+	text "Heals burned" 
+	next "#mon"
 	prompt
 
 _IceHealDescription::
-	text "Thaws frozen #mon"
+	text "Thaws frozen" 
+	next "#mon"
 	prompt
 
 _AwakeningDescription::
@@ -87,32 +89,32 @@ _FullRestoreDescription::
 
 _MaxPotionDescription::
 	text "Fully restores"
-	next "the HP of a #mon."
+	next "#mon HP."
 	prompt
 
 _HyperPotionDescription::
-	text "Restores #mon HP"
-	next "by 200."
+	text "Restores #mon"
+	next "HP by 200."
 	prompt
 
 _SuperPotionDescription::
-	text "Restores #mon HP"
-	next "by 50."
+	text "Restores #mon"
+	next "HP by 50."
 	prompt
 
 _PotionDescription::
-	text "Restores #mon HP"
-	next "by 20"
+	text "Restores #mon"
+	next "HP by 20."
 	prompt
 
 _EscapeRopeDescription::
 	text "Use for escaping"
-	next "from caves,etc."
+	next "from caves, etc."
 	prompt
 
 _RepelDescription::
 	text "Repels weak #mon"
-	next "for 100 steps"
+	next "for 100 steps."
 	prompt
 
 _OldAmberDescription::
@@ -147,7 +149,7 @@ _CalciumDescription::
 
 _RareCandyDescription::
 	text "Raises the level"
-	next "of a #mon by one."
+	next "of a #mon by 1."
 	prompt
 
 _DomeFossilDescription::
@@ -157,7 +159,8 @@ _HelixFossilDescription::
 	prompt
 
 _SecretKeyDescription::
-	text "Opens locked doors"
+	text "Opens locked"
+	next "doors."
 	prompt
 
 _BikeVoucherDescription::
@@ -171,7 +174,7 @@ _XAccuracyDescription::
 	prompt
 
 _CardKeyDescription::
-	text "Opens doors at the"
+	text "Opens barriers at"
 	next "Silph Co."
 	prompt
 
@@ -192,12 +195,12 @@ _FullHealDescription::
 
 _ReviveDescription::
 	text "Restores a fainted"
-	next "#mon to 1/2 HP."
+	next "#mon to 1/2HP."
 	prompt
 
 _MaxReviveDescription::
-	text "Fully restores"
-	next "a fainted #mon."
+	text "Fully restores a"
+	next "fainted #mon."
 	prompt
 
 _GuardSpecDescription::
@@ -207,42 +210,41 @@ _GuardSpecDescription::
 
 _SuperRepelDescription::
 	text "Repels weak #mon"
-	next "for 200 steps"
+	next "for 200 steps."
 	prompt
 
 _MaxRepelDescription::
 	text "Repels weak #mon"
-	next "for 250 steps"
-	prompt
+	next "for 250 steps."
 
 _DireHitDescription::
-	text "Ups critical hit"
-	next "ratio."
+	text "Raises critical"
+	next "hits in battle."
 	prompt
 
 _FreshWaterDescription::
-	text "Restores #mon HP"
-	next "by 50."
+	text "Restores #mon"
+	next "HP by 50."
 	prompt
 
 _SodaPopDescription::
-	text "Restores #mon HP"
-	next "by 60."
+	text "Restores #mon"
+	next "HP by 60."
 	prompt
 
 _LemonadeDescription::
-	text "Restores #mon HP"
-	next "by 80."
+	text "Restores #mon"
+	next "HP by 80."
 	prompt
 
 _SSTicketDescription::
 	text "A ticket for the"
-	next "S.S. Anne."
+	next "S.S.Anne."
 	prompt
 
 _GoldTeethDescription::
-	text "The Golden teeth"
-	next "of Baoba."
+	text "Gold teeth of"
+	next "Baoba the Warden."
 	prompt
 
 _XAttackDescription::
@@ -273,7 +275,7 @@ _CoinCaseDescription::
 _OaksParcelDescription::
 	text "A package to be"
 	next "delivered to"
-	cont "Prof. OAK."
+	cont "Prof.Oak."
 	prompt
 
 _ItemfinderDescription::
@@ -287,7 +289,8 @@ _SilphScopeDescription::
 	prompt
 
 _PokeFluteDescription::
-	text "Wakes up any #mon."
+	text "Wakes up any"
+	next "#mon."
 	prompt
 
 _LiftKeyDescription::
@@ -296,23 +299,22 @@ _LiftKeyDescription::
 	prompt
 
 _ExpAllDescription::
-	text "Shares experience"
-	next "points with party."
+	text "Shares battle"
+	next "Exp. Points."
 	prompt
 
 _ExpCatchUpDescription::
-	text "Boosts experience"
-	next "gain for lower"
-	cont "level #mon in"
-	cont "your party."
+	text "Boosts battle"
+	next "Exp. Points for"
+	cont "weak #mon."
 	prompt
 
 _OldRodDescription::
 	text "Use on water to"
 	line "fish."
 
-	para "Press SELECT while"
-	line "holding A to use"
+	para "Hold A and press"
+	line "SELECT to use"
 	cont "it quickly."
 	prompt
 
@@ -320,8 +322,8 @@ _GoodRodDescription::
 	text "A good fishing"
 	line "rod."
 
-	para "Press SELECT while"
-	line "holding A to use"
+	para "Hold A and press"
+	line "SELECT to use"
 	cont "it quickly."
 	prompt
 
@@ -329,8 +331,8 @@ _SuperRodDescription::
 	text "The best fishing"
 	line "rod."
 
-	para "Press SELECT while"
-	line "holding A to use"
+	para "Hold A and press"
+	line "SELECT to use"
 	cont "it quickly."
 	prompt
 
@@ -360,290 +362,290 @@ _MaxElixerDescription::
 	prompt
 
 _HM01Description::
-	text "Press SELECT on a"
-	line "plant to use it."
+	text "Press SELECT to"
+	line "cut thin trees."
 
 	para "Cut:Bug"
-	line "Power:55 Accuracy:100"
+	line "Power:55 Acc:100"
 	prompt
 
 _HM02Description::
 	text "Fly:Flying"
-	next "Power:90 Accuracy:100"
+	next "Power:90 Acc:100"
 	prompt
 
 _HM03Description::
-	text "Press SELECT on"
-	line "water to use it."
+	text "Press SELECT to"
+	line "cross water." 
 
 	para "Surf:Water"
-	line "Power:95 Accuracy:100"
+	line "Power:95 Acc:100"
 	prompt
 
 _HM04Description::
-	text "Press SELECT on a"
-	line "rock to use it."
+	text "Press SELECT to"
+	line "move boulders."
 
-	para "Strength:Fighting"
-	line "Power:80 Accuracy:100"
+	para "Strength:Fight"
+	line "Power:80 Acc:100"
 	prompt
 
 _HM05Description::
-	text "Press SELECT in"
-	line "darkness to use."
+	text "Press SELECT to"
+	line "illuminate caves."
 	
-	para "Flash:Electric"
-	line "Power:- Accuracy:100"
+	para "Flash:Electr"
+	line "Power:- Acc:100"
 	prompt
 
 _TM01Description::
-	text "Mega Punch:Fighting"
-	next "Power:80 Accuracy:85"
+	text "MegaPunch:Fight"
+	next "Power:80 Acc:85"
 	prompt
 
 _TM02Description::
-	text "Razor Wind:Flying"
-	next "Power:80 Accuracy:100"
+	text "RazorWind:Flying"
+	next "Power:80 Acc:100"
 	prompt
 
 _TM03Description::
-	text "Swords Dance:Normal"
-	next "Power:- Accuracy:-"
+	text "SwordsDance:Normal"
+	next "Power:- Acc:-"
 	prompt
 
 _TM04Description::
 	text "Flamethrower:Fire"
-	next "Power:95 Accuracy:100"
+	next "Power:95 Acc:100"
 	prompt
 
 _TM05Description::
-	text "Mega Kick:Fighting"
-	next "Power:120 Accuracy:75"
+	text "MegaKick:Fight"
+	next "Power:120 Acc:75"
 	prompt
 
 _TM06Description::
 	text "Toxic:Poison"
-	next "Power:- Accuracy:85"
+	next "Power:- Acc:85"
 	prompt
 
 _TM07Description::
-	text "Horn Drill:Normal"
-	next "Power:- Accuracy:30"
+	text "HornDrill:Normal"
+	next "Power:- Acc:30"
 	prompt
 
 _TM08Description::
-	text "Body Slam:Normal"
-	next "Power:85 Accuracy:100"
+	text "BodySlam:Normal"
+	next "Power:85 Acc:100"
 	prompt
 
 _TM09Description::
-	text "Take Down:Normal"
-	next "Power:90 Accuracy:85"
+	text "TakeDown:Normal"
+	next "Power:90 Acc:85"
 	prompt
 
 _TM10Description::
-	text "Double Edge:Normal"
-	next "Power:120 Accuracy:100"
+	text "DoubleEdge:Normal"
+	next "Power:120 Acc:100"
 	prompt
 
 _TM11Description::
-	text "Bubble Beam:Water"
-	next "Power:65 Accuracy:100"
+	text "BubbleBeam:Water"
+	next "Power:65 Acc:100"
 	prompt
 
 _TM12Description::
-	text "Water Gun:Water"
-	next "Power:40 Accuracy:100"
+	text "WaterGun:Water"
+	next "Power:40 Acc:100"
 	prompt
 
 _TM13Description::
-	text "Ice Beam:Ice"
-	next "Power:95 Accuracy:100"
+	text "IceBeam:Ice"
+	next "Power:95 Acc:100"
 	prompt
 
 _TM14Description::
 	text "Blizzard:Ice"
-	next "Power:120 Accuracy:70"
+	next "Power:120 Acc:70"
 	prompt
 
 _TM15Description::
-	text "Hyper Beam:Normal"
-	next "Power:150 Accuracy:90"
+	text "HyperBeam:Normal"
+	next "Power:150 Acc:90"
 	prompt
 
 _TM16Description::
-	text "Pay Day:Normal"
-	next "Power:40 Accuracy:100"
+	text "PayDay:Normal"
+	next "Power:40 Acc:100"
 	prompt
 
 _TM17Description::
-	text "Submission:Fighting"
-	next "Power:80 Accuracy:80"
+	text "Submission:Fight"
+	next "Power:80 Acc:80"
 	prompt
 
 _TM18Description::
-	text "Counter:Fighting"
-	next "Power:- Accuracy:100"
+	text "Counter:Fight"
+	next "Power:- Acc:100"
 	prompt
 
 _TM19Description::
-	text "Seismic Toss:Fighting"
-	next "Power:- Accuracy:100"
+	text "SeismicToss:Fight"
+	next "Power:- Acc:100"
 	prompt
 
 _TM20Description::
-	text "X Scissor:Bug"
-	next "Power:80 Accuracy:100"
+	text "XScissor:Bug"
+	next "Power:80 Acc:100"
 	prompt
 
 _TM21Description::
-	text "Mega Drain:Grass"
-	next "Power:40 Accuracy:100"
+	text "MegaDrain:Grass"
+	next "Power:40 Acc:100"
 	prompt
 
 _TM22Description::
-	text "Solar Beam:Grass"
-	next "Power:140 Accuracy:100"
+	text "SolarBeam:Grass"
+	next "Power:140 Acc:100"
 	prompt
 
 _TM23Description::
-	text "Dragon Rage:Dragon"
-	next "Power:- Accuracy:100"
+	text "DragonRage:Dragon"
+	next "Power:- Acc:100"
 	prompt
 
 _TM24Description::
-	text "Thunderbolt:Electric"
-	next "Power:95 Accuracy:100"
+	text "Thunderbolt:Electr"
+	next "Power:95 Acc:100"
 	prompt
 
 _TM25Description::
-	text "Thunder:Electric"
-	next "Power:120 Accuracy:70"
+	text "Thunder:Electr"
+	next "Power:120 Acc:70"
 	prompt
 
 _TM26Description::
 	text "Earthquake:Ground"
-	next "Power:100 Accuracy:100"
+	next "Power:100 Acc:100"
 	prompt
 
 _TM27Description::
 	text "Fissure:Ground"
-	next "Power:- Accuracy:30"
+	next "Power:- Acc:30"
 	prompt
 
 _TM28Description::
 	text "Dig:Ground"
-	next "Power:80 Accuracy:100"
+	next "Power:80 Acc:100"
 	prompt
 
 _TM29Description::
 	text "Psychic:Psychic"
-	next "Power:90 Accuracy:100"
+	next "Power:90 Acc:100"
 	prompt
 
 _TM30Description::
 	text "Teleport:Psychic"
-	next "Power:- Accuracy:-"
+	next "Power:- Acc:-"
 	prompt
 
 _TM31Description::
 	text "Mimic:Normal"
-	next "Power:- Accuracy:-"
+	next "Power:- Acc:-"
 	prompt
 
 _TM32Description::
-	text "Double Team:Normal"
-	next "Power:- Accuracy:-"
+	text "DoubleTeam:Normal"
+	next "Power:- Acc:-"
 	prompt
 
 _TM33Description::
 	text "Reflect:Psychic"
-	next "Power:- Accuracy:-"
+	next "Power:- Acc:-"
 	prompt
 
 _TM34Description::
 	text "Bide:Rock"
-	next "Power:- Accuracy:-"
+	next "Power:- Acc:-"
 	prompt
 
 _TM35Description::
 	text "Metronome:Normal"
-	next "Power:- Accuracy:-"
+	next "Power:- Acc:-"
 	prompt
 
 _TM36Description::
-	text "Self-Destruct:Normal"
-	next "Power:200 Accuracy:100"
+	text "Self-Destr.:Normal"
+	next "Power:200 Acc:100"
 	prompt
 
 _TM37Description::
-	text "Sludge Bomb:Poison"
-	next "Power:95 Accuracy:100"
+	text "SludgeBomb:Poison"
+	next "Power:95 Acc:100"
 	prompt
 
 _TM38Description::
-	text "Fire Blast:Fire"
-	next "Power:120 Accuracy:85"
+	text "FireBlast:Fire"
+	next "Power:120 Acc:85"
 	prompt
 
 _TM39Description::
 	text "Swift:Normal"
-	next "Power:60 Accuracy:-"
+	next "Power:60 Acc:-"
 	prompt
 
 _TM40Description::
-	text "Skull Bash:Normal"
-	next "Power:100 Accuracy:100"
+	text "SkullBash:Normal"
+	next "Power:100 Acc:100"
 	prompt
 
 _TM41Description::
-	text "Giga Drain:Grass"
-	next "Power:75 Accuracy:100"
+	text "GigaDrain:Grass"
+	next "Power:75 Acc:100"
 	prompt
 
 _TM42Description::
-	text "Shadow Ball:Ghost"
-	next "Power:80 Accuracy:100"
+	text "ShadowBall:Ghost"
+	next "Power:80 Acc:100"
 	prompt
 
 _TM43Description::
-	text "Sky Attack:Flying"
-	next "Power:140 Accuracy:100"
+	text "SkyAttack:Flying"
+	next "Power:140 Acc:100"
 	prompt
 
 _TM44Description::
 	text "Rest:Psychic"
-	next "Power:- Accuracy:-"
+	next "Power:- Acc:-"
 	prompt
 
 _TM45Description::
-	text "Thunder Wave:Electric"
-	next "Power:- Accuracy:100"
+	text "ThunderWave:Electr"
+	next "Power:- Acc:100"
 	prompt
 
 _TM46Description::
-	text "Dark Pulse:Dark"
-	next "Power:80 Accuracy:100"
+	text "DarkPulse:Dark"
+	next "Power:80 Acc:100"
 	prompt
 
 _TM47Description::
 	text "Explosion:Normal"
-	next "Power:250 Accuracy:100"
+	next "Power:250 Acc:100"
 	prompt
 
 _TM48Description::
-	text "Rock Slide:Rock"
-	next "Power:80 Accuracy:95"
+	text "RockSlide:Rock"
+	next "Power:80 Acc:95"
 	prompt
 
 _TM49Description::
-	text "Tri Attack:Normal"
-	next "Power:80 Accuracy:100"
+	text "TriAttack:Normal"
+	next "Power:80 Acc:100"
 	prompt
 
 _TM50Description::
 	text "Substitute:Normal"
-	next "Power:- Accuracy:-"
+	next "Power:- Acc:-"
 	prompt
 
 _UnusedItemDescription::

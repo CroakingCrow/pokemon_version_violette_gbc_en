@@ -1,52 +1,51 @@
 _SafariZoneRestHouse1JuliaSearchText::
-	text "Julia: Où est"
-	line "Nico, mon petit"
-	cont "ami?"
+	text "Sara: Where did"
+	line "my boy friend,"
+	cont "Erik, go?"
 	done
 
 _SafariZoneRestHouse1Text2::
-	text "Je capture des"
-	line "#mon pour"
-	cont "les offrir!"
+	text "I'm catching"
+	line "#mon to take"
+	cont "home as gifts!"
 	done
 
 _SafariZoneRestHouse1JuliaFoundText::
-	text "Julia: Merci à"
-	line "toi! Je ne sais"
-	cont "pas comment te"
-	cont "remercier..."
+	text "Sara: Oh, I'm so"
+	line "relieved!"
+	cont "I don't know how"
+	cont "to thank you..."
 	
-	para "Une encyclopédie"
-	line "#mon dis-tu?"
-	cont "Nous sommes"
-	cont "spécialisés dans"
-	cont "la recherche sur"
-	cont "les Minidraco."
+	para "An #mon encyclo-"
+	line "pedia you say?"
+	cont "We specialize"
+	cont "in Dratini"
+	cont "research."
 	
-	para "On peut te parta-"
-	line "ger ce que l'on"
-	cont "sait, si ça peut"
-	cont "t'aider!"
+	para "We can share with"
+	line "you what we have"
+	cont "learned!"
 	prompt
 
 _SafariZoneRestHouse1JuliaFound2Text::
-	text "D'après nos"
-	line "recherches on ne"
-	cont "pourrait en avoir"
-	cont "qu'avec une Méga"
-	cont "Canne au plus"
-	cont "profonds des Iles"
-	cont "Ecume..."
+	text "According to our"
+	line "researches, they"
+	cont "can only be found"
+	cont "With a Super Rod"
+	cont "in the depth of"
+	cont "the Seafoam"
+	cont "Islands..."
 	prompt
 
 _SafariZoneRestHouse1NicoText::
-	text "Nico: On aurait"
-	line "pu s'attendre"
-	cont "longtemps!"
+	text "Erik: We could"
+	line "have waited a"
+	cont "long time like"
+	cont "this!"
 
-	para "Enfin bref, tu"
-	line "savais qu'avant"
-	cont "le Safari était"
-	cont "connu pour son"
-	cont "Minidraco?"
+	para "Anyway, did you"
+	line "know that the"
+	cont "Safari Zone was"
+	cont "once known for"
+	cont "its Dratini?"
 	done
