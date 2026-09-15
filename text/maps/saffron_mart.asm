@@ -1,14 +1,13 @@
 _SaffronMartText2::
-	text "Le Max Repousse"
-	line "fonctionne plus"
-	cont "longtemps que le"
-	cont "Superepousse!"
+	text "Max Repel lasts"
+	line "longer than Super"
+	cont "Repel for keeping"
+	cont "weaker #mon"
+	cont "away!"
 	done
 
 _SaffronMartText3::
-	text "Le Rappel est"
-	line "coûteux mais il"
-	cont "permet de"
-	cont "réanimer un"
-	cont "#mon K.O.!"
+	text "Revive is costly,"
+	line "but it revives"
+	cont "fainted #mon!"
 	done

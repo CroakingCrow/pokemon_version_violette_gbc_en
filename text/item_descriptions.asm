@@ -113,7 +113,7 @@ _EscapeRopeDescription::
 	prompt
 
 _RepelDescription::
-	text "Repels weak #mon"
+	text "Repels #mon"
 	next "for 100 steps."
 	prompt
 
@@ -174,7 +174,7 @@ _XAccuracyDescription::
 	prompt
 
 _CardKeyDescription::
-	text "Opens barriers at"
+	text "Opens doors at"
 	next "Silph Co."
 	prompt
 
@@ -209,12 +209,12 @@ _GuardSpecDescription::
 	prompt
 
 _SuperRepelDescription::
-	text "Repels weak #mon"
+	text "Repels #mon"
 	next "for 200 steps."
 	prompt
 
 _MaxRepelDescription::
-	text "Repels weak #mon"
+	text "Repels #mon"
 	next "for 250 steps."
 
 _DireHitDescription::
@@ -306,7 +306,7 @@ _ExpAllDescription::
 _ExpCatchUpDescription::
 	text "Boosts battle"
 	next "Exp. Points for"
-	cont "weak #mon."
+	cont "weaker #mon."
 	prompt
 
 _OldRodDescription::
