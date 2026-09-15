@@ -27,7 +27,7 @@ _BikeShopText_1d81f::
 _BikeShopText_1d824::
 	text "<PLAYER> exchanged"
 	line "the bike voucher"
-;	cont "for a bicycle.@@"
+;	cont "for a bicycle."
 ;joenote - add hotkey info
 	cont "for a bicycle."
 	para "Hold A and press"
