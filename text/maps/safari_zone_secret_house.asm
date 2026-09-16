@@ -67,9 +67,9 @@ _SecretHouseText_HM03NoRoom::
 
 ;;;;;;;;;;;;;;;;;;;;;;joenote - adding text for Chief battle
 _SecretHouseText_ChiefChallenge::
-	text "You challenge"
-	line "me to a #mon"
-	cont "battle?"
+	text "You want to"
+	line "challenge me to a"
+	cont "#mon battle?"
 	done
 
 _SecretHouseText_ChiefPreBattle::

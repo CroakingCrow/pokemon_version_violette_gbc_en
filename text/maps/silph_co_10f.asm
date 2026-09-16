@@ -1,54 +1,52 @@
 _SilphCo10Text_5a1d3::
 	text "Waaaaa!"
-	line "Mamaaaan!"
+	line "I'm scared!"
 	done
 
 _SilphCo10Text_5a1d8::
-	text "Ne répète à"
-	line "personne que j'ai"
-	cont "pleuré!"
+	text "Please keep quiet"
+	line "about my crying!"
 	done
 
 _SilphCo10BattleText1::
-	text "Bienvenue au"
-	line "9ème étage!"
-	cont "J'adore les"
-	cont "visites!"
+	text "Welcome to the"
+	line "10F! So good of"
+	cont "you to join me!"
 	done
 
 _SilphCo10EndBattleText1::
-	text "Aïe!"
-	line "Bobo!"
+	text "I'm"
+	line "stunned!"
 	prompt
 
 _SilphCo10AfterBattleText1::
-	text "Bien joué, mais"
-	line "la salle du"
-	cont "conseil est"
-	cont "au-dessus!"
+	text "Nice try, but the"
+	line "boardroom is up"
+	cont "one more floor!"
 	done
 
 _SilphCo10BattleText2::
-	text "Maintenant..."
-	line "Fini de jouer!"
+	text "Enough of your"
+	line "silly games!"
 	done
 
 _SilphCo10EndBattleText2::
-	text "Oh!"
-	line "Game Over!"
+	text "No"
+	line "continues left!"
 	prompt
 
 _SilphCo10AfterBattleText2::
-	text "T'as gagné!"
-	line "T'es content?"
+	text "Are you satisfied"
+	line "with beating me?"
+	cont "Then go on home!"
 	done
 
 _SilphCo10Text_PorygonText::
-	text "Des #mon sur"
-	line "le moniteur!"
+	text "There are #mon"
+	line "on the screen!"
 
-	para "Oulah!"
-	line "C'est un coup à"
-	cont "faire une crise"
-	cont "d'épilepsie!"
+	para "Woah!"
+	line "That's enough"
+	cont "to give you a"
+	cont "seizure!"
 	prompt
