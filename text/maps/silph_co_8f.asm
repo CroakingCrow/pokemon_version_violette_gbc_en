@@ -1,57 +1,56 @@
 _SilphCo8Text_565be::
-	text "Mmm... La Sylphe"
-	line "va-t-elle faire"
-	cont "faillite?"
+	text "I wonder if Silph"
+	line "is finished..."
 	done
 
 _SilphCo8Text_565c3::
-	text "Merci de nous"
-	line "avoir sauvés!"
+	text "Thanks for saving"
+	line "us!"
 	done
 
 _SilphCo8BattleText1::
-	text "Hop hop hop!"
-	line "On ne bouge plus!"
+	text "That's as far as"
+	line "you'll go!"
 	done
 
 _SilphCo8EndBattleText1::
-	text "Je suis"
-	line "faible!"
+	text "Not"
+	line "enough grit!"
 	prompt
 
 _SilphCo8AfterBattleText1::
-	text "Va-t'en ou"
-	line "j'appelle du"
-	cont "renfort!"
+	text "If you don't turn"
+	line "back, I'll call"
+	cont "for backup!"
 	done
 
 _SilphCo8BattleText2::
-	text "Tu nous casses"
-	line "les pieds!"
+	text "You're causing us"
+	line "problems!"
 	done
 
 _SilphCo8EndBattleText2::
-	text "Heu?"
-	line "J'ai perdu?"
+	text "Huh?"
+	line "I lost?"
 	prompt
 
 _SilphCo8AfterBattleText2::
-	text "La Sylphe est un"
-	line "vrai labyrinthe,"
-	cont "hein?"
+	text "So, what do you"
+	line "think of Silph"
+	cont "Building's maze?"
 	done
 
 _SilphCo8BattleText3::
-	text "Je suis l'un des"
-	line "4 frères Rocket!"
+	text "I am one of the 4"
+	line "Rocket Brothers!"
 	done
 
 _SilphCo8EndBattleText3::
 	text "Whoo!"
-	line "Frèèèères!"
+	line "Oh brothers!"
 	prompt
 
 _SilphCo8AfterBattleText3::
-	text "Mes frères te"
-	line "dégommeront!"
+	text "I'll leave you up"
+	line "to my brothers!"
 	done
