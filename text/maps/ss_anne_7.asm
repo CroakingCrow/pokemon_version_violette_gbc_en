@@ -1,74 +1,69 @@
 _SSAnne7RubText::
-	text "Capitaine: Blorf."
-	line "J'suis pas bien."
-	cont "Beurp..."
+	text "Captain: Ooargh..."
+	line "I feel hideous..."
+	cont "Urrp! Seasick..."
 
-	para "<PLAYER> masse"
-	line "le dos du"
-	cont "Capitaine!"
+	para "<PLAYER> rubbed"
+	line "the CAPTAIN's"
+	cont "back!"
 
-	para "Scratch..."
-	line "Scratch...@"
+	para "Rub-rub..."
+	line "Rub-rub...@"
 	text_end
 
 _ReceivingHM01Text::
-	text "Capitaine: Merci"
-	line "moussaillon!"
-	cont "Ça va beaucoup"
-	cont "mieux..."
+	text "Captain: Whew!"
+	line "Thank you! I"
+	cont "feel much better!"
 
-	para "Mille sabords!"
-	line "Tu veux voir"
-	cont "la technique"
-	cont "Coupe?"
+	para "You want to see"
+	line "my Cut technique?"
 
-	para "Je pourrais te la"
-	line "montrer, mais"
-	cont "j'suis malade."
+	para "I could show you"
+	line "if I wasn't ill..."
 
-	para "Je sais!"
-	line "Prends ça!"
+	para "I know! You can"
+	line "have this!"
 
-	para "C'est la technique"
-	line "Coupe."
-	cont "Enseigne-la à"
-	cont "tes #mon!"
+	para "Teach it to your"
+	line "#mon and you"
+	cont "can see it Cut"
+	cont "any time!"
 	
 ;joenote - add hotkey info
-	para "Appuyer sur SELECT"
-	line "devant un buisson"
-	cont "pour l'utiliser."	
+	para "Press SELECT when"
+	line "facing a bush to"
+	cont "use it."	
 	prompt
 
 _ReceivedHM01Text::
-	text "<PLAYER> obtient"
+	text "<PLAYER> got"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _SSAnne7Text_61932::
-	text "Capitaine: Haaaa!"
+	text "Captain: Whew!"
 
-	para "Maintenant que"
-	line "je suis guéri, on"
-	cont "va lever l'ancre!"
+	para "Now that I'm not"
+	line "sick any more, I"
+	cont "guess it's time."
 	done
 
 _HM01NoRoomText::
-	text "Ha zut! Tu n'as"
-	line "plus de place"
-	cont "pour cet objet!"
+	text "Oh no! You have"
+	line "no room for this!"
 	done
 
 _SSAnne7Text2::
-	text "Quoi?!?"
-	line "Il a mangé ça???"
+	text "Yuck! Shouldn't"
+	line "have looked!"
 	done
 
 _SSAnne7Text3::
-	text "Comment guérir"
-	line "le mal de mer..."
-	cont "Le Capitaine lit"
-	cont "ce manuel!"
+	text "How to Conquer"
+	line "Seasickness..."
+	cont "The Captain's"
+	cont "reading this!"
 	done

@@ -1,217 +1,199 @@
 _SSAnne9Text_61bf2::
-	text "Dans tous mes"
-	line "voyages, je n'ai"
-	cont "jamais vu un"
-	cont "#mon dormir"
-	cont "autant!"
+	text "In all my travels"
+	line "I've never seen"
+	cont "any #mon sleep"
+	cont "like this one!"
 
-	para "Il était un"
-	line "peu comme ça..."
+	para "It was something"
+	line "like this!"
 	prompt
 
 _SSAnne9Text_61c01::
-	text "Oui! J'ai vu des"
-	line "gens transporter"
-	cont "des #mon par-"
-	cont "delà les eaux!"
+	text "Ah yes, I have"
+	line "seen some #mon"
+	cont "ferry people"
+	cont "across the water!"
 	done
 
 _SSAnne9Text_61c10::
-	text "Les #mon"
-	line "peuvent couper des"
-	cont "petits buissons"
-	cont "avec la technique"
-	cont "Coupe."
+	text "#mon can Cut"
+	line "down small bushes."
 	done
 
 _SSAnne9Text_61c1f::
-	text "As-tu déjà vu"
-	line "le Parc Safari"
-	cont "à Parmanie?"
+	text "Have you gone to"
+	line "the Safari Zone"
+	cont "in Fuchsia City?"
 
-	para "On y trouve plein"
-	line "de #mon rares!"
+	para "It had many rare"
+	line "kinds of #mon!!"
 	done
 
 _SSAnne9Text_61c2e::
-	text "Mon Pôpa et moi,"
-	line "on pense que le"
-	cont "Parc Safari"
-	cont "il est génial!"
+	text "Me and my Daddy"
+	line "think the Safari"
+	cont "Zone is awesome!"
 	done
 
 _SSAnne9Text_61c3d::
-	text "Le Capitaine"
-	line "avait l'air tout"
-	cont "pâlot!"
+	text "The Captain looked"
+	line "really sick and"
+	cont "pale!"
 	done
 
 _SSAnne9Text_61c4c::
-	text "C'est assez"
-	line "fréquent d'avoir"
-	cont "le mal de mer!"
+	text "I hear many people"
+	line "get seasick!"
 	done
 
 _SSAnne9BattleText1::
-	text "Les duels contre"
-	line "les jeunes me"
-	cont "maintiennent en"
-	cont "forme!"
+	text "Competing against"
+	line "the young keeps"
+	cont "me youthful."
 	done
 
 _SSAnne9EndBattleText1::
-	text "Woah!"
-	line "Ha! Je me sens"
-	cont "en pleine forme!"
+	text "Good"
+	line "fight! Ah, I feel"
+	cont "young again!"
 	prompt
 
 _SSAnne9AfterBattleText1::
-	text "Hmm! Il y a 15"
-	line "ans, j'aurais"
-	cont "gagné..."
+	text "15 years ago, I"
+	line "would have won!"
 	done
 
 _SSAnne9BattleText2::
-	text "Hé! Regarde ce"
-	line "que j'ai pêché!"
+	text "Check out what I"
+	line "fished up!"
 	done
 
 _SSAnne9EndBattleText2::
-	text "OK!"
-	line "J'suis fait!!"
+	text "I'm"
+	line "all out!"
 	prompt
 
 _SSAnne9AfterBattleText2::
-	text "Une fête?"
+	text "Party?"
 
-	para "Elle doit être"
-	line "finie maintenant."
+	para "The cruise ship's"
+	line "party should be"
+	cont "over by now."
 	done
 
 _SSAnne9BattleText3::
-	text "Que veux-tu?"
-	line "Un #mon"
-	cont "costaud ou rare?"
+	text "Which do you like,"
+	line "a strong or a"
+	cont "rare #mon?"
 	done
 
 _SSAnne9EndBattleText3::
-	text "Bravo!"
-	line "Tu es très fort!"
+	text "I must"
+	line "salute you!"
 	prompt
 
 _SSAnne9AfterBattleText3::
-	text "Je préfère les"
-	line "#mon rares"
-	cont "et costauds!"
+	text "I prefer strong"
+	line "and rare #mon."
 	done
 
 _SSAnne9BattleText4::
-	text "Je ne t'ai pas vu"
-	line "à la fête."
+	text "I never saw you"
+	line "at the party."
 	done
 
 _SSAnne9EndBattleText4::
-	text "Relax!"
-	line "T'énerve pas!!!"
+	text "Take"
+	line "it easy!"
 	prompt
 
 _SSAnne9AfterBattleText4::
-	text "Woah! Tes #mon"
-	line "sont super forts!"
-	cont "Je les adore!"
+	text "Oh, I adore your"
+	line "strong #mon!"
 	done
 
 _GiovanniText_RematchPreBattle::
-	text "Salut <PLAYER>!"
-	line "J'attendais ton"
-	cont "arrivée, tu as"
-	cont "manqué de peu des"
-	cont "retrouvailles"
-	cont "père-fils"
-	cont "explosives!"
+	text "Hello <PLAYER>!"
+	line "I was expecting"
+	cont "your arrival. You"
+	cont "just missed an"
+	cont "explosive father-"
+	cont "son reunion!"
 
-	para "J'ai entendu dire"
-	line "que tu étais"
-	cont "devenu Champion,"
+	para "I heard that"
+	line "you've become"
+	cont "Champion,"
 
-	para "que dirais-tu"
-	line "d'un match"
-	cont "amical, que je"
-	cont "te présente"
-	cont "mon vieil ami?"
+	para "how about a"
+	line "friendly battle?"
 	done
 
 _GiovanniText_RematchEndBattle::
-	text "Giovanni: Bien,"
-	line "si seulement mon"
-	cont "fils avait ton"
-	cont "sens de"
-	cont "l'honneur..."
+	text "Giovanni: Well,"
+	line "if only my son"
+	cont "could have your"
+	cont "sense of honor..."
 
-	para "J'aurais voulu"
-	line "qu'il reprenne"
-	cont "avec moi l'entre-"
-	cont "prise familiale,"
-	cont "comme mère"
-	cont "l'avait fait"
-	cont "pour moi."
+	para "I wanted him to"
+	line "take over the"
+	cont "family business"
+	cont "with me, as"
+	cont "Mother had done"
+	cont "for me before."
 
-	para "Mais il semblerait"
-	line "qu'il soit encore"
-	cont "trop immature,"
-	cont "il a décidé de"
-	cont "partir à"
-	cont "l'aventure."
+	para "But it seems that"
+	line "he's still too"
+	cont "immature, he"
+	cont "decided to go"
+	cont "on an adventure."
 
-	para "Je me demande d'"
-	line "ailleurs si tu ne"
-	cont "lui aurais pas"
-	cont "donné l'exemple.."
+	para "I wonder if he"
+	line "didn't take"
+	cont "example on you..."
 
-	para "En tout cas,"
-	line "j'ai décidé de"
-	cont "raccrocher et"
-	cont "d'explorer le"
-	cont "monde."
+	para "In any case,"
+	line "I decided to"
+	cont "retire and"
+	cont "explore the"
+	cont "world."
 
-	para "Qui sait, peut-"
-	line "être que mon fils"
-	cont "accomplira de"
-	cont "grandes choses."
+	para "Who knows,"
+	line "my son may"
+	cont "accomplish great"
+	cont "things."
 
-	para "Je suis impatient"
-	line "de voir quelle"
-	cont "voie il"
-	cont "empruntera."
+	para "I'm looking for-"
+	line "ward to see which"
+	cont "path he'll take."
 	prompt
 
 _GiovanniText_RematchAfterBattle::
-	text "Comment ça une"
-	line "récompense, tu"
-	cont "te rappelles à"
-	cont "qui tu parles?"
+	text "A reward? Who do"
+	line "think you're"
+	cont "talking to?"
 
-	para "Allez, c'est mon"
-	line "jour de bonté."
+	para "..."
+	line "Well, I'm feeling"
+	cont "generous today."
 
-	para "Va dans notre"
-	line "ancien labo"
-	cont "clandestin et"
-	cont "ouvre le coffre"
-	cont "avec ce code:"
+	para "Go in our old"
+	line "private lab"
+	cont "and open the"
+	cont "chest using"
+	cont "this password:"
 
-	para "Projet Jungle X"
+	para "Project Jungle X"
 	
-	para "Tu y trouveras un"
-	line "prototype conçu"
-	cont "avec le Dr Fuji."
+	para "You'll find a"
+	line "prototype"
+	cont "designed with"
+	cont "the Dr.Fuji."
 
-	para "On a dû abandonner"
-	line "cette planque"
-	cont "précipitamment"
-	cont "avant de pouvoir"
-	cont "le tester..."
+	para "We had to abandon"
+	line "this hideout"
+	cont "before we could"
+	cont "even test it..."
 
-	para "Ahh... C'était le"
-	line "bon temps..."
+	para "Ahh... the good"
+	line "old times..."
 	done
