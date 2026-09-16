@@ -363,7 +363,7 @@ _MaxElixerDescription::
 
 _HM01Description::
 	text "Press SELECT to"
-	line "cut thin trees."
+	line "cut bushes."
 
 	para "Cut:Bug"
 	line "Power:55 Acc:100"
@@ -574,7 +574,7 @@ _TM35Description::
 	prompt
 
 _TM36Description::
-	text "Self-Destr.:Normal"
+	text "SelfDestruc:Normal"
 	next "Power:200 Acc:100"
 	prompt
 
