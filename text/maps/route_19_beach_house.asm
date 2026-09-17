@@ -1,5 +1,5 @@
 _Route19BeachHouseFisherBeforeText::
-	text "Yo how ya doin'?"
+	text "Yo, how ya doin'?"
 	line "Dave's the"
 	cont "Surfing Boss!"
 
@@ -14,7 +14,7 @@ _Route19BeachHouseFisherBeforeText::
 	done
 
 _Route19BeachHouseFisherAfterText::
-	text "Yo how ya doin'?"
+	text "Yo, how ya doin'?"
 	line "Crazy!!!"
 	cont "You're a Surfer"
 	cont "too!"
@@ -31,8 +31,8 @@ _Route19BeachHousePikachuText::
 	done
 
 _Route19BeachHousePoster1Text::
-	text "Surfing, the sea:"
-	line "This is the life!"
+	text "Surfing is a way"
+	line "of life!"
 	done
 
 _Route19BeachHousePoster2Text::
