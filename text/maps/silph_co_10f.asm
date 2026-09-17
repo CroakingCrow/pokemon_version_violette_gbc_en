@@ -45,7 +45,7 @@ _SilphCo10Text_PorygonText::
 	text "There are #mon"
 	line "on the screen!"
 
-	para "Woah!"
+	para "Whoa!"
 	line "That's enough"
 	cont "to give you a"
 	cont "seizure!"

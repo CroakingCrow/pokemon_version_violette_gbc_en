@@ -1,29 +1,27 @@
 _VermilionGymText_LeaderAfterBattle::
-	text "Un p'tit conseil,"
-	line "gamin!"
+	text "A little word of"
+	line "advice, kid!"
 
-	para "L'électricité est"
-	line "très puissante!"
+	para "Electricity is"
+	line "sure powerful!"
 
-	para "Mais elle est"
-	line "inutile face à"
-	cont "des #mon de"
-	cont "la terre!"
+	para "But, it's useless"
+	line "against ground-"
+	cont "type #mon!"
 	done
 
 _VermilionGymText_Badge::
-	text "Le BadgeFoudre"
-	line "permet à tes"
-	cont "#mon de"
-	cont "Voler!"
+	text "The Thunder Badge"
+	line "lets your"
+	cont "#mon Fly any"
+	cont "time, kid!"
 
-	para "Tu es un bon, mon"
-	line "p'tit gars!"
-	cont "Prends ça!"
+	para "You're special,"
+	line "kid! Take this!"
 	done
 
 _VermilionGymText_ReceivedTM::
-	text "<PLAYER> reçoit:"
+	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -32,197 +30,181 @@ _VermilionGymText_ReceivedTM::
 _VermilionGymText_TMExplanation::
 	text_start
 
-	para "CT24: Tonnerre!"
+	para "TM24 contains"
+	line "Thunderbolt!"
 
-	para "Enseigne-la à un"
-	line "#mon de la"
-	cont "foudre!"
+	para "Teach it to an"
+	line "electric #mon!"
 	done
 
 _VermilionGymText_BagFull::
-	text "Revue d'paquetage"
-	line "p'tit gars, ton"
-	cont "inventaire est"
-	cont "plein!"
+	text "Yo kid, make room"
+	line "in your pack!"
 	done
 
 _VermilionGymText_LeaderEndBattle::
-	text "Whoo!"
+	text "Whoa!"
 
-	para "Gard'vous! T'es"
-	line "un dur, mon p'tit"
-	cont "gars!"
+	para "You're the real"
+	line "deal, kid!"
 
-	para "Très bien, prends"
-	line "le BadgeFoudre!"
+	para "Fine then, take"
+	line "the Thunder"
+	cont "Badge!"
 	prompt
 
 _VermilionGymText_RematchPreBattle::
-	text "Champion, hein?"
+	text "Champion, huh?"
 
-	para "Pendant ce temps,"
-	line "j'suis reparti"
-	cont "en entrainement."
+	para "In the meantime,"
+	line "I resumed my"
+	cont "training."
 
-	para "Prêt à faire des"
-	line "étincelles Champ?"
+	para "Ready to make the"
+	line "sparks fly?"
 
-	para "Va y'avoir de"
-	line "l'orage dans"
-	cont "l'air!"
+	para "A storm is"
+	line "brewing!"
 	done
 
 _VermilionGymText_RematchEndBattle::
-	text "Ton"
-	line "équipe possède"
-	cont "une force"
-	cont "électrifiante!"
+	text "Your team got"
+	line "an electrifying"
+	cont "strength!"
 
-	para "T'as encore"
-	line "prouvé ta valeur"
-	cont "Champion."
+	para "You have once"
+	line "again proven your"
+	cont "worth, Champion."
 
-	para "Ramène-moi ton"
-	line "Elektek et je"
-	cont "lui enseignerai"
-	cont "les rudiments"
-	cont "du combat au"
-	cont "corps à corps."
+	para "Bring me your"
+	line "Electabuzz and"
+	cont "I'll teach it"
+	cont "the basics of"
+	cont "hand-to-hand"
+	cont "combat."
 
-	para "Allez p'tit gars,"
+	para "Come on kid,"
     line "permission"
-	cont "accordée!"
+	cont "granted!"
 	prompt
 
 _VermilionGymText_Trainer0PreBattle::
-	text "Dans l'armée, le"
-	line "Major Bob était"
-	cont "mon instructeur"
-	cont "de combat!"
+	text "When I was in the"
+	line "Army, Lt.Surge"
+	cont "was my strict Co!"
 	done
 
 _VermilionGymText_Trainer0EndBattle::
 	text "Stop!"
-	line "Tu es fort!"
+	line "You're very good!"
 	prompt
 
 _VermilionGymText_Trainer0AfterBattle::
-	text "Les portes ne"
-	line "s'ouvrent pas?"
+	text "The door won't"
+	line "open?"
 
-	para "Le Major Bob"
-	line "est prudent!"
+	para "Lt.Surge always"
+	line "was cautious!"
 	done
 
 _VermilionGymText_Trainer1PreBattle::
-	text "J'suis un poids"
-	line "plume, mais je"
-	cont "suis bon avec"
-	cont "l'électricité!"
+	text "I'm a lightweight,"
+	line "but I'm good with"
+	cont "electricity!"
 	done
 
 _VermilionGymText_Trainer1EndBattle::
-	text "Argh!"
-	line "J'suis cuit!"
+	text "Fried!"
 	prompt
 
 _VermilionGymText_Trainer1AfterBattle::
-	text "OK, je parle!"
+	text "OK, I'll talk!"
 
-	para "Le Major Bob a"
-	line "caché des boutons"
-	cont "pour ouvrir les"
-	cont "portes..."
-	cont "...Quequ'part!"
+	para "Lt.Surge said he"
+	line "hid door switches"
+	cont "inside something!"
 	done
 
 _VermilionGymText_Trainer2PreBattle::
-	text "C'est pas un"
-	line "endroit pour les"
-	cont "gamins, ici!"
+	text "This is no place"
+	line "for kids!"
 	done
 
 _VermilionGymText_Trainer2EndBattle::
-	text "Argh!"
-	line "Tu m'as eu par"
-	cont "surprise!"
+	text "Wow!"
+	line "Surprised me!"
 	prompt
 
 _VermilionGymText_Trainer2AfterBattle::
-	text "Il y a une double"
-	line "sécurité! Voici"
-	cont "un indice!"
+	text "Lt.Surge set up"
+	line "double locks!"
+	cont "Here's a hint!"
 
-	para "Appuie sur un"
-	line "bouton et le 2ème"
-	cont "est à côté!"
+	para "When you open the"
+	line "1st lock, the 2nd"
+	cont "lock is right"
+	cont "next to it!"
 	done
 
 _VermilionGymText_GuideTip::
-	text "Salut! Champion"
-	line "en herbe!"
+	text "Yo! Champ in"
+	line "making!"
 
-	para "Le Major Bob a"
-	line "un surnom. On"
-	cont "l'appelle..."
-	cont "Le Ricain"
-	cont "Survolté!"
+	para "Lt.Surge has a"
+	line "nickname. People"
+	cont "refer to him as"
+	cont "the Lightning"
+	cont "American!"
 
-	para "Il est expert"
-	line "en #mon"
-	cont "électriques!"
+	para "He's an expert on"
+	line "electric #mon!"
 
-	para "C'est pas bon"
-	line "pour les #mon"
-	cont "volants et"
-	cont "aquatiques! Fais"
-	cont "aussi gaffe aux"
-	cont "éclairs pouvant"
-	cont "paralyser!"
+;	para "Birds and water"	;joenote - This is a text error that was translated. Supposed to be flying not bird.
+	para "Flying and water"
+	line "#mon are at"
+	cont "risk! Beware of"
+	cont "paralysis too!"
 
-	para "Le Major Bob"
-	line "est très prudent!"
+	para "Lt.Surge is very"
+	line "cautious!"
 
-	para "Il te faudra"
-	line "résoudre une"
-	cont "énigme pour"
-	cont "arriver jusqu'à"
-	cont "lui!"
+	para "You'll have to"
+	line "break a code to"
+	cont "get to him!"
 	done
 
 _VermilionGymText_GuideVictory::
-	text "Wouh! Ce match"
-	line "était survolté!"
+	text "Whew! That match"
+	line "was electric!"
 	done
-
+	
 ; Adapted from PureRGB
 _VermilionGymText_SurgeTrash::
-	text "Une conserve vide"
-	line "a été jetée dans"
-	cont "la poubelle."
+	text "An empty can is"
+	line "in the trash."
+	
+	para "Army Field Ration"
+	line "Cheddar Cheese"
+	cont "from delicious"
+	cont "Miltank milk"
+	cont "is written on it."
 
-	para "Il y est écrit:"
-	line "Ration militaire"
-	cont "Fromage fondant"
-	cont "au bon lait"
-	cont "d'Ecrémeuh."
-
-	para "Ça semble venir"
-	line "Johto!"
+	para "It appears to"
+	line "come from Johto!"
 	done
-; Adapted from PureRGB
+
+; From PureRGB
 _VermilionGymText_SurgeBookshelf::
-	text "Des revues"
-	line "militaires..."
-
-	para "Brève histoire"
-	line "des #mon en"
-	cont "service,"
-
-	para "La reco en"
-	line "Rapasdepic,"
-
-	para "Les dangers des"
-	line "Métamorph espions"
-	cont "..."
+	text "A bunch of books"
+	line "on military"
+	cont "topics."
+	
+	para "A History of"
+	line "Service #mon,"
+	
+	para "Reconnaissance"
+	line "Spearow Style,"
+	
+	para "The Danger of"
+	line "Ditto Spies..."
 	done
