@@ -92,12 +92,12 @@ DisplayPCMainMenu::
 	ld [H_AUTOBGTRANSFERENABLED], a
 	ret
 
-SomeonesPCText:   db "PC de ???@"
-BillsPCText:      db "PC de Léo@"
-PlayersPCText:    db "PC de @"
-OaksPCText:       db "PC de Chen@"
-PKMNLeaguePCText: db "Ligue <pkmn>@"
-LogOffPCText:     db "Déconnexion@"
+SomeonesPCText:   db "Someone's PC@"
+BillsPCText:      db "Bill's PC@"
+PlayersPCText:    db "'s PC @"
+OaksPCText:       db "Prof.Oak's PC@"
+PKMNLeaguePCText: db "<pkmn> League@"
+LogOffPCText:     db "Log off@"
 
 BillsPC_::
 	ld hl, wStatusFlags5
@@ -431,11 +431,11 @@ DisplayMonListMenu:
 	ret
 
 BillsPCMenuText:
-	db   "Retirer <PKMN>"
-	next "Stocker <PKMN>"
-	next "Relacher <PKMN>"
-	next "Changer boîte"
-	next "Salut!"
+	db   "Withdraw <PKMN>"
+	next "Deposit <PKMN>"
+	next "Release <PKMN>"
+	next "Change box"
+	next "See ya!"
 	db "@"
 	
 ; PureRGBnote: FIXED: pokemon are never considered to have HMs, allows them to be stored in daycare no matter what
@@ -539,11 +539,11 @@ DisplayDepositWithdrawMenu:
 	jr nz, .exit
 	jr .loop
 
-DepositPCText:  db "Stocker@"
-WithdrawPCText: db "Retirer@"
+DepositPCText:  db "Deposit@"
+WithdrawPCText: db "Withdraw@"
 StatsCancelPCText:
 	db   "Stats"
-	next "Retour@"
+	next "Cancel@"
 
 SwitchOnText:
 	TX_FAR _SwitchOnText

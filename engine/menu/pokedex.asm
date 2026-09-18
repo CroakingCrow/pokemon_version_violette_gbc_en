@@ -502,20 +502,20 @@ DrawPokedexVerticalLine:
 	ret
 
 PokedexSeenText:
-	db "Vus@"
+	db "Seen@"
 
 PokedexOwnText:
-	db "Pris@"
+	db "Own@"
 
 PokedexContentsText:
-	db "Sommaire@"
+	db "Contents@"
 
 PokedexMenuItemsText:
-	db   "Info"
-	next "Cri"
-	next "Zone"
-	next "Capa"
-	next "Ret@"
+	db   "Data"
+	next "Cry"
+	next "Area"
+	next "Move"
+	next "Quit@"
 
 ; tests if a pokemon's bit is set in the seen or owned pokemon bit fields
 ; INPUT:
@@ -1285,8 +1285,8 @@ Pokedex_PrintFlavorTextAtBC:
 	ret
 
 HeightWeightText:
-	db   "Tai ?",",","??","m"
-	next "Pds  ???kg@"
+	db   "Ht ?",",","??","m"
+	next "Wt  ???kg@"
 
 ; horizontal line that divides the pokedex text description from the rest of the data
 PokedexDataDividerLine:
@@ -1480,7 +1480,7 @@ Pokedex_PrintMovesText:
 	ret
 
 LevelUpMovesText:
-	db "Capacités:@"
+	db "Moves:@"
 
 DexType1Text:
 	db "Type1/@"
@@ -1489,22 +1489,22 @@ DexType2Text:
 	db "Type2/@"
 
 BaseStatsText:
-	db "Stats base@"
+	db "Base stats@"
 
 HPText:
-	db "PV@"
+	db "HP@"
 
 AtkText:
-	db "Atq@"
+	db "Attack@"
 
 DefText:
-	db "Déf@"
+	db "Defense@"
 
 SpdText:
-	db "Vit@"
+	db "Speed@"
 
 SpcText:
-	db "Spé@"
+	db "Special@"
 
 TotalText:
 	db "Total@"
