@@ -617,22 +617,22 @@ SpecialEnterMap::
 	jp EnterMap
 
 ContinueText:
-	db "Continuer", $4e
+	db "Continue", $4e
 
 NewGameText:
-	db   "Nouvelle partie"
-	next "Options@"
+	db   "New Game"
+	next "Option@"
 
 NewGamePlusText:
-	db   "Continuer"
-	next "Nouvelle partie +"
-	next "Nouvelle partie"
-	next "Options@"
+	db   "Continue"
+	next "New Game +"
+	next "New Game"
+	next "Option@"
 
 CableClubOptionsText:
-	db   "Centre Troc"
-	next "Colisée"
-	next "Retour@"
+	db   "Trade Center"
+	next "Colosseum"
+	next "Cancel@"
 
 DisplayContinueGameInfo:
 	xor a
@@ -815,10 +815,10 @@ PrintPlayTime_local:
 	ret
 
 SaveScreenInfoText:
-	db   "Joueur"
+	db   "Player"
 	next "Badges    "
 	next "#dex    "
-	next "Temps@"
+	next "Time@"
 
 DisplayOptionMenu:
 	call ClearScreen
@@ -1014,19 +1014,19 @@ DisplayBattleStyleInfoText:
 	db "@"
 
 TextSpeedOptionText:
-	db   "Vit. texte"
+	db   "Text Speed"
 	next " 3     2      1   @"
 
 BattleAnimationOptionText:
-	db   "Animation combat"
-	next " Oui      Non@"
+	db   "Battle Animation"
+	next " Yes      No@"
 
 BattleStyleOptionText:
-	db   "Style combat"
-	next " Choix    Défini@"
+	db   "Battle Style"
+	next " Shift    Set@"
 
 OptionMenuCancelText:
-	db $C6, $C7, "Retour@"
+	db $C6, $C7, "Cancel@"
 
 OptionMenuSelectText: ;joenote - text for getting to extra options screen
 	db $C3,$C4,$C5,$E6," ",$C0,$C1,$C2,$ED,"@"

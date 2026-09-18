@@ -298,7 +298,7 @@ IDNoText:
 	db "№", $73, "/", $4e
 
 OTText:
-	db   "Do/"
+	db   "OT/"
 	next "@"
 
 StatusText:
@@ -487,10 +487,10 @@ PrintStat:
 	ret
 
 StatsText:
-	db   "Atq"
-	next "Déf"
-	next "Vit"
-	next "Spé@"
+	db   "Attack"
+	next "Defense"
+	next "Speed"
+	next "Special@"
 
 StatusScreen2:
 	ld a, [hTilesetType]
@@ -656,8 +656,8 @@ CalcExpToLevelUp:
 	ret
 
 StatusScreenExpText:
-	db   "Pts exp."
-	next "Proch.niv.@"
+	db   "Exp. Points"
+	next "Level Up@"
 
 StatusScreen_ClearName:
 	ld bc, 10

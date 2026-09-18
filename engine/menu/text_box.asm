@@ -223,18 +223,18 @@ TextBoxTextAndCoordTable:
 ; note that there is no terminator
 
 BuySellQuitText:
-	db   "Acheter"
-	next "Vendre"
-	next "Salut!@@"
+	db   "Buy"
+	next "Sell"
+	next "Quit@@"
 
 ;UseTossText:
-;	db   "Util."
-;	next "Jeter@"
+;	db   "Use"
+;	next "Toss@"
 ;dafthunk : #4 
 UseInfoTossText:
-	db   "Util."
+	db   "Use"
 	next "Info"
-	next "Jeter@"
+	next "Toss@"
 
 JapaneseSaveMessageText:
 	db   "きろく"
@@ -245,7 +245,7 @@ JapaneseSpeedOptionsText:
 	next "おそい@"
 
 MoneyText:
-	db "Arg.@"
+	db "Money@"
 
 JapaneseMochimonoText:
 	db "もちもの@"
@@ -255,17 +255,17 @@ JapaneseMainMenuText:
 	next "さいしょから@"
 
 BattleMenuText:
-	db   "Attaque   Equipe"
-	next "Objets    Fuite@"
+	db   "Fight   <PKMN>"
+	next "Item    Run@"
 
 SafariZoneBattleMenuText:
-	db   "Ball×      Appât"
-	next "Caillou    Fuite@"
+	db   "Ball×       Bait"
+	next "Throw Rock  Run@"
 
 SwitchStatsCancelText:
-	db   "Ordre"
+	db   "Switch"
 	next "Stats"
-	next "Retour@"
+	next "Cancel@"
 
 JapaneseAhText:
 	db "アッ!@"
@@ -561,29 +561,29 @@ TwoOptionMenuStrings:
 	dw .BoyGirlMenu	
 
 .NoYesMenu
-	db   "Non"
-	next "Oui@"
+	db   "No"
+	next "Yes@"
 .YesNoMenu
-	db   "Oui"
-	next "Non@"
+	db   "Yes"
+	next "No@"
 .NorthWestMenu
-	db   "Nord"
-	next "Ouest@"
+	db   "North"
+	next "West@"
 .SouthEastMenu
-	db   "Sud"
-	next "Est@"
+	db   "South"
+	next "East@"
 .NorthEastMenu
-	db   "Nord"
-	next "Est@"
+	db   "North"
+	next "East@"
 .TradeCancelMenu
-	db   "Echange"
-	next "Retour@"
+	db   "Trade"
+	next "Cancel@"
 .HealCancelMenu
-	db   "Soin"
-	next "Retour@"
+	db   "Heal"
+	next "Cancel@"
 .BoyGirlMenu
-	db   "Garçon"
-	next "Fille@"	
+	db   "Boy"
+	next "Girl@"	
 
 DisplayFieldMoveMonMenu:
 	xor a

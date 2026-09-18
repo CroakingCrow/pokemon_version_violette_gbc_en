@@ -157,13 +157,13 @@ DiplomaTextPointersAndCoords:
 	dwCoord 2, 4
 
 ChampionText:
-	db $70,"Diplôme Champion",$70,"@"
+	db $70,"Champion Diploma",$70,"@"
 
 MasterText:
-	db "<SHINY>",$70,"Diplôme Maître",$70,"<SHINY>@"
+	db "<SHINY>",$70,"Master Diploma",$70,"<SHINY>@"
 
 DiplomaText:
-	db "Décerné à <PLAYER>@"
+	db "Awarded to <PLAYER>@"
 
 DiplomaMark:
 	db "<BALL>@"
@@ -172,10 +172,10 @@ DiplomaEmptyText:
 	db "@"
 
 DiplomaCongrats:
-	db   "×Revanche des 8"
-	next "×Revanche Ligue"
-	next "×Tournoi Océane"
-	next "×Pierre Brume"
-	next "×4 dresseurs"
-	next "×Capadex 100%"
+	db   "×8 Gyms Rematch"
+	next "×League Rematch"
+	next "×S.S.Anne Event"
+	next "×Mist Stone"
+	next "×4 Trainers"
+	next "×Movedex 100%"
 	next "×#dex 100%@"

@@ -677,9 +677,9 @@ TrainerInfo_FarCopyData:
 	jp FarCopyData2
 
 TrainerInfo_NameMoneyTimeText:
-	db   "Nom:"
-	next "Arg.:"
-	next "Temps:@"
+	db   "Name:"
+	next "Money:"
+	next "Time:@"
 
 ; $76 is a circle tile
 TrainerInfo_BadgesText:
