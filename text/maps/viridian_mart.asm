@@ -1,42 +1,38 @@
 _ViridianMartText1::
-	text "Cool! Tu diras"
-	line "bonjour au Prof."
-	cont "Chen de ma part!"
+	text "Okay! Say hi to"
+	line "Prof.Oak for me!"
 	done
 
 _ViridianMartText4::
-	text "Hé! Tu viens de"
-	line "Bourg Palette?"
+	text "Hey! You came from"
+	line "Pallet Town?"
 	done
 
 ViridianMartParcelQuestText::
-	text "Tu connais le"
-	line "Prof. Chen?"
+	text "You know Prof."
+	line "Oak, right?"
 
-	para "Sa commande vient"
-	line "d'arriver."
-	cont "Peux-tu la lui"
-	cont "apporter?"
+	para "His order came in."
+	line "Will you take it"
+	cont "to him?"
 
-	para "<PLAYER> obtient"
-	line "le Colis de Chen!@"
+	para "<PLAYER> got"
+	line "Oak's Parcel!@"
 	text_end
 
 _ViridianMartText2::
-	text "On vend des"
-	line "Antidotes dans"
-	cont "cette boutique."
+	text "This shop sells"
+	line "many Antidotes."
 	done
 
 _ViridianMartText3::
-	text "Plus de Potions!"
-	line "Nous sommes en"
-	cont "rupture de stock."
+	text "No! Potions are"
+	line "all sold out."
 	done
 
 _ViridianMartAfterParcelText::
-	text "Les Potions sont"
-	line "de retour! Et on"
-	cont "propose même une"
-	cont "Canne maintenant!"
+	text "Potions are back"
+	line "in stock! We even"
+	cont "sell Fishing Rods"
+	cont "now!"
 	done

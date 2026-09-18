@@ -1,37 +1,34 @@
 _ViridianPokeCenterText2::
-	text "Tu peux utiliser"
-	line "le PC."
+	text "You can use that"
+	line "PC in the corner."
 
-	para "C'est l'hôtesse"
-	line "qui me l'a dit!"
-	cont "Elle est cool!"
+	para "The receptionist"
+	line "told me. So kind!"
 	done
 
 _ViridianPokeCenterText3::
-	text "Il y a un Centre"
-	line "#mon dans"
-	cont "chaque ville."
+	text "There's a #mon"
+	line "Center in every"
+	cont "town ahead."
 
-	para "Tu peux y soigner"
-	line "gratuitement tes"
-	cont "#mon!"
+	para "They don't charge"
+	line "any money either!"
 	done
 
 _ViridianPokeCenter_AideRandom::
-	text "Ce n'est pas"
-	line "ton premier"
-	cont "voyage #mon?"
+	text "Not your first"
+	line "try at a #mon"
+	cont "journey?"
 	
-	para "Il parait qu'il"
-	line "existe de nom-"
-	cont "breuses options"
-	cont "pour pimenter"
-	cont "ton aventure!"
+	para "I heard that there"
+	line "are various sett-"
+	cont "ings to spice up"
+	cont "your adventure!"
 
-	para "Fait SELECT dans"
-	line "les Options pour"
-	cont "les afficher."
+	para "If you're curious,"
+	para "Press SELECT in"
+	line "the Options."
 
-	para "Quoi qu'ça"
-	line "veuille dire!"
+	para "Whatever that"
+	line "means!"
 	done
