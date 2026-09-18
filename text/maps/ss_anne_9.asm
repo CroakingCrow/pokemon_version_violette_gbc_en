@@ -125,7 +125,10 @@ _GiovanniText_RematchPreBattle::
 	cont "Champion,"
 
 	para "how about a"
-	line "friendly battle?"
+	line "friendly battle,"
+	cont "that I may intro-"
+	cont "duce you to my"
+	cont "old friend?"
 	done
 
 _GiovanniText_RematchEndBattle::

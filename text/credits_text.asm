@@ -47,19 +47,14 @@ CreditsTextPointers:
 	dw CredSaOota
 	dw CredYoshikawa
 	dw CredToOota
-	dw CredEUStaff
-	dw CredEUCoord
-	dw CredMoyse
-	dw CredPfitzner
-	dw CredKraft
-	dw CredKawakami
-	dw CredEdasawa
-	dw CredUesugi
-	dw CredYoshimura
-	dw CredTrans
-	dw CredBardakoff
-	dw CredFleury
-	dw CredNakamichi
+	dw CredUSStaff
+	dw CredUSCoord
+	dw CredTilden
+	dw CredHiNakamura
+	dw CredGiese
+	dw CredOsborne
+	dw CredOgasawara
+	dw CredIwata
 	dw CredIzushi
 	dw CredHarada
 	dw CredMurakawa
@@ -170,32 +165,26 @@ CredYoshikawa:
 	db -6, "Rena Yoshikawa@"
 CredToOota:
 	db -6, "Tomomichi Oota@"
-CredEUStaff:
-	db -5, "EU Version Staff@"
-CredEUCoord:
-	db -9, "EU Coordination@"
-CredMoyse:
-	db -7, "Claude M. Moyse@"
-CredPfitzner:
-	db -7, "Markus Pfitzner@"
-CredKraft:
-	db -6, "John D. Kraft@"
+CredUSStaff:
+	db -5, "US Version Staff@"
+CredUSCoord:
+	db -9, "US Coordination@"
+CredTilden:
+	db -7, "Gail Tilden@"
 CredKawakami:
 	db -6, "Naoko Kawakami@"
-CredEdasawa:
-	db -6, "Yusuke Edasawa@"
-CredUesugi:
-	db -5, "Hiro Uesugi@"
-CredYoshimura:
-	db -7, "Kamon Yoshimura@"
+CredHiNakamura:
+	db -6, "Hiro Nakamura@"
+CredGiese:
+	db -6, "William Giese@"
+CredOsborne:
+	db -5, "Sara Osborne@"
 CredTrans:
-	db -7, "Textes Francais@"
-CredBardakoff:
-	db -7, "Julien Bardakoff@"
-CredFleury:
-	db -9, "Jean-baptiste Fleury@"
-CredNakamichi:
-	db -7, "Kimiko Nakamichi@"
+	db -7, "Text Translation@"
+CredOgasawara:
+	db -6, "Nob Ogasawara@"
+CredIwata:
+	db -5, "Satoru Iwata@"
 CredIzushi:
 	db -7, "Takehiro Izushi@"
 CredHarada:

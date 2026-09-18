@@ -39,30 +39,30 @@ _CeladonMart3Text2::
 	cont "caught it!"
 	done
 
-IF DEF(_JPTXT)	;joenote - this was changed in the localization for some reason
-_CeladonMart3Text3::
-	text "All right!"
-
-	para "My buddy's going"
-	line "to trade me his"
-	cont "Kangaskhan for my"
-	cont "Haunter!"
-	done
-
-_CeladonMart3Text4::
-	text "Come on, my sweet"
-	line "Haunty-pie!"
-
-	para "I'm an absolute"
-	line "Haunter maniac."
-
-	para "... ...Huh?"
-
-	para "Haunter turned"
-	line "into a different"
-	cont "#mon!"
-	done
-ELSE
+;joenote - this was changed in the localization for some reason
+;_CeladonMart3Text3::
+;	text "All right!"
+;
+;	para "My buddy's going"
+;	line "to trade me his"
+;	cont "Kangaskhan for my"
+;	cont "Haunter!"
+;	done
+;
+;_CeladonMart3Text4::
+;	text "Come on, my sweet"
+;	line "Haunty-pie!"
+;
+;	para "I'm an absolute"
+;	line "Haunter maniac."
+;
+;	para "... ...Huh?"
+;
+;	para "Haunter turned"
+;	line "into a different"
+;	cont "#mon!"
+;	done
+;
 _CeladonMart3Text3::
 	text "All right!"
 
@@ -84,7 +84,7 @@ _CeladonMart3Text4::
 	line "into a different"
 	cont "#mon!"
 	done
-ENDC
+;ENDC
 
 _CeladonMart3Text5::
 	text "You can identify"
@@ -122,11 +122,7 @@ _CeladonMart3Text14::
 	done
 
 _CeladonMart3Text15::
-IF DEF(_JPTXT)
 	text "Red and Green!"
-ELSE
-	text "Red and Blue!"
-ENDC
 	line "Both are #mon!"
 	done
 

@@ -47,7 +47,7 @@ TrainerNames:
 	db "Agatha@"
 	db "Lance@"
 	db "Janine@"
-	db "Officer Jenny@"
+	db "OfficerJenny@"
 	db "Nurse Joy@"
 	db "Jessie James@"
 	db "Mr.Fuji@"

@@ -46,7 +46,7 @@ _TM37PreText::
 	prompt
 
 _ReceivedTM37Text::
-	text "<PLAYER> received:"
+	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
