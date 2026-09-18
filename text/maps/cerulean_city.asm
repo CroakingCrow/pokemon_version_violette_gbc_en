@@ -74,7 +74,8 @@ _ReceivedTM28Text::
 	text_end
 
 _ReceivedTM28Text2::
-	db $0
+	text_start
+	
 	para "I better get"
 	line "moving! Bye!@"
 	text_end

@@ -1,90 +1,83 @@
 _VictoryRoad2BattleText1::
-	text "La Route Victoire"
-	line "est l'épreuve"
-	cont "finale de tout"
-	cont "dresseur!"
+	text "Victory Road is"
+	line "the final test"
+	cont "for trainers!"
 	done
 
 _VictoryRoad2EndBattleText1::
-	text "Ouargh!"
+	text "Aiyah!"
 	prompt
 
 _VictoryRoad2AfterBattleText1::
-	text "Si tu es bloqué,"
-	line "essaie de bouger"
-	cont "les rochers!"
+	text "If you get stuck,"
+	line "try moving some"
+	cont "boulders around!"
 	done
 
 _VictoryRoad2BattleText2::
-	text "Alors comme ça,"
-	line "tu cherches les"
-	cont "claques?"
+	text "Ah, so you wish"
+	line "to challenge the"
+	cont "Elite Four?"
 	done
 
 _VictoryRoad2EndBattleText2::
-	text "Argh!"
-	line "T'as gagné!"
+	text "You"
+	line "got me!"
 	prompt
 
 _VictoryRoad2AfterBattleText2::
-	text "<RIVAL> est aussi"
-	line "arrivé ici!"
+	text "<RIVAL> also came"
+	line "through here!"
 	done
  
 _VictoryRoad2BattleText3::
-	text "Allez, viens"
-	line "manger ta claque!"
+	text "Come on!"
+	line "I'll whip you!"
 	done
 
 _VictoryRoad2EndBattleText3::
-	text "Beuh!"
-	line "J'me suis pris"
-	cont "une claque!"
+	text "I got"
+	line "whipped!"
 	prompt
 
 _VictoryRoad2AfterBattleText3::
-	text "Tu as le droit de"
-	line "parcourir la"
-	cont "Route Victoire!"
+	text "You earned the"
+	line "right to be on"
+	cont "Victory Road!"
 	done
 
 _VictoryRoad2BattleText4::
-	text "Si tu peux"
-	line "remporter ces"
-	cont "épreuves,"
-	cont "tu parviendras"
-	cont "jusqu'au Conseil"
-	cont "des 4!"
+	text "If you can get"
+	line "through here, you"
+	cont "can go meet the"
+	cont "Elite Four!"
 	done
 
 _VictoryRoad2EndBattleText4::
-	text "Ha!"
-	line "J'y crois pas!"
+	text "No!"
+	line "Unbelievable!"
 	prompt
 
 _VictoryRoad2AfterBattleText4::
-	text "En ce qui"
-	line "concerne les"
-	cont "#mon, j'suis"
-	cont "le plus fort!"
-	cont "... ... ..."
-	cont "Du mooooonde!"
+	text "I can beat you"
+	line "when it comes to"
+	cont "knowledge about"
+	cont "#mon!"
 	done
 
 _VictoryRoad2BattleText5::
-	text "Chut, j'suis en"
-	line "mission secrète!"
+	text "Not a word! I'm on"
+	line "a secret mission!"
 	done
 
 _VictoryRoad2EndBattleText5::
-	text "Quoi?!"
-	line "C'pas l'Volcan,"
-	cont "Cramoisi ici?"
+	text "What?!"
+	line "We're not in the"
+	cont "Cinnabar Volcano?"
 	prompt
 
 _VictoryRoad2AfterBattleText5::
-	text "Arf, eul Chef"
-	line "va encore me"
-	cont "mettre d'corvée"
-	cont "d'patates!"
+	text "Ugh, the Chef will"
+	line "put me on potato"
+	cont "duty again!"
 	done

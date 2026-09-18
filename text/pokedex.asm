@@ -53,7 +53,7 @@ _VoltorbDexEntry::
 	next "power plants."
 	next "Easily mistaken"
 
-	page "for a # BALL,"
+	page "for a # Ball,"
 	next "they have zapped"
 	next "many people"
 	dex
@@ -69,9 +69,9 @@ _NidokingDexEntry::
 	dex
 
 _SlowbroDexEntry::
-	text "The SHELLDER that"
+	text "The Shellder that"
 	next "is latched onto"
-	next "SLOWPOKE's tail"
+	next "Slowpoke's tail"
 
 	page "is said to feed"
 	next "on the host's left"
@@ -95,7 +95,7 @@ _ExeggutorDexEntry::
 
 	page "will drop off and"
 	next "continue on as an"
-	next "EXEGGCUTE"
+	next "Exeggcute"
 	dex
 
 _LickitungDexEntry::
@@ -490,7 +490,7 @@ _ElectabuzzDexEntry::
 
 _MagnetonDexEntry::
 	text "Formed by several"
-	next "MAGNEMITEs linked"
+	next "Magnemites linked"
 	next "together. They"
 
 	page "frequently appear"
@@ -979,16 +979,12 @@ _PrimeapeDexEntry::
 	dex
 
 _DugtrioDexEntry::
-	text "A team of DIGLETT"
+	text "A team of Diglett"
 	next "triplets."
 	next "It triggers huge"
 
 	page "earthquakes by"
-IF DEF(_METRIC)
-	next "burrowing 60 miles"
-ELSE
 	next "burrowing 100 km"
-ENDC
 	next "underground"
 	dex
 
@@ -1067,9 +1063,9 @@ _HypnoDexEntry::
 	next "with an enemy, it"
 	next "will use a mix of"
 
-	page "PSI moves such as"
-	next "HYPNOSIS and"
-	next "CONFUSION"
+	page "Psi moves such as"
+	next "Hypnosis and"
+	next "Confusion"
 	dex
 
 _GolbatDexEntry::
@@ -1165,10 +1161,10 @@ _ClefableDexEntry::
 _WeezingDexEntry::
 	text "Where two kinds"
 	next "of poison gases"
-	next "meet, 2 KOFFINGs"
+	next "meet, 2 Koffings"
 
 	page "can fuse into a"
-	next "WEEZING over many"
+	next "Weezing over many"
 	next "years"
 	dex
 
@@ -1208,7 +1204,7 @@ _AbraDexEntry::
 	next "will identify"
 
 	page "impending danger"
-	next "and TELEPORT to"
+	next "and Teleport to"
 	next "safety"
 	dex
 
@@ -1239,7 +1235,7 @@ _PidgeotDexEntry::
 
 	page "speed to pick off"
 	next "unwary prey such"
-	next "as MAGIKARP"
+	next "as Magikarp"
 	dex
 
 _StarmieDexEntry::
@@ -1398,7 +1394,7 @@ _MagnemiteDexEntry::
 	next "Appears without"
 
 	page "warning and uses"
-	next "THUNDER WAVE and"
+	next "Thunder Wave and"
 	next "similar moves"
 	dex
 
@@ -1494,12 +1490,12 @@ _BellsproutDexEntry::
 
 _WeepinbellDexEntry::
 	text "It spits out"
-	next "POISONPOWDER to"
+	next "Poisonpowder to"
 	next "immobilize the"
 
 	page "enemy and then"
 	next "finishes it with"
-	next "a spray of ACID"
+	next "a spray of Acid"
 	dex
 
 _VictreebelDexEntry::
@@ -1669,9 +1665,9 @@ _MissingNoDexEntry::
 
 _ArmoredMewtwoDexEntry::
 	text "Mewtwo wearing"
-	next "the armor created"
-	next "in secret by"
+	next "the armor"
+	next "designed in"
+	next "secret by Dr.Fuji"
 
-	bage "Dr Fuji and"
-	next "Giovanni"
+	bage "and Giovanni"
 	dex

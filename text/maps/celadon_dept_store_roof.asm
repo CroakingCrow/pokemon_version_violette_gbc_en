@@ -124,9 +124,10 @@ _VendingMachineText4::
 	done
 
 _VendingMachineText5::
+	text "Inserted coins"
+	line "@"
 	TX_RAM wcf4b
-	db $0
-	line "popped out!"
+	text "popped out!"
 	done
 
 _VendingMachineText6::

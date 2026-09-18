@@ -31,6 +31,7 @@ _GameDesignerText::
 	cont "give you a"
 	cont "certificate and"
 	cont "something cool!"
+	done
 
 _ChampionText::
 	text "Wow! Great!"
@@ -47,7 +48,7 @@ _ChampionText::
 
 _MasterText::
 	text "Incredible!"
-	line "You have succes-"
+	line "You have success-"
 	cont "fully completed"
 	cont "every challenges!"
 	
@@ -65,6 +66,7 @@ _CeladonMansion3Text5::
 	line "program! Messing"
 	cont "with it could bug"
 	cont "out the game!"
+	cont "Daft: too late!"
 	done
 
 _CeladonMansion3Text6::

@@ -12,7 +12,7 @@ _DaisyOfferMapText::
 	prompt
 
 _GotMapText::
-	text "<PLAYER> received:"
+	text "<PLAYER> received"
 	line "Town Map!@"
 	text_end
 

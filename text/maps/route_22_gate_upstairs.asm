@@ -18,7 +18,8 @@ _Route22GateUpstairsText_Champion::
 	line "dedicated to the"
 	cont "great trainers"
 	cont "to whom we owe"
-	cont "the #mon League."
+	cont "the #mon"
+	cont "League."
 
 	para "Lance"
 

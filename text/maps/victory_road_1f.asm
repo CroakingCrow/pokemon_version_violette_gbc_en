@@ -1,107 +1,105 @@
 _VictoryRoad1BattleText1::
-	text "Es-tu aussi fort"
-	line "que môa? "
+	text "I wonder if you"
+	line "are good enough"
+	cont "for me!"
 	done
 
 _VictoryRoad1EndBattleText1::
-	text "Oh!"
-	line "Vilain!"
+	text "I"
+	line "lost out!"
 	prompt
 
 _VictoryRoad1AfterBattleText1::
-	text "Perdre ça craint!"
+	text "I never wanted to"
+	line "lose to anybody!"
 	done
 
 _VictoryRoad1BattleText2::
-	text "Mmm..."
-	line "T'as l'air fort!"
-	cont "Mais l'es-tu"
-	cont "vraiment?"
+	text "I can see you're"
+	line "good! Let me see"
+	cont "exactly how good!"
 	done
 
 _VictoryRoad1EndBattleText2::
-	text "OK."
-	line "T'es fort."
+	text "I"
+	line "had a chance..."
 	prompt
 
 _VictoryRoad1AfterBattleText2::
-	text "T'es fort,"
-	line "on a compris!"
+	text "I concede, you're"
+	line "better than me!"
 	done
 
 _VictoryRoad1FBugCatcherBattleText::
-	text "C'est pas juste"
-	line "des petits"
-	cont "insectes!"
+	text "It's more than"
+	line "just tiny bugs!"
 
-	para "Au combat!"
+	para "Let's fight!"
 	done
 
 _VictoryRoad1FBugCatcherEndBattleText::
-	text "MES"
-	line "INSECTES!!!"
+	text "MY BUGS!!!"
 	prompt
 
 _VictoryRoad1FBugCatcherAfterBattleText::
-	text "Ne me juge pas."
+	text "Don't judge me."
 
-	para "Je suis juste"
-	line "fan du filet."
+	para "I just love"
+	line "the net."
 	done
 
 _VictoryRoad1FBeautyBattleText::
-	text "J'ai toujours"
-	line "adoré les Evoli!"
+	text "I've always"
+	line "adored Eevees!"
 
-	para "Laisse-moi te"
-	line "montrer comme ils"
-	cont "sont cool!"
+	para "Let me show you"
+	line "how cool they"
+	cont "are!"
 	done
 
 _VictoryRoad1FBeautyEndBattleText::
 	text "Oh,"
-	line "mes évolitions"
-	cont "ont perdu..."
+	line "my eveelutions"
+	cont "lost..."
 	prompt
 
 _VictoryRoad1FBeautyAfterBattleText::
-	text "J'ai entendu dire"
-	line "qu'une autre"
-	cont "forme d'Evoli"
-	cont "existe!"
+	text "I heard that there"
+	line "exists another"
+	cont "form of Eevee!"
 	done
 
 _VictoryRoad1FBurglarBattleText::
-	text "BUTIN ET PILLAGE!"
+	text "LOOT AND ROBBERY!"
 	done
 
 _VictoryRoad1FBurglarEndBattleText::
-	text "Je"
-	line "pensais que tu"
-	cont "étais faiblard..."
+	text "I thought you were"
+	line "a weakling..."
 	prompt
 
 _VictoryRoad1FBurglarAfterBattleText::
-	text "Va-t'en, Je"
-	line "cherche ma pro-"
-	cont "chaine victime!"
+	text "Go away, I'm"
+	line "looking for my"
+	cont "next victim!"
 
-	para "La vie de Pillard"
-	line "pour moi,"
+	para "It's a Burglar"
+	line "life for me,"
 	cont "yo-ho!"
 	done
 
 _VictoryRoad1FSuperNerdBattleText::
-	text "Salut, on"
-	line "m'appelle le"
-	cont "timbré!"
+	text "Hey, people"
+	line "call me a"
+	cont "nutcase!"
 	done
 
 _VictoryRoad1FSuperNerdEndBattleText::
-	text "Ouai,"
-	line "c'est ça, ouai."
+	text "Yeah,"
+	line "right, yeah."
 	prompt
 
 _VictoryRoad1FSuperNerdAfterBattleText::
-	text "Mer il et fou."
+	text "Crazy? I was"
+	line "crazy once."
 	done

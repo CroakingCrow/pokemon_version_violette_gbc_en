@@ -306,7 +306,8 @@ _ExpAllDescription::
 _ExpCatchUpDescription::
 	text "Boosts battle"
 	next "Exp. Points for"
-	cont "weaker #mon."
+	cont "weaker #mon"
+	cont "in your party."
 	prompt
 
 _OldRodDescription::
