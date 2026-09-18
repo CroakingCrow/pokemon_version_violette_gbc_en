@@ -1,61 +1,59 @@
 _Volcano1FText0_Battle::
-	text "Attention il fait"
-	line "extrêmement chaud"
-	cont "ici, laisse-moi"
-	cont "t'arroser!"
+	text "Be careful, it's"
+	line "extremely hot in"
+	cont "here, let me"
+	cont "water you!"
 	done
 
 _Volcano1FText0_EndBattle::
 	text "Oh!"
-	line "Tu m'as liquéfié!"
+	line "I'm melting!"
 	prompt
 
 _Volcano1FText0_AfterBattle::
-	text "Seuls les #mon"
-	line "Eau, Feu et Roche"
-	cont "supportent une"
-	cont "telle chaleur!"
+	text "Only Water, Fire"
+	line "and Rock #mon"
+	cont "can deal with"
+	cont "such heat!"
 	done
 
 _Volcano1FText1_Battle::
-	text "On est venu pour"
-	line "s'entrainer!"
+	text "We came here"
+	line "to train!"
 
-	para "Faut pas prendre"
-	line "les Volcans à la"
-	cont "légère, ça"
-	cont "d'mande d'la"
-	cont "préparation!"
+	para "You should not"
+	line "take volcanoes"
+	cont "lightly, it"
+	cont "requires careful"
+	cont "preparations!"
 	done
 
 _Volcano1FText1_EndBattle::
 	text "Ah!"
-	line "Toi aussi?"
+	line "You too?"
 	prompt
 
 _Volcano1FText1_AfterBattle::
-	text "J'ai oublié"
-	line "d'amener mon"
-	cont "#mon eau..."
+	text "I forgot to"
+	line "bring my water"
+	cont "#mon..."
 	done
 
 _Volcano1FText2_Battle::
-	text "Pousse-toi d'là!"
-	line "Tu vois pas qu'je"
-	cont "bosse?"
+	text "Move aside!"
+	line "Can't you see"
+	cont "I'm working?"
 	done
 
 _Volcano1FText2_EndBattle::
 	text "Ayah!"
-	line "Ça brûle!"
+	line "It burns!"
 	prompt
 
 _Volcano1FText2_AfterBattle::
-	text "Le Volcan est"
-	line "inhabituellement"
-	cont "actif depuis"
-	cont "quelques temps,"
-	cont "comme si quelque"
-	cont "chose"
-	cont "l'alimentait..."
+	text "This Volcano is"
+	line "unusually active"
+	cont "recently, as if"
+	cont "something were"
+	cont "fueling it..."
 	done

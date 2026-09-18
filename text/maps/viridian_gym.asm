@@ -1,271 +1,252 @@
 _ViridianGymText_LeaderPreBattle::
-	text "Fwahaha! Te voici"
-	line "dans mon repaire!"
+	text "Fwahahaha! This is"
+	line "my hideout!"
 
-	para "Je voulais"
-	line "reformer la Team"
-	cont "Rocket ici!"
+	para "I planned to"
+	line "resurrect Team"
+	cont "Rocket here!"
 
-	para "Mais tu as encore"
-	line "tout fait rater!"
-	cont "Je suis furieux"
-	cont "et ça sent pas"
-	cont "bon pour toi!"
+	para "But, you have"
+	line "caught me again!"
+	cont "So be it! This"
+	cont "time, I'm not"
+	cont "holding back!"
 
-	para "Une fois de plus"
-	line "tu oses me"
-	cont "défier, moi, le"
-	cont "grand Giovanni!"
-	cont "Mais aujourd'hui,"
-	cont "tu vas déguster!"
+	para "Once more, you"
+	line "shall face"
+	cont "Giovanni, the"
+	cont "greatest trainer!"
 	done
 
 _ViridianGymText_LeaderEndBattle::
-	text "Ah!"
-	line "Voilà ce que"
-	cont "j'appelle du"
-	cont "combat! Tu as"
-	cont "gagné! En"
-	cont "récompense voici"
-	cont "le Badge Terre!@"
+	text "Ha!"
+	line "That was a truly"
+	cont "intense fight!"
+	cont "You have won!"
+	cont "As proof, here is"
+	cont "the Earth Badge!@"
 	text_end
 
 _ViridianGymText_LeaderAfterBattle::
-	text "OK, j'ai perdu!"
-	line "Je ne suis pas"
-	cont "digne d'être le"
-	cont "chef de la Team"
-	cont "Rocket! Ainsi,"
-	cont "son existence"
-	cont "s'achève avec ma"
-	cont "défaite!"
+	text "Having lost to"
+	line "you yet again, I"
+	cont "cannot face my"
+	cont "underlings!"
+	cont "Team Rocket is"
+	cont "finished forever!"
 
-	para "Je vais me"
-	line "retirer, loin, en"
-	cont "ermite, pour"
-	cont "étudier les"
-	cont "#mon!"
+	para "I will dedicate my"
+	line "life to the study"
+	cont "of #mon!"
 
-	para "Un jour, nos"
-	line "chemins se"
-	cont "croiseront à"
-	cont "nouveau! Adieu!@"
+	para "Let us meet again"
+	line "some day!"
+	cont "Farewell!@"
 	text_end
 
 _ViridianGymText_Badge::
-	text "Les #mon du"
-	line "détenteur du"
-	cont "Badge Terre"
-	cont "deviennent plus"
-	cont "puissants!"
+	text "The owner of the"
+	line "Earth Badge's"
+	cont "#mon become more"
+	cont "powerful!"
 
-	para "Il est le"
-	line "témoignage de ta"
-	cont "grande maîtrise"
-	cont "des #mon!"
+	para "It is evidence of"
+	line "your mastery as a"
+	cont "#mon trainer!"
 
-	para "Tu pourras ainsi"
-	line "accéder à la"
-	cont "Ligue #mon!"
+	para "With it, you can"
+	line "enter the #mon"
+	cont "League!"
 
-	para "C'est un cadeau"
-	line "que je te fais."
-	cont "Va maintenant,"
-	cont "et deviens le"
-	cont "plus grand des"
-	cont "dresseurs!"
+	para "It is my gift for"
+	line "you. Now, go and"
+	cont "become the great-"
+	cont "est of trainers!"
 	done
 
 _ViridianGymText_ReceivedTM::
-	text "<PLAYER> reçoit"
-	line "CT27!@"
+	text "<PLAYER> received"
+	line "TM27!@"
 	text_end
 
 _ViridianGymText_TMExplanation::
 	text_start
 
-	para "CT27: Abîme!"
-	line "Cette attaque"
-	cont "peut mettre hors"
-	cont "combat un #mon"
-	cont "en un seul coup!"
+	para "TM27 is Fissure!"
+	line "It will take out"
+	cont "#mon with just"
+	cont "one hit!"
 
-	para "Je l'ai inventée"
-	line "il y a bien"
-	cont "longtemps..."
+	para "I made it when I"
+	line "ran the Gym here,"
+	cont "too long ago..."
 	done
 
 _ViridianGymText_BagFull::
-	text "Votre inventaire"
-	line "est plein!"
+	text "You do not have"
+	line "space for this!"
 	done
 
 _ViridianGymText_Trainer0PreBattle::
-	text "Hé! Tu dois être"
-	line "crevé, non? "
+	text "Heh! You must be"
+	line "running out of"
+	cont "steam by now!"
 	done
 
 _ViridianGymText_Trainer0EndBattle::
-	text "Ha!"
-	line "J'suis essoufflé!"
+	text "I"
+	line "ran out of gas!"
 	prompt
 
 _ViridianGymText_Trainer0AfterBattle::
-	text "Il faut que tu"
-	line "sois fort pour te"
-	cont "mesurer au..."
-	cont "Champion!"
+	text "You need power to"
+	line "keep up with our"
+	cont "Gym Leader!"
 	done
 
 _ViridianGymText_Trainer1PreBattle::
-	text "Groaar!"
-	line "Colère! Viens"
-	cont "te battre!"
+	text "Rrrroar! I'm"
+	line "working myself"
+	cont "into a rage!"
 	done
 
 _ViridianGymText_Trainer1EndBattle::
-	text "Rargh!"
+	text "Wargh!"
 	prompt
 
 _ViridianGymText_Trainer1AfterBattle::
-	text "Grouargh!"
+	text "Gwoargh!"
 	done
 
 _ViridianGymText_Trainer2PreBattle::
-	text "Avec mes #mon"
-	line "je fais de la"
-	cont "jolie musique!"
+	text "#mon and I, we"
+	line "make wonderful"
+	cont "music together!"
 	done
 
 _ViridianGymText_Trainer2EndBattle::
-	text "Tu es"
-	line "très fort!"
+	text "You are in"
+	line "perfect harmony!"
 	prompt
 
 _ViridianGymText_Trainer2AfterBattle::
-	text "Sais-tu qui est"
-	line "notre Champion?"
+	text "Do you know the"
+	line "identity of our"
+	cont "Gym Leader?"
 	done
 
 _ViridianGymText_Trainer3PreBattle::
-	text "Le Karaté est"
-	line "l'art martial"
-	cont "ultime!"
+	text "Karate is the"
+	line "ultimate form of"
+	cont "martial arts!"
 	done
 
 _ViridianGymText_Trainer3EndBattle::
-	text "Yaha!"
+	text "Atcho!"
 	prompt
 
 _ViridianGymText_Trainer3AfterBattle::
-	text "Mes #mon sont"
-	line "des karatékas..."
+	text "If my #mon"
+	line "were as good at"
+	cont "Karate as I..."
 	done
 
 _ViridianGymText_Trainer4PreBattle::
-	text "Je vais t'écraser"
-	line "avec style et"
-	cont "élégance!"
+	text "The truly talented"
+	line "win with style!"
 	done
 
 _ViridianGymText_Trainer4EndBattle::
-	text "..."
-	line "Tout perdu!"
+	text "I"
+	line "lost my grip!"
 	prompt
 
 _ViridianGymText_Trainer4AfterBattle::
-	text "Le Champion va"
-	line "me taper dessus!"
+	text "The Leader will"
+	line "scold me!"
 	done
 
 _ViridianGymText_Trainer5PreBattle::
-	text "J'suis le Roi du"
-	line "Karaté! Ton"
-	cont "destin repose"
-	cont "entre mes mains!"
+	text "I'm the Karate"
+	line "King! Your fate"
+	cont "rests with me!"
 	done
 
 _ViridianGymText_Trainer5EndBattle::
-	text "Yaah!"
+	text "Ayah!"
 	prompt
 
 _ViridianGymText_Trainer5AfterBattle::
-	text "La Ligue #mon?"
-	line "Toi? Hahahahah!!!"
-	cont "T'es un rigolo!"
+	text "#mon League?"
+	line "You? Don't get"
+	cont "cocky!"
 	done
 
 _ViridianGymText_Trainer6PreBattle::
-	text "Tes #mon vont"
-	line "se courber sous"
-	cont "mes coups de"
-	cont "fouet!"
+	text "Your #mon will"
+	line "cower at the"
+	cont "crack of my whip!"
 	done
 
 _ViridianGymText_Trainer6EndBattle::
-	text "Aïee!"
+	text "Yowch!"
+	line "Whiplash!"
 	prompt
 
 _ViridianGymText_Trainer6AfterBattle::
-	text "Attends! Je ne"
-	line "faisais pas"
-	cont "attention!"
+	text "Wait! I was just"
+	line "careless!"
 	done
 
 _ViridianGymText_Trainer7PreBattle::
-	text "L'Arène de"
-	line "Jadielle était"
-	cont "fermée depuis"
-	cont "longtemps, mais"
-	cont "le Champion est"
-	cont "enfin revenu!"
+	text "Viridian Gym was"
+	line "closed for a long"
+	cont "time, but now our"
+	cont "Leader is back!"
 	done
 
 _ViridianGymText_Trainer7EndBattle::
-	text "!!!"
-	line "Défaite!"
+	text "I"
+	line "was beaten?"
 	prompt
 
 _ViridianGymText_Trainer7AfterBattle::
-	text "Tu ne pourras"
-	line "accéder à la"
-	cont "Ligue #mon"
-	cont "seulement en"
-	cont "battant notre"
-	cont "Champion!"
+	text "You can go onto"
+	line "#mon League"
+	cont "only by defeating"
+	cont "our Gym Leader!"
 	done
 
 _ViridianGymText_GuideTip::
-	text "Salut! Champion"
-	line "en herbe!"
+	text "Yo! Champ in"
+	line "making!"
 
-	para "Même moi, je ne"
-	line "sais pas qui est"
-	cont "le Champion de"
-	cont "Jadielle!"
+	para "Even I don't know"
+	line "Viridian Leader's"
+	cont "identity!"
 
-	para "Le combat qui"
-	line "t'attend sera le"
-	cont "plus dur de tous!"
+	para "This will be the"
+	line "toughest of all"
+	cont "the Gym Leaders!"
 
-	para "Le dresseur de"
-	line "cette Arène aime"
-	cont "les #mon du"
-	cont "type Sol!"
+	para "I heard that the"
+	line "trainers here"
+	cont "like ground-type"
+	cont "#mon!"
 	done
 
+
 _ViridianGymText_GuideVictory::
-	text "Quoi?! C'était"
-	line "Giovanni le"
-	cont "Champion?"
-	cont "Ben ça alors!"
+	text "Blow me away!"
+	line "Giovanni was the"
+	cont "Gym Leader here?"
 	done
 
 _ViridianGymText_Note::
-	text "Silver, rends-toi"
-	line "à la Maison de la"
-	cont "Clairière, il"
-	cont "faut qu'on parle."
+	text "Silver, come to"
+	line "the Forest Glade"
+	cont "House, we need to"
+	cont "talk."
 
-	para "Signé: G."
+	para "Signed: G."
 	done

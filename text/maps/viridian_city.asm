@@ -1,198 +1,190 @@
 _ViridianCityText1::
-	text "Des # Ball!"
-	line "Mais... T'as des"
-	cont "#mon!"
+	text "Those # Balls"
+	line "at your waist!"
+	cont "You have #mon!"
 
-	para "C'est cool de"
-	line "pouvoir s'en"
-	cont "servir quand on"
-	cont "veut, hein?"
+	para "It's great that"
+	line "you can carry and"
+	cont "use #mon any"
+	cont "time, anywhere!"
 	done
 
 _GymAlwaysClosedText::
-	text "Cette Arène"
-	line "#mon est"
-	cont "toujours fermée."
+	text "This #mon Gym"
+	line "is always closed."
 
-	para "Mais qui en est"
-	line "le Champion?"
+	para "I wonder who the"
+	line "Leader is?"
 	done
 
 _GymLeaderReturnedText::
-	text "Le Champion de"
-	line "l'Arène de"
-	cont "Jadielle est de"
-	cont "retour! Dingue!"
+	text "Viridian Gym's"
+	line "Leader returned!"
 	done
 
 _ViridianCityText_1914d::
-	text "Tu veux tout"
-	line "savoir sur les 2"
-	cont "types de chenille"
+	text "You want to know"
+	line "about the 2 kinds"
+	cont "of caterpillar"
 	cont "#mon?"
 	done
 
 _ViridianCityText_19152::
-	text "Bon. OK."
+	text "Oh, OK then!"
 	done
 
 _ViridianCityText_19157::
-	text "Contrairement à"
-	line "Chenipan, Aspicot"
-	cont "est venimeux."
+	text "Caterpie has no"
+	line "poison, but"
+	cont "Weedle does."
 
-	para "Attention à son"
-	line "Dard-Venin!"
+	para "Watch out for its"
+	line "Poison Sting!"
 	done
 
 _ViridianCityText_19175::
-	text "Papinou! Tu vas"
-	line "t'lever, ouais?"
-	cont "T'as vidé la cave"
-	cont "ou quoi?"
+	text "Oh Grandpa! Don't"
+	line "pass out here!"
+	cont "My goodness..."
+	cont "Sorry, but we'll"
+	cont "have to wait till"
+	cont "he sobers up."
 	done
 
 _ViridianCityText_1917a::
-	text "Je passe par la"
-	line "Forêt de Jade"
-	cont "pour faire mes"
-	cont "courses à"
-	cont "Argenta."
+	text "When I go shop in"
+	line "Pewter City, I"
+	cont "have to take the"
+	cont "winding trail in"
+	cont "Viridian Forest."
 	done
 
 _ViridianCityText_19191::
-	text "Pachage..."
-	line "INTERDIT! Hips"
-	cont "...heho!"
-	cont "Ecoute moi bien..."
-	para "Ch'est une pripro"
-	line "... Une propro..."
-	cont "Priproété privée!"
+	text "Urgh! Hic..."
+	line "hold on there!"
+	cont "C'mere an lissen"
+	cont "to what I hafta"
+	cont "say!"
+
+	para "...Hey!"
+	line "I said don't go!"
 	done
 
 _ViridianCityText_191ca::
-	text "(Baiiiille)!"
-	line "J'ai dû dormir"
-	cont "dehors."
+	text "Yawn!"
+	line "I must have dozed"
+	cont "off in the sun."
 
-	para "J'ai rêvé qu'un"
-	line "Soporifik"
-	cont "dévorait mes"
-	cont "rêves... Heu?"
-	cont "Qu'est-ce que"
-	cont "cette CT fait là?"
+	para "I had this dream"
+	line "about a Drowzee"
+	cont "eating my dream."
+	cont "What's this?"
+	cont "Where did this TM"
+	cont "come from?"
 
-	para "C'est dingue ça!"
-	line "Tiens... Elle est"
-	cont "pour toi."
+	para "This is spooky!"
+	line "Here, you can"
+	cont "have this TM."
 	prompt
 
 _ReceivedTM42Text::
-	text "<PLAYER> reçoit:"
-	line "CT42!@"
+	text "<PLAYER> received"
+	line "TM42!@"
 	text_end
 
 _TM42Explanation::
-	text "CT42 contient"
-	line "Ball'Ombre..."
-	cont "...(pionce)..."
+	text "TM42 contains"
+	line "Shadow Ball.."
+	cont "...Snore..."
 	done
 
 _TM42NoRoomText::
-	text "Tu es trop"
-	line "chargé."
+	text "You have too much"
+	line "stuff already."
 	done
 
 _ViridianCityText_1920a::
-	text "Ahh... Un p'tit"
-	line "somme, un bon"
-	cont "café et hop! La"
-	cont "pêche pour la"
-	cont "journée!"
+	text "Ahh... A quick nap"
+	line "and a coffee, now"
+	cont "I feel great!"
 
-	para "Mais bien sûr que"
-	line "tu peux passer!"
+	para "Sure you can go"
+	line "through!"
 
-	para "Mais au fait..."
-	line "T'es pressé?"
+	para "Are you in a"
+	line "hurry?"
 	done
 
 _ViridianCityText_1920f::
-	text "Je vois que tu as"
-	line "un #dex."
+	text "I see you're using"
+	line "a #dex."
 
-	para "Capture un"
-	line "#mon et il"
-	cont "sera mis à jour"
-	cont "automatiquement."
+	para "When you catch a"
+	line "#mon, #dex"
+	cont "is automatically"
+	cont "updated."
 
-	para "Qu...QUOI?"
-	line "Tu ne sais pas"
-	cont "comment attraper"
-	cont "un #mon?"
+	para "What? Don't you"
+	line "know how to catch"
+	cont "#mon?"
 
-	para "J'vais t'montrer."
+	para "I'll show you"
+	line "how to then."
 	done
 
 _ViridianCityText_19214::
-	text "Le temps, c'est"
-	line "d'l'argent. Va."
+	text "Time is money..."
+	line "Go along then."
 	done
 
 _ViridianCityText_19219::
-	text "D'abord, il faut"
-	line "affaiblir le"
-	cont "#mon désiré."
+	text "First, you need"
+	line "to weaken the"
+	cont "target #mon."
 	done
 
 _ViridianCityText8::
-	text "Jadielle"
-	line "Verte comme"
-	cont "l'espérance"
+	text "Viridian City "
+	line "The Eternally"
+	cont "Green Paradise"
 	done
 
 _ViridianCityText9::
-	text "Astuce"
+	text "Trainer Tips"
 
-	para "Capturez des"
-	line "#mon et"
-	cont "agrandissez votre"
+	para "Catch #mon"
+	line "and expand your"
 	cont "collection!"
 
-	para "Plus vous en"
-	line "capturez, plus"
-	cont "les combats sont"
-	cont "faciles!"
+	para "The more you have,"
+	line "the easier it is"
+	cont "to fight!"
 	done
 
 _ViridianCityText10::
-	text "Astuce"
+	text "Trainer Tips"
 
-	para "Les attaques sont"
-	line "limitées par des"
-	cont "PP (Points de"
-	cont "Pouvoir)."
+	para "The battle moves"
+	line "of #mon are"
+	cont "limited by their"
+	cont "Power Points, PP."
 
-	para "Pour disposer de"
-	line "tous vos PP,"
-	cont "faites soigner"
-	cont "vos #mon dans"
-	cont "un Centre"
-	cont "#mon!"
+	para "To replenish PP,"
+	line "rest your tired"
+	cont "#mon at a"
+	cont "#mon Center!"
 	done
 
 _ViridianCityText13::
-	text "Arène #mon"
-	line "de Jadielle"
+	text "Viridian City"
+	line "#mon Gym"
 	done
 
 _ViridianCityText14::
-	text "Les portes de"
-	line "l'Arène sont"
-	cont "fermées..."
+	text "The Gym's doors"
+	line "are locked..."
 	done
 
 _ViridianCityText_School::
-	text "Ecole de"
-	line "Jadielle"
+	text "Viridian School"
 	done
