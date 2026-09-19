@@ -90,8 +90,7 @@ _VictoryRoad1FBurglarAfterBattleText::
 
 _VictoryRoad1FSuperNerdBattleText::
 	text "Hey, people"
-	line "call me a"
-	cont "nutcase!"
+	line "call me daft!"
 	done
 
 _VictoryRoad1FSuperNerdEndBattleText::

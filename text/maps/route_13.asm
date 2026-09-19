@@ -178,7 +178,7 @@ _Route13Text12::
 	line "an item from"
 	cont "one compartment"
 	cont "to the other"
-	cont "by pressing START"
+	cont "by pushing START"
 	cont "while holding"
 	cont "LEFT"
 	done
