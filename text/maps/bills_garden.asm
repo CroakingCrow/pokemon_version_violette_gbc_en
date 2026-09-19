@@ -40,7 +40,7 @@ _BillsGarden_SachaBattle::
 	cont "a battle!"
 
 	para "I warn you,"
-	line "my technique"
+	line "my strategy"
 	cont "is flawless!"
 	prompt
 	

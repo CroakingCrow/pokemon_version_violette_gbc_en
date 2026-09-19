@@ -171,7 +171,7 @@ _OaksLabText_AskForPokedexRatingAfterElite4::
 	cont "at the League!"
 
 	para "I hope that your"
-	line "vacations were"
+	line "vacation was"
 	cont "refreshing."
 
 	para "In any case,"
@@ -550,7 +550,7 @@ _OaksLabText_AssistantM::
 	text "I study #mon as"
 	line "Prof.Oak's Aide."
 
-	para "It doesn't look"
+	para "He doesn't look"
 	line "like it, but he"
 	cont "was a great"
 	cont "trainer in his"

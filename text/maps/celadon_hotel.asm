@@ -47,7 +47,7 @@ _CeladonHotelCoinGuyText_recieved::
 	para "I'll give you"
 	line "@"
 	TX_BCD hCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
-	text " coins!"
+	text " Coins!"
 	done
 	
 _CeladonHotelCoinGuyText_PC::
