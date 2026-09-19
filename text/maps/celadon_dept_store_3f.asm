@@ -122,7 +122,7 @@ _CeladonMart3Text14::
 	done
 
 _CeladonMart3Text15::
-	text "Red and Green!"
+	text "Red and Blue!"
 	line "Both are #mon!"
 	done
 

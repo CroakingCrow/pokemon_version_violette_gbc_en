@@ -269,7 +269,7 @@ _XSpecialDescription::
 
 _CoinCaseDescription::
 	text "Holds up to"
-	next "9999 coins."
+	next "9999 Coins."
 	prompt
 
 _OaksParcelDescription::

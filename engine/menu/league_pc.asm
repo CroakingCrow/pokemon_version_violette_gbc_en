@@ -113,7 +113,7 @@ LeaguePCShowMon:
 	jpba HoFDisplayMonInfo
 
 HallOfFameNoText:
-	db "Hall of Fame No.    @"55555555
+	db "Hall of Fame No.    @"
 
 AccessedHoFPCText:
 	TX_FAR _AccessedHoFPCText

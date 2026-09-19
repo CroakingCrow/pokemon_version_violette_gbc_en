@@ -25,7 +25,7 @@ _CeladonCityText4::
 
 	para "I knew I should"
 	line "have cashed in my"
-	cont "coins for prizes!"
+	cont "Coins for prizes!"
 	done
 
 _TM37PreText::

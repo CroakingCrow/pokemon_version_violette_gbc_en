@@ -43,7 +43,7 @@ _RematchLoreleiBeforeBattleText::
 	line "freeze you!"
 
 	para "I spent my"
-	line "vacations in the"
+	line "vacation in the"
 	cont "Seafoam Islands."
 
 	para "My #mon are"

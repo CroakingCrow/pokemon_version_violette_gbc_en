@@ -35,7 +35,7 @@ _Lab2TextFossileChampion::
 
 	para "But in order to"
 	line "leave I would"
-	cont "need 10000¥!"
+	cont "need ¥10000!"
 
 	para "suffice to say"
 	line "that I'll be"

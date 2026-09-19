@@ -298,7 +298,7 @@ DisplayMoneyBox:
 	ret
 
 CurrencyString:
-	db "      ¥@"
+	db "¥      @"
 
 DoBuySellQuitMenu:
 	ld a, [wStatusFlags5]
