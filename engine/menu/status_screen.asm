@@ -487,10 +487,10 @@ PrintStat:
 	ret
 
 StatsText:
-	db   "Attack"
-	next "Defense"
-	next "Speed"
-	next "Special@"
+	db   "Atk"
+	next "Def"
+	next "Spd"
+	next "Spc@"
 
 StatusScreen2:
 	ld a, [hTilesetType]
@@ -656,7 +656,7 @@ CalcExpToLevelUp:
 	ret
 
 StatusScreenExpText:
-	db   "Exp. Points"
+	db   "Exp. Pts"
 	next "Level Up@"
 
 StatusScreen_ClearName:

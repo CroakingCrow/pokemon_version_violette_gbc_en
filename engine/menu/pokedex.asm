@@ -1495,16 +1495,16 @@ HPText:
 	db "HP@"
 
 AtkText:
-	db "Attack@"
+	db "Atk@"
 
 DefText:
-	db "Defense@"
+	db "Def@"
 
 SpdText:
-	db "Speed@"
+	db "Spd@"
 
 SpcText:
-	db "Special@"
+	db "Spc@"
 
 TotalText:
 	db "Total@"
