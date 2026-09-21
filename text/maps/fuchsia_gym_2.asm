@@ -75,16 +75,14 @@ _FuchsiaGymText_RematchEndBattle::
 	para "I can't believe"
 	line "it..."
 
-	para "Continue to"
-	line "perfect your"
-	cont "talents, thus is"
-	cont "the way of the"
-	cont "ninja."
+	para "Continue to hone"
+	line "your skills, for"
+	cont "thus is the way"
+	cont "of the ninja."
 
-	para "If you so wish,"
-	line "I can teach this"
-	cont "way to your"
-	cont "Scizor."
+	para "If you so wish, I"
+	line "can teach the way"
+	cont "to your Scizor."
 
 	para "Escape!"
 	line "Chaaa cha cha"

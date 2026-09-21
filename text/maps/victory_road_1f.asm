@@ -64,7 +64,7 @@ _VictoryRoad1FBeautyEndBattleText::
 	prompt
 
 _VictoryRoad1FBeautyAfterBattleText::
-	text "I heard that there"
+	text "I heard there"
 	line "exists another"
 	cont "form of Eevee!"
 	done

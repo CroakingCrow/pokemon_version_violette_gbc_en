@@ -20,10 +20,10 @@ _ViridianPokeCenter_AideRandom::
 	line "try at a #mon"
 	cont "journey?"
 	
-	para "I heard that there"
-	line "are various sett-"
-	cont "ings to spice up"
-	cont "your adventure!"
+	para "I heard there are"
+	line "various settings"
+	cont "to spice up your"
+	cont "adventure!"
 
 	para "If you're curious,"
 	para "Press SELECT in"

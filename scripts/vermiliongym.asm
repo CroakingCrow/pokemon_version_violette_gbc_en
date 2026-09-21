@@ -22,10 +22,10 @@ VermilionGymScript_Header:
 	jp LoadGymLeaderAndCityName
 
 Gym3CityName:
-	db "Carmin sur mer@"
+	db "Vermilion City@"
 
 Gym3LeaderName:
-	db "Major Bob@"
+	db "Lt.Surge@"
 
 VermilionGymScript_DoorPuzzle:
 	CheckEvent EVENT_2ND_LOCK_OPENED
@@ -377,26 +377,25 @@ ElectabuzzTutor:
 	call PrintText
 	jp TextScriptEnd
 .textBring
-	text "Ramène-moi ton"
-	line "Elektek et je"
-	cont "lui enseignerai"
-	cont "les rudiments"
-	cont "du combat au"
-	cont "corps à corps!"
+	text "Bring me your"
+	line "Electabuzz and"
+	cont "I'll teach it"
+	cont "the basics of"
+	cont "hand-to-hand"
+	cont "combat."
 	done
 	db "@"
 .textStart
-	text "Debout Soldat!"
-	line "C'est parti"
-	cont "pour l'entrainem-"
-	cont "ent et j'veux pas"
-	cont "entendre moufter"
-	cont "dans les rangs!"
+	text "Stand up, soldier!"
+	line "Let's get"
+	cont "training started"
+	cont "and not a word"
+	cont "from the ranks!"
 	prompt
 	db "@"
 .textAfter
-	text "Elektek est"
-	line "maintenant"
-	cont "Electrik/Combat!"
+	text "Electabuzz is now"
+	line "Electric/Fighting"
+	cont "!"
 	done
 	db "@"

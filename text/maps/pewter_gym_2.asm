@@ -40,16 +40,16 @@ _PewterGymText_RematchEndBattle::
 
 	para "As a reward, I"
 	line "can help your"
-	cont "Magmar to become"
+	cont "Magmar become"
 	cont "rock solid!"
 
-	para "Come back to me"
-	line "with it if you"
-	cont "are interested."
+	para "Come back with it"
+	line "if you're"
+	cont "interested."
 
-	para "Go now! New"
-	line "challenges await"
-	cont "you!"
+	para "Go now!"
+	line "New challenges"
+	cont "await you!"
 	prompt
 
 _PewterGymText_Wait::

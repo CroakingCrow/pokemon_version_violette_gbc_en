@@ -98,10 +98,10 @@ _CinnabarGymText_RematchEndBattle::
     cont "of Champion."
 
 	para "Bring me your"
-	line "Charizard that I"
-	cont "may see if I can"
-	cont "make it more"
-	cont "fitting of its"
+	line "Charizard and"
+	cont "let me see if I"
+	cont "can make it more"
+	cont "worthy of its"
 	cont "appearance!"
 	prompt
 
