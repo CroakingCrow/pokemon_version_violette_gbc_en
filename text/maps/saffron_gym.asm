@@ -91,7 +91,7 @@ _SaffronGymText_RematchEndBattle::
 	line "sharpen my"
 	cont "psychic senses."
 
-	para "As a reward I'll"
+	para "As a reward, I'll"
 	line "try to teach what"
 	cont "I know to your"
 	cont "Ninetales."

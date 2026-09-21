@@ -11,7 +11,7 @@ ViridianGymScript:
 	ret
 
 Gym8CityName:
-	db "Jadielle@"
+	db "Viridian City@"
 Gym8LeaderName:
 ;	db "GIOVANNI@"	;joenote - let's remove this funny nonsense spoiler
 	db "???@"

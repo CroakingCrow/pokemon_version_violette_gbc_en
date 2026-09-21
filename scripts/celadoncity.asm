@@ -114,20 +114,18 @@ CeladonCityText8_continue:
 	TX_FAR _CeladonCityText8
 	db "@"
 CeladonCityText8_alternate:
-	text "Tu veux quoi?"
-	line "T'es d'la police?"
+	text "What do you want?"
+	line "You're a cop?"
 
-	para "Ouai c'est moi"
-	line "qui fournit le"
-	cont "Centre commercial"
-	cont "en objets rares,"
-	cont "ils sont pas"
-	cont "regardant sur la"
-	cont "provenance, héhé."
+	para "Yeah it's me who"
+	line "supply the Dept."
+	cont "Store with rare"
+	cont "items, they don't"
+	cont "ask where it"
+	cont "comes from, hehe."
 	
-	para "Pas besoin de la"
-	line "Team Rocket pour"
-	cont "s'faire du blé!"
+	para "Who needs Team"
+	line "Rocket for money?"
 	done
 	db "@"
 
@@ -250,48 +248,42 @@ BuyCoinsFromRocket:
 	jp TextScriptEnd
 
 _TXTSolicitCoins:
-	text "Pssst! Hey gamin."
-	line "Tu veux acheter"
-	cont "des Jetons?"
-	cont "J'te fais les"
-	cont "1000 pour seule-"
-	cont "ment 15000¥!"
+	text "Pssst! Hey kid."
+	line "Wanna buy some"
+	cont "Coins? 1000 for"
+	cont "only ¥15000."
 	done
 	db "@"
 _TXTRefuseCoins:
-	text "Eh ben va faire"
-	line "ton Chétiflor"
-	cont "ailleurs!"
+	text "Then make like a"
+	line "Bellsprout and"
+	cont "leave!"
 	
-	para "C'est déjà galère"
-	line "de se faire de la"
-	cont "tune maintenant"
-	cont "que la Team"
-	cont "Rocket est partie."
+	para "It's hard enough"
+	line "making money now"
+	cont "that Team Rocket"
+	cont "is gone."
 	done
 	db "@"
 _TXTNeedCoinCase:
-	text "Ben ramène ta"
-	line "Boîte Jeton,"
-	cont "gros malin."
+	text "Then bring your"
+	line "Coin Case, dork."
 	done
 	db "@"
 _TXTCoinCaseFull:
-	text "Ta Boîte Jeton"
-	line "est déjà pleine."
+	text "Looks like you"
+	line "don't need any."
 	done
 	db "@"
 _NotEnoughMoney:	
-	text "Reviens avec"
-	line "l'argent ou ne"
-	cont "m'fait pas perdre"
-	cont "mon temps!"
+	text "Come back with"
+	line "the cash or don't"
+	cont "waste my time!"
 	done
 	db "@"
 _TXTBoughtCoins:
-	text "Merci. Ne d'mande"
-	line "pas où j'les"
-	cont "ai eu."
+	text "Thanks. Don't ask"
+	line "where I got 'em."
 	done
 	db "@"
 

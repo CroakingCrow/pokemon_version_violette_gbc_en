@@ -471,15 +471,15 @@ VermilionDockText:
 	jp TextScriptEnd
 
 .truckHint
-	text "Vous sentez comme"
-	line "une irrépressible"
-	cont "envie de pousser"
-	cont "ce camion..."
+	text "You feel an"
+	line "irrepressible"
+	cont "desire to push"
+	cont "this truck..."
 	done
 	db "@"
 
 .truckNothing
-	text "Il n'y a rien"
-	line "d'autre à voir."
+	text "There's nothing"
+	line "else to see."
 	done
 	db "@"

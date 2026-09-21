@@ -23,9 +23,9 @@ CinnabarGymScript_Header:
 	jp LoadGymLeaderAndCityName
 
 Gym7CityName:
-	db "Cramois'Ile@"
+	db "Cinnabar Island@"
 Gym7LeaderName:
-	db "Auguste@"
+	db "Blaine@"
 
 CinnabarGymScript_Reset:
 	xor a
@@ -653,24 +653,24 @@ CharizardTutor:
 	call PrintText
 	jp TextScriptEnd
 .textBring
-	text "Amène-moi ton"
-	line "Dracaufeu que je"
-	cont "vois si je peux"
-	cont "rendre son nom"
-	cont "plus pertinent!"
+	text "Bring me your"
+	line "Charizard and"
+	cont "let me see if I"
+	cont "can make it more"
+	cont "worthy of its"
+	cont "appearance!"
 	done
 	db "@"
 .textStart
-	text "Quel panache!"
-	line "Ton Dracaufeu est"
-	cont "un digne repré-"
-	cont "sentant de la"
-	cont "race Draconique!"
+	text "What style!"
+	line "Your Charizard is"
+	cont "a worthy member"
+	cont "of the draconic"
+	cont "race!"
 	prompt
 	db "@"
 .textAfter
-	text "Dracaufeu est"
-	line "maintenant"
-	cont "Feu/Dragon!"
+	text "Charizard is now"
+	line "Fire/Dragon!"
 	done
 	db "@"

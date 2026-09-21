@@ -16,7 +16,7 @@ _Route14AfterBattleText1::
 	cont "ever forget those"
 	cont "moves."
 
-	para "But I heard that"
+	para "But I heard"
 	line "there's someone"
 	cont "in Saffron who" 
 	cont "can do it."
