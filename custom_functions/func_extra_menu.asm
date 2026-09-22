@@ -353,11 +353,11 @@ OptionMenuSoundText:
 OptionMenuMono:
 	db "     Mono@"
 OptionMenuEar1:
-	db "Ecouteur1@"
+	db "Earphone1@"
 OptionMenuEar2:
-	db "Ecouteur2@"
+	db "Earphone2@"
 OptionMenuEar3:
-	db "Ecouteur3@"
+	db "Earphone3@"
 
 
 ;60fps - show the fps setting on the menu when activated
@@ -590,9 +590,9 @@ ShowRandomWild:
 	ret
 
 OptionMenuRandomWildOff:
-	db "  Non@"
+	db "  No@"
 OptionMenuRandomWillTier:
-	db "Tiers@"
+	db "Fair@"
 OptionMenuRandomWildChaos:
 	db "Chaos@"
 
@@ -602,29 +602,29 @@ TextAudio:
 TextFPS:
 	db " FPS@"
 TextInstant:
-	db " Texte inst.@"
+	db " Inst. Text@"
 TextHardMode:
-	db " Mode diffi.@"
+	db " Hard Mode@"
 TextGamma:
 	db " Gamma@"
 TextEnhancedGBC:
-	db " Palette comp.@"
+	db " Palette@"
 TextBack:
-	db $C6, $C7, "Retour   ",$C3,$C4,$C5,$E6," ",$C0,$C1,$C2,$ED,"@"
+	db $C6, $C7, "Cancel   ",$C3,$C4,$C5,$E6," ",$C0,$C1,$C2,$ED,"@"
 
 TextLevelCap:
-	db " Niveau max@"
+	db " Level Cap@"
 TextNuzlocke:
 	db " Nuzlocke@"
 TextRandomTrainer:
-	db " Dres. aléa.@"
+	db " Random Trainer@"
 TextRandomWild:
-	db " <PK><MN> aléa.@"
+	db " Random <PK><MN>@"
 
 OptionMenuOnOffText:
 	dw OptionMenuTextON
 	dw OptionMenuTextOFF
 OptionMenuTextON:
-	db "Oui@"
+	db "Yes@"
 OptionMenuTextOFF:
-	db "Non@"
+	db "No@"

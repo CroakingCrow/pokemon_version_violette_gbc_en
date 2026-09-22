@@ -154,7 +154,7 @@ LoadTownMap_Nest:
 	ret
 
 MonsNestText:
-	db "Nid de @"
+	db "@'s nest"
 
 LoadTownMap_Fly:
 	call ClearSprites
@@ -405,18 +405,18 @@ DrawPlayerOrBirdSprite:
 
 ;joenote - added messages for immediate map check with the dex area function
 _DexAreaLand::
-	text "Détecté pas loin!"
-	line "Essaie de Marcher."
+	text "Detected nearby!"
+	line "Try Walking."
 	done
 	db "@"
 _DexAreaSurf::
-	text "Détecté pas loin!"
-	line "Essaie le Surf."
+	text "Detected nearby!"
+	line "Try Surfing."
 	done
 	db "@"
 _DexAreaSuperRod::
-	text "Détecté pas loin!"
-	line "Essaie la Canne."
+	text "Detected nearby!"
+	line "Try a Rod."
 	done
 	db "@"
 
@@ -509,7 +509,7 @@ DisplayWildLocations:
 	jp CopyData
 
 AreaUnknownText:
-	db " Zone Inconnue@"
+	db " Area Unknown@"
 
 TownMapCoordsToOAMCoords:
 ; in: lower nybble of a = x, upper nybble of a = y

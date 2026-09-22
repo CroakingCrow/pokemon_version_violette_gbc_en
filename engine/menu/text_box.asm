@@ -707,20 +707,20 @@ DisplayFieldMoveMonMenu:
 	jp PlaceString
 
 FieldMoveNames:
-	db "Coupe@"
-	db "Vol@"
+	db "Cut@"
+	db "Fly@"
 	db "@"
 	db "Surf@"
-	db "Force@"
+	db "Strength@"
 	db "Flash@"
-	db "Tunnel@"
-	db "Téléport@"
-	db "E-coque@"
+	db "Dig@"
+	db "Teleport@"
+	db "Softboiled@"
 
 PokemonMenuEntries:
 	db   "Stats"
-	next "Ordre"
-	next "Retour@"
+	next "Switch"
+	next "Cancel@"
 
 GetMonFieldMoves:
 	ld a, [wWhichPokemon]
