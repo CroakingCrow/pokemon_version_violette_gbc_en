@@ -245,7 +245,7 @@ ForfeitTrainerMatchText:
 	TX_FAR _ForfeitTrainerMatchText
 	db "@"
 _ForfeitTrainerMatchText::
-	text "Déclarer forfait?"
+	text "Forfeit?"
 	done
 
 ForfeitConfirmed:

@@ -2242,7 +2242,7 @@ DisplayBattleMenu:
 	ld a, $2 ; select the "ITEM" menu
 	jp .upperLeftMenuItemWasNotSelected
 .oldManName
-	db "Vieillard@"
+	db "Old Man@"
 .handleBattleMenuInput
 	ld a, [wBattleAndStartSavedMenuItem]
 	ld [wCurrentMenuItem], a
@@ -2972,7 +2972,7 @@ MoveDisabledText:
 	db "@"
 
 WhichTechniqueString:
-	db "Quelle technique?@"
+	db "Which Technique?@"
 
 SelectMenuItem_CursorUp:
 	ld a, [wCurrentMenuItem]
@@ -3272,16 +3272,16 @@ PrintMenuItem::
 	jp Delay3
 
 DisabledText:
-	db "Non disp.@"
+	db "Disabled@"
 
 PPText:
 	db "PP@"
 
 PowerText:
-	db "Dégât@"
+	db "Power@"
 
 AccurancyText:
-	db "Pré.@"
+	db "Acc.@"
 
 InfinityText:
 	db "Inf@"
