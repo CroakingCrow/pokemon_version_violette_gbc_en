@@ -196,126 +196,126 @@ PokedexEntryPointers:
 ; text entry
 
 RhydonDexEntry:	
-	db "Perceur@"
+	db "Drill@"
 	db 1,90
 	dw 1200
 	TX_FAR _RhydonDexEntry
 	db "@"
 	
 KangaskhanDexEntry:	
-	db "Maternel@"
+	db "Parent@"
 	db 2,20
 	dw 800
 	TX_FAR _KangaskhanDexEntry
 	db "@"
 	
 NidoranMDexEntry:	
-	db "Vénépic@"
+	db "Poison Pin@"
 	db 0,50
 	dw 90
 	TX_FAR _NidoranMDexEntry
 	db "@"
 	
 ClefairyDexEntry:	
-	db "Fée@"
+	db "Fairy@"
 	db 0,60
 	dw 75
 	TX_FAR _ClefairyDexEntry
 	db "@"
 	
 SpearowDexEntry:	
-	db "Minoiseau@"
+	db "Tiny Bird@"
 	db 0,30
 	dw 20
 	TX_FAR _SpearowDexEntry
 	db "@"
 	
 VoltorbDexEntry:	
-	db "Balle@"
+	db "Ball@"
 	db 0,50
 	dw 104
 	TX_FAR _VoltorbDexEntry
 	db "@"
 	
 NidokingDexEntry:	
-	db "Perceur@"
+	db "Drill@"
 	db 1,40
 	dw 620
 	TX_FAR _NidokingDexEntry
 	db "@"
 	
 SlowbroDexEntry:	
-	db "Symbiose@"
+	db "Hermitcrab@"
 	db 1,60
 	dw 785
 	TX_FAR _SlowbroDexEntry
 	db "@"
 	
 IvysaurDexEntry:	
-	db "Graine@"
+	db "Seed@"
 	db 1,00
 	dw 130
 	TX_FAR _IvysaurDexEntry
 	db "@"
 	
 ExeggutorDexEntry:	
-	db "Fruitpalme@"
+	db "Coconut@"
 	db 2,00
 	dw 1200
 	TX_FAR _ExeggutorDexEntry
 	db "@"
 	
 LickitungDexEntry:	
-	db "Lécheur@"
+	db "Licking@"
 	db 1,20
 	dw 655
 	TX_FAR _LickitungDexEntry
 	db "@"
 	
 ExeggcuteDexEntry:	
-	db "Oeuf@"
+	db "Egg@"
 	db 0,40
 	dw 25
 	TX_FAR _ExeggcuteDexEntry
 	db "@"
 	
 GrimerDexEntry:	
-	db "Dégueu@"
+	db "Sludge@"
 	db 0,90
 	dw 300
 	TX_FAR _GrimerDexEntry
 	db "@"
 	
 GengarDexEntry:	
-	db "Ombre@"
+	db "Shadow@"
 	db 1,50
 	dw 405
 	TX_FAR _GengarDexEntry
 	db "@"
 	
 NidoranFDexEntry:	
-	db "Vénépic@"
+	db "Poison Pin@"
 	db 0,40
 	dw 70
 	TX_FAR _NidoranFDexEntry
 	db "@"
 	
 NidoqueenDexEntry:	
-	db "Perceur@"
+	db "Drill@"
 	db 1,30
 	dw 600
 	TX_FAR _NidoqueenDexEntry
 	db "@"
 	
 CuboneDexEntry:	
-	db "Solitaire@"
+	db "Lonely@"
 	db 0,40
 	dw 65
 	TX_FAR _CuboneDexEntry
 	db "@"
 	
 RhyhornDexEntry:	
-	db "Piquant@"
+	db "Spikes@"
 	db 1,00
 	dw 1150
 	TX_FAR _RhyhornDexEntry
@@ -329,21 +329,21 @@ LaprasDexEntry:
 	db "@"
 	
 ArcanineDexEntry:	
-	db "Légendaire@"
+	db "Legendary@"
 	db 1,90
 	dw 1550
 	TX_FAR _ArcanineDexEntry
 	db "@"
 	
 MewDexEntry:	
-	db "Nouveau@"
+	db "New Specie@"
 	db 0,40
 	dw 40
 	TX_FAR _MewDexEntry
 	db "@"
 	
 GyaradosDexEntry:	
-	db "Terrifiant@"
+	db "Atrocious@"
 	db 6,50
 	dw 2350
 	TX_FAR _GyaradosDexEntry
@@ -357,133 +357,133 @@ ShellderDexEntry:
 	db "@"
 	
 TentacoolDexEntry:	
-	db "Mollusque@"
+	db "Jellyfish@"
 	db 0,90
 	dw 455
 	TX_FAR _TentacoolDexEntry
 	db "@"
 	
 GastlyDexEntry:	
-	db "Gaz@"
+	db "Gas@"
 	db 1,30
 	dw 1
 	TX_FAR _GastlyDexEntry
 	db "@"
 	
 ScytherDexEntry:	
-	db "Mante@"
+	db "Mantis@"
 	db 1,50
 	dw 560
 	TX_FAR _ScytherDexEntry
 	db "@"
 	
 StaryuDexEntry:	
-	db "Etoile@"
+	db "Starshape@"
 	db 0,80
 	dw 345
 	TX_FAR _StaryuDexEntry
 	db "@"
 	
 BlastoiseDexEntry:	
-	db "Carapace@"
+	db "Shell@"
 	db 1,60
 	dw 855
 	TX_FAR _BlastoiseDexEntry
 	db "@"
 	
 PinsirDexEntry:	
-	db "Scarabée@"
+	db "Stagbeetle@"
 	db 1,50
 	dw 550
 	TX_FAR _PinsirDexEntry
 	db "@"
 	
 TangelaDexEntry:	
-	db "Vigne@"
+	db "Vine@"
 	db 1,00
 	dw 350
 	TX_FAR _TangelaDexEntry
 	db "@"
 	
 GrowlitheDexEntry:	
-	db "Chiot@"
+	db "Puppy@"
 	db 0,70
 	dw 190
 	TX_FAR _GrowlitheDexEntry
 	db "@"
 	
 OnixDexEntry:	
-	db "Serpenroc@"
+	db "Rock Snake@"
 	db 8,80
 	dw 2100
 	TX_FAR _OnixDexEntry
 	db "@"
 	
 FearowDexEntry:	
-	db "Bec-oiseau@"
+	db "Beak@"
 	db 1,20
 	dw 380
 	TX_FAR _FearowDexEntry
 	db "@"
 	
 PidgeyDexEntry:	
-	db "Minoiseau@"
+	db "Tiny Bird@"
 	db 0,30
 	dw 18
 	TX_FAR _PidgeyDexEntry
 	db "@"
 	
 SlowpokeDexEntry:	
-	db "Crétin@"
+	db "Dopey@"
 	db 1,20
 	dw 360
 	TX_FAR _SlowpokeDexEntry
 	db "@"
 	
 KadabraDexEntry:	
-	db "Psy@"
+	db "Psi@"
 	db 1,30
 	dw 565
 	TX_FAR _KadabraDexEntry
 	db "@"
 	
 GravelerDexEntry:	
-	db "Roche@"
+	db "Rock@"
 	db 1,00
 	dw 1050
 	TX_FAR _GravelerDexEntry
 	db "@"
 	
 ChanseyDexEntry:	
-	db "Oeuf@"
+	db "Egg@"
 	db 1,10
 	dw 346
 	TX_FAR _ChanseyDexEntry
 	db "@"
 	
 MachokeDexEntry:	
-	db "Colosse@"
+	db "Superpower@"
 	db 1,50
 	dw 705
 	TX_FAR _MachokeDexEntry
 	db "@"
 	
 MrMimeDexEntry:	
-	db "Bloqueur@"
+	db "Barrier@"
 	db 1,30
 	dw 545
 	TX_FAR _MrMimeDexEntry
 	db "@"
 	
 HitmonleeDexEntry:	
-	db "Latteur@"
+	db "Kicking@"
 	db 1,50
 	dw 498
 	TX_FAR _HitmonleeDexEntry
 	db "@"
 	
 HitmonchanDexEntry:	
-	db "Puncheur@"
+	db "Punching@"
 	db 1,40
 	dw 502
 	TX_FAR _HitmonchanDexEntry
@@ -497,98 +497,98 @@ ArbokDexEntry:
 	db "@"
 	
 ParasectDexEntry:	
-	db "Champignon@"
+	db "Mushroom@"
 	db 1,00
 	dw 295
 	TX_FAR _ParasectDexEntry
 	db "@"
 	
 PsyduckDexEntry:	
-	db "Canard@"
+	db "Duck@"
 	db 0,80
 	dw 196
 	TX_FAR _PsyduckDexEntry
 	db "@"
 	
 DrowzeeDexEntry:	
-	db "Hypnose@"
+	db "Hypnosis@"
 	db 1,00
 	dw 324
 	TX_FAR _DrowzeeDexEntry
 	db "@"
 	
 GolemDexEntry:	
-	db "Titanesque@"
+	db "Megaton@"
 	db 1,40
 	dw 3000
 	TX_FAR _GolemDexEntry
 	db "@"
 	
 MagmarDexEntry:	
-	db "Crache-feu@"
+	db "Spitfire@"
 	db 1,30
 	dw 445
 	TX_FAR _MagmarDexEntry
 	db "@"
 	
 ElectabuzzDexEntry:	
-	db "Electrique@"
+	db "Electric@"
 	db 1,10
 	dw 300
 	TX_FAR _ElectabuzzDexEntry
 	db "@"
 	
 MagnetonDexEntry:	
-	db "Magnétique@"
+	db "Magnet@"
 	db 1,00
 	dw 600
 	TX_FAR _MagnetonDexEntry
 	db "@"
 	
 KoffingDexEntry:	
-	db "Gaz mortel@"
+	db "Poison Gas@"
 	db 0,60
 	dw 10
 	TX_FAR _KoffingDexEntry
 	db "@"
 	
 MankeyDexEntry:	
-	db "Porsinge@"
+	db "Pig Monkey@"
 	db 0,50
 	dw 280
 	TX_FAR _MankeyDexEntry
 	db "@"
 	
 SeelDexEntry:	
-	db "Otarie@"
+	db "Sea Lion@"
 	db 1,10
 	dw 900
 	TX_FAR _SeelDexEntry
 	db "@"
 	
 DiglettDexEntry:	
-	db "Taupe@"
+	db "Mole@"
 	db 0,20
 	dw 8
 	TX_FAR _DiglettDexEntry
 	db "@"
 	
 TaurosDexEntry:	
-	db "Buffle@"
+	db "Wild Bull@"
 	db 1,40
 	dw 884
 	TX_FAR _TaurosDexEntry
 	db "@"
 	
 FarfetchdDexEntry:	
-	db "Canard fou@"
+	db "Wild Duck@"
 	db 0,80
 	dw 150
 	TX_FAR _FarfetchdDexEntry
 	db "@"
 	
 VenonatDexEntry:	
-	db "Vermine@"
+	db "Insect@"
 	db 1,00
 	dw 300
 	TX_FAR _VenonatDexEntry
@@ -602,91 +602,91 @@ DragoniteDexEntry:
 	db "@"
 	
 DoduoDexEntry:	
-	db "Duoiseau@"
+	db "Twin Bird@"
 	db 1,40
 	dw 392
 	TX_FAR _DoduoDexEntry
 	db "@"
 	
 PoliwagDexEntry:	
-	db "Tétard@"
+	db "Tadpole@"
 	db 0,60
 	dw 124
 	TX_FAR _PoliwagDexEntry
 	db "@"
 	
 JynxDexEntry:	
-	db "Humanoide@"
+	db "Humanshape@"
 	db 1,40
 	dw 406
 	TX_FAR _JynxDexEntry
 	db "@"
 	
 MoltresDexEntry:	
-	db "Flamme@"
+	db "Flame@"
 	db 2,00
 	dw 600
 	TX_FAR _MoltresDexEntry
 	db "@"
 	
 ArticunoDexEntry:	
-	db "Glaciaire@"
+	db "Freeze@"
 	db 1,70
 	dw 554
 	TX_FAR _ArticunoDexEntry
 	db "@"
 	
 ZapdosDexEntry:	
-	db "Electrique@"
+	db "Electric@"
 	db 1,60
 	dw 526
 	TX_FAR _ZapdosDexEntry
 	db "@"
 	
 DittoDexEntry:	
-	db "Morphing@"
+	db "Transform@"
 	db 0,30
 	dw 40
 	TX_FAR _DittoDexEntry
 	db "@"
 	
 MeowthDexEntry:	
-	db "Chadegout@"
+	db "ScratchCat@"
 	db 0,40
 	dw 42
 	TX_FAR _MeowthDexEntry
 	db "@"
 	
 KrabbyDexEntry:	
-	db "Doux crabe@"
+	db "River Crab@"
 	db 0,40
 	dw 65
 	TX_FAR _KrabbyDexEntry
 	db "@"
 	
 VulpixDexEntry:	
-	db "Renard@"
+	db "Fox@"
 	db 0,60
 	dw 99
 	TX_FAR _VulpixDexEntry
 	db "@"
 	
 NinetalesDexEntry:	
-	db "Renard@"
+	db "Fox@"
 	db 1,10
 	dw 199
 	TX_FAR _NinetalesDexEntry
 	db "@"
 	
 PikachuDexEntry:	
-	db "Souris@"
+	db "Mouse@"
 	db 0,40
 	dw 60
 	TX_FAR _PikachuDexEntry
 	db "@"
 	
 RaichuDexEntry:	
-	db "Souris@"
+	db "Mouse@"
 	db 0,80
 	dw 300
 	TX_FAR _RaichuDexEntry
@@ -707,14 +707,14 @@ DragonairDexEntry:
 	db "@"
 	
 KabutoDexEntry:	
-	db "Carapace@"
+	db "Shell@"
 	db 0,50
 	dw 115
 	TX_FAR _KabutoDexEntry
 	db "@"
 	
 KabutopsDexEntry:	
-	db "Carapace@"
+	db "Shell@"
 	db 1,30
 	dw 405
 	TX_FAR _KabutopsDexEntry
@@ -735,252 +735,252 @@ SeadraDexEntry:
 	db "@"
 	
 SandshrewDexEntry:	
-	db "Souris@"
+	db "Mouse@"
 	db 0,60
 	dw 120
 	TX_FAR _SandshrewDexEntry
 	db "@"
 	
 SandslashDexEntry:	
-	db "Souris@"
+	db "Mouse@"
 	db 1,00
 	dw 295
 	TX_FAR _SandslashDexEntry
 	db "@"
 	
 OmanyteDexEntry:	
-	db "Spirale@"
+	db "Spiral@"
 	db 0,40
 	dw 75
 	TX_FAR _OmanyteDexEntry
 	db "@"
 	
 OmastarDexEntry:	
-	db "Spirale@"
+	db "Spiral@"
 	db 1,00
 	dw 350
 	TX_FAR _OmastarDexEntry
 	db "@"
 	
 JigglypuffDexEntry:	
-	db "Bouboule@"
+	db "Balloon@"
 	db 0,50
 	dw 55
 	TX_FAR _JigglypuffDexEntry
 	db "@"
 	
 WigglytuffDexEntry:	
-	db "Bouboule@"
+	db "Balloon@"
 	db 1,00
 	dw 120
 	TX_FAR _WigglytuffDexEntry
 	db "@"
 	
 EeveeDexEntry:	
-	db "Evolutif@"
+	db "Evolution@"
 	db 0,30
 	dw 65
 	TX_FAR _EeveeDexEntry
 	db "@"
 	
 FlareonDexEntry:	
-	db "Flamme@"
+	db "Flame@"
 	db 0,90
 	dw 250
 	TX_FAR _FlareonDexEntry
 	db "@"
 	
 JolteonDexEntry:	
-	db "Foudre@"
+	db "Lightning@"
 	db 0,80
 	dw 245
 	TX_FAR _JolteonDexEntry
 	db "@"
 	
 VaporeonDexEntry:	
-	db "Bulleur@"
+	db "Bubble Jet@"
 	db 1,00
 	dw 290
 	TX_FAR _VaporeonDexEntry
 	db "@"
 	
 MachopDexEntry:	
-	db "Colosse@"
+	db "Superpower@"
 	db 0,80
 	dw 195
 	TX_FAR _MachopDexEntry
 	db "@"
 	
 ZubatDexEntry:	
-	db "ChovSouris@"
+	db "Bat@"
 	db 0,80
 	dw 75
 	TX_FAR _ZubatDexEntry
 	db "@"
 	
 EkansDexEntry:	
-	db "Serpent@"
+	db "Snake@"
 	db 2,00
 	dw 69
 	TX_FAR _EkansDexEntry
 	db "@"
 	
 ParasDexEntry:	
-	db "Champignon@"
+	db "Mushroom@"
 	db 0,30
 	dw 54
 	TX_FAR _ParasDexEntry
 	db "@"
 	
 PoliwhirlDexEntry:	
-	db "Tétard@"
+	db "Tadpole@"
 	db 1,00
 	dw 200
 	TX_FAR _PoliwhirlDexEntry
 	db "@"
 	
 PoliwrathDexEntry:	
-	db "Tétard@"
+	db "Tadpole@"
 	db 1,30
 	dw 540
 	TX_FAR _PoliwrathDexEntry
 	db "@"
 	
 WeedleDexEntry:	
-	db "Insectopic@"
+	db "Hairy Bug@"
 	db 0,30
 	dw 32
 	TX_FAR _WeedleDexEntry
 	db "@"
 	
 KakunaDexEntry:	
-	db "Cocon@"
+	db "Cocoon@"
 	db 0,60
 	dw 100
 	TX_FAR _KakunaDexEntry
 	db "@"
 	
 BeedrillDexEntry:	
-	db "Guepoison@"
+	db "Poison Bee@"
 	db 1,00
 	dw 295
 	TX_FAR _BeedrillDexEntry
 	db "@"
 	
 DodrioDexEntry:	
-	db "Troiseau@"
+	db "TripleBird@"
 	db 1,80
 	dw 852
 	TX_FAR _DodrioDexEntry
 	db "@"
 	
 PrimeapeDexEntry:	
-	db "Porsinge@"
+	db "Pig Monkey@"
 	db 1,00
 	dw 320
 	TX_FAR _PrimeapeDexEntry
 	db "@"
 	
 DugtrioDexEntry:	
-	db "Taupe@"
+	db "Mole@"
 	db 0,70
 	dw 333
 	TX_FAR _DugtrioDexEntry
 	db "@"
 	
 VenomothDexEntry:	
-	db "Mite@"
+	db "Poison Moth@"
 	db 1,50
 	dw 125
 	TX_FAR _VenomothDexEntry
 	db "@"
 	
 DewgongDexEntry:	
-	db "Otarie@"
+	db "Sea Lion@"
 	db 1,70
 	dw 1200
 	TX_FAR _DewgongDexEntry
 	db "@"
 	
 CaterpieDexEntry:	
-	db "Ver@"
+	db "Worm@"
 	db 0,30
 	dw 29
 	TX_FAR _CaterpieDexEntry
 	db "@"
 	
 MetapodDexEntry:	
-	db "Cocon@"
+	db "Cocoon@"
 	db 0,70
 	dw 99
 	TX_FAR _MetapodDexEntry
 	db "@"
 	
 ButterfreeDexEntry:	
-	db "Papillon@"
+	db "Butterfly@"
 	db 1,10
 	dw 320
 	TX_FAR _ButterfreeDexEntry
 	db "@"
 	
 MachampDexEntry:	
-	db "Colosse@"
+	db "Superpower@"
 	db 1,60
 	dw 1300
 	TX_FAR _MachampDexEntry
 	db "@"
 	
 GolduckDexEntry:	
-	db "Canard@"
+	db "Duck@"
 	db 1,70
 	dw 766
 	TX_FAR _GolduckDexEntry
 	db "@"
 	
 HypnoDexEntry:	
-	db "Hypnose@"
+	db "Hypnosis@"
 	db 1,60
 	dw 756
 	TX_FAR _HypnoDexEntry
 	db "@"
 	
 GolbatDexEntry:	
-	db "ChovSouris@"
+	db "Bat@"
 	db 1,60
 	dw 550
 	TX_FAR _GolbatDexEntry
 	db "@"
 	
 MewtwoDexEntry:	
-	db "Genetique@"
+	db "Genetic@"
 	db 2,00
 	dw 1220
 	TX_FAR _MewtwoDexEntry
 	db "@"
 	
 SnorlaxDexEntry:	
-	db "Pionceur@"
+	db "Sleeping@"
 	db 2,10
 	dw 4600
 	TX_FAR _SnorlaxDexEntry
 	db "@"
 	
 MagikarpDexEntry:	
-	db "Poisson@"
+	db "Fish@"
 	db 0,90
 	dw 100
 	TX_FAR _MagikarpDexEntry
 	db "@"
 	
 MukDexEntry:	
-	db "Dégueu@"
+	db "Sludge@"
 	db 1,20
 	dw 300
 	TX_FAR _MukDexEntry
 	db "@"
 	
 KinglerDexEntry:	
-	db "Poigneur@"
+	db "Pincer@"
 	db 1,30
 	dw 600
 	TX_FAR _KinglerDexEntry
@@ -994,273 +994,273 @@ CloysterDexEntry:
 	db "@"
 	
 ElectrodeDexEntry:	
-	db "Balle@"
+	db "Ball@"
 	db 1,20
 	dw 666
 	TX_FAR _ElectrodeDexEntry
 	db "@"
 	
 ClefableDexEntry:	
-	db "Fée@"
+	db "Fairy@"
 	db 1,30
 	dw 400
 	TX_FAR _ClefableDexEntry
 	db "@"
 	
 WeezingDexEntry:	
-	db "Gaz mortel@"
+	db "Poison Gas@"
 	db 1,20
 	dw 95
 	TX_FAR _WeezingDexEntry
 	db "@"
 	
 PersianDexEntry:	
-	db "Chadeville@"
+	db "Classy Cat@"
 	db 1,00
 	dw 320
 	TX_FAR _PersianDexEntry
 	db "@"
 	
 MarowakDexEntry:	
-	db "Gard'os@"
+	db "Bonekeeper@"
 	db 1,00
 	dw 450
 	TX_FAR _MarowakDexEntry
 	db "@"
 	
 HaunterDexEntry:	
-	db "Gaz@"
+	db "Gas@"
 	db 1,60
 	dw 1
 	TX_FAR _HaunterDexEntry
 	db "@"
 	
 AbraDexEntry:	
-	db "Psy@"
+	db "Psi@"
 	db 0,90
 	dw 195
 	TX_FAR _AbraDexEntry
 	db "@"
 	
 AlakazamDexEntry:	
-	db "Psy@"
+	db "Psi@"
 	db 1,50
 	dw 480
 	TX_FAR _AlakazamDexEntry
 	db "@"
 	
 PidgeottoDexEntry:	
-	db "Oiseau@"
+	db "Bird@"
 	db 1,10
 	dw 300
 	TX_FAR _PidgeottoDexEntry
 	db "@"
 	
 PidgeotDexEntry:	
-	db "Oiseau@"
+	db "Bird@"
 	db 1,50
 	dw 395
 	TX_FAR _PidgeotDexEntry
 	db "@"
 	
 StarmieDexEntry:	
-	db "Mysterieux@"
+	db "Mysterious@"
 	db 1,10
 	dw 800
 	TX_FAR _StarmieDexEntry
 	db "@"
 	
 BulbasaurDexEntry:	
-	db "Graine@"
+	db "Seed@"
 	db 0,70
 	dw 69
 	TX_FAR _BulbasaurDexEntry
 	db "@"
 	
 VenusaurDexEntry:	
-	db "Graine@"
+	db "Seed@"
 	db 2,00
 	dw 1000
 	TX_FAR _VenusaurDexEntry
 	db "@"
 	
 TentacruelDexEntry:	
-	db "Mollusque@"
+	db "Jellyfish@"
 	db 1,60
 	dw 550
 	TX_FAR _TentacruelDexEntry
 	db "@"
 	
 GoldeenDexEntry:	
-	db "Poisson@"
+	db "Fish@"
 	db 0,60
 	dw 150
 	TX_FAR _GoldeenDexEntry
 	db "@"
 	
 SeakingDexEntry:	
-	db "Poisson@"
+	db "Fish@"
 	db 1,30
 	dw 390
 	TX_FAR _SeakingDexEntry
 	db "@"
 	
 PonytaDexEntry:	
-	db "Cheval feu@"
+	db "Fire Horse@"
 	db 1,00
 	dw 300
 	TX_FAR _PonytaDexEntry
 	db "@"
 	
 RapidashDexEntry:	
-	db "Cheval feu@"
+	db "Fire Horse@"
 	db 1,70
 	dw 950
 	TX_FAR _RapidashDexEntry
 	db "@"
 	
 RattataDexEntry:	
-	db "Rat@"
+	db "Mouse@"
 	db 0,30
 	dw 35
 	TX_FAR _RattataDexEntry
 	db "@"
 	
 RaticateDexEntry:	
-	db "Rat@"
+	db "Mouse@"
 	db 0,70
 	dw 185
 	TX_FAR _RaticateDexEntry
 	db "@"
 	
 NidorinoDexEntry:	
-	db "Vénépic@"
+	db "Poison Pin@"
 	db 0,90
 	dw 195
 	TX_FAR _NidorinoDexEntry
 	db "@"
 	
 NidorinaDexEntry:	
-	db "Vénépic@"
+	db "Poison Pin@"
 	db 0,80
 	dw 200
 	TX_FAR _NidorinaDexEntry
 	db "@"
 	
 GeodudeDexEntry:	
-	db "Roche@"
+	db "Rock@"
 	db 0,40
 	dw 200
 	TX_FAR _GeodudeDexEntry
 	db "@"
 	
 PorygonDexEntry:	
-	db "Virtuel@"
+	db "Virtual@"
 	db 0,80
 	dw 365
 	TX_FAR _PorygonDexEntry
 	db "@"
 	
 AerodactylDexEntry:	
-	db "Fossile@"
+	db "Fossil@"
 	db 1,80
 	dw 590
 	TX_FAR _AerodactylDexEntry
 	db "@"
 	
 MagnemiteDexEntry:	
-	db "Magnétique@"
+	db "Magnet@"
 	db 0,30
 	dw 60
 	TX_FAR _MagnemiteDexEntry
 	db "@"
 	
 CharmanderDexEntry:	
-	db "Lézard@"
+	db "Lizard@"
 	db 0,60
 	dw 85
 	TX_FAR _CharmanderDexEntry
 	db "@"
 	
 SquirtleDexEntry:	
-	db "Minitortue@"
+	db "TinyTurtle@"
 	db 0,50
 	dw 90
 	TX_FAR _SquirtleDexEntry
 	db "@"
 	
 CharmeleonDexEntry:	
-	db "Flamme@"
+	db "Flame@"
 	db 1,10
 	dw 190
 	TX_FAR _CharmeleonDexEntry
 	db "@"
 	
 WartortleDexEntry:	
-	db "Tortue@"
+	db "Turtle@"
 	db 1,00
 	dw 225
 	TX_FAR _WartortleDexEntry
 	db "@"
 	
 CharizardDexEntry:	
-	db "Flamme@"
+	db "Flame@"
 	db 1,70
 	dw 905
 	TX_FAR _CharizardDexEntry
 	db "@"
 	
 OddishDexEntry:	
-	db "Racine@"
+	db "Weed@"
 	db 0,50
 	dw 54
 	TX_FAR _OddishDexEntry
 	db "@"
 	
 GloomDexEntry:	
-	db "Racine@"
+	db "Weed@"
 	db 0,80
 	dw 86
 	TX_FAR _GloomDexEntry
 	db "@"
 	
 VileplumeDexEntry:	
-	db "Fleur@"
+	db "Flower@"
 	db 1,20
 	dw 186
 	TX_FAR _VileplumeDexEntry
 	db "@"
 	
 BellsproutDexEntry:	
-	db "Fleur@"
+	db "Flower@"
 	db 0,70
 	dw 40
 	TX_FAR _BellsproutDexEntry
 	db "@"
 	
 WeepinbellDexEntry:	
-	db "Carnivore@"
+	db "Flycatcher@"
 	db 1,00
 	dw 64
 	TX_FAR _WeepinbellDexEntry
 	db "@"
 	
 VictreebelDexEntry:	
-	db "Carnivore@"
+	db "Flycatcher@"
 	db 1,70
 	dw 155
 	TX_FAR _VictreebelDexEntry
 	db "@"
 
 HeracrossDexEntry:
-	db "Unicorne@"
+	db "SingleHorn@"
 	db 1,50
 	dw 540
 	TX_FAR _HeracrossDexEntry
 	db "@"
 
 CrobatDexEntry:
-	db "Chovsouris@"
+	db "Bat@"
 	db 1,80
 	dw 750
 	TX_FAR _CrobatDexEntry
@@ -1274,84 +1274,84 @@ KingdraDexEntry:
 	db "@"
 
 SteelixDexEntry:
-	db "Serpenfer@"
+	db "Iron Snake@"
 	db 9,20
 	dw 4000
 	TX_FAR _SteelixDexEntry
 	db "@"
 
 ScizorDexEntry:
-	db "Pince@"
+	db "Pincer@"
 	db 1,80
 	dw 1180
 	TX_FAR _ScizorDexEntry
 	db "@"
 
 HoundourDexEntry:
-	db "Sombre@"
+	db "Dark@"
 	db 0,60
 	dw 108
 	TX_FAR _HoundourDexEntry
 	db "@"
 
 HoundoomDexEntry:
-	db "Sombre@"
+	db "Dark@"
 	db 1,00
 	dw 350
 	TX_FAR _HoundoomDexEntry
 	db "@"
 
 UmbreonDexEntry:
-	db "Lune@"
+	db "Moonlight@"
 	db 1,00
 	dw 270
 	TX_FAR _UmbreonDexEntry
 	db "@"
 
 SneaselDexEntry:
-	db "Grifacérée@"
+	db "Sharp Claw@"
 	db 0,90
 	dw 280
 	TX_FAR _SneaselDexEntry
 	db "@"
 
 MisdreavusDexEntry:
-	db "Strident@"
+	db "Screech@"
 	db 0,70
 	dw 10
 	TX_FAR _MisdreavusDexEntry
 	db "@"
 
 MarowrathDexEntry:
-	db "Gard'os@"
+	db "Bonekeeper@"
 	db 1,00
 	dw 340
 	TX_FAR _MarowrathDexEntry
 	db "@"
 
 LarvitarDexEntry:
-	db "Peaupierre@"
+	db "Rock Skin@"
 	db 0,60
 	dw 720
 	TX_FAR _LarvitarDexEntry
 	db "@"
 
 PupitarDexEntry:
-	db "Carapadure@"
+	db "Hard Shell@"
 	db 1,20
 	dw 1520
 	TX_FAR _PupitarDexEntry
 	db "@"
 
 TyranitarDexEntry:
-	db "Armure@"
+	db "Armor@"
 	db 2,00
 	dw 2020
 	TX_FAR _TyranitarDexEntry
 	db "@"
 
 HoohDexEntry:
-	db "Arcenciel@"
+	db "Rainbow@"
 	db 3,80
 	dw 1990
 	TX_FAR _HoohDexEntry
@@ -1365,7 +1365,7 @@ MissingNoDexEntry:
 	db "@"
 
 ArmoredMewtwoDexEntry:	
-	db "Genetique@"
+	db "Genetic@"
 	db 2,00
 	dw 1520
 	TX_FAR _ArmoredMewtwoDexEntry
