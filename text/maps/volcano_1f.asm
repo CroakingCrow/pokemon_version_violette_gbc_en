@@ -11,8 +11,8 @@ _Volcano1FText0_EndBattle::
 	prompt
 
 _Volcano1FText0_AfterBattle::
-	text "Only Water, Fire"
-	line "and Rock #mon"
+	text "Only #mon that"
+	line "resist fire"
 	cont "can deal with"
 	cont "such heat!"
 	done
