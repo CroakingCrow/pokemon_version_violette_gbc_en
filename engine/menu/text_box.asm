@@ -255,12 +255,12 @@ JapaneseMainMenuText:
 	next "さいしょから@"
 
 BattleMenuText:
-	db   "Fight   <PKMN>"
-	next "Item    Run@"
+	db   "Fight     <PKMN>"
+	next "Item      Run  @"
 
 SafariZoneBattleMenuText:
-	db   "Ball×       Bait"
-	next "Throw Rock  Run@"
+	db   "Ball×     <PKMN>"
+	next "Rock      Run  @"
 
 SwitchStatsCancelText:
 	db   "Switch"

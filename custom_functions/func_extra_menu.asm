@@ -608,7 +608,7 @@ TextHardMode:
 TextGamma:
 	db " Gamma@"
 TextEnhancedGBC:
-	db " Palette@"
+	db " GBC Palette@"
 TextBack:
 	db $C6, $C7, "Cancel   ",$C3,$C4,$C5,$E6," ",$C0,$C1,$C2,$ED,"@"
 
@@ -617,7 +617,7 @@ TextLevelCap:
 TextNuzlocke:
 	db " Nuzlocke@"
 TextRandomTrainer:
-	db " Random Trainer@"
+	db " Random Trn.@"
 TextRandomWild:
 	db " Random <PK><MN>@"
 

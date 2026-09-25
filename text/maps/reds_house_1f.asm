@@ -73,7 +73,8 @@ _RedsHouse1FText_RunningShoes::
 	cont "strangers!"
 
 	para "And above all,"
-	line "remember to change"
-	cont "your underwear"
+	line "remember to"
+	cont "change your"
+	cont "underwear"
 	cont "regularly!"
 	done

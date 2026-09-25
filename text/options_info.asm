@@ -2,7 +2,7 @@
 _DisplayTextSpeedInfoText::
 	text "Controls the"
  	line "display speed"
-	cont "of the text box"
+	cont "of the text box,"
 	cont "3 being the"
 	cont "fastest."
  	prompt

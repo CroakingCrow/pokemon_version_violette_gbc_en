@@ -1832,7 +1832,7 @@ ExitListMenu::
 	ret
 
 BagSelectText:
-	db $CC,$CD,$CE,"Changer sac@"
+	db $CC,$CD,$CE,"Change bag@"
 
 PrintListMenuEntries::
 	ld de, KeysLogoGraphics
