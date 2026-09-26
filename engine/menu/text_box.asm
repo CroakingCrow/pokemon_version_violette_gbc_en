@@ -259,7 +259,7 @@ BattleMenuText:
 	next "Item      Run  @"
 
 SafariZoneBattleMenuText:
-	db   "Ball×     <PKMN>"
+	db   "Ball×     Bait "
 	next "Rock      Run  @"
 
 SwitchStatsCancelText:
