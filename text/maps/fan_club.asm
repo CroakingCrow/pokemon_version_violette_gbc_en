@@ -132,13 +132,34 @@ _FanClubText6::
 	cont "#mon."
 	done
 
+; Added Manga reference
 _FanClubText7::
+	text "#mon Fan Club"
+	line "News Bulletin:"
+
+	para "Electrocuted while"
+	line "taking a bath"
+	cont "with its"
+	cont "Tentacool."
+
+	para "An unfortunate"
+	line "accident that"
+	cont "could have taken"
+	cont "someone's life."
+
+	para "Mrs.A. reports:"
+	line "It's really not"
+	cont "cool..."
+	done
+
+
+_FanClubText_Sign1::
 	text "Let's all listen"
 	line "politely to other"
 	cont "trainers!"
 	done
 
-_FanClubText8::
+_FanClubText_Sign2::
 	text "If someone brags,"
 	line "brag right back!"
 	done
