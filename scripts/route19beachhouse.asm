@@ -65,11 +65,10 @@ PikachuTutor:
 	ret
 .textStart
 	text "Okay man!"
-	line "Monte sur la"
-	cont "planche, on va"
-	cont "t'apprendre à"
-	cont "enchaîner"
-	cont "les flips!"
+	line "Get on the surf-"
+	cont "board, we'll"
+	cont "teach you how"
+	cont "to do backflips!"
 	prompt
 	db "@"
 .learnmove

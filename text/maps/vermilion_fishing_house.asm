@@ -1,27 +1,26 @@
 _VermilionHouse2Text_560b1::
-	text "Je suis le..."
-	line "Maître Pêcheur!"
+	text "I'm the Fishing"
+	line "Guru!"
 
-	para "La pêche...moi..."
-	line "J'adore ça!"
+	para "I simply Looove"
+	line "fishing!"
 
-	para "Et toi, p'tite"
-	line "tête?"
+	para "Do you like to"
+	line "fish?"
 	done
 
 _VermilionHouse2Text_560b6::
-	text "Terrib'! Toi,"
-	line "j't'aime bien!"
+	text "Grand! I like"
+	line "your style!"
 
-	para "Prends ça et..."
-	line "Pêche! Pêche!"
+	para "Take this and"
+	line "fish, young one!"
 ;joenote - add hotkey info
-	para "Appuie sur A en"
-	line "maintenant SELECT"
-	cont "pour l'utiliser"
-	cont "rapidement.@@"
+	para "Hold A and press"
+	line "SELECT to use the"
+	cont "rod quickly.@@"
 
-	para "<PLAYER> reçoit"
+	para "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -30,32 +29,31 @@ _VermilionHouse2Text_560b6::
 _VermilionHouse2Text_560bb::
 	text_start
 
-	para "Pêcher, c'est la"
-	line "vie! Et la vie,"
-	cont "c'est la pêche!"
+	para "Fishing is a way"
+	line "of life!"
 
-	para "Du ruisseau"
-	line "jusqu'aux océans,"
-	cont "pêche, pêche et"
-	cont "pêche encore!"
+	para "From the seas to"
+	line "rivers, go out"
+	cont "and land the big"
+	cont "one, young one!"
 	done
 
 _VermilionHouse2Text_560c0::
-	text "Oh...ben..."
-	line "C'est dommage..."
+	text "Oh... That's so"
+	line "disappointing..."
 	done
 
 _VermilionHouse2Text_560c5::
-	text "B'jour à toi,"
+	text "Hello there,"
 	line "<PLAYER>!"
 
-	para "Ça mord?"
-	line "Hein? Hein?"
+	para "How are the fish"
+	line "biting?"
 	done
 
 _VermilionHouse2Text_560ca::
-	text "Oh non!"
+	text "Oh no!"
 
-	para "T'as plus d'place"
-	line "pour mon cadeau!"
+	para "You have no room"
+	line "for my gift!"
 	done

@@ -19,7 +19,7 @@ FuchsiaGymScript_Header:
 	ret
 
 Gym5CityName:
-	db "Parmanie@"
+	db "Fuchsia City@"
 Gym5LeaderName:
 	db "Koga@"
 
@@ -476,31 +476,27 @@ ScizorTutor:
 	call PrintText
 	jp TextScriptEnd
 .textBring
-	text "Continue à"
-	line "perfectionner tes"
-	cont "talents car telle"
-	cont "est la voie"
-	cont "du ninja."
+	text "Continue to hone"
+	line "your skills, for"
+	cont "thus is the way"
+	cont "of the ninja."
 
-	para "Si tu le"
-	line "souhaites, je"
-	cont "peux apprendre"
-	cont "cette voie à ton"
-	cont "Cizayox."
+	para "If you so wish, I"
+	line "can teach the way"
+	cont "to your Scizor."
 	done
 	db "@"
 .textStart
-	text "Tu as un"
-	line "Cizayox très"
-	cont "talentueux."
-	cont "Je pourrais lui"
-	cont "apprendre la voie"
-	cont "secrète du Ninja!"
+	text "You have an"
+	line "incredibly gifted"
+	cont "Scizor."
+	cont "I could teach it"
+	cont "the secret way of"
+	cont "the ninja!"
 	prompt
 	db "@"
 .textAfter
-	text "Cizayox est"
-	line "maintenant"
-	cont "Spectre/Acier!"
+	text "Scizor is now"
+	line "Ghost/Steel!"
 	done
 	db "@"

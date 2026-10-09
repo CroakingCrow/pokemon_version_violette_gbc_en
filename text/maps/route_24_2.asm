@@ -1,109 +1,99 @@
 _Route24BattleText1::
-	text "Je t'ai vu!"
+	text "I saw your feat"
+	line "from the grass!"
 	done
 
-	_Route24EndBattleText1::
-	text "Oh!"
-	line "J'ai vu ma"
-	cont "défaite!"
+_Route24EndBattleText1::
+	text "I"
+	line "thought not!"
 	prompt
 
 _Route24AfterBattleText1::
-	text "Je me cache, les"
-	line "gens sur le pont"
-	cont "me font peur!"
+	text "I hid because the"
+	line "people on the"
+	cont "bridge scared me!"
 	done
 
 _Route24BattleText2::
-	text "OK! J'suis le 5!"
-	line "Cette fois, je"
-	cont "serai ton"
-	cont "partenaire."
+	text "OK! I'm No. 5!"
+	line "This time, I'll"
+	cont "be your partner."
 	done
 
 _Route24EndBattleText2::
-	text "Ah!"
-	line "Tu es trop"
-	cont "sauvage pour moi!"
+	text "Whoa!"
+	line "You're too wild"
+	cont "for me!"
 	prompt
 
 _Route24AfterBattleText2::
-	text "Pas de regrets,"
-	line "j'ai fait de mon"
-	cont "mieux!"
+	text "I did my best, I"
+	line "have no regrets!"
 	done
 
 _Route24BattleText3::
-	text "Je suis la 4ème!"
-	line "T'en veux encore?"
+	text "I'm No. 4!"
+	line "Getting tired?"
 	done
 
 _Route24EndBattleText3::
-	text "Tu"
-	line "...m'as battue!"
+	text "I lost"
+	line "too!"
 	prompt
 
 _Route24AfterBattleText3::
-	text "J'ai participé,"
-	line "et j'ai perdu!"
+	text "I did my best, so"
+	line "I've no regrets!"
 	done
 
 _Route24BattleText4::
-	text "Je suis le 3ème!"
-	line "Je ne finirai pas"
-	cont "si rapidement!"
-	done
+	text "Here's No. 3!"
+	line "I won't finish"
+	cont "so quickly!"
 
 _Route24EndBattleText4::
-	text ""
-	line "Pouah! Je peux"
-	cont "plus tenir."
-	prompt
+	text "Ugh!"
+	line "I can't last"
+	cont "any longer."
 
 _Route24AfterBattleText4::
-	text "J'ai fait de mon"
-	line "mieux!"
+	text "I did my best, I"
+	line "have no regrets!"
 	done
 
 _Route24BattleText5::
-	text "Je suis prête à"
-	line "y aller à fond!"
+	line "I'm ready to go"
+	cont "all the way!"
 	done
 
 _Route24EndBattleText5::
-	text "..."
-	line "C'était"
-	cont "incroyable."
-
+	text "That was"
+	line "unbelieveable."
 	prompt
 
 _Route24AfterBattleText5::
-	text "J'ai fait de mon"
-	line "mieux!"
-	cont "Aucun regrets!"	;joenote - girls are supposed to be slightly different
+;joenote - girls are supposed to be slightly different
+	text "I did my best, so"
+	line "I've no regrets!"
 	done
 
 _Route24BattleText6::
-	text "Voici le Pont"
-	line "Pépite!"
-	cont "5 dresseurs"
-	cont "défendent ce"
-	cont "pont! Bats-nous"
-	cont "et gagne une"
-	cont "surprise venant"
-	cont "de nos bourses!"
+	text "This is Nugget"
+	line "Bridge! Beat us 5"
+	cont "trainers and win"
+	cont "a surprise from"
+	cont "the nugget sack!"
 
-	para "Tu crois pouvoir"
-	line "y arriver?"
+	para "Think you got"
+	line "what it takes?"
 	done
 
 _Route24EndBattleText6::
-	text " "
-	line "Haha! Bien joué!"
+	text "Whoo!"
+	line "Good stuff!"
 	prompt
 
 _Route24AfterBattleText6::
-	text "J'ai fait de mon"
-	line "mieux. Si si!"
-	cont "C'est vrai!"
+	text "I did my best, I"
+	line "have no regrets!"
 	done

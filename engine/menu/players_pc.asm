@@ -267,10 +267,10 @@ RectifyKeyItems:
 
 
 PlayersPCMenuEntries:
-	db   "Retirer objet"
-	next "Stocker objet"
-	next "Jeter objet"
-	next "Déconnexion@"
+	db   "Withdraw item"
+	next "Deposit item"
+	next "Toss item"
+	next "Log off@"
 
 TurnedOnPC2Text:
 	TX_FAR _TurnedOnPC2Text

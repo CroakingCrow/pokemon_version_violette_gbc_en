@@ -1,70 +1,61 @@
 _OakSpeechText1::
-	text "Bien le bonjour!"
-	line "Bienvenue dans le"
-	cont "monde magique des"
-	cont "#mon!"
+	text "Hello there!"
+	line "Welcome to the"
+	cont "world of #mon!"
 
-	para "Mon nom est Chen!"
-	line "Les gens souvent"
-	cont "m'appellent le"
-	cont "Prof #mon!"
+	para "My name is Oak!"
+	line "People call me"
+	cont "the #mon Prof!"
 	prompt
 
 _OakSpeechText2A::
-	text "Ce monde est"
-	line "peuplé de"
-	cont "créatures du nom"
-	cont "de #mon!@@"
+	text "This world is"
+	line "inhabited by"
+	cont "creatures called"
+	cont "#mon!@@"
 
 _OakSpeechText2B::
-	text $51,"Pour certains,"
-	line "les #mon sont"
-	cont "des animaux"
-	cont "domestiques, pour"
-	cont "d'autres, ils"
-	cont "sont un moyen de"
-	cont "combattre."
+	text $51,"For some people,"
+	line "#mon are"
+	cont "pets. Others use"
+	cont "them for fights."
 
-	para "Pour ma part..."
+	para "Myself..."
 
-	para "L'étude des"
-	line "#mon est"
-	cont "ma profession."
+	para "I study #mon"
+	line "as a profession."
 	prompt
 
 _IntroducePlayerText::
-	text "Tout d'abord,"
-	line "quel est ton nom?"
+	text "First, what is"
+	line "your name?"
 	prompt
 
 _IntroduceRivalText::
-	text "Voici mon petit-"
-	line "fils. Il est ton"
-	cont "rival depuis sa"
-	cont "toute jeunesse."
+	text "This is my grand-"
+	line "son. He's been"
+	cont "your rival since"
+	cont "you were a baby."
 
-	para "...Heu..."
-	line "C'est quoi donc"
-	cont "son nom déjà?"
+	para "...Erm, what is"
+    line "his name again?"
 	prompt
 
 _OakSpeechText3::
 	text "<PLAYER>!"
 
-	para "Ta quête des"
-	line "#mon est sur"
-	cont "le point de"
-	cont "commencer!"
+	para "Your very own"
+	line "#mon legend is"
+	cont "about to unfold!"
 
-	para "Un tout nouveau"
-	line "monde de rêves,"
-	cont "d'aventures et"
-	cont "de #mon"
-	cont "t'attend! Dingue!"
+	para "A world of dreams"
+	line "and adventures"
+	cont "with #mon"
+	cont "awaits! Let's go!"
 	done
 
 ;joenote - ask if female trainer
 _AskIfGirlText::
-	text "Es-tu un garçon"
-	line "ou une fille?"
+	text "Are you a boy or"
+	line "a girl?"
 	done

@@ -1,134 +1,125 @@
 _Route16BattleText1::
-	text "Kess t'as ta?"
+	text "What do you want?"
 	done
 
 _Route16EndBattleText1::
-	text "..."
-	line "Galère!"
+	text "Don't you"
+	line "dare laugh!"
 	prompt
 
 _Route16AfterBattleText1::
-	text "Nous? On est"
-	line "plantés ici..."
-	cont "Et toi?"
+	text "We like just"
+	line "hanging here,"
+	cont "what's it to you?"
 	done
 
 _Route16BattleText2::
-	text "Joli vélo!"
-	line "Donne-le moi!"
+	text "Nice Bike!"
+	line "Hand it over!"
 	done
 
 _Route16EndBattleText2::
-	text "Tu peux"
-	line "garder le vélo!"
+	text "Knock"
+	line "out!"
 	prompt
 
 _Route16AfterBattleText2::
-	text "Je le veux pas"
-	line "ton vélo!"
+	text "Forget it, who"
+	line "needs your Bike!"
 	done
 
 _Route16BattleText3::
-	text "Viens t'battre!"
-	line "P'tit rat!"
+	text "Come out and play,"
+	line "little mouse!"
 	done
 
 _Route16EndBattleText3::
-	text "Toi!!"
-	line "Espèce de fennec!"
+	text "You"
+	line "little rat!"
 	prompt
 
 _Route16AfterBattleText3::
-	text "Je déteste perdre"
-	line "face à un fennec!"
+	text "I hate losing!"
+	line "Get away from me!"
 	done
 
 _Route16BattleText4::
-	text "Hé! Tu m'as"
-	line "marché sur le"
-	cont "pied, là?"
+	text "Hey, you just"
+	line "bumped me!"
 	done
 
 _Route16EndBattleText4::
-	text "Schplaff!"
+	text "Kaboom!"
 	prompt
 
 _Route16AfterBattleText4::
-	text "Tu peux aussi"
-	line "aller de Carmin"
-	cont "à Parmanie par la"
-	cont "côte."
+	text "You can also get"
+	line "to Fuchsia from"
+	cont "Vermilion using a"
+	cont "coastal road."
 	done
 
 _Route16BattleText5::
-	text "J'ai faim, j'suis"
-	line "furax et j'vais"
-	cont "t'exploser!"
+	text "I'm feeling"
+	line "hungry and mean!"
 	done
 
 _Route16EndBattleText5::
-	text "Grrr!"
-	line "J'suis encore"
-	cont "plus furax!"
+	text "Bad,"
+	line "bad, bad!"
 	prompt
 
 _Route16AfterBattleText5::
-	text "Mes #mon sont"
-	line "féroces! Ils"
-	cont "déchirent mes"
-	cont "ennemis!"
+	text "I like my #mon"
+	line "ferocious! They"
+	cont "tear up enemies!"
 	done
 
 _Route16BattleText6::
-	text "BASTOONNNN!"
+	text "Sure, I'll go!"
 	done
 
 _Route16EndBattleText6::
-	text "Bah!"
-	line "J'suis débile!"
+	text "Don't make"
+	line "me mad!"
 	prompt
 
 _Route16AfterBattleText6::
-	text "Je terrorise mes"
-	line "adversaires avec"
-	cont "mes #mon"
-	cont "super vicieux!"
+	text "I like harassing"
+	line "people with my"
+	cont "vicious #mon!"
 	done
 
 _Route16Text7::
-	text "Un gros #mon"
-	line "endormi bloque"
-	cont "le chemin!"
+	text "A sleeping #mon"
+	line "blocks the way!"
 	done
 
 _Route16Text10::
-	text "Ronflex"
-	line "se réveille!"
+	text "Snorlax woke up!"
 
-	para "Il est tout"
-	line "grognon, il vous"
-	cont "attaque!"
+	para "It attacked in a"
+	line "grumpy rage!"
 	done
 
 _Route16Text11::
-	text "Après avoir"
-	line "bâillé, le gros"
-	cont "Ronflex retourne"
-	cont "dans la montagne!"
+	text "With a big yawn,"
+	line "Snorlax returned"
+	cont "to the mountains!"
 	done
 
 _Route16Text8::
-	text "Bonne descente!"
-	line "Piste Cyclable"
+	text "Enjoy the slope!"
+	line "Cycling Road"
 	done
 
 _Route16Text9::
 	text "Route 16"
-	line "Céladopole -"
-	cont "Parmanie"
+	line "Celadon City -"
+	cont "Fuchsia City"
 	done
 
 _Route16TextUsePokeflute::
-	text "Jouer de la"
-	line "#Flute?"
+	text "Play the #"
+	line "Flute?"
 	done

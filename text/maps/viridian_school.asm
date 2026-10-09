@@ -1,31 +1,29 @@
 _ViridianSchoolText1::
-	text "Pfouh! J'essaie"
-	line "d'apprendre mes"
-	cont "leçons."
+	text "Whew! I'm trying"
+	line "to memorize all"
+	cont "my notes."
 	done
 
 _ViridianSchoolText2::
-	text "OK!"
+	text "Okay!"
 
-	para "Lis attentivement"
-	line "le tableau avant"
-	cont "de partir!"
+	para "Be sure to read"
+	line "the blackboard"
+	cont "carefully!"
 	done
 
 ;joenote - added more explanation
 _ViridianSchoolText3::
-	text "Abîme."
-	para "Empal'Korne."
+	text "Fissure."
+	para "Horn Drill."
 	para "Guillotine."
+	
+	para "They take out"
+	line "#mon with just"
+	cont "one hit!"
 
-	para "Ces attaques"
-	line "peuvent mettre"
-	cont "hors combat un"
-	cont "#mon en un"
-	cont "seul coup!"
-
-	para "Mais c'est rare"
-	line "et ton #mon"
-	cont "dois attaquer en"
-	cont "premier."
+	para "But only rarely,"
+	line "and only if your"
+	cont "#mon moves"
+	cont "first."
 	done
