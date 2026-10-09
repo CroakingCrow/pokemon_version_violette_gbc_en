@@ -1,171 +1,170 @@
 
 _DisplayTextSpeedInfoText::
-	text "Détermine la"
- 	line "vitesse du texte,"
-	cont "3 étant le plus"
-	cont "rapide."
+	text "Controls the"
+ 	line "display speed"
+	cont "of the text box,"
+	cont "3 being the"
+	cont "fastest."
  	prompt
 	
 _DisplayBattleAnimationInfoText::
-	text "Afficher les"
- 	line "animations en"
-	cont "combat?"
+	text "Display battle"
+	line "animations?"
  	prompt
 
 _DisplayBattleStyleInfoText::
-	text "Choix: demande de"
- 	line "changer de #-"
-	cont "mon après les KO."
-	cont "Rend le jeu plus"
-	cont "facile."
+	text "Shift: asks to"
+ 	line "recall #mon"
+	cont "whenever the"
+	cont "opponent sends"
+	cont "out their next"
+	cont "#mon."
+	cont "Makes the game"
+	cont "easier."
 
-	para "Défini: vous êtes"
-	line "soumis aux mêmes"
-	cont "règles que votre"
-	cont "adversaire."
+	para "Set: you are"
+	line "under the same"
+	cont "rules as your"
+	cont "opponent."
  	prompt
 
 _DisplayAudioInfoText::
-	text "Choix du type de"
- 	line "sortie audio."
+	text "Controls the"
+	line "audio output"
+ 	cont "of the game."
 
-	para "A noter que la"
-	line "Stéréo peut"
-	cont "rendre bizarre."
+	para "Note that"
+	line "Stereo may"
+	cont "sound weird."
  	prompt
 
 _DisplayFPSInfoText::
-	text "Permet de passer"
- 	line "entre 30 et 60"
+	text "Lets you switch"
+ 	line "between 30 or 60"
 	cont "FPS."
  	prompt
 
 _DisplayInstantTextText::
-	text "Rend les textes"
- 	line "instantanés."
+	text "Displays text box"
+ 	line "instantly."
 
-	para "Peut faire sauter"
-	line "certains effets"
-	cont "sonores."
+	para "May skip some"
+	line "sound effects."
  	prompt
 	
 _DisplayGammaInfoText::
-	text "Désature les"
- 	line "couleurs afin de"
-	cont "corriger"
-	cont "l'affichage sur"
-	cont "certains"
-	cont "émulateurs comme"
+	text "Tone down colors"
+ 	line "to fix incorrect"
+	cont "display on some"
+	cont "emulator like"
 	cont "mGBA."
 
-	para "Ne s'applique"
-	line "qu'en jeu,"
-	cont "l'intro n'est"
-	cont "pas modifiée."
+	para "Only applies"
+	line "in game,"
+	cont "the game intro is"
+	cont "not affected."
  	prompt
 	
 _DisplayEnhancedGBCInfoText::
-	text "Active la palette"
- 	line "de couleur GBC"
-	cont "complète."
+	text "Activate the full"
+ 	line "GBC palette."
 
-	para "Désactivée, les"
-	line "couleurs suivent"
-	cont "les limites du"
-	cont "jeu original."
+	para "When disabled,"
+	line "the colors will"
+	cont "follow the"
+	cont "limitations of"
+	cont "the original"
+	cont "game."
  	prompt
 	
 _DisplayLevelCapInfoText::
-	text "Active la limite"
- 	line "de niveau maximum"
-	cont "en fonction du"
-	cont "nombre de Badge."
+	text "Activate level"
+ 	line "cap depending"
+	cont "on the number"
+	cont "of Badges."
 
-	para "Désactiver cette"
-	line "option rend le"
-	cont "jeu plus simple."
+	para "Disabling this"
+	line "setting makes the"
+	cont "game easier."
  	prompt
 	
 _DisplayHardModeInfoText::
-	text "Ajoute des règles"
- 	line "de difficulé"
-	cont "supplémentaires:"
+	text "Adds rules for"
+ 	line "difficulty"
 
-	para "-Dresseurs plus"
-	line "durs, surtout"
-	cont "après la Ligue"
+	para "-Trainers are"
+	line "stronger,"
+	cont "especially after"
+	cont "the League"
 
-	para "-IVs des ennemis"
-	line "plus élevés"
+	para "-Trainers have"
+	line " Higher IVs"
     
-	para "-EVs des ennemis"
-	line "toujours au max"
-	cont "de leur niveau"
+	para "-Trainers have"
+	line "maximized EVs"
 
-	para "-Bonus de Badge"
-	line "désactivés contre"
-	cont "les dresseurs"
+	para "-Badge boosts are"
+	line "disabled against"
+	cont "trainers"
 
-	para "-L'IA est un peu"
-	line "plus intelligente"
+	para "-AI is slighly"
+	line "smarter"
 
-	para "-Impossible de"
-	line "faire Rappel en"
-	cont "combat"
+	para "-Revives cannot"
+	line "be used in Battle"
 
-	para "-Objets X 2x"
-	line "plus efficace"
+	para "-X Items are 2x"
+	line "more effective"
 
-	para "-Style de combat"
-	line "Défini forcé"
+	para "-Set mode is"
+	line "forced"
  	prompt
 	
 _DisplayNuzlockeInfoText::
-	text "Défi Nuzlocke:"
- 	line "mode de jeu très"
-	cont "difficile avec"
-    cont "ces contraintes:"
+	text "Nuzlocke:"
+ 	line "a very hard set"
+	cont "of rules"
 
-    para "-Un #mon KO est"
-    line "mort (Gelé, 1pv"
-    cont "définitivement)"
+    para "-A fainted #mon"
+    line "is dead (Frozen,"
+    cont "1HP permanently)"
 
-    para "-Capture du 1er"
-    line "#mon sauvage"
-    cont "croisé de chaque"
-    cont "zone uniquement"
-    cont "(Le logo <PK> sera"
-    cont "affiché)"
+    para "-Only the first"
+    line "wild #mon"
+    cont "encountered in"
+    cont "each area can be"
+	cont "caught"
+    cont "(<PK> will be"
+    cont "displayed)"
 
-    para "-Débute dès"
-    line "l'accès aux 1ère"
-    cont "#balls"
+    para "-Starts from"
+    line "the moment you"
+    cont "get # Balls"
 
-    para "-Obligation de"
-    line "renommer les"
-    cont "#mon"
+    para "-Nicknames are"
+	line "mandatory for"
+	cont "all #mon"
  	prompt
 	
 _DisplayRandomTrainersInfoText::
-	text "Rend les équipes"
- 	line "des dresseurs"
-	cont "lambda aléatoires"
-    cont "en gardant la"
-    cont "même rareté."
+	text "Ordinary trainers"
+ 	line "are randomized"
+	cont "while keeping the"
+    cont "same level of"
+	cont "rarity."
  	prompt
 	
 _DisplayRandomWildInfoText::
-	text "Mélange la liste"
- 	line "des rencontres"
-    cont "sauvages non"
-    cont "statiques."
+	text "Wild, non-static,"
+ 	line "encounters are"
+    cont "randomized."
 	
-    para "-Tiers: garde"
-    line "le même niveau"
-    cont "de rareté"
+    para "-Fair: keeps"
+    line "the same level"
+    cont "of rarity"
 
-    para "-Chaos: aléatoire"
-    line "complet (très"
-    cont "déséquilibré)"
+    para "-Chaos: completly"
+    line "random"
+    cont "(very unbalanced)"
  	prompt
 	

@@ -98,12 +98,11 @@ SSAnne5AfterBattleText2:
 	db "@"
 
 _SSAnne5Text1_ALT:
-	text "Ohé l'après"
-	line "soirée! Le bateau"
-	cont "sera amarré"
-	cont "jusqu'à ce que"
-	cont "les Tentacools"
-	cont "se dispercent."
+	text "Ahoy after-party!"
+	line "The ship will be"
+	cont "moored until the"
+	cont "Tentacool blooms"
+	cont "begin dispersing."
 	done
 	db "@"
 	

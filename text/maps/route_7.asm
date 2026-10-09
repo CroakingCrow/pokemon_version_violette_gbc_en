@@ -1,5 +1,5 @@
 _Route7Text1::
-	text "Souterrain"
-	line "Céladopole -"
-	cont "Lavanville"
+	text "Underground Path"
+	line "Celadon City -"
+	cont "Lavender Town"
 	done

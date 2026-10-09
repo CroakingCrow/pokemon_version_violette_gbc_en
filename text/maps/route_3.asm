@@ -1,156 +1,145 @@
 _Route3Text1::
-	text "Pfou...Je vais"
-	line "faire une halte."
-	cont "Moouarf..."
+	text "Whew... I better"
+	line "take a rest..."
+	cont "Groan..."
 
-	para "Ce tunnel"
-	line "d'Azuria est"
-	cont "épuisant!"
+	para "That tunnel from"
+	line "Cerulean takes a"
+	cont "lot out of you!"
 	done
 
 _Route3BattleText1::
-	text "Hé! On s'est déjà"
-	line "vu dans la Forêt"
-	cont "de Jade!"
+	text "Hey! I met you in"
+	line "Viridian Forest!"
 	done
 
 _Route3EndBattleText1::
-	text "Ben,"
-	line "tu m'as encore"
-	cont "battu!"
+	text "You"
+	line "beat me again!"
 	prompt
 
 _Route3AfterBattleText1::
-	text "Il y a beaucoup"
-	line "de #mon"
-	cont "différents dans"
-	cont "la forêt!"
+	text "There are other"
+	line "kinds of #mon"
+	cont "than those found"
+	cont "in the forest!"
 	done
 
 _Route3BattleText2::
-	text "Yahaa! J'adore"
-	line "les shorts! Viens"
-	cont "t'battre!"
+	text "Hi! I like shorts!"
+	line "They're comfy and"
+	cont "easy to wear!"
 	done
 
 _Route3EndBattleText2::
-	text "Nyahaa,"
-	line "tu m'as taillé"
-	cont "un short!"
+	text "I don't"
+	line "believe it!"
 	prompt
 
 _Route3AfterBattleText2::
-	text "Pour ranger tes"
-	line "#mon,"
-	cont "utilise un PC."
-	cont "Chaque boîte"
-	cont "contient"
-	cont "20 #mon!"
+	text "Are you storing"
+	line "your #mon on"
+	cont "PC? Each Box can"
+	cont "hold 20 #mon!"
 	done
 
 _Route3BattleText3::
-	text "Tu veux ma"
-	line "photo?"
+	text "You looked at me,"
+	line "didn't you?"
 	done
 
 _Route3EndBattleText3::
-	text "Tiens,"
-	line "c'est ma photo!"
+	text "You're"
+	line "mean!"
 	prompt
 
 _Route3AfterBattleText3::
-	text "Baisse les yeux"
-	line "si tu veux éviter"
-	cont "la baston!"
+	text "Quit staring if"
+	line "you don't want to"
+	cont "fight!"
 	done
 
 _Route3BattleText4::
-	text "T'es un dresseur?"
-	line "A l'attaque!"
+	text "Are you a trainer?"
+	line "Let's fight!"
 	done
 
 _Route3EndBattleText4::
-	text "Avec"
-	line "d'autres #mon"
-	cont "j'aurais gagné!"
+	text "If I"
+	line "had new #mon I"
+	cont "would've won!"
 	prompt
 
 _Route3AfterBattleText4::
-	text "Quand l'une des"
-	line "boîtes de ton PC"
-	cont "est pleine,"
-	cont "active une autre"
-	cont "boîte!"
+	text "If a #mon Box"
+	line "on the PC gets"
+	cont "full, just switch"
+	cont "to another Box!"
 	done
 
 _Route3BattleText5::
-	text "Dis donc beau"
-	line "ténébreux..."
-	cont "Tu veux qu'on"
-	cont "s'boxe?"
+	text "That look you"
+	line "gave me, it's so"
+	cont "intriguing!"
 	done
 
 _Route3EndBattleText5::
-	text "Hmmm..."
-	line "Sois gentil!"
+	text "Be nice!"
 	prompt
 
 _Route3AfterBattleText5::
-	text "Evite les regards"
-	line "si tu ne veux"
-	cont "pas combattre!"
+	text "Avoid fights by"
+	line "not letting"
+	cont "people see you!"
 	done
 
 _Route3BattleText6::
-	text "Hé! T'as pas de"
-	line "short! T'es nul!"
+	text "Hey! You're not"
+	line "wearing shorts!"
 	done
 
 _Route3EndBattleText6::
-	text "Perdu!"
-	line "Perdu, et perdu!"
+	text "Lost!"
+	line "Lost! Lost!"
 	prompt
 
 _Route3AfterBattleText6::
-	text "Je porte toujours"
-	line "des shorts, même"
-	cont "en hiver!"
+	text "I always wear"
+	line "shorts, even in"
+	cont "winter!"
 	done
 
 _Route3BattleText7::
-	text "Fais gaffe à mes"
-	line "nouveaux #mon!"
+	text "You can fight my"
+	line "new #mon!"
 	done
 
 _Route3EndBattleText7::
-	text "Ben,"
-	line "y m'en faut"
-	cont "des nouveaux!"
+	text "Done"
+	line "like dinner!"
 	prompt
 
 _Route3AfterBattleText7::
-	text "Les #mon"
-	line "domptés sont plus"
-	cont "forts que"
-	cont "les sauvages!"
+	text "Trained #mon"
+	line "are stronger than"
+	cont "the wild ones!"
 	done
 
 _Route3BattleText8::
-	text "Hé! Tu m'as"
-	line "touchée là?"
+	text "Eek! Did you"
+	line "touch me?"
 	done
 
 _Route3EndBattleText8::
-	text "OK!"
+	text "That's it?"
 	prompt
 
 _Route3AfterBattleText8::
-	text "La Route 4"
-	line "est au pied du"
-	cont "Mont Sélénite."
+	text "Route 4 is at the"
+	line "foot of Mt.Moon."
 	done
 
 _Route3Text10::
-	text "Route 3 vers le"
-	line "Mont Sélénite"
+	text "Route 3"
+	line "Mt.Moon Ahead"
 	done

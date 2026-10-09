@@ -17,10 +17,10 @@ PewterGymScript_Header:
 	jp LoadGymLeaderAndCityName
 
 Gym1CityName:
-	db "Argenta@"
+	db "Pewter City@"
 
 Gym1LeaderName:
-	db "Pierre@"
+	db "Brock@"
 
 PewterGymScriptReset:
 	xor a
@@ -331,28 +331,25 @@ MagmarTutor:
 	call PrintText
 	jp TextScriptEnd
 .textBring
-	text "En récompense, je"
-	line "peux aider ton"
-	cont "Magmar à devenir"
-	cont "solide comme un"
-	cont "rock!"
+	text "As a reward, I"
+	line "can help your"
+	cont "Magmar become"
+	cont "rock solid!"
 
-	para "Revient me voir"
-	line "avec lui si ça"
-	cont "t'intéresse."
+	para "Come back with it"
+	line "if you're"
+	cont "interested."
 	done
 	db "@"
 .textStart
-	text "Le magma n'a"
-	line "besoin que d'être"
-	cont "stabilisé pour"
-	cont "libérer son plein"
-	cont "potentiel."
+	text "Magma need only"
+	line "be stabilized to"
+	cont "unlock its full"
+	cont "potential."
 	prompt
 	db "@"
 .textAfter
-	text "Magmar est"
-	line "maintenant"
-	cont "Feu/Roche!"
+	text "Magmar is now"
+	line "Fire/Rock!"
 	done
 	db "@"

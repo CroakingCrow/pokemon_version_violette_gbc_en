@@ -1,116 +1,104 @@
 _SSAnne8Text8::
-	text "Grodoudou: Gro!"
-	line "Douuuuuuu!"
-	prompt
+	text "Wigglytuff: Puup"
+	line "pupuu!"
 
 _SSAnne8BattleText1::
-	text "Je voyage"
-	line "toujours en"
-	cont "solitaire!"
+	text "I travel alone"
+	line "on my journeys!"
 
-	para "Mes #mon"
-	line "sont mes amis!"
+	para "My #mon are my"
+	line "only friends!"
 	done
 
 _SSAnne8EndBattleText1::
-	text "Non!"
-	line "Mes p'tits amis!"
+	text "My, my"
+	line "friends..."
 	prompt
 
 _SSAnne8AfterBattleText1::
-	text "Il faut être"
-	line "gentil avec ses"
-	cont "#mon!"
+	text "You should be"
+	line "nice to friends!"
 	done
 
 _SSAnne8BattleText2::
-	text "Toi, jeune sot! Tu"
-	line "oses entrer ici!?"
+	text "You pup! How dare"
+	line "you barge in!"
 	done
 
 _SSAnne8EndBattleText2::
-	text "Huf!"
-	line "Tu es mal élevé!!"
+	text "Humph!"
+	line "You rude child!"
 	prompt
 
 _SSAnne8AfterBattleText2::
-	text "J'aimerais être"
-	line "seul! Va-t'en!"
+	text "I wish to be left"
+	line "alone! Get out!"
 	done
 
 _SSAnne8BattleText3::
-	text "J'aime les"
-	line "#mon! Et toi?"
+	text "I love #mon!"
+	line "Do you?"
 	done
 
 _SSAnne8EndBattleText3::
-	text "Woo!"
-	line "T'es cool, toi!"
+	text "Wow! "
+	line "You're great!"
 	prompt
 
 _SSAnne8AfterBattleText3::
-	text "Soyons amis,"
-	line "OK?"
+	text "Let me be your"
+	line "friend, OK?"
 
-	para "On pourra alors"
-	line "échanger nos"
-	cont "#mon!"
+	para "Then we can trade"
+	line "#mon!"
 	done
 
 _SSAnne8BattleText4::
-	text "J'ai déniché"
-	line "ces #mon"
-	cont "un peu partout"
-	cont "dans le monde!"
+	text "I collected these"
+	line "#mon from all"
+	cont "around the world!"
 	done
 
 _SSAnne8EndBattleText4::
-	text "Quoi!"
-	line "Un tour du monde"
-	cont "pour ce résultat!"
-	cont "C'est nul!"
+	text "Oh no!"
+	line "I went around the"
+	cont "world for these!"
 	prompt
 
 _SSAnne8AfterBattleText4::
-	text "Tu as fait mal"
-	line "à mes #mon!"
+	text "You hurt my poor"
+	line "worldly #mon!"
 
-	para "Il faut que"
-	line "tu les soignes"
-	cont "dans un"
-	cont "Centre #mon!!!"
+	para "I demand that you"
+	line "heal them at a"
+	cont "#mon Center!"
 	done
 
 _SSAnne8Text5::
-	text "Serveur,"
-	line "amenez-moi une"
-	cont "tarte aux poires!"
+	text "Waiter, I would"
+	line "like a cherry pie"
+	cont "please!"
 	done
 
 _SSAnne8Text6::
-	text "Ha! Une croisière!"
-	line "C'est tellement"
-	cont "romantique!"
+	text "A cruise is so"
+	line "elegant yet cozy!"
 	done
 
 _SSAnne8Text7::
-	text "Je voyage"
-	line "toujours avec"
-	cont "Grodoudou!"
+	text "I always travel"
+	line "with Wigglytuff!"
 	done
 
 _SSAnne8Text9::
-	text "Nous parcourons"
-	line "les mers du"
-	cont "monde entier!"
+	text "We are cruising"
+	line "around the world."
 	done
 
 _SSAnne8Text11::
-	text "Pst! Je suis de"
-	line "l'Interpolice!"
+	text "Ssh! I'm a Global"
+	line "Police agent!"
 
-	para "Je suis sur la"
-	line "trace de la"
-	cont "Team Rocket!"
-	cont "Chut!"
+	para "I'm on the trail"
+	line "of Team Rocket!"
 	done

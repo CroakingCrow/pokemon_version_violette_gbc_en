@@ -1,29 +1,27 @@
 _Route12HouseText_564c0::
-	text "Mon frère,"
-	line "j'suis le maître"
-	cont "pêcheur!"
+	text "I'm the Fishing"
+	line "Guru's brother!"
 
-	para "Moi, dans la vie,"
-	line "j'suis pêcheur!"
+	para "I simply Looove"
+	line "fishing!"
 
-	para "T'aimes la pêche,"
-	line "mon frère?"
+	para "Do you like to"
+	line "fish?"
 	done
 
 _Route12HouseText_564c5::
-	text "Trop cool!"
-	line "J't'aime bien!"
+	text "Grand! I like"
+	line "your style!"
 
-	para "Prends cette"
-	line "Canne à pêche,"
+	para "Take this and"
+	line "fish, young one!"
 
 ;joenote - add hotkey info
-	para "appuie sur SELECT"
-	line "en maintenant A"
-	cont "pour l'utiliser"
-	cont "rapidement.@@"
+	para "Hold A and press"
+	line "SELECT to use the"
+	cont "rod quickly.@@"
 
-	para "<PLAYER> obtient:"
+	para "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -32,39 +30,41 @@ _Route12HouseText_564c5::
 _Route12HouseText_564ca::
 	text_start
 
-	para "La pêche c'est"
-	line "comme la vie!"
+	para "Fishing is a way"
+	line "of life!"
 
-	para "Quand ça mord,"
-	line "ça va! "
-	cont "Quand ça mord"
-	cont "pas, ça va pas!"
+	para "From the seas to"
+	line "rivers, go out"
+	cont "and land the big"
+	cont "one!"
 	done
 
 _Route12HouseText_564cf::
-	text "Oh... Je suis"
-	line "très déçu..."
+	text "Oh... That's so"
+	line "disappointing..."
 	done
 
 _Route12HouseText_564d4::
-	text "Salut,"
+	text "Hello there,"
 	line "<PLAYER>!"
 
-	para "Avec cette Mega"
-	line "Canne, tu vas"
-	cont "vider les océans"
-	cont "de tous les"
-	cont "#mon."
+;	para "Use the Super Rod"
+;	line "in any water!"
+;	cont "You can catch"
+;	cont "different kinds"
+;	cont "of #mon."
 
-	para "Pêche, pêche,"
-	line "et pêche encore! "
+;	para "Try fishing"
+;	line "wherever you can!"
+;	done
+	para "How are the fish"
+	line "biting?"
 	done
 
 _Route12HouseText_564d9::
-	text "Ha ben non!"
+	text "Oh no!"
 
-	para "J'avais un cadeau"
-	line "pour toi, mais"
-	cont "t'as plus de"
-	cont "place!"
+	para "I had a gift for"
+	line "you, but you have"
+	cont "no room for it!"
 	done

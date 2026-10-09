@@ -1,51 +1,43 @@
 _Route11GateUpstairsText_494a3::
-	text "Il y a des objets"
-	line "invisibles sur"
-	cont "le sol."
+	text "There are items on"
+	line "the ground that"
+	cont "can't be seen."
 
-	para "Un Cherch'objet "
-	line "pourra les"
-	cont "détecter."
+	para "Itemfinder will"
+	line "detect an item"
+	cont "close to you."
 
-	para "Mais il faudra"
-	line "tout de même les"
-	cont "trouver toi-même!"
+	para "It can't pinpoint"
+	line "it, so you have"
+	cont "to look yourself!"
 	done
 
 _BinocularsSnorlaxText::
-	text "Vous regardez"
-	line "dans les"
-	cont "jumelles qui"
-	cont "pointent vers"
-	cont "l'Est."
+	text "Looked into the"
+	line "binoculars facing"
+	cont "East..."
 
-	para "Un énorme"
-	line "#mon dort"
-	cont "sur la route!"
+	para "A big #mon is"
+	line "asleep on a road!"
 	done
 
 _BinocularsNoSnorlaxText::
-	text "Vous regardez"
-	line "dans les"
-	cont "jumelles qui"
-	cont "pointent vers"
-	cont "l'Est."
+	text "Looked into the"
+	line "binoculars facing"
+	cont "East..."
 
-	para "C'est très beau!"
-	line "... "
-	cont "Bon! On y va?"
+	para "It's a beautiful"
+	line "view!"
 	done
 
 _Route11GateUpstairsText_494d5::
-	text "Vous regardez"
-	line "dans les"
-	cont "jumelles qui"
-	cont "pointent vers"
-	cont "le Nord."
+	text "Looked into the"
+	line "binoculars facing"
+	cont "North..."
 
-	para "Il n'y a qu'un"
-	line "seul chemin pour"
-	cont "aller de Azuria"
-	cont "à Lavanville:"
-	cont "la Grotte Sombre!"
+	para "The only way to"
+	line "get from Cerulean"
+	cont "City to Lavender"
+	cont "is by way of the"
+	cont "Rock Tunnel."
 	done
