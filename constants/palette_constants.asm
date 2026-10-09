@@ -76,4 +76,4 @@ const_value = 0
 	const PAL_REDBLUEMON  ; $2C
 	const PAL_VOLCANO     ; $2D
 	const PAL_LIGHTDARK   ; $2E
-	
+	const PAL_GREYPINKMON ; $2F

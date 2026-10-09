@@ -285,3 +285,9 @@ GBCBasePalettes:
 	RGB 7, 7, 7
 	RGB 7, 7, 7
 	RGB 7, 7, 7
+
+	; PAL_GREYPINKMON
+	SGB_WHITE
+	RGB 20, 13, 14,
+	RGB  5,  5,  8
+	RGB  3,  3,  3
