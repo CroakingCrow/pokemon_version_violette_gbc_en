@@ -1,25 +1,25 @@
 _CeruleanPokecenterText2::
-	text "Sacré Léo!"
+	text "That Bill!"
 
-	para "Il donnerait"
-	line "n'importe quoi"
-	cont "pour mettre la"
-	cont "main sur un"
-	cont "#mon rare!"
+	para "I heard that"
+	line "he'll do whatever"
+	cont "it takes to get"
+	cont "rare #mon!"
 	done
 
 _CeruleanPokecenterText3::
-	text "Tu connais Léo?"
+	text "Have you heard"
+	line "about Bill?"
 
-	para "On raconte que"
-	line "c'est un vrai"
-	cont "#Maniac!"
+	para "Everyone calls"
+	line "him a #maniac!"
 
-	para "Les gens sont"
-	line "jaloux de Léo."
+	para "I think people"
+	line "are just jealous"
+	cont "of Bill, though."
 
-	para "Nous sommes tous"
-	line "des #Maniacs,"
-	cont "non?"
+	para "Who wouldn't want"
+	line "to boast about"
+	cont "their #mon?"
 	done
 

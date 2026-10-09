@@ -1,22 +1,20 @@
 _CeruleanMartText2::
-	text "Le Repousse tient"
-	line "les #mon"
-	cont "sauvages à"
-	cont "l'écart."
+	text "Use Repel to keep"
+	line "bugs and weak"
+	cont "#mon away."
 
-	para "Mets tes #mon"
-	line "les plus costauds"
-	cont "en premier pour"
-	cont "une plus grande"
-	cont "efficacité!"
+	para "Put your strongest"
+	line "#mon at the"
+	cont "top of the list"
+	cont "for best results!"
 	done
 
 _CeruleanMartText3::
-	text "As-tu déjà vu des"
-	line "Super Bonbons??"
+	text "Have you seen any"
+	line "Rare Candy?"
 
-	para "Quand un #mon"
-	line "en mange un, il"
-	cont "gagne un niveau!"
+	para "It's supposed to"
+	line "make #mon go"
+	cont "up one level!"
 	done
 

@@ -129,13 +129,13 @@ DisplaySoundTestMenu:
 	ret
 	
 SoundTitleText:
-	db $E4, " Baladeur ", $E4, "@"
+	db $E4, "Music Player ", $E4, "@"
 SoundChangeText:
-	db $CA, $CB, "Changer Piste@"
+	db $CA, $CB, "Change Track@"
 SoundPlayText:
-	db $C8, $C9, "Jouer@"
+	db $C8, $C9, "Play@"
 SoundBackNextText:
-	db $C6, $C7, "Retour@"
+	db $C6, $C7, "Cancel@"
 SoundMenuSelect:
 	db $C0,$C1,$C2,$ED,"@"
 SoundTestTextBlankTrack:

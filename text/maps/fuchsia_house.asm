@@ -1,31 +1,27 @@
 _FuchsiaHouse1Text1::
-	text "Le Gardien du"
-	line "Parc Safari est"
-	cont "vieux mais trop"
-	cont "cool!"
+	text "Safari Zone's"
+	line "Warden is old,"
+	cont "but still active!"
 
-	para "Ses dents sont"
-	line "méga fausses par"
-	cont "contre."
+	para "All his teeth are"
+	line "false, though."
 	done
 
 _FuchsiaHouse1Text2::
-	text "Hmm? Tu connais"
-	line "Léo?"
+	text "Hmm? You've met"
+	line "Bill?"
 
-	para "Mais... C'est mon"
-	line "petit-fils!"
+	para "He's my grandson!"
 
-	para "Il souffre de"
-	line "collectionnite!"
+	para "He always liked"
+	line "collecting things"
+	cont "even as a child!"
 	done
 
 _FuchsiaHouse1Text3::
-	text "Léo enregistre"
-	line "ses données sur"
-	cont "les #mon sur"
-	cont "son PC!"
+	text "Bill files his"
+	line "own #mon data"
+	cont "on his PC!"
 
-	para "Il t'a déjà"
-	line "montré tout ça?"
+	para "Did he show you?"
 	done

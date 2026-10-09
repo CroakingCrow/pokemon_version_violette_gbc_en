@@ -70,108 +70,99 @@ Mist_Stone_Text:
 	ret
 	
 _TXTBookDesc:
-	text "Ce journal est"
-	line "pourri par la"
-	cont "brume épaisse"
-	cont "de cette cave."
+	text "This journal is"
+	line "badly rotted from"
+	cont "the heavy mist"
+	cont "within this cave."
 
-	para "Certaines parties"
-	line "sont encore"
-	cont "lisibles. Essayer"
-	cont "de les lire?"
+	para "A few parts are"
+	line "still legible."
+	cont "Try reading it?"
 	done
 	db "@"
 
 _TXTBookP1:
-	text "C'est ma Salle"
-	line "Secrète. Elle a"
-	cont "été creusée par"
-	cont "un groupe de"
-	cont "Taupiqueur."
+	text "This is my Secret"
+	line "Room. It was dug-"
+	cont "out by a group of"
+	cont "wild Diglett."
 
-	para "En lire plus?"
+	para "Read some more?"
 	done
 	db "@"
 
 _TXTBookP2:
-	text "J'ai entendu dire"
-	line "que Léo a un"
-	cont "Jardin Secret"
-	cont "derrière"
-	cont "sa maison."
+	text "I heard Bill has"
+	line "a Secret Garden"
+	cont "behind his house."
 	
-	para "Mais il ne l'a"
-	line "jamais confirmé"
-	cont "ou démenti."
+	para "But he'll neither"
+	line "confirm nor deny"
+	cont "it to anyone."
 	
-	para "Peut-être que si"
-	line "je lui montre"
-	cont "une nouvelle"
-	cont "espèce de"
-	cont "#mon..."
+	para "Maybe if I show"
+	line "him a new species"
+	cont "of #mon..."
 	
-	para "Continuer à lire?"
+	para "Keep reading?"
 	done
 	db "@"
 
 _TXTBookP3:
-	text "J'ai entendu dire"
-	line "qu'un étrange"
-	cont "camion se trouve"
-	cont "sur les quais de"
-	cont "Carmin-sur-mer."
+	text "I heard there's"
+	line "a strange truck"
+	cont "down by the docks"
+	cont "of Vermilion."
 	
-	para "Si seulement j'"
-	line "arrivais à avoir"
-	cont "un ticket pour y"
-	cont "accéder..."
+	para "If only I could"
+	line "lay my hands on"
+	cont "a ticket to"
+	cont "check it out..."
 	
-	para "Continuer à lire?"
+	para "Keep reading?"
 	done
 	db "@"
 	
 _TXTBookP4:
-	text "Il parait que la"
-	line "Pierre Brume peut"
-	cont "libérer le"
-	cont "potentiel caché"
-	cont "d'un #mon."
+	text "It's said that a"
+	line "Mist Stone can"
+	cont "unlock the hidden"
+	cont "potential within"
+	cont "a #mon."
 	
-	para "Où la trouver?"
-	line "Peut-être ici,"
-	cont "dans cet endroit."
+	para "Where to find it?"
+	line "Perhaps here, in"
+	cont "this very room."
 	
-	para "L'air brumeux de"
-	line "cette cave"
-	cont "devrait fournir"
-	cont "les bonnes"
+	para "The misty air of"
+	line "this cave might"
+	cont "provide the right"
 	cont "conditions."
 	
-	para "Vous trouvez une"
-	line "note griffonnée,"
-	cont "la lire?"
+	para "There's a scrib-"
+	line "bled note,"
+	cont "read it?"
 	done
 	db "@"
 
 _TXTBookP5:
-	text "J'ai trouvé la"
-	line "Pierre! Merci"
-	cont "pour l'info!"
+	text "I found the Stone!"
+	line "Thanks for the"
+	cont "info!"
 
-	para "PS: j'ai laissé"
-	line "un petit cadeau"
-	cont "en remerciement."
-	cont "Sacha."
+	para "PS: I left a"
+	line "little gift as"
+	cont "a thank-you."
+	cont "Ash."
 	prompt
 	db "@"
 
 _TXTSacha_Stone:
-	text "Vous recevez la"
-	line "Pierre Lune!@@"
+	text "You received the"
+	line "Mist Stone!@@"
 	db "@"
 
 _TXTBag:
-	text "Votre sac"
-	line "est plein."
+	text "Your bag is full."
 	done
 	db "@"

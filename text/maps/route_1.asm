@@ -1,54 +1,50 @@
 _Route1ViridianMartSampleText::
-	text "Salut! Je"
-	line "travaille à la"
-	cont "Boutique #mon."
+	text "Hi! I work at a"
+	line "#mon Mart."
 
-	para "Nous avons plein"
-	line "d'articles! Viens"
-	cont "nous voir à"
-	cont "Jadielle."
+	para "It's a convenient"
+	line "shop, so please"
+	cont "visit us in"
+	cont "Viridian City."
 
-	para "Prends donc"
-	line "ceci comme"
-	cont "échantillon!"
+	para "I know, I'll give"
+	line "you a sample!"
+	cont "Here you go!"
 	prompt
 
 _Route1Text_1cae8::
-	text "<PLAYER> obtient:"
+	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _Route1Text_1caee::
-	text "Nous avons aussi"
-	line "des # Ball"
-	cont "pour capturer les"
-	cont "#mon!"
+	text "We also carry"
+	line "# Balls for"
+	cont "catching #mon!"
 	done
 
 _Route1Text_1caf3::
-	text "Ton inventaire"
-	line "est plein!"
+	text "You have too much"
+	line "stuff with you!"
 	done
 
 _Route1Text2::
-	text "Tu vois ces"
-	line "rebords le long"
-	cont "de la route?"
+	text "See those ledges"
+	line "along the road?"
 
-	para "Tu peux sauter"
-	line "par-dessus! C'est"
-	cont "dingue, non?"
+	para "It's a bit scary,"
+	line "but you can jump"
+	cont "from them."
 
-	para "Tu peux revenir"
-	line "plus vite à"
-	cont "Bourg Palette de"
-	cont "cette façon!"
+	para "You can get back"
+	line "to Pallet Town"
+	cont "quicker that way."
 	done
 
 _Route1Text3::
 	text "Route 1"
-	line "Bourg Palette -"
-	cont "Jadielle"
+	line "Pallet Town -"
+	cont "Viridian City"
 	done

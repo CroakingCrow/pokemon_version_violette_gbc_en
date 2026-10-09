@@ -1,23 +1,23 @@
 _ViridianHouseText1::
-	text "Trouver des noms,"
-	line "c'est rigolo"
-	cont "mais c'est dur!"
+	text "Coming up with"
+	line "nicknames is fun,"
+	cont "but hard."
 
-	para "Les noms les plus"
-	line "simples sont les"
-	cont "plus faciles."
+	para "Simple names are"
+	line "the easiest to"
+	cont "remember."
 	done
 
 _ViridianHouseText2::
-	text "Mon pôpa aime les"
-	line "#mon aussi."
+	text "My Daddy loves"
+	line "#mon too."
 	done
 
 _ViridianHouseText_1d5b1::
-	text "Piaffy: Tetweet!"
-	prompt
+	text "Speary: Tetweet!"
+	done
 
 _ViridianHouseText4::
-	text "Piafabec"
-	line "Nom: Piaffy"
+	text "Spearow"
+	line "Name: Speary"
 	done

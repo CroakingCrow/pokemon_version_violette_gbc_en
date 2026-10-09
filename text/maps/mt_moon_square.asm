@@ -1,18 +1,16 @@
 _MtMoonSquareText_Clefairy::
-	text "Mélofée: Féé!"
-	line "Fééééféééé!"
+	text "Clefairy: Pi"
+	line "pippippi!"
 
-	para "Bizarrement, ils"
-	line "n'ont pas l'air"
-	cont "sauvage."
+	para "Strangely, they"
+	line "do not seem to"
+	cont "live in the wild."
 
-	para "Ils doivent"
-	line "probablement"
-	cont "appartenir à"
-	cont "quelqu'un."
+	para "They must belong"
+	line "to someone."
 	prompt
 
 _MtMoonSquareText_Sign::
-	text "Mont Sélénite"
-	line "Aire de repos"
+	text "Mt.Moon"
+	line "Rest area"
 	done

@@ -1,21 +1,22 @@
 _Route16WestTextClosed::
-	text "La porte est"
-	line "fermée à clé!"
+	text "The door is"
+	line "locked!"
 	done
 
 _Route16WestTextTomb::
-	text "Repose en paix"
+	text "Rest in peace"
 	line "???"
-	cont "-Le nom est"
-	cont "illisible-"
+	cont "-The name is"
+	cont "unreadable-"
 
-	para "Merci pour tout"
-	line "mère, je promets"
-	cont "de perpétuer ton"
-	cont "héritage."
+	para "Thanks for every-"
+	line "thing, Mother."
+	cont "I promise to"
+	cont "honor your"
+	cont "legacy."
 	done
 
 _Route16WestTextSign::
-	text "Maison de la"
-	line "Clairière"
+	text "Forest Glade" 
+	line "House"
 	done

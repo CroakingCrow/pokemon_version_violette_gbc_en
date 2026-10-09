@@ -1,34 +1,34 @@
 _SafariZoneRestHouse4Text1::
-	text "Tu peux garder"
-	line "tous les objets"
-	cont "trouvés dans le"
-	cont "coin."
+	text "You can keep any"
+	line "item you find on"
+	cont "the ground here."
 
-	para "Mais ne perds pas"
-	line "de temps à tous"
-	cont "les essayer!"
+	para "But, you'll run"
+	line "out of time if"
+	cont "you try for all"
+	cont "of them at once!"
 	done
 
 _SafariZoneRestHouse4Text2::
-	text "Un recoin du Parc"
-	line "Safari renferme"
-	cont "un prix!"
+	text "Go to the deepest"
+	line "part of the"
+	cont "Safari Zone. You"
+	cont "will win a prize!"
 	done
 
 _SafariZoneRestHouse4Text3::
-	text "Mon Evoli s'est"
-	line "transformé en un"
-	cont "Pyroli!"
+	text "My Eevee evolved"
+	line "into Flareon!"
 
-	para "Mais celui d'un"
-	line "ami s'est changé"
-	cont "en Aquali!"
-	cont "Bah pourquoi?"
+	para "But, a friend's"
+	line "Eevee turned into"
+	cont "a Vaporeon!"
+	cont "I wonder why?"
 	done
 
 _SafariZoneRestHouse4Text4::
-	text "Le patron de la"
-	line "Sylphe passe son"
-	cont "temps dans le"
-	cont "Parc Safari."
+	text "Silph Co.'s Chief"
+	line "spends all his"
+	cont "free time in the"
+	cont "Safari Zone."
 	done

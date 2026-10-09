@@ -1,167 +1,163 @@
 _Route9BattleText1::
-	text "T'as des #mon"
-	line "avec toi!"
-	cont "En garde!"
+	text "You have #mon"
+	line "with you!"
+	cont "You're mine!"
 	done
 
 _Route9EndBattleText1::
-	text "Ah!"
-	line "Bien défendu!"
+	text "You"
+	line "deceived me!"
 	prompt
 
 _Route9AfterBattleText1::
-	text "Il te faudra de"
-	line "la lumière dans"
-	cont "ce sombre tunnel."
+	text "You need light to"
+	line "get through that"
+	cont "dark tunnel ahead."
 	done
 
 _Route9BattleText2::
-	text "Je serai le plus"
-	line "grand dresseur du"
-	cont "moooooonde!"
+	text "I'll become the"
+	line "greatest #mon"
+	cont "trainer in the" 
+	cont "world!"
 	done
 
 _Route9EndBattleText2::
-	text "???"
-	line "Mon Sabelette a"
-	cont "perdu?"
+	text "..."
+	line "My Sandshrew"
+	cont "lost?"
 	prompt
 
 _Route9AfterBattleText2::
-	text "Nooon! Je dois"
-	line "recommencer mes"
-	cont "100 victoires"
-	cont "d'affilé avec"
-	cont "Sabelette!"
+	text "Nooo! I need to"
+	line "start over my 100-"
+	cont "battle winning"
+	cont "streak with" 
+	cont "Sandshrew!"
 	done
 
 _Route9BattleText3::
-	text "Je passe par la"
-	line "Grotte Sombre"
-	cont "pour voir"
-	cont "Lavanville!"
+	text "I'm taking Rock"
+	line "Tunnel to go to"
+	cont "Lavender..."
 	done
 
 _Route9EndBattleText3::
-	text "..."
-	line "J'suis pas bon!"
+	text "Can't"
+	line "measure up!"
 	prompt
 
 _Route9AfterBattleText3::
-	text "Tu vas dans la"
-	line "Grotte Sombre,"
-	cont "toi aussi?"
+	text "Are you off to"
+	line "Rock Tunnel too?"
 	done
 
 _Route9BattleText4::
-	text "Traite-moi avec"
-	line "respect!"
+	text "Don't you dare"
+	line "condescend me!"
 	done
 
 _Route9EndBattleText4::
-	text "..."
-	line "Je ne mérite que"
-	cont "ton dédain!"
+	text "No!"
+	line "You're too much!"
 	prompt
 
 _Route9AfterBattleText4::
-	text "T'as l'air doué!"
-	line "Bonne chance,"
-	cont "l'ami!"
+	text "You're obviously"
+	line "talented! Good"
+	cont "luck to you!"
 	done
 
 _Route9BattleText5::
 	text "Bwahaha!"
-	line "Allez... "
-	cont "Viens manger ta"
-	cont "pâtée..."
+	line "Great! I was"
+	cont "bored, eh!"
 	done
 
 _Route9EndBattleText5::
-	text "Ha!"
-	line "Viens, viens!"
+	text "Keep it"
+	line "coming, eh!"
 
-	para "Heu, j'ai plus"
-	line "de #mon!"
+	para "Oh wait. I'm out"
+	line "of #mon!"
 	prompt
 
 _Route9AfterBattleText5::
-	text "T'es un"
-	line "courageux toi!"
+	text "You sure had guts"
+	line "standing up to me"
+	cont "there, eh?"
 	done
 
 _Route9BattleText6::
 	text "Hahaha!"
-	line "T'es un p'tit"
-	cont "dur, toi!"
+	line "Aren't you a"
+	cont "little toughie!"
 	done
 
 _Route9EndBattleText6::
-	text "Dur,"
-	line "très dur!"
+	text "What's"
+	line "that?"
 	prompt
 
 _Route9AfterBattleText6::
-	text "Les gosses, c'est"
-	line "pas assez fort!"
+	text "Hahaha! Kids"
+	line "should be tough!"
 	done
 
 _Route9BattleText7::
-	text "Mes cocons de"
-	line "#mon me"
-	cont "prennent beaucoup"
-	cont "de temps!"
+	text "I got up early"
+	line "every day to"
+	cont "raise my #mon"
+	cont "from cocoons!"
 	done
 
 _Route9EndBattleText7::
-	text "Nyargh?"
+	text "WHAT?"
 
-	para "Quelle perte de"
-	line "temps!"
+	para "What a total"
+	line "waste of time!"
 	prompt
 
 _Route9AfterBattleText7::
-	text "Il me faut autre"
-	line "chose que des"
-	cont "insectes pour"
-	cont "être plus fort..."
+	text "I have to collect"
+	line "more than bugs to"
+	cont "get stronger..."
 	done
 
 _Route9BattleText8::
-	text "Viens t'battre,"
-	line "galopin!"
+	text "Hahahaha!"
+	line "Come on, dude!"
 	done
 
 _Route9EndBattleText8::
-	text "Ha!"
-	line "Tu m'as bien eu!"
+	text "Hahahaha!"
+	line "You beat me fair!"
 	prompt
 
 _Route9AfterBattleText8::
 	text "Hahahaha!"
-	line "Quand j'perds,"
-	cont "j'me marre!"
+	line "Us hearty guys"
+	cont "always laugh!"
 	done
 
 _Route9BattleText9::
-	text "Super-cafards,"
-	line "en avant!"
+	text "Go, my super bug"
+	line "#mon!"
 	done
 
 _Route9EndBattleText9::
-	text "Super-"
-	line "cafards! Houhou!"
-	cont "Réveillez-vous!"
+	text "My"
+	line "bugs..."
 	prompt
 
 _Route9AfterBattleText9::
-	text "T'aimes pas les"
-	line "insectes #mon?"
-	cont "T'es infect!"
+	text "If you don't like"
+	line "bug #mon, you"
+	cont "bug me!"
 	done
 
 _Route9Text11::
 	text "Route 9"
-	line "Azuria-"
-	cont "Grotte Sombre"
+	line "Cerulean City-"
+	cont "Rock Tunnel"
 	done

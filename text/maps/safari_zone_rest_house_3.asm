@@ -1,25 +1,24 @@
 _SafariZoneRestHouse3Text1::
-	text "T'en as capturé"
-	line "combien? Moi"
-	cont "j'suis naze!"
+	text "How many did you"
+	line "catch? I'm bushed"
+	cont "from the work!"
 	done
 
 _SafariZoneRestHouse3Text2::
-	text "J'ai trouvé un"
-	line "Leveinard!"
+	text "I caught a"
+	line "Chansey!"
 
-	para "J'ai bien fait"
-	line "de chercher"
-	cont "pendant 4 heures!"
+	para "That makes this"
+	line "all worthwhile!"
 	done
 
 _SafariZoneRestHouse3Text3::
-	text "Pffff!"
-	line "J'en ai marre!"
+	text "Whew! I'm tired"
+	line "from all the fun!"
 	done
 
+
 _SafariZoneRestHouse3Text4::
-	text "Moi aussi j'veux"
-	line "capturer un"
-	cont "#mon!"
+	text "I wan to catch"
+	line "a #mon too!"
 	done

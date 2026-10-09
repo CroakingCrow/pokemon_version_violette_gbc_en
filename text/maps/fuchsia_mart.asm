@@ -1,16 +1,14 @@
 _FuchsiaMartText2::
-	text "As-tu une affiche"
-	line "du Parc Safari?"
+	text "Do you have a"
+	line "Safari Zone flag?"
 
-	para "Et des cartes?"
-	line "Et des almanachs?"
+	para "What about cards"
+	line "or calendars?"
 	done
 
 _FuchsiaMartText3::
-	text "Tu connais la"
-	line "Vitesse +? Elle"
-	cont "augmente la"
-	cont "vitesse de ton"
-	cont "#mon pendant"
-	cont "un combat!"
+	text "Did you try X"
+	line "Speed? It speeds"
+	cont "up a #mon in"
+	cont "battle!"
 	done

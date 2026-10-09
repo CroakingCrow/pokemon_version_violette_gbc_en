@@ -1,6 +1,5 @@
 _UndergrdTunnelEntRoute6Text1::
-	text "Les gens font"
-	line "souvent tomber"
-	cont "des objets dans"
-	cont "le Souterrain."
+	text "People often lose"
+	line "things in that"
+	cont "Underground Path."
 	done

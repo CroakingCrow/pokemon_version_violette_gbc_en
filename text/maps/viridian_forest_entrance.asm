@@ -1,42 +1,40 @@
 _ViridianForestEntranceText1::
-	text "Vas-tu dans la"
-	line "Forêt de Jade,"
-	cont "mon poussin? Fais"
-	cont "bien attention,"
-	cont "c'est un vrai"
-	cont "labyrinthe!"
+	text "Are you going to"
+	line "Viridian Forest?"
+	cont "Be careful, it's"
+	cont "a natural maze!"
 	done
 
 _ViridianForestEntranceAskMonText::
-	text "Rattata est"
-	line "petit mais il est"
-	cont "vicieux! En as-tu"
-	cont "capturé un?"
+	text "Rattata may be"
+	line "small, but its"
+	cont "bite is wicked!"
+	cont "Did you get one?"
 
-	para "Tu peux montrer"
-	line "un #mon en le"
-	cont "plaçant en 1er"
-	cont "de ton équipe!"
+	para "You can show a"
+	line "#mon by moving"
+	cont "it in the first"
+	cont "slot of your"
+	cont "party!"
 	done
 
 _ViridianForestEntranceShowedMonText::
-	text "T'ES TROP FORT!"
+	text "YOU'RE THE BEST!"
 
-	para "Tiens, tu en"
-	line "auras plus besoin"
-	cont "que moi!"
+	para "Here, you'll need"
+	line "it more than me!"
 	prompt
 
 _ViridianForestEntranceItemText::
-	text "<PLAYER> obtient..."
-	line "5 Poké Ball!@"
+	text "<PLAYER> got..."
+	line "5 Poké Balls!@"
 	text_end
 
 _ViridianForestEntranceAfterMonText::
-	text "Moi aussi je vais"
-	line "être un grand"
-	cont "dresseur et"
-	cont "capturer tout"
-	cont "plein de #mon!"
+	text "I'll become a"
+	line "great trainer"
+	cont "and catch"
+	cont "so many #mon!"
+	cont "Just like you!"
 	done
 

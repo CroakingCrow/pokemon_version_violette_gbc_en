@@ -1,39 +1,39 @@
 _Mansion3BattleText1::
-	text "Fouiii..."
-	line "C'est grand ici!"
+	text "This place is"
+	line "like, huge!"
 	done
 
 _Mansion3EndBattleText1::
-	text "Yargl!"
+	text "Ayah!"
 	prompt
 
 _Mansion3AfterBattleText1::
-	text "Mais où est donc"
-	line "mon complice?"
+	text "I wonder where"
+	line "my partner went."
 	done
 
 _Mansion3BattleText2::
-	text "Mon mentor vivait"
-	line "ici autrefois."
+	text "My mentor once"
+	line "lived here."
 	done
 
 _Mansion3EndBattleText2::
-	text "!!!"
-	line "Impressionnant!"
+	text "Whew!"
+	line "Overwhelming!"
 	prompt
 
 _Mansion3AfterBattleText2::
-	text "T'es perdu?"
-	line "Essaie de sauter"
-	cont "par là-bas!"
+	text "So, you're stuck?"
+	line "Try jumping off"
+	cont "over there!"
 	done
 
 _Mansion3Text5::
-	text "Rapport:"
-	line "6 Février."
-	cont "Mew est papa "
-	cont "(ou maman?)"
+	text "Diary: Feb. 6"
+	line "A new #mon"
+	cont "was gestated with"
+	cont "Mew's superb DNA."
 
-	para "Le petit fut"
-	line "baptisé Mewtwo."
+	para "An enhanced new"
+	line "species: Mewtwo."
 	done

@@ -1,44 +1,42 @@
 _Route16WestGateAquariumText::
-	text "Il semblerait que"
-	line "cet aquarium"
-	cont "contenait un"
-	cont "#mon avant"
-	cont "mais impossible"
-	cont "de savoir"
-	cont "lequel..."
+	text "This tank appears"
+	line "to have contained"
+	cont "a #mon before,"
+	cont "but it's im-"
+	cont "possible to know"
+	cont "which one..."
 	done
 
 _Route16WestGatePCText::
-	text "Cet ordinateur a"
-	line "été vidé à la"
-	cont "va-vite et ne"
-	cont "fonctionne plus."
+	text "This computer was"
+	line "wiped in a hurry"
+	cont "and is now"
+	cont "unusable."
 	done
 
 _Route16WestGateLettersText::
-	text "Des restes de"
-	line "documents abimés."
-	cont "Vous déchiffrez"
-	cont "vaguement le mot"
-	cont "Laboratoire ici"
-	cont "et là..."
+	text "Scraps of"
+	line "documents left"
+	cont "behind."
+	cont "You can barely"
+	cont "read the word"
+	cont "Laboratory here"
+	cont "and there..."
 
-	para "Oh et la mention"
-	line "d'un certain"
-	cont "Docteur Fuji..."
+	para "Oh and there's"
+	line "mention of a"
+	cont "Doctor Fuji..."
 	done
 
 _Route16WestGateNoCodeText::
-	text "Hum, qu'est ce"
-	line "coffre peut bien"
-	cont "renfermer..."
+	text "What could this"
+	line "chest hold..."
 
-	para "Il possède un"
-	line "clavier pour"
-	cont "écrire le code."
+	para "It has a"
+	line "keyboard to enter"
+	cont "the password."
 
-	para "Mot de passe :"
-	line "BANANE!"
+	para "Password: BANANA!"
 
 	para "..."
 
@@ -46,34 +44,31 @@ _Route16WestGateNoCodeText::
 
 	para "..."
 
-	para "Mince, j'y étais"
-	line "presque!"
+	para "Darn, that was"
+	line "close!"
 	done
 
 _Route16WestGateHasCodeText::
-	text "Vous entrez le"
-	line "code donné par"
-	cont "Giovanni et le"
-	cont "coffre s'ouvre"
-	cont "sans problème!"
+	text "Entered the"
+	line "password given"
+	cont "by Giovanni."
+	cont "The chest is"
+	cont "unlocked!"
 
-	para "<PLAYER> reçoit"
-	line "le Prototype"
-	cont "d'Armure de"
-	cont "Mewtwo!@"
+	para "<PLAYER> received"
+	line "Mewtwo's Armor"
+	cont "Protoype!@"
 	text_end
 
 _Route16WestGateInstructionText::
 	text_start
 
-	para "Vous trouvez des"
-	line "instructions sur"
-	cont "son utilisation."
+	para "Found its manual"
+	line "of instructions."
 
-	para "Il est précisé"
-	line "qu'il faut"
-	cont "utiliser une Peau"
-	cont "Métal sur Mewtwo"
-	cont "pour pouvoir"
-	cont "l'utiliser."
+	para "It is specified"
+	line "that a Metal Coat"
+	cont "should be used on"
+	cont "Mewtwo in order"
+	cont "to make it work."
 	done
