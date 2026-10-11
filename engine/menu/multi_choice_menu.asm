@@ -187,11 +187,11 @@ SixOptionMenu::
 
 YesNoHide::
 	dw ThreeOptionMenuSmall
-	db "Oui"
-	next "Non"
-	next "Cacher@"
+	db "Yes"
+	next "No"
+	next "Hide@"
 
 YesNoSmall::
 	dw TwoOptionSmallMenu
-	db "Oui"
-	next "Non@"
+	db "Yes"
+	next "No@"

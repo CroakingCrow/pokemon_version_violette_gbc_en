@@ -1,30 +1,26 @@
 _CeruleanPrinterText::
-	text "Salut!"
-	line "Je suis"
-	cont "l'Imprimeur!"
+	text "Hi!"
+	line "I'm the Printer!"
 
-	para "Sers-toi de ma"
-	line "machine au fond"
-	cont "de la pièce pour"
-	cont "crâner devant"
-	cont "les copains!"
+	para "Use my printing"
+	line "machine in the"
+	cont "back of the room"
+	cont "and brag to your"
+	cont "friends!"
 	done
 
 _CeruleanPrinterSign_Poster::
-	text "Un tableau"
-	line "avec diverses"
-	cont "impressions de"
-	cont "#mon."
+	text "A printed sheet"
+    line "featuring various"
+    cont "#mon."
 
-	para "Elles sont mêmes"
-	line "autocollantes,"
-	cont "la classe!"
+	para "They're even self-"
+	line "adhesive, cool!"
 	done
 
 _CeruleanPrinterSign_Sheves::
-	text "Des étagères"
-	line "pleines de cart-"
-	cont "ouches d'encre"
-	cont "d'Hypotrempe"
-	cont "et de papier!"
+	text "It's full of"
+	line "Horsea's ink"
+	cont "cartridges and"
+	cont "sheets of paper!"
 	done

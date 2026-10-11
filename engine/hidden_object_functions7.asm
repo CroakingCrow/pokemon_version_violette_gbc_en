@@ -453,11 +453,11 @@ BillsHousePokemonListText1:
 	db "@"
 
 BillsMonListText:
-	db   "Evoli"
-	next "Pyroli"
-	next "Voltali"
-	next "Aquali"
-	next "Retour@"
+	db   "Eevee"
+	next "Flareon"
+	next "Jolteon"
+	next "Vaporeon"
+	next "Cancel@"
 
 BillsHousePokemonListText2:
 	TX_FAR _BillsHousePokemonListText2

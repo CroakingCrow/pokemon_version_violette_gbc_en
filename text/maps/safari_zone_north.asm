@@ -1,34 +1,33 @@
 _SafariZoneNorthText3::
-	text "Abri"
+	text "Rest House"
 	done
 
 _SafariZoneNorthText4::
-	text "Astuce"
+	text "Trainer Tips"
 
-	para "La Cabane Secrète"
-	line "est tout droit!"
+	para "The Secret House"
+	line "is still ahead!"
 	done
 
 _SafariZoneNorthText5::
-	text "Parc Nord"
+	text "North Area"
 	done
 
 _SafariZoneNorthText6::
-	text "Astuce"
+	text "Trainer Tips"
 
-	para "Les #mon se"
-	line "cachent dans les"
-	cont "hautes herbes!"
+	para "#mon hide in"
+	line "tall grass!"
 
-	para "Explorez ces"
-	line "zones pour les"
-	cont "faire sortir."
+	para "Zigzag through"
+	line "grassy areas to"
+	cont "flush them out."
 	done
 
 _SafariZoneNorthText7::
-	text "Astuce"
+	text "Trainer Tips"
 
-	para "Découvrez la"
-	line "Cabane Secrète et"
-	cont "gagnez une CS!"
+	para "Win a free HM for"
+	line "finding the"
+	cont "Secret House!"
 	done

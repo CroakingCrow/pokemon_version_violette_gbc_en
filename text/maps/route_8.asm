@@ -1,164 +1,155 @@
 _Route8BattleText1::
-	text "T'es un bon avec"
-	line "tes #mon."
-	cont "Mais les maths,"
-	cont "tu connais?"
+	text "You look good at"
+	line "#mon, but"
+	cont "how's your grade"
+	cont "in chemistry?"
 	done
 
 _Route8EndBattleText1::
-	text "Ouch!"
-	line "2 plus 2... 7?"
+	text "Ow!"
+	line "Meltdown!"
 	prompt
 
 _Route8AfterBattleText1::
-	text "Je suis meilleur"
-	line "à l'école!"
+	text "I am better at"
+	line "school than this!"
 	done
 
 _Route8BattleText2::
-	text "Le sort en est"
-	line "jeté!"
+	text "All right! Let's"
+	line "roll the dice!"
 	done
 
 _Route8EndBattleText2::
-	text "Haaa!"
-	line "Le hasard..."
+	text "Drat!"
+	line "Came up short!"
 	prompt
 
 _Route8AfterBattleText2::
-	text "Dame chance n'est"
-	line "pas avec moi!"
+	text "Lady Luck's not"
+	line "with me today!"
 	done
 
 _Route8BattleText3::
-	text "Il te faut une"
-	line "bonne stratégie!"
+	text "You need strategy"
+	line "to win at this!"
 	done
 
 _Route8EndBattleText3::
-	text "Hé!"
-	line "Pas logique!"
+	text "It's"
+	line "not logical!"
 	prompt
 
 _Route8AfterBattleText3::
-	text "D'abord Tadmorv"
-	line "et après..."
-	cont "Et puis..."
+	text "Go with Grimer"
+	line "first...and..."
+	cont "...and...then..."
 	done
 
 _Route8BattleText4::
-	text "Moi, j'aime les"
-	line "Nidoran! Yaha!"
+	text "I like Nidoran, so"
+	line "I collect them!"
 	done
 
 _Route8EndBattleText4::
-	text "Hein?"
+	text "Why? Why??"
 	prompt
 
 _Route8AfterBattleText4::
-	text "Quand un #mon"
-	line "grandit, il est"
-	cont "gros et moche."
-	cont "Je les préfère"
-	cont "tout petits!"
+	text "When #mon grow"
+	line "up they get ugly!"
+	cont "They shouldn't"
+	cont "evolve!"
 	done
 
 _Route8BattleText5::
-	text "L'école c'est"
-	line "cool, les #mon"
-	cont "c'est mieux!"
+	text "School is fun, but"
+	line "so are #mon."
 	done
 
 _Route8EndBattleText5::
-	text "Ben..."
-	line "L'école c'est"
-	cont "plus facile!"
+	text "I'll"
+	line "stay with school."
 	prompt
 
 _Route8AfterBattleText5::
-	text "On est bloqué"
-	line "ici, aux portes"
-	cont "de Safrania."
+	text "We're stuck here"
+	line "because of the"
+	cont "gates at Saffron."
 	done
 
 _Route8BattleText6::
-	text "Miaouss est si"
-	line "mignon. Miaou!"
+	text "Meowth is so cute,"
+	line "meow, meow, meow!"
 	done
 
 _Route8EndBattleText6::
-	text "Miaou!"
+	text "Meow!"
 	prompt
 
 _Route8AfterBattleText6::
-	text "Je trouve que"
-	line "Roucool et"
-	cont "Rattata sont trop"
-	cont "cool!"
+	text "I think Pidgey"
+	line "and Rattata"
+	cont "are cute too!"
 	done
 
 _Route8BattleText7::
-	text "Je sais, on a"
-	line "l'air idiot"
-	cont "debout!"
+	text "We must look"
+	line "silly standing"
+	cont "here like this!"
 	done
 
 _Route8EndBattleText7::
-	text "Ben..."
-	line "C'est malin ça!"
+	text "Look what"
+	line "you did!"
 	prompt
 
 _Route8AfterBattleText7::
-	text "Le gardien de la"
-	line "porte de Safrania"
-	cont "ne nous laissera"
-	cont "pas passer!"
+	text "Saffron's gate"
+	line "keeper won't let"
+	cont "us through."
+	cont "He's so mean!"
 	done
 
 _Route8BattleText8::
-	text "Je suis un"
-	line "joueur errant!"
+	text "I'm a rambling,"
+	line "gambling dude!"
 	done
 
 _Route8EndBattleText8::
-	text "J'ai"
-	line "raté le jackpot!"
+	text "Missed"
+	line "the big score!"
 	prompt
 
 _Route8AfterBattleText8::
-	text "Le jeu et les"
-	line "#mon, c'est"
-	cont "comme les"
-	cont "cacahuètes."
-	cont "Tu commences et"
-	cont "tu peux plus"
-	cont "t'arrêter! Fou!"
+	text "Gambling and"
+	line "#mon are like"
+	cont "eating peanuts!"
+	cont "Just can't stop!"
 	done
 
 _Route8BattleText9::
-	text "Qu'il est mimi,"
-	line "gentil et trognon"
-	cont "ce #mon!"
-	cont "Il est à qui?"
-	cont "Hein? A qui?"
+	text "What's a cute,"
+	line "round and fluffy"
+	cont "#mon?"
 	done
 
 _Route8EndBattleText9::
-	text "Arrête!"
+	text "Stop!"
 
-	para "T'es pas gentil"
-	line "avec Mélofée!"
+	para "Don't be so mean"
+	line "to my Clefable!"
 	prompt
 
 _Route8AfterBattleText9::
-	text "Tu savais que"
-	line "Mélofée pouvait"
-	cont "évoluer grâce à "
-	cont "une Pierre Lune?"
+	text "I found out that"		
+	line "Clefairy evolves"
+	cont "when it's exposed"
+	cont "to a Moon Stone."
 	done
 
 _Route8Text10::
-	text "Souterrain"
-	line "Lavanville -"
-	cont "Céladopole"
+	text "Underground Path"
+	line "Lavender Town -"
+	cont "Celadon City"
 	done

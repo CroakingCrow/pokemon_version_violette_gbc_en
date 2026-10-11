@@ -874,7 +874,7 @@ GBPrinter_UpdateStatusMessage:
 	ret
 
 .PressBToCancel:
-	db "B pour annuler@"
+	db "Press B to Cancel@"
 
 .PrinterStatusMessages:
 	dw .Blank
@@ -891,40 +891,38 @@ GBPrinter_UpdateStatusMessage:
 	db   "@"
 .CheckingLink:
 	db   ""
-	next "  Vérif. lien...@"
+	next " Checking link...@"
 .Transmitting:
 	db   ""
-	next "     Envoi...@"
+	next "  Transmitting...@"
 .Printing:
 	db   ""
-	next "   Impression...@"
+	next "    Printing...@"
 ;joenote - changed the error messages to actually describe what they mean.
 ;Far more useful than telling the player to check the manual.
 .Error1:
-	db   "     Erreur 1"
-	next " La batterie de"
-	next " l'imprimante est"
-	next " trop faible.@"
+	db   " Printer Error 1"
+	next ""
+	next "Printer batteries"
+	next "are too low.@"
 .Error2:
-	db   "     Erreur 2"
-	next " Le câble Link"
-	next " n'est pas"
-	next " connecté.@"
+	db   " Printer Error 2"
+	next ""
+	next "Game Link cable is"
+	next "not connected.@"
 .Error3:
-	db   "     Erreur 3"
+	db   " Printer Error 3"
 	next ""
-	next "  Voir le manuel"
-	next "  du GB Printer.@"
+	next "Check the Game Boy"
+	next "Printer's paper.@"
 .Error4:
-	db   "     Erreur 4"
-	next " L'imprimante est"
-	next " trop chaude ou"
-	next " trop froide.@"
-.WrongDevice:
-	db   "     Erreur 5"
+	db   " Printer Error 4"
 	next ""
-	next "  Ce n'est pas le"
-	next "  GB Printer !@"
+	next "Printer is too hot"
+	next "or too cold.@"
+.WrongDevice:
+	db   "This is not the"
+	next "Game Boy Printer!@"
 
 ;This is used for the diploma as well as the Pikachu's Beach high score screen
 Diploma_Surfing_CopyBox:
@@ -983,8 +981,8 @@ PrintPCBox_DrawPage1:
 	call PrintPCBox_PlaceBoxMonInfo
 	ret
 
-.PokemonListString: db "Liste <pkmn>@"
-.BoxString: db "Boîte@"
+.PokemonListString: db "<pkmn> list@"
+.BoxString: db "Box@"
 
 PrintPCBox_DrawPage2:
 	call ClearScreen

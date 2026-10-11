@@ -1,176 +1,165 @@
 _Route25BattleText1::
-	text "Les dresseurs"
-	line "viennent ici pour"
-	cont "s'entraîner!"
+	text "Local trainers"
+	line "come here to"
+	cont "practice!"
 	done
 
 _Route25EndBattleText1::
-	text "Tu es"
-	line "bon gagnant."
+	text "You're"
+	line "decent."
 	prompt
 
 _Route25AfterBattleText1::
-	text "Chaque #mon a"
-	line "ses faiblesses."
-	cont "Il vaut mieux te"
-	cont "faire une équipe"
-	cont "avec des #mon"
-	cont "variés."
+	text "All #mon have"
+	line "weaknesses. It's"
+	cont "best to raise"
+	cont "different kinds."
 	done
 
 _Route25BattleText2::
-	text "Je suis allé à"
-	line "une super fête."
-	cont "C'était sur"
-	cont "l'Océane, à"
-	cont "Carmin sur mer!"
+	text "Dad took me to a"
+	line "great party on"
+	cont "S.S.Anne at"
+	cont "Vermilion City!"
 	done
 
 _Route25EndBattleText2::
-	text "Yaha!"
-	line "J'suis pas fou!"
+	text "I'm"
+	line "not mad!"
 	prompt
 
 _Route25AfterBattleText2::
-	text "Sur l'Océane,"
-	line "j'ai vu des"
-	cont "dresseurs du"
-	cont "monde entier."
+	text "On S.S.Anne, I"
+	line "saw trainers from"
+	cont "around the world."
 	done
 
 _Route25BattleText3::
-	text "J'suis cool."
-	line "Et j'ai une"
-	cont "copine aussi!"
+	text "I'm a cool guy."
+	line "I've got a girl"
+	cont "friend!"
 	done
 
 _Route25EndBattleText3::
-	text "Zut!"
-	line "Zut, zut et zut!"
+	text "Aww,"
+	line "darn..."
 	prompt
 
 _Route25AfterBattleText3::
-	text "Ma copine va"
-	line "m'encourager."
+	text "Oh well. My girl"
+	line "will cheer me up."
 	done
 
 _Route25BattleText4::
-	text "Mon p'tit copain,"
-	line "c'est le plus"
-	cont "beau de tous!"
-	cont "J'ai le plus beau"
-	cont "de tous les"
-	cont "copains du monde!"
+	text "Hi! My boy"
+	line "friend is cool!"
 	done
 
 _Route25EndBattleText4::
-	text "Hmm..."
-	line "J'pensais à mon"
-	cont "mec!"
+	text "I was in"
+	line "bad condition!"
 	prompt
 
 _Route25AfterBattleText4::
-	text "Mon mec à moi, il"
-	line "est très fort!"
+	text "I wish my guy was"
+	line "as good as you!"
 	done
 
 _Route25BattleText5::
-	text "Y'a un dresseur"
-	line "de trop ici!"
+	text "I knew I had to"
+	line "fight you!"
 	done
 
 _Route25EndBattleText5::
-	text "Ben..."
-	line "J'suis d'trop!"
+	text "I knew"
+	line "I'd lose too!"
 	prompt
 
 _Route25AfterBattleText5::
-	text "Si ton #mon"
-	line "est devenu fou ou"
-	cont "s'est endormi,"
-	cont "rappelle-le!"
+	text "If your #mon"
+	line "gets confused or"
+	cont "falls asleep,"
+	cont "switch it!"
 	done
 
 _Route25BattleText6::
-	text "Mon copain a des"
-	line "#mon trognons!"
-	cont "Je suis jalouse!"
+	text "My friend has a"
+	line "cute #mon."
+	cont "I'm so jealous!"
 	done
 
 _Route25EndBattleText6::
-	text "J'suis"
-	line "pas jalouse,"
-	cont "j'suis nulle!"
+	text "I'm"
+	line "not so jealous!"
 	prompt
 
 _Route25AfterBattleText6::
-	text "Tu viens du Mont"
-	line "Sélénite? Tu as"
-	cont "un Mélofée?"
+	text "You came from Mt."
+	line "Moon? Do you have"
+	cont "a Clefairy?"
 	done
 
 _Route25ShowedMonText::
-	text "Trop mignon ton"
-	line "Mélofée!"
+	text "So cute your"
+	line "Clefairy!"
 
-	para "Tiens, il parait"
-	line "qu'ils raffolent"
-	cont "de cette Pierre!"
+	para "Here, take it."
+	cont "I heard that they"
+	line "love this Stone!"
 	prompt
 
 _Route25BattleText7::
-	text "J'arrive du Mont"
-	line "Sélénite, et je"
-	cont "suis prêt!"
+	text "I just got down"
+	line "from Mt.Moon,"
+	cont "but I'm ready!"
 	done
 
 _Route25EndBattleText7::
-	text "Pfiou!"
-	line "T'es un balèze!"
+	text "You"
+	line "worked hard!"
 	prompt
 
 _Route25AfterBattleText7::
-	text "Aaaaaaargh!"
-	line "Je me suis fait"
-	cont "mordre par un"
-	cont "Nosferapti."
+	text "Drat!"
+	line "A Zubat bit me"
+	cont "back in there."
 	done
 
 _Route25BattleText8::
-	text "Je cherche le"
-	line "collectionneur de"
-	cont "#mon!"
+	text "I'm off to see a"
+	line "#mon collector"
+	cont "at the cape!"
 	done
 
 _Route25EndBattleText8::
-	text "Heu!"
-	line "J'suis eu."
+	text "You"
+	line "got me."
 	prompt
 
 _Route25AfterBattleText8::
-	text "Le collectionneur"
-	line "a plein de"
-	cont "#mon rares."
+	text "The collector has"
+	line "many rare kinds"
+	cont "of #mon."
 	done
 
 _Route25BattleText9::
-	text "Tu vas voir Léo?"
-	line "Ok, mais d'abord,"
-	cont "BASTOONNN!"
+	text "You're going to"
+	line "see Bill? First,"
+	cont "let's fight!"
 	done
 
 _Route25EndBattleText9::
-	text "Hmm."
-	line "Tu te bats bien."
+	text "You're"
+	line "something."
 	prompt
 
 _Route25AfterBattleText9::
-	text "La route, en bas,"
-	line "est un raccourci"
-	cont "vers Azuria."
+	text "The trail below"
+	line "is a shortcut to"
+	cont "Cerulean City."
 	done
 
 _Route25Text11::
-	text "Villa"
-	line "Léo habite ici!"
+	text "Sea Cottage"
+	line "Bill lives here!"
 	done

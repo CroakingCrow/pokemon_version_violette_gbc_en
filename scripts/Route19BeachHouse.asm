@@ -53,40 +53,35 @@ Route19BeachHouseText_Fisher:
 	jr .displayText
 
 .scoreTooLowText
-	text "Yo comment k'ça"
-	line "va? Délire!!!"
-	cont "Toi aussi t'es"
-	cont "Surfeur!"
+	text "Yo how ya doin'?"
+	line "Crazy!!! You're"
+	cont "a Surfer too!"
 
-	para "Tu as donc"
-	line "le droit de"
-	cont "surfer avec"
-	cont "le DAVE!"
+	para "Then, you're good"
+	line "to surf with the"
+	cont "DAVE!"
 
-	para "Réussi à faire un"
-	line "score de 3000 et"
-	cont "j'enseignerai la"
-	cont "voie du Surf à"
-	cont "ton Pikachu, man!"
+	para "Reach a score of"
+	line "3000 and I'll"
+	cont "teach the way of"
+	cont "the Surf to your"
+	cont "Pikachu, dude!"
 	done
 	db "@"
 
 .madeHighScore
-	text "Yo comment k'ça"
-	line "va? Mais nan!!!"
-	cont "T'es un vrai"
-	cont "dompteur de"
-	cont "rouleau!"
+	text "Yo how ya doin'?"
+	line "No way!!! You're"
+	cont "shredding!"
 
-	para "T'es l'un des"
-	line "nôtres maintenant"
-	cont "mon gars!"
+	para "You're one of us"
+	line "now, dude!"
 
-	para "Ramène moi ton"
-	line "Pikachu ou ton"
-	cont "Raichu et le"
-	cont "Dave lui montrera"
-	cont "la voie du Surf!"
+	para "Bring me your"
+	line "Pikachu or your"
+	cont "Raichu and Dave"
+	cont "will show it the"
+	cont "way of the Surf!"
 	done
 	db "@"
 
@@ -103,11 +98,10 @@ PikachuTutor:
 
 .textStart
 	text "Okay man!"
-	line "Monte sur la"
-	cont "planche, on va"
-	cont "t'apprendre à"
-	cont "enchaîner"
-	cont "les flips!"
+	line "Get on the surf-"
+	cont "board, we'll"
+	cont "teach you how"
+	cont "to do backflips!"
 	prompt
 	db "@"
 
@@ -204,9 +198,8 @@ Route19BeachHouseText_Pikachu:
 	db "@"
 .noSurfboardText
 	text "Dave: PIKA CHU."
-	line "Il pointe le"
-	cont "doigt vers les"
-	cont "Planches de Surf."
+	line "Its finger points"
+	cont "to the Surfboards"
 	done
 	db "@"
 
@@ -237,10 +230,10 @@ Route19BeachHouseSign_Printer:
 	ld [wDoNotWaitForButtonPressAfterDisplayingText], a
 	jp TextScriptEnd
 
-;shown above the printer menu, like the "allume le PC" texts
+;shown above the printer menu, like the "Turned on the PC" texts
 .turnedOnPrinterText
-	text "<PLAYER> allume"
-	line "l'imprimante."
+	text "<PLAYER> turned on"
+	line "the printer."
 	prompt
 	db "@"
 

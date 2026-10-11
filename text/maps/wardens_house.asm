@@ -1,107 +1,106 @@
 _WardenGibberishText1::
 	text "Baoba: Hif fuff"
-	line "hefifou!"
+	line "hefifoo!"
 
-	para "Ha fof ha fif eu"
+	para "Ha lof ha feef ee"
 	line "hafahi ho. Heff"
-	cont "hi fwi!"
+	cont "hee fwee!"
 	done
 
 _WardenGibberishText2::
-	text "Ah hahee ho hoo!"
+	text "Ah howhee ho hoo!"
 	line "Eef ee hafahi ho!"
 	done
 
 _WardenGibberishText3::
-	text "Ha? Hai fou heh"
-	line "ha hoo ih haheh!"
+	text "Ha? He ohay heh"
+	line "ha hoo ee haheh!"
 	done
 
 _WardenTeethText1::
-	text "<PLAYER> donne la"
-	line "Dent d'or à"
+	text "<PLAYER> gave the"
+	line "Gold Teeth to"
 	cont "Baoba!@"
 	text_end
 
 _WardenTeethText2::
 	text_start
 
-	para "Baoba peut"
-	line "remettre son"
-	cont "dentier!"
+	para "Baoba popped"
+	line "in his teeth!"
 	prompt
 
 _WardenThankYouText::
-	text "Baoba: Merci,"
-	line "gamin!"
+	text "Baoba: Thanks,"
+	line "kid!"
 
-	para "J'm'appelle Baoba"
-	line "et je suis le"
-	cont "Gardien du Parc!"
+	para "My name is Baoba"
+	line "and I am the"
+	cont "Sarfari Zone"
+	cont "Warden!"
 	
-	para "C'est un peu dur"
-	line "dur de me faire"
-	cont "comprendre."
+	para "No one could"
+	line "understand a word"
+	cont "that I said."
 
-	para "J'pouvais plus"
-	line "travailler!"	
-	cont "Quelle horreur!"
+	para "I couldn't work"
+	line "that way!"
+	cont "How terrible!"
 
-	para "Tiens, voilà pour"
-	line "te remercier."
+	para "Let me give you"
+	line "something for"
+	cont "your trouble."
 
 ;joenote - add hotkey info
-	para "Appuie sur SELECT"
-	line "face à un rocher"
-	cont "pour l'activer."	
+	para "Press SELECT when"
+	line "facing a boulder"
+	cont "to activate it."	
 	prompt
 
 _ReceivedHM04Text::
-	text "<PLAYER> reçoit"
+	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _HM04ExplanationText::
-	text "Baoba: CS04..."
-	line "Force!"
+	text "Baoba: HM04"
+	line "teaches Strength!"
 
-	para "Tes #mon"
-	line "pourront déplacer"
-	cont "des rochers."
+	para "It lets #mon"
+	line "move boulders"
+	cont "when you're out-"
+	cont "side of battle."
 
-	para "Appuie sur SELECT"
-	line "face à un rocher"
-	cont "pour l'activer."	
+	para "Press SELECT when"
+	line "facing a boulder"
+	cont "to activate it."	
 	prompt
 
 _WardenHouseText_SecretHouse::
-	text "Au fait, as-tu"
-	line "trouvé la Cabane"
-	cont "Secrète dans le"
-	cont "Parc Safari?"
+	text "Oh yes, did you"
+	line "find Secret House"
+	cont "in Safari Zone?"
 
-	para "Trouve-la et"
-	line "gagne une CS!"
+	para "If you do, you"
+	line "win an HM!"
 
-	para "On raconte que"
-	line "cette CS est... "
-	cont "Surf!"
+	para "I hear it's the"
+	line "rare Surf HM."
 	done
 
 _HM04NoRoomText::
-	text "Ton sac est"
-	line "plein!"
+	text "Your pack is"
+	line "stuffed full!"
 	done
 
 _FuchsiaHouse2Text_75176::
-	text "Photos et"
-	line "fossiles de"
-	cont "#mon."
+	text "#mon photos"
+	line "and fossils."
 	done
 
 _FuchsiaHouse2Text_7517b::
-	text "Tout plein de"
-	line "trucs #mon!"
+	text "Old #mon"
+	line "merchandise."
 	done
