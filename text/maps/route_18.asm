@@ -1,61 +1,58 @@
 _Route18BattleText1::
-	text "Je fouille les"
-	line "hautes herbes"
-	cont "pour y trouver"
-	cont "des #mon."
+	text "I always check"
+	line "every grassy area"
+	cont "for new #mon."
 	done
 
 _Route18EndBattleText1::
-	text "Oh!"
+	text "Tch!"
 	prompt
 
 _Route18AfterBattleText1::
-	text "Ah, si j'avais"
-	line "une meule!"
+	text "I wish I had a"
+	line "Bike!"
 	done
 
 _Route18BattleText2::
-	text "Cui cui cui!"
-	line "J'fais l'oiseau,"
-	cont "hein?"
+	text "Kurukkoo!"
+	line "How do you like"
+	cont "my bird call?"
 	done
 
 _Route18EndBattleText2::
-	text "..."
-	line "J'suis cuit!"
+	text "I"
+	line "had to bug you!"
 	prompt
 
 _Route18AfterBattleText2::
-	text "Le week-end, je"
-	line "collectionne"
-	cont "les #mon"
-	cont "aquatiques!"
+	text "I also collect sea"
+	line "#mon on"
+	cont "weekends!"
 	done
 
 _Route18BattleText3::
-	text "T'es sur mon"
-	line "gazon, dégage!"
+	text "This is my turf!"
+	line "Get out of here!"
 	done
 
 _Route18EndBattleText3::
-	text "Ah?"
+	text "Darn!"
 	prompt
 
 _Route18AfterBattleText3::
-	text "C'est mon endroit"
-	line "préféré pour"
-	cont "chasser les"
-	cont "#mon!"
+	text "This is my fave"
+	line "#mon hunting"
+	cont "area!"
 	done
 
-_Route18Text4::	;joenote - swapped city order
-	text "Route 18"
-	line "Parmanie -"
-	cont "Céladopole"
+_Route18Text4::
+	text "ROUTE 18"
+	line "Fuchsia City -"
+	cont "Celadon City"
 	done
 
 _Route18Text5::
-	text "Piste Cyclable"
-	line "Interdite aux"
-	cont "piétons!"
+	text "Cycling Road"
+	line "No pedestrians"
+	cont "permitted!"
 	done

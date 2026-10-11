@@ -249,9 +249,9 @@ FinishDTE::
 	jp PlaceNextChar
 
 TMCharText::
-	db "CT@"
+	db "TM@"
 TeamCharText::
-	db "Dres.@"
+	db "Trainer@"
 PCCharText::
 	db "PC@"
 RocketCharText::
@@ -261,7 +261,7 @@ PokeCharText::
 ThreeDotsText::
 	db ".@"
 OpponentText::
-	db "@ ennemi"
+	db "Enemy @"
 PokemonText::
 	db $E1,$E2,"@" ; PKMN
 

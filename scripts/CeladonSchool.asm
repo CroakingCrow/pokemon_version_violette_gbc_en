@@ -21,11 +21,11 @@ CeladonSchoolText_PogKid:
 	jp TextScriptEnd
 
 .celadonSchoolText_PogKid
-	text "Quoi #mon?"
-	line "M'en fiche des"
+	text "#mon? So what?"
+	line "Don't care about"
 	cont "#mon!"
 
-	para "Moi j'ai une"
-	line "collec' de Pog!"
+	para "Me, I got a"
+	line "Pog collection!"
 	done
 	db "@"

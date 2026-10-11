@@ -1,22 +1,20 @@
 _RockTunnel2AfterBattleText8::
-	text "Je vais encore"
-	line "m'entraîner!"
+	text "I'll raise my"
+	line "#mon to beat"
+	cont "yours, kid!"
 	done
 
 _RockTunnel2BattleText9::
-	text "Je dessine des"
-	line "#mon quand"
-	cont "chuis tout seul."
-	cont "..."
-	cont "Cool, non?"
+	text "I draw #mon"
+	line "when I'm home."
 	done
 
 _RockTunnel2EndBattleText9::
-	text "Fouii!"
-	line "Je suis crevé!"
+	text "Whew!"
+	line "I'm exhausted!"
 	prompt
 
 _RockTunnel2AfterBattleText9::
-	text "Chuis un artiste,"
-	line "pas un violent."
+	text "I'm an artist,"
+	line "not a fighter."
 	done

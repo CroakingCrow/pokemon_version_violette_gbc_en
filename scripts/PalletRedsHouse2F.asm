@@ -43,24 +43,23 @@ RedsHouse2FText_Outro:
 	call PrintText
 	jp TextScriptEnd
 .outroNoText
-	text "C'est non."
+	text "It's a no."
 	done
 	db "@"
 .outroAskText
-	text "Coupe de la Ligue"
-	line "#mon"
+	text "#mon League"
+	line "Trophy Cup"
 
-	para "Décerné à:"
+	para "Awarded to:"
 	line "<PLAYER>"
 
-	para "En regardant de"
-	line "plus près, vous"
-	cont "voyez que le nom"
-	cont "de <RIVAL> a"
-	cont "été effacé à la"
-	cont "va-vite..."
+	para "By closer examin-"
+	line "ation you notice"
+	cont "that <RIVAL>'s"
+	cont "name was hastily"
+	cont "erased..."
 
-	para "Revoir la scène"
-	line "post-Ligue?"
+	para "Rewatch the post-"
+	line "League scene?"
 	done
 	db "@"

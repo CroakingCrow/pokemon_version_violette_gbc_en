@@ -1,23 +1,23 @@
 _Route22GateText_1e704::
-	text "Seul un dresseur"
-	line "expérimenté peut"
-	cont "passer."
+	text "Only truly skilled"
+	line "trainers are"
+	cont "allowed through."
 
-	para "Tu n'as pas le"
-	line "Badge Roche!@"
+	para "You don't have the"
+	line "Boulder Badge"
+	cont "yet!@"
 	text_end
 
 _Route22GateText_1e715::
 	text_start
 
-	para "La loi est dure,"
-	line "mais c'est la"
-	cont "loi! Tu ne peux"
-	cont "pas passer"
+	para "The rules are"
+	line "rules. I can't"
+	cont "let you pass."
 	done
 
 _Route22GateText_1e71a::
-	text "Oh! Tu as le"
-	line "Badge Roche!"
-	cont "Tu peux passer!@"
+	text "Oh! That is the"
+	line "Boulder Badge!"
+	cont "Go right ahead!@"
 	text_end
