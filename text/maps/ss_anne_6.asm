@@ -1,182 +1,171 @@
 _SSAnne6Text1::
-	text "Hé! Le mouflet,"
-	line "y'en a qui bossent"
-
-	para "dur ici!"
-	line "Alors dégage!"
+	text "You, mon petit!"
+	line "We're busy here!"
+	cont "Out of the way!"
 	done
 
 _SSAnne6Text2::
-	text "J'ai vu une Ball"
-	line "bizarre dans la"
-	cont "poubelle..."
+	text "I saw an odd Ball"
+	line "in the trash."
 	done
 
 _SSAnne6Text3::
-	text "J'ai trop de"
-	line "boulot! J'en ai"
-	cont "des vertiges!"
+	text "I'm so busy I'm"
+	line "getting dizzy!"
 	done
 
 _SSAnne6Text4::
-	text "Pourquoi?"
-	line "Pourquoi moi?"
+	text "Hum-de-hum-de-"
+	line "ho..."
 
-	para "J'suis tout"
-	line "l'temps d'corvée"
-	cont "d'patates..."
+	para "I peel spuds"
+	line "every day!"
+	cont "Hum-hum..."
 	done
 
 _SSAnne6Text5::
-	text "Tu connais"
-	line "Ronflex?"
+	text "Did you hear about"
+	line "Snorlax?"
 
-	para "Il passe ses"
-	line "journées à manger"
-	cont "et à pioncer!"
+	para "All it does is"
+	line "eat and sleep!"
 	done
 
 _SSAnne6Text6::
-	text "Sniff... "
-	line "...sniff..."
+	text "Snivel...Sniff..."
 
-	para "J'épluche"
-	line "des oignons..."
+	para "I only get to"
+	line "peel onions..."
+	cont "Snivel..."
 	done
 
 _SSAnne6Text_61807::
-	text "Hm, hm! Je suis"
-	line "le chef cuistot!"
+	text "Er-hem! Indeed I"
+	line "am le Chef!"
 
-	para "Voilà le menu:"
+	para "Le main course is"
 	prompt
 
 _SSAnne6Text_6180c::
-	text "Salade de saumon!"
+	text "Salmon du Salad!"
 
-	para "Pour ceux qui ne"
-	line "sont pas contents"
-	cont "c'est la même"
-	cont "chose!"
+	para "Les guests may"
+	line "gripe it's fish"
+	cont "again, however!"
 	done
 
 _SSAnne6Text_61811::
-	text "Pâté d'anguilles!"
+	text "Eels au Barbecue!"
 
-	para "De quoi donner"
-	line "des envies de"
-	cont "mutinerie!"
+	para "Les guests will"
+	line "mutiny, I fear."
 	done
 
 _SSAnne6Text_61816::
-	text "Côtes de boeuf!"
+	text "Prime Beef Steak!"
 
-	para "Mais je crois"
-	line "que je n'ai plus"
-	cont "de viande?!"
+	para "But, have I enough"
+	line "fillets du beef?"
 	done
 
 _SSAnne6Text_GymGuy::
-	text "Yo, champion en"
-	line "devenir!"
+	text "Yo! Champ in the"
+	line "making!"
 
-	para "Je te rappelle"
-	line "quelqu'un?"
-	cont "C'est bizarre ça!"
+	para "Do I remind you of"
+	line "someone? You must"
+	cont "mean one of my"
+	cont "relatives."
 
-	para "Pas de conseil"
-	line "cette fois-ci. Je"
-	cont "suis en vacance."
+	para "No advice from me"
+	line "though. I'm on my"
+	cont "vacation."
 	
-	para "Il y a un PC de"
-	line "bord dans le"
-	cont "coin en cas de"
-	cont "besoin."
+	para "There's a ship"
+	line "Navi-PC in the"
+	cont "corner if you"
+	cont "need it."
 	done
 	
 _SSAnne6Text_GymGuy2::
-	text "Salut champion!"
+	text "Yo! Champ!"
 
-	para "Je m'ennuyais un"
-	line "peu à bord, donc"
-	cont "j'ai organisé un"
-	cont "petit tournois"
-	cont "avec les"
-	cont "passagers."
+	para "It was getting a"
+	line "bit restless on"
+	cont "board, so I set"
+	cont "up a tournament"
+	cont "between everyone."
 
-	para "Si tu peux battre"
-	line "7 dressseurs tu"
-	cont "gagneras un"
-	cont "super prix grâce"
-	cont "à notre sponsor:"
-	cont "la Sylphe SARL!"
+	para "If you can beat 7"
+	line "trainers you win"
+	cont "a nice prize"
+	cont "thanks to our"
+	cont "sponsor:" 
+	cont "Silph Co.!"
 
-	para "Par contre, tous"
-	line "le monde doit"
-	cont "utiliser exact-"
-	cont "ement 3 #mon."
+	para "But everyone has"
+	line "to use exactly 3"
+	cont "#mon."
 
-	para "Tes #mon seront"
-	line "soignés entre"
-	cont "chaque tour."
+	para "Your #mon get"
+	line "healed before"
+	cont "each round."
 
-	para "L'utilisation de"
-	line "rappel est"
-	cont "interdite!"
+	para "Revives are"
+	line "forbidden!"
 	
-	para "Attention:"
-	line "Ce sont de grands"
-	cont "dresseurs venant"
-	cont "d'un peu partout."
+	para "Be careful!"
+	line "These are strong"
+	cont "folks from all"
+	cont "over the place."
 	
-	para "Tu es prêt?"
+	para "You up for it?"
 	done
 	
 _SSAnne6Text_GymGuy_keepgoing::
-	text "Bien joué!"
-	line "Tu continues?"
+	text "Well done!"
+	line "Wanna keep going?"
 	done
 
 _SSAnne6Text_GymGuy_noroom::
-	text "Ton sac est"
-	line "plein."
+	text "Your bag is full."
+	line "Take a load off."
 	done
 	
 _SSAnne6Text_GymGuy_party::
-	text "Tu dois avoir"
-	line "exactement 3"
-	cont "#mon pour"
-	cont "entrer."
+	text "You need exactly 3"
+	line "#mon to enter."
 	done
 
 _SSAnne6Text_GymGuy_bye::
-	text "A plus tard!"
+	text "Later then Champ!"
 	done
 	
 _SSAnne6Text_GymGuy_ready::
-	text "Prêt? Combattez!"
+	text "Ready? Fight!"
 	done
 
 _SSAnne6Text_GymGuy_battleend::
 	text "..."
-	line "Quel match!"
+	line "That's a match!"
 	prompt
 
 _SSAnne6Text_GymGuy_win::
-	text "Bravo, c'était"
-	line "un tournoi"
-	cont "exceptionnel!"
+	text "Congratulations,"
+	line "that was an"
+	cont "extraordinary"
+	cont "tournament!"
 
-	para "Je savais que tu"
-	line "le ferais, c'est"
-	cont "surement grâce à"
-	cont "mes excellents"
-	cont "conseils."
+	text "I knew you could"
+	line "do it, and it's"
+	cont "probably thanks"
+	cont "to my great"
+	cont "advices."
 	
-	para "Tiens, voici la"
-	line "récompense."
+	para "Here's your"
+	line "reward."
 
-	para "<PLAYER> gagne"
-	line "une Master Ball!@"
+	para "<PLAYER> won a"
+	line "Master Ball!@"
 	text_end
 	

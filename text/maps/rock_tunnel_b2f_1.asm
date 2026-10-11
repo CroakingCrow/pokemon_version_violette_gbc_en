@@ -1,110 +1,108 @@
 _RockTunnel2BattleText2::
-	text "La nature..."
-	line "C'est beau!"
+	text "Hikers leave twigs"
+	line "as trail markers."
 	done
 
 _RockTunnel2EndBattleText2::
-	text "Oh!"
-	line "Au secours!"
+	text "Ohhh!"
+	line "I did my best!"
 	prompt
 
 _RockTunnel2AfterBattleText2::
-	text "J'veux rentrer à"
-	line "ma maison!"
+	text "I want to go "
+	line "home!"
 	done
 
 _RockTunnel2BattleText3::
-	text "Hahaha! J'suis"
-	line "trop fort!"
+	text "Hahaha! Can you"
+	line "beat my power?"
 	done
 
 _RockTunnel2EndBattleText3::
-	text "Oups!"
-	line "Niveau muscles:"
-	cont "zéro!"
+	text "Oops!"
+	line "Out-muscled!"
 	prompt
 
 _RockTunnel2AfterBattleText3::
-	text "J'aime pas penser"
-	line "alors je cogne."
+	text "I go for power"
+	line "because I hate"
+	cont "thinking!"
 	done
 
 _RockTunnel2BattleText4::
-	text "Tu as un"
+	text "You have a"
 	line "#dex?"
-	cont "Je le veux!"
+	cont "I want one too!"
 	done
 
 _RockTunnel2EndBattleText4::
-	text "Zut!"
-	line "J'suis jaloux!"
+	text "Shoot!"
+	line "I'm so jealous!"
 	prompt
 
 _RockTunnel2AfterBattleText4::
-	text "Tu me donneras"
-	line "ton #dex plus"
-	cont "tard?"
+	text "When you finish"
+	line "your #dex, can"
+	cont "I have it?"
 	done
 
 _RockTunnel2BattleText5::
-	text "Connais-tu"
-	line "les dresseurs"
-	cont "costumés?"
+	text "Do you know about"
+	line "costume players?"
 	done
 
 _RockTunnel2EndBattleText5::
-	text "Ben..."
-	line "C'est ça."
+	text "Well,"
+	line "that's that."
 	prompt
 
 _RockTunnel2AfterBattleText5::
-	text "Les dresseurs"
-	line "costumés se"
-	cont "déguisent en"
-	cont "#mon pour"
-	cont "s'amuser."
+	text "Costume players"
+	line "dress up as"
+	cont "#mon for fun."
 	done
 
 _RockTunnel2BattleText6::
-	text "Mes #mon"
-	line "vont te faire"
-	cont "pleurer!"
+	text "My #mon"
+	line "techniques will"
+	cont "leave you crying!"
 	done
 
 _RockTunnel2EndBattleText6::
-	text "Ah!"
-	line "Je pleure."
+	text "I give!"
+	line "You're a better"
+	cont "technician!"
 	prompt
 
 _RockTunnel2AfterBattleText6::
-	text "Les montagnes"
-	line "regorgent de"
-	cont "#mon rocheux."
+	text "In mountains,"
+	line "you'll often find"
+	cont "rock-type #mon."
 	done
 
 _RockTunnel2BattleText7::
-	text "J'suis paumée"
-	line "mais..."
-	cont "A l'attaque!"
+	text "I don't often"
+	line "come here, but I"
+	cont "will fight you."
 	done
 
 _RockTunnel2EndBattleText7::
 	text "Oh!"
-	line "Perdu!"
+	line "I lost!"
 	prompt
 
 _RockTunnel2AfterBattleText7::
-	text "J'aime les petits"
-	line "#mon, les gros"
-	cont "me font peur!"
+	text "I like tiny"
+	line "#mon, big ones"
+	cont "are too scary!"
 	done
 
 _RockTunnel2BattleText8::
-	text "Donne-toi à fond,"
-	line "mon mignon!"
+	text "Hit me with your"
+	line "best shot!"
 	done
 
 _RockTunnel2EndBattleText8::
-	text "Mince!"
-	line "Détruit!"
+	text "Fired"
+	line "away!"
 	prompt

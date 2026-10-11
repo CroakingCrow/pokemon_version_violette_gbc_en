@@ -374,14 +374,14 @@ ViridianSchoolBlackboardText2:
 	db "@"
 
 StatusAilmentText1:
-	db   " Som"
+	db   " Slp"
 	next " Psn"
 	next " Par@"
 
 StatusAilmentText2:
-	db   " Brû"
-	next " Gel"
-	next " Ret@"
+	db   " Brn"
+	next " Frz"
+	next " Can@"
 
 ViridianBlackboardStatusPointers:
 	dw ViridianBlackboardSleepText

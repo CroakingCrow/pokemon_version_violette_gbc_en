@@ -206,26 +206,26 @@ DisplayIntroNameTextBox:
 	jp HandleMenuInput
 
 .namestring
-	db "─NOM@"
+	db "─NAME@"
 
 ;joenote - set female trainer names
 DefaultNamesPlayerF:
-	db   "Nom :"
+	db   "Name :"
 	next "Green"
-	next "Flora"
-	next "Cléo"
+	next "Claire"
+	next "Jill"
 	db   "@"
 DefaultNamesPlayer:
 	db   "Nom :"
 	next "Red"
-	next "Sacha"
-	next "Jean"
+	next "Ash"
+	next "Jack"
 	db   "@"
 DefaultNamesRival:
 	db   "Nom :"
 	next "Blue"
-	next "Régis"
-	next "Paul"
+	next "Gary"
+	next "John"
 	db   "@"
 
 GetDefaultName:
@@ -256,18 +256,18 @@ GetDefaultName:
 DefaultNamesPlayerListF:
 	db "Nom :@"
 	db "Green@"
-	db "Flora@"
-	db "Cléo@"
+	db "Claire@"
+	db "Jill@"
 DefaultNamesPlayerList:
 	db "Nom :@"
 	db "Red@"
-	db "Sacha@"
-	db "Jean@"
+	db "Ash@"
+	db "Jack@"
 DefaultNamesRivalList:
 	db "Nom :@"
 	db "Blue@"
-	db "Régis@"
-	db "Paul@"
+	db "Gary@"
+	db "John@"
 
 TextTerminator_6b20:
 	db "@"

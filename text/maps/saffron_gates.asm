@@ -1,43 +1,43 @@
 _SaffronGateText_1dfe7::
-	text "Je suis de garde"
-	line "mais je crève de"
-	cont "soif!"
+	text "I'm on guard duty."
+	line "Gee, I'm thirsty,"
+	cont "though!"
 
 ;joenote - add a hint on what to give the guard
-	para "Si tu m'ramènes"
-	line "à boire, j'te"
-	cont "laisserai passer!"
+	para "I wish that I had"
+	line "a Vending Machine"
+	cont "drink right now."
 
-	para "Maintenant,"
-	line "dégage."
+	para "Oh wait there,"
+	line "the road's closed."
 	done
 
 _SaffronGateText_8aaa9::
-	text "C'que j'ai soif!"
-	line "C'est dingue!"
+	text "Whoa, boy!"
+	line "I'm parched!"
 	cont "..."
-	cont "Hein? Tu m'donnes"
-	cont "à boire? Dingue!"
-	cont "Merci, p'tit!@"
+	cont "Huh? I can have"
+	cont "this drink?"
+	cont "Gee, thanks!@"
 	text_end
 
 _SaffronGateText_1dff1::
 	text_start
 
 	para "..."
-	line "Glou gloup..."
+	line "Glug glug..."
 	cont "..."
-	cont "Glourp..."
-	cont "Si tu veux aller"
-	cont "à Safrania..."
-	cont "...glouarps..."
-	cont "Tu peux passer..."
-	cont "T'inquiète pas"
-	cont "pour les autres"
-	cont "gardes!"
+	cont "Gulp..."
+	cont "If you want to go"
+	cont "to Saffron City..."
+	cont "..."
+	cont "You can go on"
+	cont "through. I'll"
+	cont "share this with"
+	cont "the other guards!"
 	done
 
 _SaffronGateText_1dff6::
-	text "Salut! Merci"
-	line "pour le verre!"
+	text "Hi, thanks for"
+	line "the cool drinks!"
 	done

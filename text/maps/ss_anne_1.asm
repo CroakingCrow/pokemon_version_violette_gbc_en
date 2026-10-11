@@ -1,28 +1,28 @@
 _SSAnne1Text_BeforeHeal::
-	text "Bonjour! Je suis"
-	line "le serveur de ce"
-	cont "bateau!"
+	text "Bonjour!"
+	line "I am le waiter on"
+	cont "this ship!"
 
-	para "Laissez-moi vous"
-	line "offrir une petite"
-	cont "collation ainsi"
-	cont "qu'à vos #mon!"
-	prompt
+	para "I will be happy"
+	line "to serve you any-"
+	cont "thing you please!"
+
+	para "Ah! Le strong"
+	line "silent type!"
+	done
 
 _SSAnne1Text2::
-	text "Les passagers"
-	line "sont en"
-	cont "ébullition!"
+	text "The passengers"
+	line "are restless!"
 
-	para "Ils vont"
-	line "certainement vous"
-	cont "provoquer en"
-	cont "duel!"
+	para "You might be"
+	line "challenged by the"
+	cont "more bored ones!"
 	done
 
 _SSAnne1Text_AfterHeal::
-	text "Je me ferai une"
-	line "joie de vous"
-	cont "resservir,"
-	cont "n'hésitez pas!"
+	text "I will be happy"
+	line "to serve you"
+	cont "again,"
+	cont "do not hesitate!"
 	done

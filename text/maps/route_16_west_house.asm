@@ -1,23 +1,22 @@
 _Route16WestHouseTextStairs::
-	text "L'escalier est"
-	line "inutilisable."
+	text "The stairs are"
+	line "unusable."
 	done
 
 _Route16WestHouseTextLetter::
-	text "Bonjour Silver,"
-	line "il est maintenant"
-	cont "temps pour toi de"
-	cont "me rejoindre."
+	text "Hello Silver,"
+	line "it's now time for"
+	cont "you to join me."
 
-	para "Je voyagerai"
-	line "incognito à bord"
-	cont "de l'Océane."
+	para "I'll be traveling"
+	line "incognito aboard"
+	cont "the S.S.Anne."
 
-	para "Lorsque tu liras"
-	line "cette lettre, il"
-	cont "devrait être en"
-	cont "escale à Carmin"
-	cont "sur Mer."
+	para "By the time you"
+	line "read this letter,"
+	cont "she sould be in"
+	cont "port at"
+	cont "Vermilion City."
 
-	para "Signé: G."
+	para "Signed: G."
 	done
