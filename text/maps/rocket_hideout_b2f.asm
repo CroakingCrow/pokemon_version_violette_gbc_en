@@ -1,19 +1,17 @@
 _RocketHideout2BattleText2::
-	text "Le chef dit qu'on"
-	line "peut voir les"
-	cont "fantômes avec un"
-	cont "Scope Sylphe!"
+	text "Boss said you can"
+	line "see Ghosts with"
+	cont "the Silph Scope!"
 	done
 
 _RocketHideout2EndBattleText2::
-	text "STOP!"
-	line "J'me rends!"
+	text "I"
+	line "surrender!"
 	prompt
 
 _RocketHideout2AfterBattleTxt2::
-	text "Le repaire de la"
-	line "Team Rocket a 4"
-	cont "étages. Pourras-"
-	cont "tu arriver"
-	cont "jusqu'au chef?"
+	text "The Team Rocket"
+	line "HQ has 4 basement"
+	cont "floors. Can you"
+	cont "reach the Boss?"
 	done

@@ -1,8 +1,7 @@
 _SilphCo1Text1::
-	text "Bienvenue!"
+	text "Welcome!"
 
-	para "Le Président est"
-	line "dans la salle du"
-	cont "conseil, au 10ème"
-	cont "étage!"
+	para "The President is"
+	line "in the boardroom"
+	cont "on 11F!"
 	done

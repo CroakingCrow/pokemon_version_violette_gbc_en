@@ -9,13 +9,13 @@
 ;- full menu at the Cerulean printer house (scripts/CeruleanPrinter.asm):
 ;  everything except the score, plus the box number text box
 ;- Beach House menu on route 19 (scripts/Route19BeachHouse.asm):
-;  Réglages, score and Retour only
+;  Settings, score and cancel only
 ;Both scripts open the menu with `callba OpenPrinterMenu` and redraw the
 ;map view after the menu returns.
 OpenPrinterMenu::
 	;the text engine drew an empty dialogue box when the text started:
 	;erase it, so the menu opens over a clean map view. This also gives
-	;the print handlers a clean base to redraw over when they come back
+	;the print handlers a clean base to redraw over when they come Cancel
 	;through LoopPrinterMenu
 	xor a
 	ld [H_AUTOBGTRANSFERENABLED], a
@@ -41,8 +41,8 @@ OpenPrinterMenu::
 	cp ROUTE_19_BEACH_HOUSE
 	jr z, .beachMenu
 ;full menu: 6 items now that the score is Beach House only,
-;sized to the longest item ("Réglages") and flush against the right
-;edge of the screen, RETOUR sits at row 12
+;sized to the longest item ("Settings") and flush against the right
+;edge of the screen, Cancel sits at row 12
 	coord hl, 8, 0
 	ld b, 12
 	ld c, 10
@@ -53,8 +53,8 @@ OpenPrinterMenu::
 	jr .menuVars
 .beachMenu
 ;Beach House menu: 3 items, right aligned and sized to the longest
-;item ("Réglages"): one blank column between the text and the right
-;border, RETOUR sits at row 6
+;item ("Settings"): one blank column between the text and the right
+;border, Cancel sits at row 6
 	coord hl, 8, 0
 	ld b, 6
 	ld c, 10
@@ -74,9 +74,9 @@ OpenPrinterMenu::
 
 	ld a, [wCurMap]
 	cp ROUTE_19_BEACH_HOUSE
-	ld a, 5	;number of non-cancel menu items (last one, RETOUR, exits)
+	ld a, 5	;number of non-cancel menu items (last one, Cancel, exits)
 	jr nz, .setMaxMenuItem
-	ld a, 2	;Beach House menu: Réglages and score
+	ld a, 2	;Beach House menu: Settings and score
 .setMaxMenuItem
 	ld [hli], a ; wMaxMenuItem
 
@@ -132,7 +132,7 @@ OpenPrinterMenu::
 	ld a, [wCurMap]
 	cp ROUTE_19_BEACH_HOUSE
 	jr nz, .fullMenu
-;Beach House menu: Réglages, score, Retour
+;Beach House menu: Settings, score, Cancel
 	ld a, [wCurrentMenuItem]
 	and a
 	jp z, PCPrintSettings
@@ -140,7 +140,7 @@ OpenPrinterMenu::
 	jp z, PCPrintScore
 	jp ExitPrinterMenu
 .fullMenu
-;full menu: Réglages, <pkmn>, boîte, Pokédex, diplôme, Retour
+;full menu: Settings, <pkmn>, boîte, Pokédex, diplôme, Cancel
 	ld a, [wCurrentMenuItem]
 	and a
 	jp z, PCPrintSettings
@@ -152,7 +152,7 @@ OpenPrinterMenu::
 	jp z, PCPrintDex
 	cp $4
 	jp z, PCPrintDiploma
-	;fall through for exiting (RETOUR)
+	;fall through for exiting (Cancel)
 ExitPrinterMenu:
 	pop af
 	ld [wListScrollOffset], a
@@ -167,22 +167,22 @@ LoopPrinterMenu:
 	jp OpenPrinterMenu
 
 PrinterMenuText:
-	db   "Réglages"
+	db   "Settings"
 	next "<pkmn>"
-	next "Boîte"
+	next "Box"
 	next "Pokédex"
-	next "Diplôme"
-	next "Retour"
+	next "Diploma"
+	next "Cancel"
 	db "@"
 ;Beach House variant
 PrinterMenuTextBeach:
-	db   "Réglages"
+	db   "Settings"
 	next "Score"
-	next "Retour"
+	next "Cancel"
 	db "@"
 ;max 8 chars: the box number digits are placed at columns 16-17
 PrinterMenuBoxText:
-	db "Boîte n.@"
+	db "Box No.@"
 
 
 ;This is a menu for setting how dark to make the prints
@@ -281,23 +281,23 @@ PCPrintSettings:
 	jr .affirmSettings
 
 PrinterSettingsMenuText:
-	db   "Très clair"
-	next "Clair"
+	db   "Lightest"
+	next "Lighter"
 	next "Normal"
-	next "Foncé"
-	next "Très foncé"
-	next "Retour"
+	next "Darker"
+	next "Darkest"
+	next "Back"
 	db "@"
 PrinterSettingsMenuTextSingle00:
-	db "Tr.clair@"
+	db "Lightest@"
 PrinterSettingsMenuTextSingle20:
-	db "Clair   @"
+	db "Lighter @"
 PrinterSettingsMenuTextSingle40:
 	db "Normal  @"
 PrinterSettingsMenuTextSingle60:
-	db "Foncé   @"
+	db "Darker  @"
 PrinterSettingsMenuTextSingle7F:
-	db "Tr.foncé@"
+	db "Darkest @"
 
 PCPrinterCurrentSettingDisplay:
 	ld a, [wPrinterSettings]
@@ -337,17 +337,16 @@ PrinterMenu_AskPrintConfirm:
 	ret
 
 PCPrint_ConfirmText:
-	text "Imprimer? Sinon"
-	line "ça sera affiché."
+	text "Print? Choose No"
+	line "to display."
 	prompt
 	db "@"
 
 ;shown by PCPrintDiploma when EVENT_GOT_DIPLOMA is not set yet
 PCPrintDiplomaLockedText:
-	text "Seuls les"
-	line "Champions"
-	cont "peuvent imprimer"
-	cont "leur Diplôme!"
+	text "Only Champions"
+	line "can print their"
+	cont "Diploma!"
 	prompt
 	db "@"
 

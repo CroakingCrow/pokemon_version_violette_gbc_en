@@ -97,13 +97,13 @@ SSAnne7Text3:
 	db "@"
 
 _SSAnne7Text_61932_ALT:
-	text "Capitaine: Ouf!"
+	text "Captain: Whew!"
 
-	para "Bien content de ne"
-	line "plus être malade."
+	para "I'm glad I'm not"
+	line "sick any more..."
 
-	para "Dommage d'avoir dû"
-	line "revenir plus tôt"
-	cont "par sécurité."
+	para "Too bad I had to"
+	line "turn back the"
+	cont "ship for safety."
 	done
 	db "@"

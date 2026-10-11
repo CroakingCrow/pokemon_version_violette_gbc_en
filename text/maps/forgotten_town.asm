@@ -1,4 +1,4 @@
 _ForgottenTownText_1::
-	text "Crois-tu aux"
-	line "Spectres?"
+	text "Do you believe in"
+	line "Ghosts?"
 	done

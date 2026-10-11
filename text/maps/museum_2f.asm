@@ -1,70 +1,63 @@
 _Museum2FText1::
-	text "Pierre Lune?"
+	text "Moon Stone?"
 
-	para "Ouais? Et alors?"
+	para "What's so special"
+	line "about it?"
+
 ;joenote - added text to hint at evolving kadabra
-	para "J'ai entendu dire"
-	line "qu'un maître"
-	cont "d'arène a fait"
-	cont "évoluer son Kada-"
-	cont "bra en méditant"
-	cont "sous la lumière"
-	cont "de la Lune."
+	para "I heard that some"
+	line "Gym Leader had a"
+	cont "Kadabra evolve by"
+	cont "meditating under"
+	cont "the Moon's light."
 	done
 
 _Museum2FText2::
-	text "20 Juillet 1969!"
+	text "July 20, 1969!"
 
-	para "L'homme a marché"
-	line "sur la Lune!"
+	para "The 1st lunar"
+	line "landing!"
 
-	para "J'ai acheté une"
-	line "télé couleur!"
+	para "I bought a color"
+	line "TV to watch it!"
 	done
 
 _Museum2FText3::
-	text "Nous faisons une"
-	line "exposition sur"
-	cont "l'espace."
+	text "We have a space"
+	line "exhibit now."
 	done
 
 _Museum2FAskMonText::
-	text "Je veux un"
-	line "Pikachu!"
+	text "I want a Pikachu!"
+	line "It's so cute!"
 
-	para "Pôpa va m'en"
-	line "trouver un!"
+	para "I asked my Daddy"
+	line "to catch me one!"
 	done
 
 _Museum2FPikachuGirlDadText::
-	text "Oui, oui, tu vas"
-	line "l'avoir ton"
-	cont "Pikachu..."
-	cont "C'est ça."
+	text "Yeah, a Pikachu"
+	line "soon, I promise!"
 	done
 
 _Museum2FShowedMonText::
-	text "Waaaaaaaah un"
+	text "Waaaaaaaah a"
 	line "Pikapika!"
 
-	para "J'ai trop trop"
-	line "hâte d'avoir le"
-	cont "miens!"
+	para "I can't wait"
+	line "to get mine!"
 
-	para "Tiens, donne-lui"
-	line "ce Bonbon de"
-	cont "ma part!"
+	para "Here, give it a"
+	line "Candy for me!"
 	prompt
 
 _Museum2FText6::
-	text "Navette Spaciale"
+	text "Space Shuttle"
 	line "Columbia"
 	done
 
 _Museum2FText7::
-	text "Des météores sont"
-	line "tombés sur le"
-	cont "Mont Sélénite."
-	cont "(Pierre Lune?)"
+	text "Meteorite that"
+	line "fell on Mt.Moon."
+	cont "(Moon Stone?)"
 	done
-

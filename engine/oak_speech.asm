@@ -474,18 +474,18 @@ NewGamePlusTextPointersAndCoords:
 	dwCoord 2, 6
 
 NewGamePlusTitleText:
-	db $70,"Nouvelle partie+",$70,"@"
+	db $70,"New Game +",$70,"@"
 
 NewGamePlusDescription:
-	db "Sera gardé:@"
+	db "Will keep:@"
 
 NewGamePlusEmptyText:
 	db "@"
 
 NewGamePlusInfo:
-	db   "<BALL> Pokédex vu"
-	next "<BALL> Pokédex pris"
-	next "<BALL> Capadex"
-	next "<BALL> Temps jeu"
-	next "<BALL> Célébrités"
-	next "<BALL> Certains bonus@"
+	db   "<BALL> Pokédex seen"
+	next "<BALL> Pokédex own"
+	next "<BALL> Movedex"
+	next "<BALL> Play time"
+	next "<BALL> Hall of Fame"
+	next "<BALL> Some bonus@"

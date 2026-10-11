@@ -17,10 +17,10 @@ CeruleanGymScript_Header:
 	jp LoadGymLeaderAndCityName
 
 Gym2CityName:
-	db "Azuria@"
+	db "Cerulean City@"
 
 Gym2LeaderName:
-	db "Ondine@"
+	db "Misty@"
 
 CeruleanGymScript_Reset:
 	xor a
@@ -318,22 +318,22 @@ BlastoiseTutor:
 	call PrintText
 	jp TextScriptEnd
 .textBring
-	text "Si tu m'amènes un"
-	line "Tortank, je l'en-"
-	cont "trainerai à"
-	cont "devenir solide"
-	cont "comme l'Acier!"
+	text "If you bring me"
+	line "your Blastoise,"
+	cont "I'll teach it how"
+	cont "to become as hard" 
+	cont "as Steel!"
 	done
 	db "@"
 .textStart
-	text "Ton Tortank va"
-	line "être blindé"
-	cont "comme jamais!"
+	text "Your Blastoise's"
+	line "going to be"
+	cont "tougher than"
+	cont "ever!"
 	prompt
 	db "@"
 .textAfter
-	text "Tortank est"
-	line "maintenant"
-	cont "Eau/Acier!"
+	text "Blastoise is now"
+	line "Water/Steel!"
 	done
 	db "@"

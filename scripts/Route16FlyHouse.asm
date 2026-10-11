@@ -101,9 +101,8 @@ CheckFearowTutor:
 	call PrintText
 	ret
 .textEnd
-	text "Vrivri s'élance"
-	line "joyeusement dans"
-	cont "tous les sens!"
+	text "Feefee darts"
+	line "about excitedly."
 	done
 	db "@"
 .printTextStart
@@ -111,13 +110,12 @@ CheckFearowTutor:
 	call PrintText
 	ret
 .textStart
-	text "Vrivri et votre"
-	line "#mon jouent"
-	cont "ensemble!"
+	text "Feefee and your"
+	line "#mon are"
+	cont "playing together!"
 
-	para "Tiens? On dirait"
-	line "qu'elle veut lui"
-	cont "montrer quelque"
-	cont "chose..."
+	para "Huh? Looks like"
+	line "it wants to show"
+	cont "it something..."
 	done
 	db "@"

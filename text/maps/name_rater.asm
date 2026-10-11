@@ -1,73 +1,61 @@
 _NameRaterText_Hello::
-	text "Salut tout le"
-	line "monde! Je suis le"
-	cont "Grand Donneur de"
-	cont "Noms!"
+	text "Hello, hello!"
+	line "I am the official"
+	cont "Name Rater!"
 
-	para "Dis-moi, petit,"
-	line "tu serais pas du"
-	cont "genre à vouloir"
-	cont "donner un p'tit"
-	cont "nom à un de tes"
-	cont "#mon?"
+	para "Want me to rate"
+	line "the nicknames of"
+	cont "your #mon?"
 	done
 
+
 _NameRaterText_RenameWho::
-	text "Quel #mon"
-	line "veux-tu renommer?"
+	text "Which #mon"
+	line "should I look at?"
 	prompt
 
 _NameRaterText_NameRate::
 	text_ram wcd6d
-	text "?"
-	line "Mouais, c'est pas"
-	cont "mal!"
+	text ", is it?"
+	line "That is a decent"
+	cont "nickname!"
 
-	para "Mais tu voudrais"
-	line "que je lui donne"
-	cont "un nom un peu..."
-	cont "plus...qui aurait"
-	cont "plus de......"
-	cont "Mieux, quoi!"
+	para "But, would you"
+	line "like me to give"
+	cont "it a nicer name?"
 
-	para "Bon, alors?"
+	para "How about it?"
 	done
 
 _NameRaterText_AskRename::
-	text "Et alors, c'est"
-	line "quoi qu'on va lui"
-	cont "donner comme nom"
-	cont "à celui-là?"
+	text "Fine! What should"
+	line "we name it?"
 	prompt
 
 _NameRaterText_Renamed::
-	text "OK! Ce #mon"
-	line "a été renommé"
+	text "OK! This #mon"
+	line "has been renamed"
 	cont "@"
 	text_ram wBuffer
 	text "!"
 
-	para "Oh, mais oui!"
-	line "C'est bien mieux"
-	cont "qu'avant!"
+	para "That's a better"
+	line "name than before!"
 	done
 
 _NameRaterText_ComeBackLater::
-	text "Alors petit, t'es"
-	line "content? Hmm..."
-	cont "Reviens me voir"
-	cont "quand tu veux!"
+	text "Fine! Come any"
+	line "time you like!"
 	done
+
 
 _NameRaterText_Trade::
 	text_ram wcd6d
-	text "?"
-	line "C'est un nom"
-	cont "parfait, fais-moi"
-	cont "confiance, je"
-	cont "m'y connais!"
+	text ", is it?"
+	line "That is a truly"
+	cont "impeccable name!"
 
-	para "Prends soin de"
+	para "Take good care of"
 	line "@"
 	text_ram wcd6d
 	text "!"
