@@ -1,3 +1,3 @@
 _MoltresBattleText::
-	text "Yahoo!@"
+	text "Gyaoo!@"
 	text_end

@@ -1,58 +1,52 @@
 _SSAnne5Text1::
-	text "La fête est"
-	line "finie! Nous"
-
-	para "allons bientôt"
-	line "lever l'ancre!"
+	text "The party's over."
+	line "The ship will be"
+	cont "departing soon."
 	done
 
 _SSAnne5Text2::
-	text "Nyah! Briquer le"
-	line "pont c'est un"
-	cont "travail épuisant!"
+	text "Scrubbing decks"
+	line "is hard work!"
 	done
 
 _SSAnne5Text3::
-	text "Gueuh! J'suis"
-	line "malaaaaade..."
+	text "Urf. I feel ill."
 
-	para "Je vais bientôt"
-	line "vom... (beurp)"
+	para "I stepped out to"
+	line "get some air."
 	done
 
 _SSAnne5BattleText1::
-	text "Hé! Copain!"
+	text "Hey matey!"
 
-	para "Tu danses?"
-	line "Un tango?"
+	para "Let's do a little"
+	line "jig!"
 	done
 
 _SSAnne5EndBattleText1::
-	text "..."
-	line "T'es bon!"
+	text "You're"
+	line "impressive!"
 	prompt
 
 _SSAnne5AfterBattleText1::
-	text "Tu sais combien"
-	line "il y a de #mon"
-	cont "différents? Hein,"
-	cont "tu l'sais, hein?"
+	text "How many kinds of"
+	line "#mon do you"
+	cont "think there are?"
 	done
 
 _SSAnne5BattleText2::
-	text "Hoho! Alors, on"
-	line "a le mal de mer?"
+	text "Ahoy there!"
+	line "Are you seasick?"
 	done
 
 _SSAnne5EndBattleText2::
-	text "Oh!"
-	line "Beau combat!"
+	text "I was"
+	line "just careless!"
 	prompt
 
 _SSAnne5AfterBattleText2::
-	text "Mon Pôpa, y dit"
-	line "qu'y a 100 #-"
-	cont "mon différents."
-	cont "J'suis sûr qu'y"
-	cont "en a plus..."
+	text "My Pa said there"
+	line "are 100 kinds of"
+	cont "#mon. I think"
+	cont "there are more."
 	done

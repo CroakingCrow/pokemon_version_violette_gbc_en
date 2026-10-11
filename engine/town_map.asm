@@ -146,7 +146,7 @@ LoadTownMap_Nest:
 	ret
 
 MonsNestText:
-	db "Nid de @"
+	db "@'s nest"
 
 LoadTownMap_Fly:
 	call ClearSprites
@@ -439,7 +439,7 @@ DisplayWildLocations:
 .doState
 	xor a
 	ld hl, wOAMBuffer
-	ld bc, $90
+	ld bc, $a0
 	call FillMemory ; clear the map icon OAM entries
 	call DrawMonAreaButtonPrompt
 	ld a, [wTownMapAreaState]
@@ -638,56 +638,58 @@ DrawMonAreaButtonPrompt:
 	jr z, .oldRodState
 	cp STATE_GOOD_ROD_AREAS
 	jr z, .goodRodState
-.superRodState
-	coord hl, 13, 17
-	ld a, $CB
-	ld b, 3
-	call DrawPrompt
-	coord hl, 16, 17
-	ld a, $CE
-	ld b, 3
-	call DrawPrompt
-	coord hl, 12, 17
-	jr .drawArrows
+	cp STATE_SUPER_ROD_AREAS
+	jr z, .superRodState
 .landState
-	coord hl, 11, 17
+	coord hl, 13, 17
 	ld a, $C0
-	ld b, 8
+	ld b, 6
 	call DrawPrompt
 	jr .drawArrows
 .waterState
-	coord hl, 17, 17
-	ld a, $D3
-	ld b, 2
+	coord hl, 15, 17
+	ld a, $D2
+	ld b, 4
 	call DrawPrompt
-	coord hl, 16, 17
+	coord hl, 14, 17
 	jr .drawArrows
 .oldRodState
-	coord hl, 16, 17
-	ld a, $CE
-	ld b, 3
-	call DrawPrompt
 	coord hl, 15, 17
+	ld a, $CC
+	ld b, 4
+	call DrawPrompt
+	coord hl, 14, 17
 	jr .drawArrows
 .goodRodState
-	coord hl, 13, 17
-	ld a, $C8
+	coord hl, 14, 17
+	ld a, $C9
 	ld b, 3
 	call DrawPrompt
-	coord hl, 16, 17
+	coord hl, 17, 17
 	ld a, $CE
+	ld b, 2
+	call DrawPrompt
+	coord hl, 13, 17
+	jr .drawArrows
+.superRodState
+	coord hl, 14, 17
+	ld a, $C6
 	ld b, 3
 	call DrawPrompt
-	coord hl, 12, 17
-.drawArrows ; assumes hl points at the location the left arrow should be at (if there needs to be one)
+	coord hl, 17, 17
+	ld a, $CE
+	ld b, 2
+	call DrawPrompt
+	coord hl, 13, 17
+.drawArrows ; assumes hl will be pointing to the location the left arrow should be at (if there needs to be one)
 	call FindPrevMonAreaState
 	jr z, .nextArrow
-	ld [hl], $D1
+	ld [hl], $D0
 .nextArrow
 	call FindNextMonAreaState
 	ret z
 	coord hl, 19, 17
-	ld [hl], $D2 ; right prompt
+	ld [hl], $D1 ; right prompt
 	ret
 
 ; draw a prompt of b tiles starting with tile a at coord hl
@@ -763,10 +765,10 @@ DisplayAnyWaterText:
 	ret
 
 AnyWaterText:
-	db "N'importe où@"
+	db " Any Water@"
 
 AreaUnknownText:
-	db " Zone Inconnue@"
+	db " Area Unknown@"
 
 TownMapCoordsToOAMCoords:
 ; in: lower nybble of a = x, upper nybble of a = y
