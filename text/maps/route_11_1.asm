@@ -1,139 +1,133 @@
 _Route11BattleText1::
-	text "Tu veux gagner"
-	line "ou perdre?"
+	text "Win, lose or draw!"
 	done
 
 _Route11EndBattleText1::
-	text "OK."
-	line "T'as gagné!"
+	text "Atcha!"
+	line "Didn't go my way!"
 	prompt
 
 _Route11AfterBattleText1::
-	text "Les #mon c'est"
-	line "la vie! Et la vie"
-	cont "c'est le jeu!"
+	text "#mon is life!"
+	line "And to live is to"
+	cont "gamble!"
 	done
 
 _Route11BattleText2::
-	text "J'adore les"
-	line "défis!"
+	text "Competition! I"
+	line "can't get enough!"
 	done
 
 _Route11EndBattleText2::
-	text "J'ai eu"
-	line "ma chance!"
+	text "I had"
+	line "a chance!"
 	prompt
 
 _Route11AfterBattleText2::
-	text "Dans le monde"
-	line "merveilleux des"
-	cont "#mon, y'a"
-	cont "pas de lâches!"
+	text "You can't be a"
+	line "coward in the"
+	cont "world of #mon!"
 	done
 
 _Route11BattleText3::
-	text "On y va!"
-	line "Mais triche pas!"
+	text "Let's go, but"
+	line "don't cheat!"
 	done
 
 _Route11EndBattleText3::
-	text "Rha!"
-	line "C'est pas vrai!"
+	text "Huh?"
+	line "That's not right!"
 	prompt
 
 _Route11AfterBattleText3::
-	text "J'ai fait de mon"
-	line "mieux! Pas ma"
-	cont "faute si j'suis"
-	cont "nul!"
+	text "I did my best! I"
+	line "have no regrets!"
 	done
 
 _Route11BattleText4::
-	text "Attention!"
-	line "Je pose des"
-	cont "câbles!"
+	text "Careful!"
+	line "I'm laying down"
+	cont "some cables!"
 	done
 
 _Route11EndBattleText4::
-	text "J'me"
-	line "suis pris du jus!"
+	text "That"
+	line "was electric!"
 	prompt
 
 _Route11AfterBattleText4::
-	text "Il faut"
-	line "économiser"
-	cont "l'énergie!"
+	text "Spread the word"
+	line "to save energy!"
 	done
 
 _Route11BattleText5::
-	text "Je suis nouveau,"
-	line "mais j'en veux à"
-	cont "mort!"
+	text "I just became a"
+	line "trainer! But, I"
+	cont "think I can win!"
 	done
 
 _Route11EndBattleText5::
-	text "Mes"
-	line "#mon sont"
-	cont "nuls! Beuh..."
+	text "My"
+	line "#mon couldn't!"
 	prompt
 
 _Route11AfterBattleText5::
-	text "Laisse-moi!"
+	text "What do you want?"
+	line "Leave me alone!"
 	done
 
 _Route11BattleText6::
-	text "HAHAHA! J'ai"
-	line "jamais perdu!"
+	text "Fwahaha! I have"
+	line "never lost!"
 	done
 
 _Route11EndBattleText6::
-	text "Heu? Ma"
-	line "première défaite!"
+	text "My"
+	line "first loss!"
 	prompt
 
 _Route11AfterBattleText6::
-	text "Tu as la chance"
-	line "des débutants!"
+	text "Luck of the draw!"
+	line "Just luck!"
 	done
 
 _Route11BattleText7::
-	text "Je n'ai jamais"
-	line "gagné..."
+	text "I have never won"
+	line "before..."
 	done
 
 _Route11EndBattleText7::
-	text "Je m'y"
-	line "attendais..."
+	text "I saw"
+	line "this coming..."
 	prompt
 
 _Route11AfterBattleText7::
-	text "J'suis maudit,"
-	line "je crois!"
+	text "It's just luck."
+	line "Luck of the draw."
 	done
 
 _Route11BattleText8::
-	text "Je suis le plus"
-	line "fort de ma"
-	cont "classe!"
+	text "I'm the best in"
+	line "my class!"
 	done
 
 _Route11EndBattleText8::
-	text "Argh!"
-	line "Tu veux être le"
-	cont "chef de classe?"
+	text "Darn!"
+	line "I need to make my"
+	cont "#mon stronger!"
 	prompt
 
 _Route11AfterBattleText8::
-	text "Il y a un gros"
-	line "#mon qui"
-	cont "vient de la"
-	cont "montagne."
+	text "There's a fat"
+	line "#mon that"
+	cont "comes down from"
+	cont "the mountains."
 
-	para "Si t'es fort, tu"
-	line "peux l'attraper."
+	para "It's strong if"
+	line "you can get it."
 	done
 
 _Route11BattleText9::
-	text "Fais gaffe"
-	line "aux câbles!"
+	text "Watch out for"
+	line "live wires!"
 	done

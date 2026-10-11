@@ -1,11 +1,11 @@
 _CeladonMansionRoofText1::
-	text "JE SAIS TOUT!"
+	text "I KNOW EVERYTHING!"
 	done
 
 _CeladonMansionRoofText_Graffiti::
-	text "Un dessin sur le"
-	line "mur..."
+	text "A drawing on the"
+	line "wall..."
 
-	para "<PLAYER> dessine"
-	line "une moustache!"
+	para "<PLAYER> drew"
+	line "a moustache!"
 	done

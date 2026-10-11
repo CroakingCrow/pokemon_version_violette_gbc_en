@@ -17,7 +17,7 @@ CeladonGymScript_Header:
 	jp LoadGymLeaderAndCityName
 
 Gym4CityName:
-	db "Céladopole@"
+	db "Celadon City@"
 
 Gym4LeaderName:
 	db "Erika@"
@@ -479,27 +479,25 @@ VenusaurTutor:
 	call PrintText
 	jp TextScriptEnd
 .textBring
-	text "Bien joué!"
-	line "Passe me voir"
-	cont "avec ton"
-	cont "Florizarre et je"
-	cont "te révélerai sa"
-	cont "vraie person-"
-	cont "nalité!"
+	text "Well done!"
+	line "Come visit me"
+	cont "with your"
+	cont "Venusaur and I'll"
+	cont "reveal its true"
+	cont "nature!"
 	done
 	db "@"
 .textStart
-	text "Tous le monde a"
-	line "sa part d'ombre..."
+	text "Everyone has a"
+	line "dark side..."
 
-	para "Le tout c'est de"
-	line "savoir la"
-	cont "maîtriser!"
+	para "What matters is"
+	line "learning how to"
+	cont "master it!"
 	prompt
 	db "@"
 .textAfter
-	text "Florizarre est"
-	line "maintenant"
-	cont "Plante/Ténèbres!"
+	text "Venusaur is now"
+	line "Grass/Dark!"
 	done
 	db "@"

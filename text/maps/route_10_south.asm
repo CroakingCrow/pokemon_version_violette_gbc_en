@@ -3,12 +3,11 @@ _Route10SouthBattleText1::
 	done
 
 _Route10SouthEndBattleText1::
-	text "Haha!"
-	line "Hahhhhh...!"
-	cont "Oh mec..."
-	cont "J'ai mangé des"
-	cont "champignons au"
-	cont "goût étrange."
+	text "Ha-haha!"
+	line "Hahhhhh ...!"
+	cont "Oh man..."
+	cont "I ate some funny-"
+	cont "tasting shrooms."
 	prompt
 
 _Route10SouthAfterBattleText1::
@@ -18,56 +17,54 @@ _Route10SouthAfterBattleText1::
 	done
 
 _Route10SouthBattleText2::
-	text "Hé, gamin! Tu"
-	line "veux voir mon"
-	cont "#mon?"
+	text "Hi kid, want to"
+	line "see my #mon?"
 	done
 
 _Route10SouthEndBattleText2::
-	text "Yah!"
-	line "Mes #mon!"
+	text "Oh no!"
+	line "My #mon!"
 	prompt
 
 _Route10SouthAfterBattleText2::
-	text "J'aime pas"
-	line "quand tu gagnes!"
+	text "I don't like you"
+	line "for beating me!"
 	done
 
 _Route10SouthBattleText3::
-	text "Ah! L'air de la"
-	line "montagne, c'est"
-	cont "vivifiant!"
+	text "Ah! This mountain"
+	line "air is delicious!"
 	done
 
 _Route10SouthEndBattleText3::
-	text "Ben..."
-	line "Me voilà tout"
-	cont "vivifié!"
+	text "That"
+	line "cleared my head!"
 	prompt
 
 _Route10SouthAfterBattleText3::
-	text "J'en ai marre de"
-	line "la montagne!"
+	text "I feel bloated on"
+	line "mountain air!"
 	done
 
 _Route10SouthBattleText4::
-	text "Cette randonnée"
-	line "m'a épuisée!"
+	text "I'm feeling a bit"
+	line "faint from this"
+	cont "tough hike."
 	done
 
 _Route10SouthEndBattleText4::
-	text "..."
-	line "J'laisse tomber!"
+	text "I'm"
+	line "not up to it!"
 	prompt
 
 _Route10SouthAfterBattleText4::
-	text "Ces #mon sont"
-	line "trop trapus! Il"
-	cont "en faudrait des"
-	cont "roses en forme de"
-	cont "jolies fleurs!"
+	text "The #mon here"
+	line "are so chunky!"
+	cont "There should be a"
+	cont "pink one with a"
+	cont "floral pattern!"
 	done
 
 _Route10SouthSignText1::
-	text "Grotte Sombre"
+	text "Rock Tunnel"
 	done

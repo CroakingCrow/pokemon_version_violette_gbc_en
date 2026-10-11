@@ -1,173 +1,157 @@
 _FightingDojoText_KoichiBattle::
-	text "P'tit faiblard!"
+	text "Grunt!"
 
-	para "Je suis Koichi,"
-	line "le Grand Maître"
-	cont "de Karaté!"
-	cont "Je suis le"
-	cont "Champion!"
+	para "I am Koichi, the"
+	line "Karate Master!"
+	cont "I am the Leader"
+	cont "here!"
 
-	para "Tu me provoques?"
-	line "Tu veux t'battre?"
-	cont "Tu cherches le"
-	cont "contact? HAHAHA!"
+	para "You wish to"
+	line "challenge us?"
+	cont "Expect no mercy!"
 
-	para "Ayaaaaa!"
+	para "Fwaaa!"
 	done
 
 _FightingDojoText_KoichiEndBattle::
-	text "STOP!"
-	line "Tu m'as battu!"
-	cont "J'ai honte!"
+	text "Hwa!"
+	line "Arrgh! Beaten!"
 	prompt
 
 _FightingDojoText_KoichiChoosePokemon::
-	text "OK, tu as gagné!"
+	text "Indeed, I have"
+	line "lost!"
 
-	para "Mais ne va pas"
-	line "le crier sur tous"
-	cont "les toits! T'es"
-	cont "très fort, on a"
-	cont "compris!"
+	para "But, I beseech"
+	line "you, do not take"
+	cont "our emblem as"
+	cont "your trophy!"
 
-	para "Tiens, prends"
-	line "ça! Tu as gagné"
-	cont "un #mon!"
+	para "In return, I will"
+	line "give you a prized"
+	cont "fighting #mon!"
 
-	para "Choisis celui que"
-	line "tu veux!"
+	para "Choose whichever"
+	line "one you like!"
 	done
 
 _FightingDojoText_RematchKoichiBattle::
-	text "Quoi tu veux"
-	line "encore te battre?"
+	text "You want to fight"
+	line "again?"
 
-	para "Je te préviens,"
-	line "cette fois, je ne"
-	cont "te ferai pas de"
-	cont "cadeaux!"
+	para "I warn you, this"
+	line "time I will not"
+	cont "go easy on you!"
 
-	para "Ayaaaaa!"
+	para "Fwaaa!"
 	done
 
 
 _FightingDojoText_RematchKoichiEndBattle::
-	text "Arrête!"
-	line "Je m'incline!"
+	text "Stop it!"
+	line "I bow to you!"
 	prompt
 
 _FightingDojoText_RematchKoichiChoosePokemon::
-	text "OK, t'as encore"
-	para "gagné!"
+	text "Indeed, I have"
+	para "lost again!"
 
-	para "J'ai compris, tu"
-	line "peux prendre"
-	cont "l'autre #mon!"
+	para "I see, you can"
+	line "take the other"
+	cont "#mon!"
 	done
 
 _FightingDojoText_KoichiAfterBattle::
-	text "Oh!"
+	text "Ho!"
 
-	para "Reste avec nous"
-	line "pour faire du"
-	cont "Karaté!"
+	para "Stay and train at"
+	line "Karate with us!"
 	done
 
 _FightingDojoBattleText1::
-	text "Ta garde!"
-	line "Défends-toi!"
+	text "Hoargh! Take your"
+	line "shoes off!"
 	done
 
 _FightingDojoEndBattleText1::
-	text "Oh!"
-	line "Tu m'as éclaté!"
+	text "I give"
+	line "up!"
 	prompt
 
 _FightingDojoAfterBattleText1::
-	text "Tu te tais, tu"
-	line "t'assois et tu"
-	cont "attends le Grand"
-	cont "Maître!"
+	text "You wait 'til you"
+	line "see our Master!"
 
-	para "Tu vas dérouiller"
-	line "sévère! Il est"
-	cont "vachement balèze!"
+	para "I'm a small fry"
+	line "compared to him!"
 	done
 
 _FightingDojoBattleText2::
-	text "T'as des"
-	line "prétentions?"
-	cont "Montre-moi!"
+	text "I hear you're"
+	line "good! Show me!"
 	done
 
 _FightingDojoEndBattleText2::
-	text "Nyaha!"
-	line "T'es fort!"
+	text "Judge!"
+	line "1 point!"
 	prompt
 
 _FightingDojoAfterBattleText2::
-	text "Notre Maître,"
-	line "c'est un costaud!"
+	text "Our Master is a"
+	line "pro fighter!"
 	done
 
 _FightingDojoBattleText3::
-	text "J'ai peur de"
-	line "rien!"
+	text "Nothing tough"
+	line "frightens me!"
 
-	para "Le matin, j'casse"
-	line "des pierres. Ce"
-	cont "soir, j'vais"
-	cont "t'fracasser!"
+	para "I break boulders"
+	line "for training!"
 	done
 
 _FightingDojoEndBattleText3::
-	text "Woaa!"
-	line "Les pierres, ça"
-	cont "rend pas les"
-	cont "coups!"
+	text "Yow!"
+	line "Stubbed fingers!"
 	prompt
 
 _FightingDojoAfterBattleText3::
-	text "La seule chose"
-	line "qui nous fait"
-	cont "peur c'est les"
-	cont "psys!"
+	text "The only thing"
+	line "that frightens us"
+	cont "is psychic power!"
 	done
 
 _FightingDojoBattleText4::
-	text "Ayah!"
+	text "Hoohah!"
 
-	para "Tu joues avec ta"
-	line "vie, p'tit!"
-	cont "Not'Dojo, c'est"
-	cont "pour les balèzes!"
+	para "You're trespassing"
+	line "in our Fighting"
+	cont "Dojo!"
 	done
 
 _FightingDojoEndBattleText4::
-	text "Ping!"
-	line "J'suis K.O.!"
+	text "Oof!"
+	line "I give up!"
 	prompt
 
 _FightingDojoAfterBattleText4::
-	text "Les meilleurs"
-	line "combattants sont"
-	cont "ici!"
+	text "The prime fighters"
+	line "across the land"
+	cont "train here."
 	done
 
 _WantHitmonleeText::
-	text "Tu veux"
-	line "Kicklee, le"
-	cont "coud'latteur?"
+	text "You want the"
+	line "hard kicking"
+	cont "Hitmonlee?"
 	done
 
 _WantHitmonchanText::
-	text "Tu veux"
-	line "Tygnon, le"
-	cont "castagneur?"
+	text "You want the"
+	line "piston punching"
+	cont "Hitmonchan?"
 	done
 
 _OtherHitmonText::
-	text "Tss tss tss!"
-	line "Faut pas être"
-	cont "trop gourmand..."
+	text "Better not get"
+	line "greedy..."
 	done
