@@ -3,5 +3,5 @@ _VoltorbBattleText::
 	done
 
 _ZapdosBattleText::
-	text "Yahoo!@"
+	text "Gyaoo!@"
 	text_end
