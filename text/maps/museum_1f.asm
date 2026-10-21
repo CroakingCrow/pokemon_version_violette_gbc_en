@@ -1,119 +1,112 @@
 _Museum1FText_5c21a::
-	text "A bientôt!"
+	text "Come again!"
 	done
 
 _Museum1FText_5c21f::
-	text "50¥ le ticket"
-	line "pour un enfant."
+	text "It's ¥50 for a"
+	line "child's ticket."
 
-	para "Voulez-vous"
-	line "entrer?"
+	para "Would you like to"
+	line "come in?"
 	done
 
 _Museum1FText_5c224::
-	text "50¥! Parfait!"
-	line "Merci!"
+	text "Right, ¥50!"
+	line "Thank you!"
 	done
 
 _Museum1FText_5c229::
-	text "Vous n'avez pas"
-	line "assez d'argent."
+	text "You don't have"
+	line "enough money."
 	prompt
 
 _Museum1FText_5c22e::
-	text "Ne te cache pas"
-	line "dans l'ombre!"
+	text "You can't sneak"
+	line "in the back way!"
 
-	para "Enfin, si ça"
-	line "t'amuse! Au fait,"
-	cont "sais-tu à quoi"
-	cont "sert l'Ambre?"
+	para "Oh, whatever!"
+	line "Do you know what"
+	cont "Amber is?"
 	done
 
 _Museum1FText_5c233::
-	text "Dans un certain"
-	line "labo, on essaie"
-	cont "de régénérer les"
-	cont "anciens #mon"
-	cont "grâce à l'Ambre."
+	text "There's a lab"
+	line "somewhere trying"
+	cont "to resurrect"
+	cont "ancient #mon"
+	cont "from Amber."
 	done
 
 _Museum1FText_5c238::
-	text "L'Ambre est de la"
-	line "sève fossilisée."
+	text "Amber is fossil-"
+	line "ized tree sap."
 	done
 
 _Museum1FText_5c23d::
-	text "Va de l'autre"
-	line "côté!"
+	text "Please go to the"
+	line "other side!"
 	done
 
 _Museum1FText_5c242::
-	text "Prends tout ton"
-	line "temps pour"
-	cont "regarder!"
+	text "Take plenty of"
+	line "time to look!"
 	done
 
 _Museum1FText_5c251::
 ;joenote - this guy thinks the aerodactyl fossil is Ryujin-sama of japanese legend
-	text "O dieu dragon!"
-	line "Aide nos récoltes."
-
-	para "Je prie les os du"
-	line "Seigneur Ryujin."
+	text "Oh thank you!"
+	line "Oh thank you!"
+	
+	para "I'm praying to"
+	line "the dragon bones"
+	cont "of Lord Ryujin."
 	done
 
 _Museum1FText_5c28e::
-	text "Je crois qu'il y"
-	line "a des traces"
-	cont "d'ADN de #mon"
-	cont "dans ce morceau"
-	cont "d'ambre."
+	text "Ssh! I think that"
+	line "this chunk of"
+	cont "Amber contains"
+	cont "#mon DNA!"
 
-	para "Ça serait super"
-	line "cool génial de"
-	cont "régénérer un"
-	cont "#mon à partir"
-	cont "de cette pierre!"
-	cont "Non? Hein?"
+	para "It would be great"
+	line "if #mon could"
+	cont "be resurrected"
+	cont "from it!"
 
-	para "Mais personne ne"
-	line "me croit!"
+	para "But, my colleagues"
+	line "just ignore me!"
 
-	para "J'ai une faveur à"
-	line "te demander!"
+	para "So I have a favor"
+	line "to ask!"
 
-	para "Apporte ça à mon"
-	line "Labo #mon pour"
-	cont "l'examiner!"
+	para "Take this to a"
+	line "#mon Lab and"
+	cont "get it examined!"
 	prompt
 
 _ReceivedOldAmberText::
-	text "<PLAYER> obtient"
-	line "Vieil Ambre!@"
+	text "<PLAYER> received"
+	line "Old Amber!@"
 	text_end
 
 _Museum1FText_5c299::
-	text "Chut! Va faire"
-	line "examiner ce"
-	cont "morceau d'Ambre!"
+	text "Ssh! Get the Old"
+	line "Amber checked!"
 	done
 
 _Museum1FText_5c29e::
-	text "Votre inventaire"
-	line "est plein!"
+	text "You don't have"
+	line "space for this!"
 	done
 
 _Museum1FText_5c2ad::
-	text "Nous avons 2"
-	line "fossiles dont"
-	cont "nous sommes très"
-	cont "fiers! Ce sont"
-	cont "des #mon"
-	cont "préhistoriques!"
+	text "We are proud of 2"
+	line "fossils of very"
+	cont "rare, prehistoric"
+	cont "#mon!"
 	done
 
 _Museum1FText_5c2bc::
-	text "L'Ambre c'est"
-	line "beau!!!"
+	text "The Amber is"
+	line "clear and gold!"
 	done

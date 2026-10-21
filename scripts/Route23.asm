@@ -95,25 +95,25 @@ BadgeTextPointers:
 	dw EarthBadgeText
 
 EarthBadgeText:
-	db "Badge Terre@"
+	db "Earth Badge@"
 
 VolcanoBadgeText:
-	db "Badge Volcan@"
+	db "VolcanoBadge@"
 
 MarshBadgeText:
-	db "Badge Marais@"
+	db "Marsh Badge@"
 
 SoulBadgeText:
-	db "Badge Ame@"
+	db "Soul Badge@"
 
 RainbowBadgeText:
-	db "Badge Prisme@"
+	db "RainbowBadge@"
 
 ThunderBadgeText:
-	db "Badge Foudre@"
+	db "ThunderBadge@"
 
 CascadeBadgeText:
-	db "BadgeCascade@"
+	db "CascadeBadge@"
 
 Route23Script_512d8:
 	ld a, $1
@@ -257,61 +257,61 @@ Route23Text_VictoryRoadGuide:
 	jp .endScript
 
 .victoryRoadGuideText
-	text "Futur Champion!"
-	line "Voici le dernier"
-	cont "défi avant la"
-	cont "Ligue!"
+	text "Future Champion!"
+	line "Here's the final"
+	cont "challenge before"
+	cont "the League!"
 
-	para "Te voici devant"
-	line "la légendaire"
-	cont "Route Victoire!"
+	para "You're now"
+	line "standing before"
+	cont "the legendary"
+	cont "Victory Road!"
 
-	para "Tu y trouveras"
-	line "l'élite des"
-	cont "dresseurs et en"
-	cont "cas de sortie ils"
-	cont "t'affronteront"
-	cont "à nouveau!"
+	para "You'll find elite"
+	line "trainers there,"
+	cont "and if you leave"
+	cont "the area they'll"
+	cont "battle you again!"
 
-	para "Il te faudra"
-	line "trouver le chemin"
-	cont "le plus efficace"
-	cont "pour en affronter"
-	cont "le moins possible"
-	cont "et surmonter"
-	cont "l'épreuve en"
-	cont "un passage!"
+	para "You'll have to"
+	line "find the most"
+	cont "efficient path to"
+	cont "battle as few of"
+	cont "them as possible"
+	cont "and overcome the"
+	cont "challenge in one"
+	cont "go!"
 
-	para "Un conseil?"
+	para "A word of advice?"
 
-	para "Les rochers posés"
-	line "sur les plaques"
-	cont "de pression ne"
-	cont "seront pas remis"
-	cont "à leur places."
+	para "The boulders"
+	line "placed on the"
+	cont "pressure plates"
+	cont "won't be reset to"
+	cont "their original"
+	cont "positions."
 
-	para "Ce défi n'est pas"
-	line "à ton goût?"
-	cont "Je peux dire aux"
-	cont "dresseurs de"
-	cont "ne pas te"
-	cont "réaffronter si"
-	cont "tu le souhaites."
+	para "Not a fan of"
+	line "this challenge?"
+	cont "I can tell them"
+	cont "not to battle"
+	cont "you again if"
+	cont "you'd like."
 	done
 	db "@"
 
 .victoryRoadGuideTextEnabled
-	text "Parfait! Fais le"
-	line "plein de soins"
-	cont "et bonne chance!"
+	text "Pefect! Stock up"
+	line "on healing items"
+	cont "and good luck!"
 	done
 	db "@"
 
 .victoryRoadGuideTextDisabled
-	text "Comme tu voudras,"
-	line "tu n'auras pas"
-	cont "à les combattre"
-	cont "à nouveau."
+	text "As you wish,"
+	line "you won't need"
+	cont "to battle them"
+	cont "again."
 	done
 	db "@"
 

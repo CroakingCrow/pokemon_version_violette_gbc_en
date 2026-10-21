@@ -1,18 +1,17 @@
 _Route2GateText_5d616::
-	text "La CS du Flash"
-	line "peut éclairer les"
-	cont "endroits sombres."
+	text "The HM Flash"
+	line "lights even the"
+	cont "darkest dungeons."
 	
 ;joenote - add hotkey info
-	para "Appuie sur SELECT"
-	line "dans le noir pour"
-	cont "l'utiliser."	
+	para "Press SELECT when"
+	line "you are in a dark"
+	cont "area to use it."	
 	done
 
 _Route2GateText2::
-	text "Si un #mon a"
-	line "appris le Flash,"
-	cont "tu pourras"
-	cont "traverser la"
-	cont "Grotte Sombre."
+	text "Once a #mon"
+	line "learns Flash, you"
+	cont "can get through"
+	cont "Rock Tunnel."
 	done

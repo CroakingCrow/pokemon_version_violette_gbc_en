@@ -1,57 +1,50 @@
 _TM39PreReceiveText::
-	text "Les cendres de"
-	line "mes #mon"
-	cont "sont dans la"
-	cont "Tour #mon."
+	text "My #mon's"
+	line "ashes are stored"
+	cont "in #mon TOWER."
 
-	para "Tiens! Prends"
-	line "cette CT. Je n'en"
-	cont "ai plus besoin..."
+	para "You can have this"
+	line "TM. I don't need"
+	cont "it any more..."
 	prompt
 
 _ReceivedTM39Text::
-	text "<PLAYER> obtient"
+	text "<PLAYER> received"
 	line "CT39!@"
 	text_end
 
 _TM39ExplanationText::
-	text "La CT39 s'appelle"
-	line "Météore."
+	text "TM39 is a move"
+	line "called Swift."
 
-	para "Cette attaque est"
-	line "très précise."
-	cont "Utilise-la pour"
-	cont "ne pas rater ton"
-	cont "coup!"
+	para "It's very accurate,"
+	line "so use it during"
+	cont "battles you can't"
+	cont "afford to lose."
 	done
 
 _TM39NoRoomText::
-	text "Ton inventaire"
-	line "est plein!"
+	text "You don't have"
+	line "room for this."
 	done
 
 _Route12GateUpstairsZapdosText::
-	text "Vous regardez"
-	line "dans les"
-	cont "jumelles qui"
-	cont "pointent vers"
-	cont "le Nord."
+	text "Looked into the"
+	line "binoculars facing"
+	cont "North..."
 
-	para "Vous voyez la"
-	line "Centrale!"
+	para "It's the"
+	line "Power Plant!"
 
-	para "Oh! Un magnifique"
-	line "oiseau vole au"
-	cont "dessus!"
+	para "Oh! A beautiful"
+	line "bird is flying"
+	cont "over it!"
 	done
 
 _Route12GateUpstairsText_495c4::
-	text "Vous regardez"
-	line "dans les"
-	cont "jumelles qui"
-	cont "pointent vers"
-	cont "le Nord."
+	text "Looked into the"
+	line "binoculars facing"
+	cont "North..."
 
-	para "Vous voyez la"
-	line "Tour #mon!"
+	para "It's #mon Tower!"
 	done

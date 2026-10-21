@@ -1,27 +1,27 @@
 _TM46PreReceiveText::
-	text "...Chut! Pas un"
-	line "mot!"
+	text "...Wait! Don't"
+	line "say a word!"
 
-	para "Tu veux ça?"
+	para "You wanted this!"
 	prompt
 
 _ReceivedTM46Text::
-	text "<PLAYER> obtient:"
+	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _TM46ExplanationText::
-	text "CT46: Vibrobscur!"
+	text "CT46 is" 
+	line "Dark Pulse!"
 
-	para "Cette attaque"
-	line "peut foutre la"
-	cont "pétoche à sa"
-	cont "cible!"
+	para "It can make"
+	line "the target"
+	cont "flinch!"
 	done
 
 _TM46NoRoomText::
-	text "Ton inventaire"
-	line "est plein!"
+	text "Where do you plan"
+	line "to put this?"
 	done

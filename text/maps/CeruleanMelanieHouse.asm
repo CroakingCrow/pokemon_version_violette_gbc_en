@@ -1,25 +1,24 @@
 _CeruleanMelanieHouseText_Melanie::
-	text "Bonjour, je suis"
-	line "Mélanie, je"
-	cont "m'occupe des"
-	cont "#MON malades."
+	text "Hi, I'm Melanie,"
+	line "I take care of"
+	cont "sick #mon."
 
-	para "J'ai soigné ce"
-	line "Bulbizarre."
+	para "I healed this"
+	line "Bulbasaur."
 
-	para "Regarde comme"
-	line "il est content!"
+	para "Look how happy it"
+	line "is now!"
 	done
 
 _CeruleanMelanieHouseText_Bulbasaur::
-	text "Bulbizarre: BUL!"
-	line "BIZZZAAARRR!"
+	text "Bulbasaur: BUL!"
+	line "BAAAAAAAAAAA!"
 	prompt
 
 _CeruleanMelanieHouseText_Oddish::
-	text "MYSTHERBE: Miiis!"
+	text "Oddish: Oo-dish!"
 	prompt
 
 _CeruleanMelanieHouseText_Sandhrew::
-	text "SABELETTE: Belêt!"
+	text "Sandshrew: Shrew!"
 	prompt

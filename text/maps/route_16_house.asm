@@ -1,49 +1,43 @@
 _Route16HouseText3::
-	text "Oh! Tu as trouvé"
-	line "ma cache secrète!"
+	text "Oh, you found my"
+	line "secret retreat!"
 
-	para "Prends ceci."
-	line "En échange ne"
-	cont "dis à personne"
-	cont "que tu m'as vu!"
+	para "Please don't tell"
+	line "anyone I'm here."
+	cont "I'll make it up"
+	cont "to you with this!"
 	prompt
 
 _ReceivedHM02Text::
-	text "<PLAYER> obtient:"
-	line "CS02!@"
+	text "<PLAYER> received"
+	line "HM02!@"
 	text_end
 
 _HM02ExplanationText::
-	text "CS02: Vol."
-	line "Elle vous permet"
-	cont "de revenir dans"
-	cont "une ville."
+	text "HM02 is Fly."
+	line "It will take you"
+	cont "back to any town."
 
-	para "Pas un mot! J'ai"
-	line "enfin trouvé un"
-	cont "endroit où"
-	cont "personne ne vient"
-	cont "nous déranger."
+	para "Not a word! I"
+	line "finally found a"
+	cont "place where no"
+	cont "one bothers us."
 
-	para "Je suis juste un"
-	line "peu triste pour"
-	cont "Vrivri."
+	para "I'm just a little"
+	line "sad for Feefee."
 	
-	para "Elle avait un"
-	line "copain Roucoups"
-	cont "avant mais il n'a"
-	cont "pas pu nous"
-	cont "suivre..."
+	para "It had a friend"
+	line "Pidgeot but it"
+	cont "couldn't follow"
+	cont "us here..."
 	done
 
 _HM02NoRoomText::
-	text "Votre inventaire"
-	line "est plein."
+	text "You don't have any"
+	line "room for this."
 	done
 
 _Route16HouseText_1e652::
-	text "Vrivri:"
-	line "Piiiiiik!"
-	cont "Elle semble"
-	cont "s'ennuyer..."
+	text "Feefee: Kyueen!"
+	cont "It looks bored..."
 	prompt

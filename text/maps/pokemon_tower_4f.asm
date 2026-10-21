@@ -1,45 +1,45 @@
 _PokemonTower4BattleText1::
-	text "Un Spectre!"
-	line "Rhaaaaaa!"
-	done
-
-_PokemonTower4EndBattleText1::
-	text "Ben!"
-	line "Où est le"
-	cont "Spectre?"
-	prompt
-
-_PokemonTower4AfterBattleText1::
-	text "J'ai dû rêver..."
-	done
-
-_PokemonTower4BattleText2::
-	text "Sois maudit!!!!"
+	text "GHOST! No!"
 	line "Kwaaah!"
 	done
 
+_PokemonTower4EndBattleText1::
+	text "Where"
+	line "is the Ghost?"
+	prompt
+
+_PokemonTower4AfterBattleText1::
+	text "I must have been"
+	line "dreaming..."
+	done
+
+_PokemonTower4BattleText2::
+	text "Be cursed with"
+	line "me! Kwaaah!"
+	done
+
 _PokemonTower4EndBattleText2::
-	text "QUOI!"
+	text "What!"
 	prompt
 
 _PokemonTower4AfterBattleText2::
-	text "Nous ne pouvons"
-	line "identifier les"
-	cont "Spectres."
+	text "We can't crack"
+	line "the identity of"
+	cont "the Ghosts."
 	done
 
 _PokemonTower4BattleText3::
 	text "Huhuhu..."
-	line "Ne me frappe pas!"
+	line "Beat me not!"
 	done
 
 _PokemonTower4EndBattleText3::
-	text "Hein?"
-	line "Qui? Quoi?"
+	text "Huh?"
+	line "Who? What?"
 	prompt
 
 _PokemonTower4AfterBattleText3::
-	text "Que les âmes des"
-	line "défunts #mon"
-	cont "reposent en paix!"
+	text "May the departed"
+	line "souls of #mon"
+	cont "rest in peace..."
 	done

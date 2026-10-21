@@ -1,11 +1,11 @@
 _FuchsiaPokecenterText1::
-	text "Un seul #mon"
-	line "puissant n'est"
-	cont "pas suffisant."
+	text "You can't win"
+	line "with just one"
+	cont "strong #mon."
 
-	para "Il faut tous les"
-	line "faire évoluer de"
-	cont "façon égale."
+	para "It's tough, but"
+	line "you have to raise"
+	cont "them evenly."
 	done
 
 _FuchsiaPokecenterText3::
@@ -13,81 +13,83 @@ _FuchsiaPokecenterText3::
 	line "passage à l'ouest"
 	cont "de Jadielle."
 
-	para "Il mène au"
-	line "quartier général"
-	cont "de la Ligue"
-	cont "#mon."
-	cont "Ce QG est la plus"
-	cont "haute autorité"
-	cont "des dresseurs."
+	text "There's a narrow"
+	line "trail west of"
+	cont "Viridian City."
+
+	para "It goes to #mon"
+	line "League HQ."
+	cont "The HQ governs"
+	cont "all trainers."
 	done
 
 _NurseJoyBattleText::
-	text "Au fait..."
-	line "Avant de partir,"
+	text "By the way..."
+	line "before you leave,"
 
-	para "J'ai toujours"
-	line "rêvé de devenir"
-	cont "un maître #mon."
+	para "I have always"
+	line "dreamed of"
+	cont "becoming a" 
+	cont "#mon Master."
 
-	para "Mais mes obligat-"
-	line "ions ici rendent"
-	cont "difficile le"
-	cont "voyage et la"
-	cont "collection"
-	cont "des badges."
+	para "But my duties"
+	line "here make"
+	cont "traveling and"
+	cont "collecting badges"
+	cont "complicated."
 
-	para "Ça serait un"
-	line "immense honneur"
-	cont "de me mesurer au"
-	cont "nouveau Champion."
+	para "It would be the"
+	line "greatest honor"
+	cont "to face the new"
+	cont "Champion."
 
-	para "Pourrais-je te"
-	line "demander un duel?"
+	para "May I ask for"
+	line "a duel?"
 	done
 
 _NurseJoyBattleText2::
-	text "Au fait..."
-	line "Avant de partir,"
+	text "By the way..."
+	line "Before you leave,"
 
-	para "Tu voudrais une"
-	line "revanche?"
+	para "Would you like"
+	line "a rematch?"
 	done
 
 _NurseJoyRefusedText::
-	text "Je comprends."
-	line "Tu dois être très"
-	cont "demandé..."
+	text "I understand."
+	line "You must be very"
+	cont "busy..."
 
-	para "Peut-être une"
-	line "autre fois."
+	para "Maybe another"
+	line "time."
 	done
 
 _NurseJoyAcceptedText::
-	text "Merci! Ça veux"
-	line "dire beaucoup"
-	cont "pour moi."
+	text "Thank you!"
+	line "It means a lot"
+	cont "to me."
 	
-	para "Je vais me donner"
-	line "à fond!"
+	para "I will give it"
+	line "my all!"
 	done
 
 _NurseJoyAfterBattleText::
-	text "C'est"
-	line "génial! Ta force"
-	cont "et ton lien avec"
-	cont "tes #mon sont"
-	cont "très inspirants."
+	text "Wonderful!"
+	line "Your strength and"
+	cont "the bond you have"
+	cont "with your #mon"
+	cont "are very" 
+	cont "inspiring."
 
-	para "Cette bataille"
-	line "m'a énormément"
-	cont "appris."
+	para "This battle has"
+	line "taught me a lot."
 
-	para "Merci pour cette"
-	line "opportunité."
 
-	para "J'espère que nous"
-	line "pourrons nous"
-	cont "affronter à"
-	cont "nouveau."
+	para "Thank you for"
+	line "this opportunity."
+
+	para "I hope that we'll"
+	line "be able to face"
+	cont "each other again."
 	done
+	

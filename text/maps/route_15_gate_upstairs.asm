@@ -1,34 +1,31 @@
 _Route15GateUpstairsText_4968c::
-	text "Multi. Exp"
-	line "distribue l'Exp à"
-	cont "tous tes #mon,"
-	cont "même à ceux"
-	cont "qui n'ont pas"
-	cont "combattu."
+	text "Exp.All gives"
+	line "Exp points to all"
+	cont "the #mon with"
+	cont "you, even if they"
+	cont "don't fight."
 
-	para "Si tu n'en as pas"
-	line "besoin, laisse-le"
-	cont "dans ton PC."
+	para "If you don't need"
+	line "it, leave it in"
+	cont "your PC."
 	done
 
 _Route15UpstairsBinocularsText::
-	text "Vous regardez"
-	line "dans les"
-	cont "jumelles qui"
-	cont "pointent vers"
-	cont "l'Ouest."
+	text "Looked into the"
+	line "binoculars facing"
+	cont "West..."
 
-	para "Vous voyez une"
-	line "petite île!"
+	para "It looks like a"
+	line "small island!"
 	done
 
 _Route15UpstairsBinocularsArticunoText::
-	text "Vous regardez"
-	line "dans les"
-	cont "pointent vers"
-	cont "l'Ouest..."
+	text "Looked into the"
+	line "binoculars facing"
+	cont "West..."
 
-	para "Un grand et bel"
-	line "oiseau vole vers"
-	cont "la mer."
+	para "A large and magni-"
+	line "ficent bird is"
+	cont "flying towards"
+	cont "the sea."
 	done

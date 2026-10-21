@@ -72,52 +72,50 @@ CeladonMart1Text_Phone:
 	jp TextScriptEnd
 
 .quitCall
-	text "Vous reposez le"
-	line "combiné."
+	text "Put down the"
+	line "receiver."
 	done
 	db "@"
 
 .askCall
-	text "Appeler Maman?"
+	text "Call Mom?"
 	done
 	db "@"
 
 .startCall
-	text "C'est parti!"
-	line "Composition..."
+	text "Dialing"
+	line "the number..."
 	done
 	db "@"
 
 .momCall
-	text "Allo?"
-	line "Oh je suis si"
-	cont "contente que tu"
-	cont "ais pensé à"
-	cont "m'appeler!"
+	text "Hello?"
+	line "Oh I'm so happy"
+	cont "that you thought"
+	cont "of calling me!"
 
-	para "Ils ont parlé de"
-	line "toi et <RIVAL>"
-	cont "à la télé!"
-	cont "Je suis si fière"
-	cont "de toi <PLAYER>!"
+	para "They talked about"
+	line "you and <RIVAL>"
+	cont "on TV!"
+	cont "I'm so proud of"
+	cont "you <PLAYER>!"
 
-	para "Chen est là aussi"
-	line "il te passe le"
-	cont "bonjour!"
+	para "Oak is here too,"
+	line "he says hi!"
 
-	para "N'oublie pas de"
-	line "brosser les dents"
-	cont "et reviens nous"
-	cont "nous voir dès"
-	cont "que tu peux!"
+	para "Remember to brush"
+	line "your teeth and"
+	cont "come back to see"
+	cont "us whenever you"
+	cont "can!"
 
-	para "Gros bisous,"
-	line "je t'aime!"
+	para "See you soon,"
+	line "love you!"
 	prompt
 	db "@"
 
 .stopCall
-	text "Crac!"
+	text "Clack!"
 	done
 	db "@"
 
