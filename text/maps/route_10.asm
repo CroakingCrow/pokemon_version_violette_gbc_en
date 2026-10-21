@@ -1,44 +1,42 @@
 _Route10BattleText1::
-	text "T'es un dingue"
-	line "des #mon?"
-	cont "Tu veux voir ma"
-	cont "collec'?"
+	text "Wow, are you a"
+	line "#Maniac too?"
+	cont "Want to see my"
+	cont "collection?"
 	done
 
 _Route10EndBattleText1::
-	text "Nyan!"
-	line "Ma belle collec'!"
+	text "Humph."
+	line "I'm not angry!"
 	prompt
 
 _Route10AfterBattleText1::
-	text "A ma maison, j'ai"
-	line "plein de #mon"
-	cont "super rares!"
+	text "I have more rare"
+	line "#mon at home!"
 	done
 
 _Route10BattleText2::
-	text "Je reviens de"
-	line "l'Arène #mon!"
-	cont "Mais je perds"
-	cont "tout le temps!"
+	text "I've been to a"
+	line "#mon Gym a few"
+	cont "times. But, I"
+	cont "lost each time."
 	done
 
 _Route10EndBattleText2::
-	text "Ben,"
-	line "voilà! J'ai"
-	cont "encore perdu!"
+	text "Ohh!"
+	line "Blew it again!"
 	prompt
 
 _Route10AfterBattleText2::
-	text "J'ai rencontré"
-	line "des #Maniacs"
-	cont "dans le coin."
+	text "I noticed some"
+	line "#Maniacs"
+	cont "prowling around."
 	done
 
 _Route10SignText1::
-	text "Grotte Sombre"
+	text "Rock Tunnel"
 	done
 
 _Route10SignText2::
-	text "Centrale"
+	text "Power Plant"
 	done

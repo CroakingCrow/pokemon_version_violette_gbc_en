@@ -1,59 +1,54 @@
 _LavenderHouse1Text_1d8d1::
-	text "Ce sacré M.Fuji"
-	line "n'est pas là."
-	cont "Où est-il?"
+	text "That's odd, Mr.Fuji"
+	line "isn't here."
+	cont "Where'd he go?"
 	done
 
 _LavenderHouse1Text_1d8d6::
-	text "M.Fuji a prié"
-	line "pour le repos de"
-	cont "la mère de"
-	cont "Osselait."
+	text "Mr.Fuji had been"
+	line "praying alone for"
+	cont "Cubone's mother."
 	done
 
 _LavenderHouse1Text_1d8f4::
-	text "Voici la maison"
-	line "de M.Fuji."
+	text "This is really"
+	line "Mr.Fuji's house."
 
-	para "C'est vraiment un"
-	line "chic type!"
+	para "He's really kind!"
 
-	para "Il est à la"
-	line "recherche des"
-	cont "#mon orphelins"
-	cont "et abandonnés!"
+	para "He looks after"
+	line "abandoned and"
+	cont "orphaned #mon!"
 	done
 
 _LavenderHouse1Text_1d8f9::
-	text "C'est si doux!"
-	line "Faire un câlin à"
-	cont "un #mon,"
-	cont "c'est chou!"
+	text "It's so warm!"
+	line "#mon are so"
+	cont "nice to hug!"
 	done
 
 _LavenderHouse1Text3::
-	text "Psykokwak: Kwak!"
+	text "Psyduck: Gwappa!@"
 	prompt
 
 _LavenderHouse1Text4::
-	text "Nidorino: Nido!"
+	text "Nidorino: Gaoo!@"
 	prompt
 
 _LavenderHouse1Text_1d94c::
-	text "M.Fuji: <PLAYER>."
+	text "Mr.Fuji: <PLAYER>."
 
-	para "Ta quête pour"
-	line "compléter ton"
-	cont "#dex échouera"
-	cont "si tu n'aimes pas"
-	cont "tes #mon."
+	para "Your #dex quest"
+	line "may fail without"
+	cont "love for your"
+	cont "#mon."
 
-	para "Je crois que ceci"
-	line "te sera utile."
+	para "I think this may"
+	line "help your quest."
 	prompt
 
 _ReceivedFluteText::
-	text "<PLAYER> obtient:"
+	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -62,114 +57,105 @@ _ReceivedFluteText::
 _FluteExplanationText::
 	text_start
 
-	para "En jouant de la"
-	line "#Flute, les"
-	cont "#mon endormis"
-	cont "se réveilleront."
+	para "Upon hearing #"
+	line "Flute, sleeping"
+	cont "#mon will"
+	cont "spring awake."
 
-	para "Elle marche sur"
-	line "tous les #mon."
+	para "It works on all"
+	line "sleeping #mon."
 	done
 
 _FluteNoRoomText::
-	text "Votre inventaire"
-	line "est plein!"
+	text "You must make"
+	line "room for this!"
 	done
 
 _MrFujiAfterFluteText::
-	text "M.Fuji: Ma Flute"
-	line "t'a été utile?"
+	text "Mr.Fuji: Has my"
+	line "Flute helped you?"
 	done
 
 _LavenderHouse1Text6::
-	text "Grand concours de"
-	line "dessin de"
-	cont "#mon!"
+	text "#mon Monthly"
+	line "Grand Prize"
+	cont "Drawing!"
 
-	para "Le formulaire"
-	line "d'inscription"
-	cont "est..."
+	para "The application"
+	line "form is..."
 
-	para "...Hein? Il a"
-	line "disparu!"
+	para "Gone! It's been"
+	line "clipped out!"
 	done
+
 ;;;;;;;;;;;;;;;;;;;;;;joenote - adding text for fuji battle
 _FujiText_challenge::
-	text "M.Fuji: Tu veux"
-	line "me défier dans un"
-	cont "duel #mon?"
+	text "You want to"
+	line "challenge me to"
+	cont "a #mon battle?"
 	done
 
 _FujiText_prebattle::
-	text "Alors tu connais"
-	line "mon passé de"
-	cont "scientifique."
+	text "So you know about"
+	line "my former life as"
+	cont "a scientist."
 	
-	para "Tu dois savoir"
-	line "pourquoi je"
-	cont "suis parti."
+	para "Then you also"
+	line "know why I quit."
 	
-	para "Les données sur le"
-	line "génome, les"
-	cont "échantillons, les"
-	cont "sujets de tests..."
+	para "The gene splicing"
+	line "data, samples,"
+	cont "test subjects..."
 	
-	para "Tout ce travail"
-	line "jeté dans les"
-	cont "eaux de la"
-	cont "Caverne Azurée."
+	para "All was cast into"
+	line "the waters of the"
+	cont "Cerulean Cave."
 	
-	para "Je te conseille de"
-	line "rester loin de ce"
-	cont "lieu et de laisser"
-	cont "le passé enfoui."
+	para "I'd advise you to"
+	line "stay away from"
+	cont "there and leave"
+	cont "the past buried."
 	done
 
 _FujiTextVictorySpeech::
 	text "Hmm..."
-	line "Je suis un peu"
-	cont "inquiet..."
+	line "I'm a bit worried."
 	
-	para "Les sujets de test"
-	line "Métamorph doivent"
-	cont "toujours se"
-	cont "répliquer."
+	para "The test Dittos"
+	line "might still be"
+	cont "replicating."
 	
-	para "Qui sait en quels"
-	line "types de #mon"
-	cont "ils ont fini par"
-	cont "se cloner?"
+	para "Who knows what"
+	line "kind of #mon"
+	cont "they might have"
+	cont "cloned themselves"
+	cont "into?"
 
-	para "Vas-y si tu le"
-	line "dois. Peut-être"
-	cont "que tu pourras"
-	cont "arranger mes"
-	cont "erreurs passées."
+	para "Go if you must."
+	line "Maybe it's you"
+	cont "who can help fix"
+	cont "past mistakes."
 
-	para "Le PDG de la"
-	line "Sylphe est un"
-	cont "vieil ami, tu"
-	cont "devrais aussi lui"
-	cont "rendre visite."
+	para "Silph's Chief is"
+	line "an old friend, so"
+	cont "pay him a visit"
+	cont "also."
 	prompt
 	
 _FujiTextMewtwo::
-	text "Ce Mewtwo que tu"
-	line "as avec toi..."
+	text "That Mewtwo you"
+	line "have with you..."
 	
-	para "...Possède une"
-	line "telle haine."
-	cont "Pourtant, tu"
-	cont "sembles avoir"
-	cont "apaisé sa colère."
-
-	para "Tu dois avoir"
-	line "un grand amour"
-	cont "envers tes"
-	cont "#mon."
+	para "...Such an angry"
+	line "disposition. Yet"
+	cont "you have soothed"
+	cont "its wrath."
 	
-	para "Prends ça. Je"
-	line "n'ai aucune"
-	cont "raison de le"
-	cont "garder."
+	para "You must possess"
+	line "a great love for"
+	cont "your #mon."
+	
+	para "Take this. I have"
+	line "no reason to keep"
+	cont "holding onto it."
 	prompt

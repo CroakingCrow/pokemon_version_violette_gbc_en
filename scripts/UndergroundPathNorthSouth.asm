@@ -45,43 +45,40 @@ MirrorTrainerText1:
 	jp TextScriptEnd
 
 MirrorTrainerIntro:
-	text "Je suis Cilque,"
-	line "artiste extra-"
-	cont "ordinaire et"
-	cont "maître du mime!"
+	text "I am Pagliaccio,"
+	line "a performer most"
+	cont "princely and the"
+	cont "master of mimes!"
 	prompt
 	db "@"
 MirrorTrainerNotReady:
-	text "Mais je dois fi-"
-	line "nir de me poudrer"
-	cont "et préparer tous"
-	cont "mes costumes."
+	text "But I still need"
+	line "to powder my face"
+	cont "and prepare all"
+	cont "of my costumes."
 	
-	para "Je serai prêt"
-	line "quand la finale"
-	cont "de la Ligue"
-	cont "#mon sera"
-	cont "terminée."
+	para "I'll be ready"
+	line "after the #mon"
+	cont "League finals are"
+	cont "over."
 	done
 	db "@"
 MirrorTrainerChallenge:
-	text "Tu veux tester"
-	line "tes stratégies"
-	cont "sur moi,"
-	cont "jeune Champion?"
+	text "Care to test your"
+	line "strategies on me,"
+	cont "young Champion?"
 	done
 	db "@"
 MirrorTrainerBye:
-	text "Adieu et"
-	line "bonne chanche!"
+	text "Fare thee well!"
 	done
 	db "@"
 MirrorTrainerPre:
-	text "Allons-y!"
+	text "Have at thee!"
 	done
 	db "@"
 MirrorTrainerPost:
-	text "Ah ah!"
-	line "Bien joué."
+	text "Ah-Ha!"
+	line "Well-played."
 	prompt
 	db "@"
