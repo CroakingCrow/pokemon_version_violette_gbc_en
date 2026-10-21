@@ -861,9 +861,9 @@ CheckForBumpingSameMove:
 
 ;joenote - make it so a message is printed if the level requirement for an item evolution is not met
 _NeededLevelText:
-	text "Niveau @"
+	text "Level @"
 	TX_NUM wCurEnemyLVL, 1, 3
-	text " requis!"
+	text " needed!"
 	prompt
 
 PrepareLevelUpMoveList:: ; I don't know how the fuck you're a single colon in shin pokered but it sure as shit doesn't work here - PvK

@@ -939,8 +939,8 @@ ItemUseMedicine:
 	ld [wActionResultOrTookBattleTurn], a ; item use failed
 	jp PrintText
 .emptyPartyText
-	text "Tu n'as aucun"
-	line "#mon!"
+	text "You don't have"
+	line "any #mon!"
 	prompt
 .notUsingSoftboiled
 	call DisplayPartyMenu
@@ -1662,11 +1662,11 @@ LevelMaxText:
 	db "@"
 
 VitaminText:
-	db "PV@"
-	db "Atq@"
-	db "Déf@"
-	db "Vit@"
-	db "Spé@"
+	db "HP@"
+	db "Atk@"
+	db "Def@"
+	db "Spd@"
+	db "Spc@"
 
 ItemUseBait:
 	ld hl, ThrewBaitText

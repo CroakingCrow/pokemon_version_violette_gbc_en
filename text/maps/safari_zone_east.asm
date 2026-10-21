@@ -1,17 +1,16 @@
 _SafariZoneEastText5::
-	text "Abri"
+	text "Rest House"
 	done
 
 _SafariZoneEastText6::
-	text "Astuce"
+	text "Trainer Tips"
 
-	para "Le temps s'écoule"
-	line "en fonction des"
-	cont "pas!"
+	para "The remaining time"
+	line "declines only"
+	cont "while you walk!"
 	done
 
 _SafariZoneEastText7::
-	text "Parc Est"
-	line "Direction ouest:"
-	cont "Parc central"
+	text "East Area"
+	line "West: Center Area"
 	done

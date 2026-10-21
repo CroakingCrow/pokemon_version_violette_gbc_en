@@ -1,15 +1,14 @@
 _ArticunoBattleText::
-	text "Yahoo!@"
+	text "Gyaoo!@"
 	text_end
 
 _SeafoamIslands5Text4::
-	text "Les rochers"
-	line "peuvent changer"
-	cont "le niveau de"
-	cont "l'eau!"
+	text "Boulders might"
+	line "change the flow"
+	cont "of water!"
 	done
 
 _SeafoamIslands5Text5::
-	text "DANGER!"
-	line "Rapides!"
+	text "DANGER"
+	line "Fast current!"
 	done

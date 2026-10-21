@@ -1878,7 +1878,7 @@ ExitListMenu::
 	ret
 
 BagSelectText:
-	db $CC,$CD,$CE,"Changer sac@"
+	db $CC,$CD,$CE,"Change bag@"
 
 PrintListMenuEntries::
 	ld de, KeysLogoGraphics
@@ -2092,7 +2092,7 @@ PrintListMenuEntries::
 	jp PlaceString
 
 ListMenuCancelText::
-	db "Annuler@"
+	db "Cancel@"
 
 GetMonName::
 	push hl
