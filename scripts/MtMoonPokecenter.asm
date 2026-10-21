@@ -188,12 +188,12 @@ MagikarpSalesmanText_DragonRageKarp:
 	ld hl, MagikarpSalesmanText_Thanks
 	jp MagikarpSalesmanText.printText
 .Text1
-	text "Homme: Insatisfait"
-	line "de son Magicarpe?"
-	para "Je peux lui"
-	line "apprendre Draco"
-	cont "Rage pour 1000¥!"
-	cont "Qu'en dis-tu?"
+	text "Man: Unhappy with"
+	line "your Magikarp?"
+	para "I'll teach it the"
+	line "move Dragon Rage"
+	cont "for a mere ¥1000!"
+	cont "What do you say?"
 	done
 	db "@"	
 	
@@ -260,18 +260,15 @@ MagikarpSalesmanText_PayDayRapidashOrFearow:
 	ld hl, MagikarpSalesmanText_Thanks
 	jp MagikarpSalesmanText.printText
 .Text1
-	text "Homme: Tu veux"
-	line "te faire de l'"
-	cont "argent avec ton"
+	text "Man: Want to make"
+	line "money with that"
 	cont "@"
 	TX_RAM wcd6d
-	text "?"
-	para "Je peux lui"
-	line "apprendre la"
-	cont "compétence"
-	cont "Jackpot pour"
-	cont "juste 1000¥!"
-	cont "T'en dit quoi?"
+	text "of yours?"
+	para "I'll teach it the"
+	line "move Pay Day for"
+	cont "a paltry ¥1000!"
+	cont "What do you say?"
 	done
 	db "@"
 
@@ -347,32 +344,30 @@ MagikarpSalesmanText_FlyingPikachu:
 	ld hl, MagikarpSalesmanText_Thanks
 	jp MagikarpSalesmanText.printText
 .Text1
-	text "Homme: Tu as déjà"
-	line "vu un Pikachu"
-	cont "volant?"
-
-	para "Je peux lui appr-"
-	line "endre Vol pour la"
-	cont "minuscule somme"
-	cont "de 9000¥!"
+	text "Man: Ever seen a"
+	line "flying Pikachu?"
 	
-	para "Ça te tente?"
+	para "I'll teach yours"
+	line "the move Fly for"
+	cont "a measly ¥9000!"
+	
+	para "What do you say?"
 	done
 	db "@"
 
 .Text2
-	text "Homme: Voyons"
-	line "voir...Je lui"
-	cont "attache quelques"
-	cont "ballons et..."
-	cont "Voilà!"
-	para "Ton Pikachu a"
-	line "appris Vol!"
+	text "Man: Let's see..."
+	line "I'll just go and"
+	cont "tie some balloons"
+	cont "like so. And..."
+	cont "Done!"
+	para "Your Pikachu has"
+	line "learned Fly!"
 	done
 	db "@"
 
 MagikarpSalesmanText_Thanks:
-	text "Homme: Merci!"
+	text "Man: Thanks kid!"
 	done
 	db "@"
 

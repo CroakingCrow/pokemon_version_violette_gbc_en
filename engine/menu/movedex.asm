@@ -1025,16 +1025,16 @@ INCLUDE "data/moves/movedex_order.asm"
 INCLUDE "data/moves/movedex_entries.asm"
 
 MovedexText:
-	db "CapaDex@"
+	db "Movedex@"
 
 MoveTypeText:
 	db "Type/@"
 
 MovePowerText:
-	db "Dégâts @"
+	db "Power @"
 
 MoveAccuracyText:
-	db "Précision @"
+	db "Accuracy @"
 
 MovePPText:
 	db "PP @"

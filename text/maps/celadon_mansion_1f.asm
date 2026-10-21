@@ -1,28 +1,26 @@
 _CeladonMansion1Text1::
-	text "Miaouss: Miaou!"
+	text "Meowth: Meow!"
 	prompt
 
 _CeladonMansion1Text2::
-	text "Mes chers #mon"
-	line "me tiennent"
-	cont "compagnie."
+	text "My dear #mon"
+	line "keep me company."
 
-	para "Miaouss rapporte"
-	line "même de l'argent!"
+	para "Meowth even brings"
+	line "money home!"
 	done
 
 _CeladonMansion1Text3::
-	text "Mélofée: Féé!"
-	line "Fééééféééé!"
+	text "Clefairy: Pi"
+	line "pippippi!"
 	prompt
 
 _CeladonMansion1Text4::
-	text "Nidoran: Nido!"
-	line "Nidoodoo!"
+	text "Nidoran: Kya"
+	line "kyaoo!"
 	prompt
 
 _CeladonMansion1Text5::
-	text "Manoir Céladon"
-	line "La Suite"
-	cont "présidentielle"
+	text "Celadon Mansion"
+	line "Manager's Suite"
 	done

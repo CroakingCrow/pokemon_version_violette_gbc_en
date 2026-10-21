@@ -1,81 +1,71 @@
 _PokemonTower5Text1::
-	text "Approche, enfant!"
-	line "J'ai scellé cet"
-	cont "endroit grâce à"
-	cont "ma sainte magie"
-	cont "blanche!"
+	text "Come, child! I"
+	line "sealed this space"
+	cont "with white magic!"
 
-	para "Tu peux te"
-	line "reposer ici!"
+	para "You can rest here!"
 	done
 
 _PokemonTower5BattleText1::
-	text "Donne...moi..."
-	line "ton...âme..."
+	text "Give...me..."
+	line "your...soul..."
 	done
 
 _PokemonTower5EndBattleText1::
-	text "Glargh!"
+	text "Gasp!"
 	prompt
 
 _PokemonTower5AfterBattleText1::
-	text "J'étais possédée!"
+	text "I was under"
+	line "possession!"
 	done
 
 _PokemonTower5BattleText2::
-	text "Viens...avec..."
-	line "nous..."
+	text "You...shall..."
+	line "join...us..."
 	done
 
 _PokemonTower5EndBattleText2::
-	text "Hein!"
-	line "J'ai fait un"
-	cont "cauchemar!"
+	text "What"
+	line "a nightmare!"
 	prompt
 
 _PokemonTower5AfterBattleText2::
-	text "J'étais possédée!"
+	text "I was possessed!"
 	done
 
 _PokemonTower5BattleText3::
-	text "Zombis!"
+	text "Zombies!"
 	done
 
 _PokemonTower5EndBattleText3::
-	text "Hein?"
+	text "Ha?"
 	prompt
 
 _PokemonTower5AfterBattleText3::
-	text "Je suis revenue à"
-	line "la raison!"
+	text "I regained my"
+	line "senses!"
 	done
 
 _PokemonTower5BattleText4::
-	text "Poyé Polomi!"
-	line "Le mal est parmi"
-	cont "nous...."
+	text "Urgah..."
+	line "Urff...."
 	done
 
 _PokemonTower5EndBattleText4::
-	text "Quoi?"
-	line "Jeune taoïste, tu"
-	cont "oses m'ôter le"
-	cont "yang de la "
-	cont "bouche!"
+	text "Whoo!"
 	prompt
 
 _PokemonTower5AfterBattleText4::
-	text "Mon Tao à moi,"
-	line "c'est le plus bô"
-	cont "des Taos!"
+	text "I fell to evil"
+	line "spirits despite"
+	cont "my training!"
 	done
 
 _PokemonTower5Text7::
-	text "Vous pénétrez"
-	line "dans une zone"
-	cont "sanctuaire!"
+	text "Entered purified,"
+	line "protected zone!"
 
-	para "Les #mon de"
-	line "<PLAYER> sont"
-	cont "soignés!"
+	para "<PLAYER>'s #mon"
+	line "are fully healed!"
 	done

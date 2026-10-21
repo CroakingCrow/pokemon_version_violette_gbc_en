@@ -1,18 +1,15 @@
 _Route19BeachHouseText_FisherGreeting::
-	text "Yo comment k'ça"
-	line "va? Le Dave"
-	cont "est le Boss"
-	cont "des Surfeurs!"
+	text "Yo how ya doin'?"
+	line "Dave's the"
+	cont "Surfing Boss!"
 
-	para "Quand il est dans"
-	line "l'tube, c'est"
-	cont "d'la totale"
-	cont "adrénaline!"
+	para "When he's in the"
+	line "barrel, it's"
+	cont "such a rush!"
 
-	para "J'cause qu'aux"
-	line "vrais Surfeurs,"
-	cont "alors parle à"
-	cont "ma main!"
+	para "I only chat with"
+	line "real Surfers, so"
+	cont "talk to the hand!"
 	done
 
 _Route19BeachHousePikachuText::
@@ -20,12 +17,13 @@ _Route19BeachHousePikachuText::
 	done
 
 _Route19BeachHouseText_Poster1::
-	text "Le Surf, la mer:"
-	line "c'est la vie!"
+	text "Surfing is a way"
+	line "of life!"
 	done
 
 _Route19BeachHouseText_Poster2::
-	text "Record à battre:"
-	line "Dave le Surfer"
+	text "Score to beat:"
+	line "Dave the Surfer"
 	cont "7511 points!"
 	done
+	

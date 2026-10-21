@@ -1,37 +1,30 @@
 _LavenderMartText2::
-	text "Je cherche des"
-	line "objets permettant"
-	cont "d'augmenter la"
-	cont "puissance d'un"
-	cont "#mon en"
-	cont "combat."
+	text "I'm searching for"
+	line "items that raise"
+	cont "the abilities of"
+	cont "#mon during a"
+	cont "single battle."
 
-	para "Attaque +,"
-	line "Défense +,"
-	cont "Spécial + et"
-	cont "Vitesse +, c'est"
-	cont "ça qu'je cherche."
+	para "X Attack, X"
+	line "Defend, X Speed"
+	cont "and X Special are"
+	cont "what I'm after."
 
-	para "D'après le"
-	line "vendeur, il faut"
-	cont "se rendre à"
-	cont "Céladopole pour"
-	cont "en trouver!"
+	para "Do you know where"
+	line "I can get them?"
 	done
 
 _LavenderMartReviveText::
-	text "Connais-tu"
-	line "le Rappel? Il"
-	cont "permet de"
-	cont "réanimer un"
-	cont "#mon K.O.!"
+	text "You know Revive?"
+	line "It revives any"
+	cont "fainted #mon!"
 	done
 
 _LavenderMartNuggetText::
-	text "J'ai trouvé une"
-	line "Pépite dans les"
-	cont "montagnes."
+	text "I found a Nugget"
+	line "in the mountains."
 
-	para "Je l'ai vendue..."
-	line "...5000¥!"
+	para "I thought it was"
+	line "useless, but it"
+	cont "sold for ¥5000!"
 	done

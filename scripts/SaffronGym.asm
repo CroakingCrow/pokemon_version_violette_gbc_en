@@ -17,10 +17,10 @@ SaffronGymScript:
 	jp LoadGymLeaderAndCityName
 
 Gym6CityName:
-	db "Safrania@"
+	db "Saffron City@"
 
 Gym6LeaderName:
-	db "Morgane@"
+	db "Sabrina@"
 
 SaffronGymScript_Reset:
 	xor a
@@ -504,29 +504,26 @@ NinetalesTutor:
 	call PrintText
 	jp TextScriptEnd
 .textBring
-	text "Pour te récompen-"
-	line "ser, je tenterai"
-	cont "d'apprendre ce"
-	cont "que je sais à"
-	cont "ton Feunard."
+	text "As a reward, I'll"
+	line "try to teach what"
+	cont "I know to your"
+	cont "Ninetales."
 
-	para "S'il en a les"
-	line "capacités!"
+	para "If it has the"
+	line "ability!"
 	done
 	db "@"
 .textStart
-	text "Je ressens de"
-	line "grandes forces"
-	cont "mystiques chez"
-	cont "ton Feunard. Je"
-	cont "peux l'aider à"
-	cont "maîtriser ses"
-	cont "pouvoirs."
+	text "I feel a great"
+	line "mystical force"
+	cont "in your"
+	cont "Ninetales. I can"
+	cont "help it master"
+	cont "its powers."
 	prompt
 	db "@"
 .textAfter
-	text "Feunard est"
-	line "maintenant"
-	cont "Feu/Psy!"
+	text "Ninetales is now"
+	line "Fire/Psychic!"
 	done
 	db "@"
