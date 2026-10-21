@@ -371,10 +371,10 @@ PrintAlphabet:
 	jp Delay3
 
 LowerCaseAlphabet:
-	db "abcdefghijklmnopqrstuvwxyz àâéèêùûïîôçäöë  ,¥MAJUSCULES@"
+	db "abcdefghijklmnopqrstuvwxyz àâéèêùûïîôçäöë  ,¥UPPERCASE@"
 
 UpperCaseAlphabet:
-	db "ABCDEFGHIJKLMNOPQRSTUVWXYZ ×():;[]",$e1,$e2,"-?!♂♀/⠄,¥minuscules@"
+	db "ABCDEFGHIJKLMNOPQRSTUVWXYZ ×():;[]",$e1,$e2,"-?!♂♀/⠄,¥lowercase@"
 
 PrintNicknameAndUnderscores:
 	call CalcStringLength
@@ -467,13 +467,13 @@ PrintNamingText:
 	jp PlaceString
 
 YourTextString:
-	db "Votre nom ?@"
+	db "Your name ?@"
 
 RivalsTextString:
-	db "Nom du rival ?@"
+	db "Rival's name ?@"
 
 NameTextString:
-	db "Nom ?@"
+	db "Name ?@"
 
 NicknameTextString:
-	db "Surnom ?@"
+	db "Nickname ?@"

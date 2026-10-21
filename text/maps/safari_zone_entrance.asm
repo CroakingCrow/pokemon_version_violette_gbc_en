@@ -1,130 +1,125 @@
 _SafariZoneEntranceText1::
-	text "Bienvenue au"
-	line "Parc Safari!"
+	text "Welcome to the"
+	line "Safari Zone!"
 	done
 
 SafariZoneEntranceText_9e6e4::
-	text "Pour juste 500¥,"
-	line "tu peux attraper"
-	cont "autant de #mon"
-	cont "qu'il te plaira"
-	cont "dans le parc!"
+	text "For just ¥500,"
+	line "you can catch all"
+	cont "the #mon you"
+	cont "want in the park!"
 
-	para "Qu'en dis-tu?@"
+	para "Would you like to"
+	line "join the hunt?@"
 	text_end
 
 SafariZoneEntranceText_9e747::
-	text "Ça fera 500¥"
-	line "siouplaît!"
+	text "That'll be ¥500"
+	line "please!"
 
-	para "Seul un certain"
-	line "type de # Ball"
-	cont "est utilisé ici."
+	para "We only use a"
+	line "special # Ball"
+	cont "here."
 
-	para "<PLAYER> reçoit"
-	line "30 Safari Ball!@"
+	para "<PLAYER> received"
+	line "30 Safari Balls!@"
 	text_end
 
 _SafariZoneEntranceText_75360::
 	text_start
-
-	para "J'utiliserai le"
-	line "Haut-Parleur"
-	cont "lorsque ton temps"
-	cont "ou tes Safari"
-	cont "Ball seront"
-	cont "épuisés!"
+	para "We'll call you on"
+	line "the PA when you"
+	cont "run out of time"
+	cont "or Safari Balls!"
 	done
 
 _SafariZoneEntranceText_75365::
-	text "Très bien!"
-	line "A plus tard!"
+	text "OK! Please come"
+	line "again!"
 	done
 
 _SafariZoneEntranceText_7536a::
-	text "Hop hop hop!"
-	line "Pas d'sous!"
+	text "Oops! Not enough"
+	line "money!"
 	done
 
 SafariZoneEntranceText_9e814::
-	text "On part déjà?@"
+	text "Leaving early?@"
 	text_end
 
 _SafariZoneEntranceText_753bb::
-	text "Donne-moi donc"
-	line "tes Safari Ball"
-	cont "neuves."
+	text "Please return any"
+	line "Safari Balls you"
+	cont "have left."
 	done
 
 _SafariZoneEntranceText_753c0::
-	text "Bonne chance!"
+	text "Good luck!"
 	done
 
 _SafariZoneEntranceText_753c5::
-	text "Bonne chasse?"
-	line "Allez..."
-	cont "A plus tard!"
+	text "Did you get a"
+	line "good haul?"
+	cont "Come again!"
 	done
 
 _SafariZoneEntranceText_753e6::
-	text "C'est...c'est la"
-	line "première fois?"
+	text "Hi! Is it your"
+	line "first time here?"
 	done
 
 _SafariZoneEntranceText_753eb::
-	text "Le Parc Safari a"
-	line "4 zones."
+	text "Safari Zone has 4"
+	line "zones in it."
 
-	para "Tu y trouveras"
-	line "des #mon"
-	cont "différents."
-	cont "Utilise tes"
-	cont "Safari Ball pour"
-	cont "les capturer!"
+	para "Each zone has"
+	line "different kinds"
+	cont "of #mon. Use"
+	cont "Safari Balls to"
+	cont "catch them!"
 
-	para "Le Safari sera"
-	line "terminé lorsque"
-	cont "tu auras épuisé"
-	cont "tes Safari Ball!"
+	para "When you run out"
+	line "of time or Safari"
+	cont "Balls, it's game"
+	cont "over for you!"
 
-	para "Avant de partir,"
-	line "ouvre donc une"
-	cont "nouvelle boîte de"
-	cont "#mon pour"
-	cont "avoir plus de"
-	cont "place!"
+	para "Before you go,"
+	line "open an unused"
+	cont "#mon Box so"
+	cont "there's room for"
+	cont "new #mon!"
 	done
 
 _SafariZoneEntranceText_753f0::
-	text "Oh! T'es un"
-	line "habitué!"
+	text "Sorry, you're a"
+	line "regular here!"
 	done
 
 ;joenote - adding text for safari zone special event
 _SafariZoneEntranceTextSpecial_NotReady::
-	text "Nous travaillons"
-	line "sur un évènement:"
-	cont "Le Safari Primal!"
-	cont "Il ne sera pas"
-	cont "prêt avant la"
-	cont "finale de la"
-	cont "Ligue #mon."
+	text "We're working on"
+	line "a new event, the"
+	cont "Primal Safari!"
+	cont "But it won't be"
+	cont "ready until after"
+	cont "the #mon"
+	cont "League finals."
 	done
 _SafariZoneEntranceTextSpecial_Ready::
-	text "Bonjour!"
-	line "Voulez-vous"
-	cont "participer au"
-	cont "Safari Primal?"
+	text "Hello Champion!"
+	line "Would you like to"
+	cont "participate in a"
+	cont "Primal Safari?"
 
-	para "Les #mon seront"
-	line "plus puissant et"
-	cont "vous pourrez même"
-	cont "rencontrer de"
-	cont "nouvelles"
-	cont "espèces!"
+	para "Safari #mon"
+	line "will be of better"
+	cont "breed, and you"
+	cont "might even"
+	cont "encounter new"
+	cont "species!"
 	done
 _SafariZoneEntranceTextSpecial_Active::
-	text "Voulez-vous"
-	line "mettre fin au"
-	cont "Safari Primal?"
+	text "Shall I return"
+	line "the Safari Zone"
+	cont "back to normal?"
 	done

@@ -30,10 +30,10 @@ CeruleanPrinterText_Printer:
 	ld [wDoNotWaitForButtonPressAfterDisplayingText], a
 	jp TextScriptEnd
 
-;shown above the printer menu, like the "allume le PC" texts
+;shown above the printer menu, like the "turned on the pc" texts
 .turnedOnPrinterText
-	text "<PLAYER> allume"
-	line "l'imprimante."
+	text "<PLAYER> turned on"
+	line "the printer."
 	prompt
 	db "@"
 

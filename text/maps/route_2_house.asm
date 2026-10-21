@@ -1,8 +1,6 @@
 _Route2HouseText1::
-	text "Un #mon K.O."
-	line "ne peut se battre"
-	cont "mais il peut"
-	cont "encore utiliser"
-	cont "des techniques"
-	cont "comme la Coupe!"
+	text "A fainted #mon"
+	line "can't fight. But, "
+	cont "it can still use "
+	cont "moves like Cut!"
 	done

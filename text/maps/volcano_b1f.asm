@@ -1,40 +1,36 @@
 _VolcanoB1FText0_Battle::
-	text "Eh gamin! Les"
-	line "vrais gars"
-	cont "s'entrainent ici!"
+	text "Hey kid! Real"
+	line "men train here!"
 	done
 
 _VolcanoB1FText0_EndBattle::
-	text "Euh..."
-	line "J'ai peur de"
-	cont "sauter par d'sus"
-	cont "la lave..."
+	text "Er..."
+	line "I'm scared to"
+	cont "jump over the"
+	cont "lava..."
 	prompt
 
 _VolcanoB1FText0_AfterBattle::
-	text "Va pas l'répéter"
-	line "au chef! Y va"
-	cont "encore me crier"
-	cont "d'sus!"
+	text "Don't you go"
+	line "tell the Chief!"
+	cont "He's gonna yell"
+	cont "at me again!"
 	done
 
 _VolcanoB1FText1_Battle::
-	text "Mais qu'est-ce"
-	line "qu'ils foutent"
-	cont "bon sang?!"
+	text "Darn it, what are"
+	line "they doing?!"
 
-	para "Toi là! Pour qui"
-	line "tu bosses?"
+	para "You here! Who are"
+	line "you working for?"
 	done
 
 _VolcanoB1FText1_EndBattle::
 	text "AHHH"
 	line "EXPLOSION!"
-	cont "J'AI PLUS DE"
-	cont "MUNITIONS!"
+	cont "I'M OUT OF AMMOS!"
 	prompt
 
 _VolcanoB1FText1_AfterBattle::
-	text "C'était pas ma"
-	line "guerre!"
+	text "It wasn't my war!"
 	done

@@ -1,99 +1,91 @@
 _Lab4Text_75dc6::
-	text "Salut!"
+	text "Hiya!"
 
-	para "Je suis un"
-	line "scientifique très"
-	cont "sérieux!"
+	para "I am important"
+	line "doctor!"
 
-	para "J'étudie les"
-	line "fossiles anciens"
-	cont "de #mon!"
+	para "I study here rare"
+	line "#mon fossils!"
 
-	para "Toi! Là!"
-	line "T'aurais pas un"
-	cont "fossile pour moi?"
+	para "You! Have you a"
+	line "fossil for me?"
 	prompt
 
 _Lab4Text_75dcb::
-	text "Non? C'est bien"
-	line "dommage!"
+	text "No! Is too bad!"
 	done
 
 _Lab4Text_75dd0::
-	text "Ça va prendre du"
-	line "temps!"
+	text "I take a little"
+	line "time!"
 
-	para "Va te promener"
-	line "pendant que je"
-	cont "bosse!"
+	para "You go for walk a"
+	line "little while!"
 	done
 
 _Lab4Text_75dd5::
-	text "Ben alors! Où"
-	line "étais-tu passé?"
+	text "Where were you?"
 
-	para "Ton fossile est"
-	line "VIVANT!"
+	para "Your fossil is"
+	line "back to life!"
 
-	para "Il ressemble à un"
+	para "It looks like"
 	line "@"
 	text_ram wStringBuffer
 	text "!"
 	prompt
 
 _Lab4Text_610ae::
-	text "Oh! C'est un"
+	text "Oh! That is"
 	line "@"
 	text_ram wcd6d
 	text "!"
 
-	para "C'est un fossile"
-	line "de @"
+	para "It is fossil of"
+	line "@"
 	text_ram wStringBuffer
 	text ","
-	cont "un #mon qui a"
-	cont "disparu!"
+	cont "a #mon that is"
+	cont "already extinct!"
 
-	para "Ma machine à"
-	line "réanimer va faire"
-	cont "revivre cet"
-	cont "ancien #mon!"
+	para "My Resurrection"
+	line "Machine will make"
+	cont "that #mon live"
+	cont "again!"
 	done
 
 _Lab4Text_610b3::
-	text "Tu te grouilles,"
-	line "file-moi ça!"
+	text "So! You hurry and"
+	line "give me that!"
 
-	para "<PLAYER> donne:"
-	line "@"
+	para "<PLAYER> handed"
+	line "over @"
 	text_ram wcd6d
 	text "!"
 	prompt
 
 _Lab4Text_610b8::
-	text "Ça va prendre un"
-	line "peu de temps!"
+	text "I take a little"
+	line "time!"
 
-	para "Traîne pas dans"
-	line "mes pattes, va"
-	cont "faire un tour!"
+	para "You go for walk a"
+	line "little while!"
 	done
 
 _Lab4Text_610bd::
-	text "Argayahhaha!"
-	line "Tu reviendras!"
+	text "Aiyah! You come"
+	line "again!"
 	done
 
 ;joenote - text for cloning guy
 _Lab4Text_Clone0::
-	text "Une analyse du"
-	line "carré de Punnett"
-	cont "pour 200¥, ça"
-	cont "t'intéresse?"
+	text "A Punnett Square"
+	line "analysis is ¥200."
+	cont "You interested?"
 	done
 	
 _Lab4Text_Clone1::
-	text "Séquence du gene:"
+	text "Gene sequence:"
 	line "@"
 ;	TX_NUM hDexRatingNumMonsOwned, 1, 3
 ;	text " #mon owned"
@@ -108,138 +100,132 @@ _Lab4Text_Clone1::
 	done
 
 _Lab4Text_Clone2::
-	text "C'est 10000¥ pour"
-	line "cloner ces gènes."
-	cont "Toujours"
-	cont "intéressé?"
+	text "To clone these"
+	line "genes is ¥10000."
+	cont "Still interested?"
 	done
 
 _Lab4Text_Clone3::
-	text "Reviens plus tard"
-	line "pendant que nous"
-	cont "travaillons sur"
-	cont "la gestation."
+	text "Come back after a"
+	line "bit while we work"
+	cont "on gestation."
 	done
 
 _Lab4Text_Clone4::
-	text "Ton tout nouveau"
-	line "#mon est prêt!"
+	text "Your brand new"
+	line "#mon is all"
+	cont "ready to go!"
 	prompt
 
 _Lab4Text_MachineUsed::
-	text "Nos machines sont"
-	line "déjà en cours"
-	cont "d'opération."
+	text "Our machines are"
+	line "at full capacity."
 	done
 
 _Lab4Text_Bye::
-	text "A plus tard."
+	text "Maybe later."
 	done
 
 _Lab4Text_NoMoney::
-	text "Tu n'as pas assez"
-	line "d'argent."
+	text "You don't have"
+	line "enough money."
 	done	
 
 _Lab4Text_Party::
-	text "Tu es intéressé"
-	line "par le clonage?"
-
-	para "Reviens quand ton"
-	line "équipe contiendra"
-	cont "2 à 5 #mon."
+	text "Come back when"
+	line "your team is"
+	cont "2 to 5 #mon."
 	done	
 
 _Lab4Text_Legend::
-	text "Nos ordinateurs"
-	line "ne peuvent"
-	cont "analyser ton"
-	cont "premier #mon."
+	text "Our computers"
+	line "can't analyze"
+	cont "the #mon in"
+	cont "your top spot."
 	
-	para "C'est au-delà de"
-	line "leurs capacités."
+	para "It's beyond our"
+	line "capabilities."
 	done	
 
 _Lab4Text_Book0::
-	text "Le lire?"
+	text "Read it?"
 	done
 	
 _Lab4Text_Book1A::
-	text "Clones modifiés"
+	text "Modified Clones"
 	prompt
 _Lab4Text_Book1B::
-	text "Créé un clone du"
-	line "premier #mon"
-	cont "avec l'ADN du"
-	cont "second #mon."
+	text "This creates a"
+	line "gene-spliced"
+	cont "clone of your 1st"
+	cont "spot #mon with"
+	cont "DNA from your 2nd"
+	cont "spot #mon."
 
-	para "Une analyse du"
-	line "carré de Punnet"
-	cont "sur chaque gène"
-	cont "et permet de"
-	cont "prédire et"
-	cont "d'approuver la"
-	cont "séquence avant"
-	cont "la gestation."
+	para "A Punnet Square"
+	line "analysis is done"
+	cont "on each gene,"
+	cont "and a predicted"
+	cont "gene sequence is"
+	cont "approved prior to"
+	cont "gestation."
 	done
- 
+
 _Lab4Text_Book2A::
-	text "Gènes #mon"
+	text "#mon Genes"
 	prompt
 _Lab4Text_Book2B::
-	text "Tous les #mon"
-	line "ont des Valeurs"
-	cont "Determinées qui"
-	cont "agissent comme"
-	cont "des gènes."
+	text "All Pokemon have"
+	line "Determined Values"
+	cont "that effectively"
+	cont "act as genes."
 
-	para "Tous les #mon"
-	line "ont 2 gènes:"
-	cont "A et B."
-	cont "Chaque gène a 2"
-	cont "allèles: Hi / Lo."
-	cont "Cela forme une"
-	cont "séquence de gène"
-	cont "des #mon."
+	para "Every Pokemon has"
+	line "2 genes: A and B."
+	cont "Each gene has 2"
+	cont "alleles: Hi / Lo."
+	cont "This forms a gene"
+	cont "sequence notation"
+	cont "for each Pokemon."
 
-	para "Les séquences de"
-	line "gène sont dans"
-	cont "cet ordre:"
+	para "Gene sequences"
+	line "are ordered from"
+	cont "left to right as:"
 
-	para "Gène-A Hi allèle,"
-	line "Gène-A Lo allèle,"
-	cont "Gène-B Hi allèle,"
-	cont "Gène-B Lo allèle."
+	para "Gene-A Hi allele,"
+	line "Gene-A Lo allele,"
+	cont "Gene-B Hi allele,"
+	cont "Gene-B Lo allele."
 
-	para "Ils affectent"
-	line "respectivement:" 
-	cont "Attaque, Défense,"
-	cont "Vitesse et"
-	cont "Spécial."
+	para "Respectively they"
+	line "affect Attack," 
+	cont "Defense, Speed,"
+	cont "and Special in"
+	cont "that order."
 	done
 
 _Lab4Text_Book3A::
-	text "Mêler ADN #mon"
+	text "Mixing #mon dna"
 	prompt
 _Lab4Text_Book3B::
-	text "Le carré de Pun-"
-	line "net mêle 2 gènes"
-	cont "A et 2 gènes B."
 
-	para "Les allèles Hi"
-	line "sont toujours av-"
-	cont "ant une allèle Lo"
-	cont "dans un quadrant."
-	cont "2 allèles Hi ou 2"
-	cont "allèles Lo dans" 
-	cont "un quadrant ont"
-	cont "1 chance sur 2"
-	cont "de changer de"
-	cont "position."
+	text "Punnet Squares"
+	line "mix two A genes"
+	cont "or two B genes."
 
-	para "Ainsi vous pouvez"
-	line "prédire tous les"
-	cont "résultats possi-"
-	cont "les de combiner"
-	cont "les gènes."
+	para "A Hi allele is"
+	line "always before a"
+	cont "Lo allele within"
+	cont "a quadrant. 2 Hi"
+	cont "alleles or 2 Lo"
+	cont "alleles within a" 
+	cont "quadrant have a"
+	cont "1-in-2 chance to"
+	cont "swap positions."
+
+	para "This way you can"
+	line "predict all the"
+	cont "possible outcomes"
+	cont "of combining two"
+	cont "genes together."
 	done

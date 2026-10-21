@@ -1,173 +1,168 @@
 _SilphCoPresidentText::
-	text "PDG: Merci d'avoir"
-	line "sauvé la Sylphe!"
+	text "President: Thank"
+	line "you for saving"
+	cont "Silph!"
 
-	para "Je n'oublierai"
-	line "jamais ton"
-	cont "haut fait!"
+	para "I will never"
+	line "forget you saved"
+	cont "us in our moment"
+	cont "of peril!"
 
-	para "Tu mérites une"
-	line "récompense!"
+	para "I have to thank"
+	line "you in some way!"
 
-	para "L'argent n'est"
-	line "pas un problème"
-	cont "pour moi!"
+	para "Because I am rich,"
+	line "I can give you"
+	cont "anything!"
 
-	para "Tiens... Je crois"
-	line "que ceci te fera"
-	cont "plaisir!"
+	para "Here, maybe this"
+	line "will do!"
 	prompt
 
 _ReceivedSilphCoMasterBallText::
-	text "<PLAYER> obtient:"
+	text "<PLAYER> got a"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _SilphCo10Text_6231c::
-	text "PDG: Tu ne peux"
-	line "acheter ceci"
-	cont "nulle part!"
+	text "President: You"
+	line "can't buy that"
+	cont "anywhere!"
 
-	para "C'est notre"
-	line "prototype secret:"
-	cont "la Master Ball!"
+	para "It's our secret"
+	line "prototype Master"
+	cont "Ball!"
 
-	para "Elle pourra"
-	line "attraper"
-	cont "n'importe quel"
-	cont "#mon!"
+	para "It will catch any"
+	line "#mon without"
+	cont "fail!"
 
-	para "Alors utilise-la"
-	line "avec sagesse."
+	para "You should be"
+	line "quiet about using"
+	cont "it, though."
 	done
 
 _SilphCoMasterBallNoRoomText::
-	text "Tu n'as pas assez"
-	line "de place sur toi."
+	text "You have no"
+	line "room for this."
 	done
 
 _SilphCo11Text_Secretary::
-	text "Secrétaire: Merci"
-	line "de nous avoir"
-	cont "tous sauvés!"
+	text "Secretary: Thank"
+	line "you for rescuing"
+	cont "all of us!"
 
-	para "Ton courage est"
-	line "exemplaire."
+	para "We admire your"
+	line "courage."
 	done
 
 _SilphCo11Text3::
-	text "Ah, <PLAYER>!"
-	line "Une fois encore"
-	cont "nos routes se"
-	cont "croisent..."
+	text "Ah <PLAYER>!"
+	line "So we meet again!"
 
-	para "Le PDG et moi-"
-	line "même discutons"
-	cont "d'une affaire"
-	cont "très importante."
+	para "The President and"
+	line "I are discussing"
+	cont "a vital business"
+	cont "proposition."
 
-	para "Viens pas t'mêler"
-	line "de tout ça, mon"
-	cont "bonhomme..."
+	para "Keep your nose"
+	line "out of grown-up"
+	cont "matters..."
 
-	para "Dégage ou..."
-	line "Déguste!"
+	para "Or, experience a"
+	line "world of pain!"
 	done
 
 _SilphCo10Text_62330::
 	text "Arrgh!!"
-	line "Encore perdu!?"
+	line "I lost again!?"
 	prompt
 
 _SilphCo10Text_62335::
-	text "NOoOoOoOon!"
-	line "Notre invasion de"
-	cont "la Sylphe est"
-	cont "fichue!"
+	text "Blast it all!"
+	line "You ruined our"
+	cont "plans for Silph!"
 
-	para "Mais la Team"
-	line "Rocket est"
-	cont "invincible!"
+	para "But, Team Rocket"
+	line "will never fall!"
 
-	para "<PLAYER>! N'oublie"
-	line "jamais que tous"
-	cont "les #mon sont"
-	cont "pour la Team"
-	cont "Rocket!"
+	para "<PLAYER>! Never"
+	line "forget that all"
+	cont "#mon exist"
+	cont "for Team Rocket!"
 
-	para "Je pars, mais..."
-	line "Ma vengeance"
-	cont "sera terrible!"
+	para "I must go, but I"
+	line "shall return!"
 	done
 
 _SilphCo11BattleTextJessieJames::
-	text "James: Une minute,"
-	line "avorton!"
+	text "James: hold it"
+	line "right there,"
+	cont "brat!"
 
-	para "Jessie: Notre boss"
-	line "est en réunion!"
-	cont "Tu ne dois pas le"
-	cont "déranger!!!"
+	para "Jessie: Our Boss"
+	line "is in a meeting!"
+	cont "You better not"
+	cont "disturb him!"
 	done
 
 _SilphCo11EndBattleTextJessieJames::
 	text "Team"
 	line "Rocket..."
-	cont "Plus rapide que"
-	cont "la lumière!"
+	cont "Blast off at the"
+	cont "speed of light!"
+	cont "Again..."
 
-	para "Miaous: euh..."
-	line "du coup on va où?"
+	para "Meowth: So..."
+	line "where are we"
+	cont "going exactly?"
 
-	para "James: ben nul"
-	line "part, en fait."
-	cont "On doit attendre"
-	cont "le boss..."
+	para "James: well, no-"
+	line "where actually."
+	cont "We need to wait"
+	cont "for the Boss..."
 	prompt
 
 _SilphCo11AfterBattleTextJessieJames::
-	text "Jessie: c'est bon"
-	line "tu peux passer"
-	cont "gamin."
+	text "Jessie: Alright"
+	line "go on, brat."
 	
-	para "De toute façon,"
-	line "il va te mettre"
-	cont "c'que tu mérites!"
+	para "The Boss' gonna"
+	line "give you what"
+	cont "you deserve!"
 	done
 
 _SilphCo11BattleText2::
-	text "Halte! As-tu un"
-	line "rendez-vous en"
-	cont "règle avec mon"
-	cont "chef?"
+	text "Halt! Do you have"
+	line "an appointment"
+	cont "with my Boss?"
 	done
 
 _SilphCo11EndBattleText2::
 	text "Gaah!"
-	line "Cassé la tête!"
+	line "Demolished!"
 	prompt
 
 _SilphCo11AfterBattleText2::
-	text "Prends garde..."
-	line "Les #mon de"
-	cont "mon chef sont"
-	cont "terribles!"
+	text "Watch your step,"
+	line "my Boss likes his"
+	cont "#mon tough!"
 	done
 
 _SilphCo11Text6::
 	text "James:..."
-	line "Ça craint..."
+	line "That's bad..."
 	done
 
 _SilphCo11Text_SecretaryPostLeague::
-	text "Secrétaire: Le"
-	line "Président est"
+	text "Secretary: The"
+	line "President is"
 	cont "absent."
 
-	para "Si c'est très"
-	line "important, tu"
-	cont "le trouveras"
-	cont "au Parc Safari."
+	para "If it's really"
+	line "urgent, you'll"
+	cont "find him in the"
+	cont "Safari Zone."
 	done

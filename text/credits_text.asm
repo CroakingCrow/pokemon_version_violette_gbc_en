@@ -47,19 +47,14 @@ CreditsTextPointers:
 	dw CredSaOota
 	dw CredYoshikawa
 	dw CredToOota
-	dw CredEUStaff
-	dw CredEUCoord
-	dw CredMoyse
-	dw CredPfitzner
-	dw CredKraft
-	dw CredKawakami
-	dw CredEdasawa
-	dw CredUesugi
-	dw CredYoshimura
-	dw CredTrans
-	dw CredBardakoff
-	dw CredFleury
-	dw CredNakamichi
+	dw CredUSStaff
+	dw CredUSCoord
+	dw CredTilden
+	dw CredHiNakamura
+	dw CredGiese
+	dw CredOsborne
+	dw CredOgasawara
+	dw CredIwata
 	dw CredIzushi
 	dw CredHarada
 	dw CredMurakawa
@@ -75,7 +70,7 @@ CreditsTextPointers:
 	dw CredVersionPokered
 
 CredVersion: ; this 1 byte difference makes all bank addresses offset by 1 in the blue version
-	db -6, "Version Bleue@"
+	db -6, "Blue Version@"
 CredTajiri:
 	db -6, "Satoshi Tajiri@"
 CredTaOota:
@@ -133,35 +128,35 @@ CredYuda:
 CredMon:
 	db -3, "#mon@"
 CredDirector:
-	db -5, "Réalisateur@"
+	db -5, "Director@"
 CredProgrammers:
-	db -5, "Programmeurs@"
+	db -5, "Programmers@"
 CredCharDesign:
-	db -8, "Design Personnages@"
+	db -8, "Character Design@"
 CredMusic:
-	db -3, "Musique@"
+	db -3, "Music@"
 CredSoundEffects:
 	db -6, "Effets Sonores@"
 CredGameDesign:
 	db -8, "Conception du Jeu@"
 CredMonsterDesign:
-	db -7, "Design Monstres@"
+	db -7, "Monster Design@"
 CredGameScene:
-	db -3, "Scénario@"
+	db -3, "Game Scenario@"
 CredParam:
-	db -9, "Design Paramétrique@"
+	db -9, "Parametric Design@"
 CredMap:
-	db -5, "Design Carte@"
+	db -5, "Map Design@"
 CredTest:
-	db -2, "Tests@"
+	db -2, "Product Testing@"
 CredSpecial:
-	db -6, "Remerciements@"
+	db -6, "Special Thanks@"
 CredProducers:
-	db -5, "Producteurs@"
+	db -5, "Producers@"
 CredProducer:
-	db -5, "Producteur@"
+	db -5, "Producer@"
 CredExecutive:
-	db -8, "Producteur Exécutif@"
+	db -8, "Executive Producer@"
 CredTamada:
 	db -6, "Sousuke Tamada@"
 CredSaOota:
@@ -170,32 +165,26 @@ CredYoshikawa:
 	db -6, "Rena Yoshikawa@"
 CredToOota:
 	db -6, "Tomomichi Oota@"
-CredEUStaff:
-	db -5, "Equipe Europe@"
-CredEUCoord:
-	db -9, "Coordination Europe@"
-CredMoyse:
-	db -7, "Claude M. Moyse@"
-CredPfitzner:
-	db -7, "Markus Pfitzner@"
-CredKraft:
-	db -6, "John D. Kraft@"
+CredUSStaff:
+	db -5, "US Version Staff@"
+CredUSCoord:
+	db -9, "US Coordination@"
+CredTilden:
+	db -7, "Gail Tilden@"
 CredKawakami:
 	db -6, "Naoko Kawakami@"
-CredEdasawa:
-	db -6, "Yusuke Edasawa@"
-CredUesugi:
-	db -5, "Hiro Uesugi@"
-CredYoshimura:
-	db -7, "Kamon Yoshimura@"
+CredHiNakamura:
+	db -6, "Hiro Nakamura@"
+CredGiese:
+	db -6, "William Giese@"
+CredOsborne:
+	db -5, "Sara Osborne@"
 CredTrans:
-	db -7, "Textes Francais@"
-CredBardakoff:
-	db -7, "Julien Bardakoff@"
-CredFleury:
-	db -9, "Jean-baptiste Fleury@"
-CredNakamichi:
-	db -7, "Kimiko Nakamichi@"
+	db -7, "Text Translation@"
+CredOgasawara:
+	db -6, "Nob Ogasawara@"
+CredIwata:
+	db -5, "Satoru Iwata@"
 CredIzushi:
 	db -7, "Takehiro Izushi@"
 CredHarada:

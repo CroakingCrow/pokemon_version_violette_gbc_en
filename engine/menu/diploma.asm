@@ -294,13 +294,13 @@ DiplomaTextPointersAndCoords:
 	dwCoord 2, 4
 
 ChampionText:
-	db $10,"Diplôme Champion",$10,"@" ;$10 = the circle tile of the Yellow diploma gfx
+	db $10,"Champion Diploma",$10,"@" ;$10 = the circle tile of the Yellow diploma gfx
 
 MasterText:
-	db "<SHINY>",$10,"Diplôme Maître",$10,"<SHINY>@"
+	db "<SHINY>",$10,"Master Diploma",$10,"<SHINY>@"
 
 DiplomaText:
-	db "Décerné à <PLAYER>@"
+	db "Awarded to <PLAYER>@"
 
 DiplomaMark:
 	db "<BALL>@"
@@ -309,10 +309,10 @@ DiplomaEmptyText:
 	db "@"
 
 DiplomaCongrats:
-	db   "×Revanche des 8"
-	next "×Revanche Ligue"
-	next "×Tournoi Océane"
-	next "×Ville oubliée"
-	next "×6 dresseurs"
-	next "×Capadex 100%"
+	db   "×8 Gyms Rematch"
+	next "×League Rematch"
+	next "×S.S.Anne Event"
+	next "×Forgotten town"
+	next "×6 Trainers"
+	next "×Movedex 100%"
 	next "×#dex 100%@"

@@ -259,9 +259,9 @@ PartyMenuMessagePointers:
 	dw PartyMenuItemUseText
 
 AbleText:
-	db "Apte@"
+	db "Able@"
 NotAbleText:
-	db "Pas Apte@"
+	db "Not Able@"
 
 PartyMenuNormalText:
 	TX_FAR _PartyMenuNormalText

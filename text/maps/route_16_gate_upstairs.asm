@@ -1,37 +1,32 @@
 _Route16GateUpstairsText_49820::
-	text "Je vais me faire"
-	line "une virée avec"
-	cont "ma p'tite copine!"
+	text "I'm going for a"
+	line "ride with my girl"
+	cont "friend!"
 	done
 
 _Route16GateUpstairsText_4982f::
-	text "On va pédaler"
-	line "ensemble!"
+	text "We're going"
+	line "riding together!"
 	done
 
 _Route16GateUpstairsText_4983b::
-	text "Vous regardez"
-	line "dans les"
-	cont "jumelles qui"
-	cont "pointent vers"
-	cont "l'Est."
+	text "Looked into the"
+	line "binoculars facing"
+	cont "East..."
 
-	para "Vous voyez le"
-	line "centre commercial"
-	cont "de Céladopole!"
+	para "It's Celadon Dept."
+	line "Store!"
 	done
 
 _Route16GateUpstairsBinocularsHoohText::
-	text "Vous regardez"
-	line "dans les"
-	cont "jumelles qui"
-	cont "pointent vers"
-	cont "le Nord..."
+	text "Looked into the"
+	line "binoculars facing"
+	cont "North..."
 
-	para "Vous apercevez"
-	line "un étrange"
-	cont "arc en ciel!"
+	para "It's a strange"
+	line "rainbow!"
 
-	para "MAIS! Il y a un"
-	line "Pokémon au bout!"
+	para "OH! There's a"
+	line "Pokémon at its" 
+	cont "end!"
 	done

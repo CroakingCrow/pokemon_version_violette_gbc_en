@@ -1,30 +1,28 @@
 _SafariZoneRestHouse2Text1::
-	text "Une Pierre peut"
-	line "faire fuir les"
-	cont "#mon mais ils"
-	cont "seront plus fa-"
-	cont "ciles à capturer."
+	text "Tossing Rocks at"
+	line "#mon might"
+	cont "make them run,"
+	cont "but they'll be"
+	cont "easier to catch."
 	done
 
 _SafariZoneRestHouse2Text2::
-	text "Un Appât rend"
-	line "les #mon plus"
-	cont "dociles mais"
-	cont "complique"
-	cont "la capture."
+	text "Using Bait will"
+	line "make #mon"
+	cont "easier to catch."
 	done
 
 _SafariZoneRestHouse2Text3::
-	text "J'ai cherché"
-	line "toute la sainte"
-	cont "journée mais j'ai"
-	cont "rien capturé."
+	text "I hiked a lot, but"
+	line "I didn't see any"
+	cont "#mon I wanted."
 	done
 
+
 _SafariZoneRestHouse2Text4::
-	text "La fatigue..."
+	text "Exhaustion..."
 
-	para "Doucement..."
+	para "is slowly..."
 
-	para "Me gagne..."
+	para "getting to me..."
 	done

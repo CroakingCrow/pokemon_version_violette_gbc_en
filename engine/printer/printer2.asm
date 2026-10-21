@@ -170,10 +170,10 @@ Printer_GetMonStats:
 	db "№",$73,"⠄@"
 
 .Stats:
-	db   "Atq"
-	next "Déf"
-	next "Vit"
-	next "Spé@"
+	db   "Atk"
+	next "Def"
+	next "Spd"
+	next "Spc@"
 
 .Blank:
 	db "--------------@"

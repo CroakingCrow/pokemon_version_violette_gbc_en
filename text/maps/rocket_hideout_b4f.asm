@@ -1,92 +1,89 @@
 
 _RocketHideout4Text_4557a::
-	text "Hmm! Tu me"
-	line "surprends. T'es"
-	cont "dans le genre"
-	cont "PENIBLE!"
+	text "So! I must say, I"
+	line "am impressed you"
+	cont "got here!"
 	done
 
 _RocketHideout4Text_4557f::
-	text "QUOI!"
-	line "Damnation!"
+	text "WHAT!"
+	line "This cannot be!"
 	prompt
 
 _RocketHideout4Text_45584::
-	text "Tu élèves tes"
-	line "#mon trop"
-	cont "soigneusement."
+	text "I see that you"
+	line "raise #mon"
+	cont "with utmost care."
 
-	para "Un gosse comme"
-	line "toi ne peut"
-	cont "comprendre mes"
-	cont "plans!"
+	para "A child like you"
+	line "would never"
+	cont "understand what I"
+	cont "hope to achieve."
 
-	para "Tu as gagné cette"
-	line "bataille, mais"
-	cont "pas la guerre..."
+	para "I shall step"
+	line "aside this time!"
 
-	para "On se retrouvera,"
-	line "et cette fois..."
+	para "I hope we meet"
+	line "again..."
 	done
 
 _RocketHideout4BattleText2::
-	text "James: Pas bouger,"
-	line "morveux!"
+	text "James: Not"
+	line "another step,"
+	cont "brat!"
 
-	para "Jessie: Comment"
-	line "as-tu osé nous"
-	cont "humilier au Mont"
-	cont "Sélénite? Cette"
-	cont "fois tu vas"
-	cont "prendre cher!"
+	para "Jessie: How dare"
+	line "you humiliate us"
+	cont "at Mt.Moon! It's"
+	cont "payback time, you"
+	cont "brat!"
 	done
 
 _RocketHideout4EndBattleText2::
-	text "..."
-	line "T'es terrible!"
+	text "Such a dreadful!"
+	line "twerp!"
 	prompt
 
 _RocketHide4AfterBattleText2::
-	text "La Team Rocket..."
-	line "A la vitesse"
-	cont "du son..."
+	text "Looks like Team"
+	line "Rocket's blasting"
+	cont "off again!"
 	done
 
 _RocketHideout4BattleText3::
-	text "James: Pas bouger,"
-	line "morveux!"
+	text "James: Not"
+	line "another step,"
+	cont "brat!"
 
-	para "Jessie: Comment"
-	line "as-tu osé nous"
-	cont "humilier au Mont"
-	cont "Sélénite? Cette"
-	cont "fois tu vas"
-	cont "prendre cher!"
+	para "Jessie: How dare"
+	line "you humiliate us"
+	cont "at Mt.Moon! It's"
+	cont "payback time, you"
+	cont "brat!"
 	done
 
 _RocketHideout4EndBattleText3::
-	text "..."
-	line "T'es terrible!"
+	text "Such a dreadful!"
+	line "twerp!"
 	prompt
 
 _RocketHide4AfterBattleText3::
-	text "La Team Rocket..."
-	line "A la vitesse"
-	cont "du son..."
+	text "Looks like Team"
+	line "Rocket's blasting"
+	cont "off again!"
 	done
 
 _RocketHideout4BattleText4::
-	text "L'ascenseur ne"
-	line "marche pas? Il"
-	cont "faut la Clé Asc.!"
+	text "The elevator"
+	line "doesn't work? Who"
+	cont "has the Lift Key?"
 	done
 
 _RocketHideout4EndBattleText4::
-	text "Argh!"
+	text "No!"
 	prompt
 
 _RocketHideout4Text_455ec::
-	text "Mince! J'ai"
-	line "perdu la "
-	cont "Clé Asc.!"
+	text "Oh no! I dropped"
+	line "the Lift Key!"
 	done

@@ -1,28 +1,22 @@
 _Route18GateUpstairsText_49993::
-	text "Vous regardez"
-	line "dans les"
-	cont "jumelles qui"
-	cont "pointent vers"
-	cont "le Ouest..."
+	text "Looked into the"
+	line "binoculars facing"
+	cont "West..."
 
-	para "Bourg Palette est"
-	line "visible d'ici,"
-	cont "vous voyez même"
-	cont "votre maison!"
+	para "It's Pallet Town"
+	line "in the distance!"
 	done
 
 _Route18UpstairsBinocularsMoltresText::
-	text "Vous regardez"
-	line "dans les"
-	cont "jumelles qui"
-	cont "pointent vers"
-	cont "le Sud..."
+	text "Looked into the"
+	line "binoculars facing"
+	cont "South..."
 
-	para "Vous voyez le"
-	line "Volcan Cramoisi."
+	para "It's the Cinnabar"
+	line "Volcano!"
 
-	para "Wouah, on dira"
-	line "qu'un oiseau"
-	cont "plonge dans la"
-	cont "lave!"
+	para "Whoa, it looks"
+	line "like a bird is"
+	cont "diving in the"
+	cont "lava!"
 	done

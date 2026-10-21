@@ -853,12 +853,12 @@ PrintStatText:
 	jp CopyData
 
 StatsTextStrings:
-	db "Atq@"
-	db "Déf@"
-	db "Vit@"
-	db "Spé@"
-	db "Pré@"
-	db "Esq@"
+	db "Atk@"
+	db "Def@"
+	db "Spd@"
+	db "Spc@"
+	db "Acc@"
+	db "Eva@"
 
 BideEffect:
 	ld hl, wPlayerBattleStatus1
