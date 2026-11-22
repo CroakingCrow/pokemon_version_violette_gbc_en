@@ -99,20 +99,20 @@ GBCBasePalettes:
 
 	; PAL_MEWMON	;reworked to match red/blue tones 
 	SGB_WHITE
-	RGB 30, 17, 11
-	RGB 11,  5, 14
+	RGB 27, 22, 19
+	RGB 15, 14, 18
 	RGB  3,  3,  3
 
 	; PAL_BLUEMON
 	SGB_WHITE
-	RGB 16, 18, 31
-	RGB  0,  1, 25
+	RGB 20, 24, 28
+	RGB 10, 15, 21
 	RGB  3,  3,  3
 
 	; PAL_ORANGEMON
 	SGB_WHITE
-	RGB 31, 17,  0
-	RGB 31,  0,  0
+	RGB 30, 19, 10
+	RGB 25, 10,  6
 	RGB  3,  3,  3
 
 	; PAL_CYANMON
@@ -123,39 +123,39 @@ GBCBasePalettes:
 
 	; PAL_PURPLEMON
 	SGB_WHITE
-	RGB 25, 15, 31
-	RGB  12, 1, 22
+	RGB 26, 19, 22
+	RGB 19, 12, 21
 	RGB  3,  3,  3
 
 	; PAL_BROWNMON
 	SGB_WHITE
-	RGB 29, 18, 10
-	RGB 17,  9,  5
+	RGB 27, 19, 14
+	RGB 19, 13,  8
 	RGB  3,  3,  3
 
 	; PAL_GREENMON
 	SGB_WHITE
-	RGB 17, 31, 11
-	RGB  1, 22,  6
+	RGB 19, 25, 15
+	RGB  8, 18,  9
 	RGB  3,  3,  3
 
 	; PAL_PINKMON
 	SGB_WHITE
-	RGB 31, 15, 18
-	RGB 31,  0,  6
+	RGB 29, 21, 23
+	RGB 24, 13, 18
 	RGB  3,  3,  3
 
 	; PAL_YELLOWMON
 	SGB_WHITE
-	RGB 31, 31,  0
-	RGB 28, 14,  0
+	RGB 29, 26,  9
+	RGB 20, 15,  0
 	RGB  3,  3,  3
 
 	; PAL_GREYMON
 	SGB_WHITE
 ;Use Yellow's version of gray if using yellow sprites
-	RGB 20, 23, 10
-	RGB 11, 11,  5
+	RGB 25, 20, 21
+	RGB 13, 13, 16
 	RGB  3,  3,  3
 
 ;gbcnote - retouched all the slot palettes to match the red/blue coloring
