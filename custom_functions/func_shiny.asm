@@ -206,7 +206,7 @@ ShinyEnemyMon:
 ShinyDVConvert:	;'a' holds the default value
 	cp PAL_MEWMON
 	jr nz, .next1
-	ld a, PAL_VIOLETTEMON
+	ld a, PAL_PURPLEMON
 	jr .endConvert
 .next1
 	cp PAL_BLUEMON
@@ -216,7 +216,7 @@ ShinyDVConvert:	;'a' holds the default value
 .next2
 	cp PAL_ORANGEMON
 	jr nz, .next3
-	ld a, PAL_GREENMON
+	ld a, PAL_MEWMON
 	jr .endConvert
 .next3
 	cp PAL_CYANMON
@@ -231,7 +231,7 @@ ShinyDVConvert:	;'a' holds the default value
 .next5
 	cp PAL_BROWNMON
 	jr nz, .next6
-	ld a, PAL_PURPLEMON
+	ld a, PAL_PINKMON
 	jr .endConvert
 .next6
 	cp PAL_GREENMON
@@ -241,7 +241,7 @@ ShinyDVConvert:	;'a' holds the default value
 .next7
 	cp PAL_PINKMON
 	jr nz, .next8
-	ld a, PAL_CYANMON
+	ld a, PAL_GREENMON
 	jr .endConvert
 .next8
 	cp PAL_YELLOWMON
@@ -251,7 +251,7 @@ ShinyDVConvert:	;'a' holds the default value
 .next9
 	cp PAL_GREYMON
 	jr nz, .next10
-	ld a, PAL_MEWMON
+	ld a, PAL_YELLOWMON
 	jr .endConvert
 .next10
 	cp PAL_VIOLETTEMON
